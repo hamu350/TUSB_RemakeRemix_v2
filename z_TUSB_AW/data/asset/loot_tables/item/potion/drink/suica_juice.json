@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 26b, Amplifier: 105b, ShowParticles: 1b}, {Duration: 1, Id: 17b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 600, Id: 23b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§c§lスイカ§dの成分を凝縮したジュース。\"}', '{\"text\":\"§6腹を満たす§d他、\"}', '{\"text\":\"§b空腹を治す§d効能がある。\"}'], Name: '{\"text\":\"§c§lスイカジュース\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

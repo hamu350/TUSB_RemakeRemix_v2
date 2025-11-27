@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_helmet",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Damage: 0, RepairCost: 1000000000, Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

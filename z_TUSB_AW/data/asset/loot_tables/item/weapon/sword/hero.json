@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "netherite_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Hero\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"謎めいたこの武器は、自分には何の価値もない、あるいは弱いと信じている者の前にしか姿を現さない。\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"この武器を活用することで、自らの決意を大いに強化することができるが、\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"必要がなくなれば消滅し、次の使い手に渡るという。\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:60s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:0.6,Operation:1,UUID:[I;0,1,0,-1],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Amount:10,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Amount:10,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Amount:20,Operation:0,UUID:[I;0,1,0,3],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Amount:40,Operation:0,UUID:[I;0,1,0,4],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;0,1,0,5],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;0,1,0,6],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:villager_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CanPlaceOn:[\"#minecraft:all\"],display:{Name:'{\"text\":\"adv対応持ち運び型篝火\",\"color\":\"dark_gray\"}'},HideFlags:16,EntityTag:{Fire:0s,HasVisualFire:1b,Air:300s,OnGround:1b,Silent:1b,FallDistance:0f,PortalCooldown:0,DeathTime:0s,DeathLootTable:\"asset:item/other/other/portable_bonfires\",LeftHanded:0b,FallFlying:0b,PersistenceRequired:0b,NoAI:1b,AbsorptionAmount:0f,Health:1f,LastRestock:0,Xp:150,Age:0,ForcedAge:0,Tags:[\"TypeChecked\",\"hieldTried\"],CustomName:'{\"text\":\"篝火\"}',ActiveEffects:[{Id:14,Amplifier:126b,Duration:2000000000}],Attributes:[{Name:generic.max_health,Base:1},{Name:generic.follow_range,Base:48},{Name:generic.knockback_resistance,Base:0},{Name:generic.movement_speed,Base:0.5},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}],Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:619,xp:0,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:\"minecraft:lever\",Count:1b,tag:{display:{Name:'{\"text\":\"§7消えた松明\"}'}}},buyB:{id:\"minecraft:air\",Count:0b},sell:{id:\"minecraft:torch\",Count:1b}}]}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

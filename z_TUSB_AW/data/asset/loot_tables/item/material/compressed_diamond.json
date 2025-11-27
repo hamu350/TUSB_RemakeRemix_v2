@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Name: '{\"text\":\"圧縮ダイヤモンド\",\"color\":\"#427BFF\",\"bold\":true,\"italic\":false}'}, Enchantments: [{lvl: 3s, id: \"minecraft:protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

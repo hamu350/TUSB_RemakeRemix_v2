@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:strider_spawn_egg",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§4§k混沌ｦ秘ﾒｼ印玉\"}', '{\"text\":\"§r§4§k使用ｽﾙﾄﾗﾝﾀﾞﾑﾃﾞ強力ﾅｱｲﾃﾑｦ排出ｽﾙ\"}'], Name: '{\"text\":\"§r§0§k?§r§4-真-混沌の印玉§0§k?\"}'}, Enchantments: [{}], EntityTag: {DeathLootTable: \"usb:signs/game_master_reward/\", id: \"minecraft:bat\", DeathTime: 19s, ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"RewardEgg\", \"TypeChecked\"]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

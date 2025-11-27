@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:lingering_potion",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{CustomPotionEffects: [{Duration: 0, Id: 19b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§bマナがぽちょっと詰まった瓶。\"}', '{\"text\":\"§b中身に触れるとMPが大きく回復する。\"}'], Name: '{\"text\":\"§3§lエリアハイエーテル\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

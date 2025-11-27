@@ -1,0 +1,53 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:flame",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:looting",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "time_limit:item_data_change/end_of_end"
+    }
+}

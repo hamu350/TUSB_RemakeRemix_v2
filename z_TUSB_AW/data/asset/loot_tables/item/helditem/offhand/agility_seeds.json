@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cocoa_beans",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"minecraft:generic.movement_speed\", Operation: 1, UUID: [I; 0, 2, 0, 1], Amount: 0.8d, Name: \"SpeedSeed\"}], display: {Name: '\"§b§lすばやさの種\"'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

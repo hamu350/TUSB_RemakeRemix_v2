@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:elytra",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 400, HideFlags: 1, Enchantments: [{lvl: 1s, id: \"minecraft:protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

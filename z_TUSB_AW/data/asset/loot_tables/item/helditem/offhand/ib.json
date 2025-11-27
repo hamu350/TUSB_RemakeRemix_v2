@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poppy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:1,id:\"minecraft:protection\"}],HideFlags:1,display:{Lore:['{\"text\":\"§eまだ幼いので、難しい字が読めない。\"}'],Name:'{\"text\":\"§4§l「I b」\"}'},AttributeModifiers:[{UUID:[I;0,2,0,1],Amount:5,Slot:\"offhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"generic.max_Health\"},{UUID:[I;0,2,0,2],Amount:0.5d,Slot:\"offhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"generic.knockback_Resistance\"},{UUID:[I;0,2,0,3],Amount:4,Slot:\"offhand\",AttributeName:\"generic.attack_damage\",Operation:1,Name:\"generic.attack_Damage\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;0,2,0,4],Slot:\"offhand\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

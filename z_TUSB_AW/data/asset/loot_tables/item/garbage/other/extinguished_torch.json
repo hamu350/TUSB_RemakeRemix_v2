@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lever",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['\"§r火が消えてしまった松明。\"', '\"§r篝火で火を付け直せる。\"'], Name: '{\"text\":\"§7消えた松明\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

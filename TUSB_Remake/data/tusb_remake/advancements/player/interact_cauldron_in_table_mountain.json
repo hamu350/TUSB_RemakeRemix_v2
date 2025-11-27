@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"interact": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:water_cauldron",
+							"minecraft:cauldron"
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:area/table_mountain"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:player/interact_cauldron_in_table_mountain"
+	}
+}

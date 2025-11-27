@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:12,id:smite},{lvl:4,id:knockback}],HideFlags:63,display:{Lore:['{\"text\":\"§f§l持つ者全ての生命力を数倍にまで増幅させる\"}','{\"text\":\"§f§lアンデッドを退ける\"}'],Name:'{\"text\":\"§f§l聖魔術師のケリュケイオン\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:25.6d,Slot:\"mainhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"generic.maxHealth\"}]}",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

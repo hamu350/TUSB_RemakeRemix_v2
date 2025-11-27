@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 3, 0, 1], Amount: -0.25d, Name: \"HaruEditor\"}, {Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Amount: -0.01d, Name: \"HaruEditor\"}, {Slot: \"head\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 3, 0, 3], Amount: 0.5d, Name: \"HaruEditor\"}, {Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 3, 0, 4], Amount: 1.0d, Name: \"HaruEditor\"}], display: {color: 16777215, Lore: ['{\"text\":\"§f§l神を§c§l殺す§f§l為に神によって作られた\"}', '{\"text\":\"§f§l白く幻想的な防具。\"}'], Name: '{\"text\":\"§f§lファンタズマ\"}'}, Enchantments: [{lvl: 15s, id: \"minecraft:protection\"}, {lvl: 15s, id: \"minecraft:fire_protection\"}, {lvl: 15s, id: \"minecraft:blast_protection\"}, {lvl: 15s, id: \"minecraft:thorns\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

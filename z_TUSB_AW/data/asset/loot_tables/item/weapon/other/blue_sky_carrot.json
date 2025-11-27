@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers: [{Amount: 0.07d, Slot: \"mainhand\", AttributeName: \"minecraft:generic.max_health\", Operation: 1, UUID: [I; -626830448, 311395436, -732594809, -766797401], Name: \"\"}, {Amount: 0.07d, Slot: \"mainhand\", AttributeName: \"minecraft:generic.movement_speed\", Operation: 1, UUID: [I; -616868903, -479583698, -316554512, 186743857], Name: \"\"}], display: {Lore: ['\"圧縮しすぎて原初の力が蓄えられた人参\"'], Name: '\"蒼天ニンジン\"'}, Enchantments: [{lvl: 7s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 7s, id: \"minecraft:fire_aspect\"}, {lvl: 7s, id: \"minecraft:looting\"}, {lvl: 77s, id: \"minecraft:sharpness\"}, {lvl: 7s, id: \"minecraft:smite\"}]}",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

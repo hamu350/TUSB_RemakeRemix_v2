@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:donkey_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag: {Tame: 1, Health: 30.0f, Attributes: [{Base: 30.0d, Name: \"generic.max_health\"}, {Base: 0.1d, Name: \"generic.movement_speed\"}, {Base: 2.0d, Name: \"horse.jump_strength\"}], ForcedAge: 0, Variant: 5, ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], CustomName: '{\"text\":\"§7§lグラベルチェスター\"}', ChestedHorse: 1, ArmorItems: [{id: \"minecraft:leather_boots\", Count: 65b, tag: {Damage: 0, Enchantments: [{lvl: 100s, id: \"minecraft:feather_falling\"}]}}, {}, {}, {}], Temper: 2, SaddleItem: {id: \"minecraft:saddle\"}, PersistenceRequired: 1b, id: \"minecraft:donkey\", Age: 0, Tags: [\"AbyssWarp\"], ActiveEffects: [{Duration: 2147483647, Id: 25b, Amplifier: -3b, ShowParticles: 0b}], CustomNameVisible: 1b}, HideFlags: 16, CanPlaceOn: [\"#minecraft:all\"], display: {Lore: ['{\"text\":\"§eとってもはたらきものの\"}', '{\"text\":\"§eじゃりがすきなこです。\"}', '{\"text\":\"§eキミがそばにいれば、\"}', '{\"text\":\"§eならくにおちてもかえってくるよ！\"}'], Name: '{\"text\":\"§7§lグラベルチェスター\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

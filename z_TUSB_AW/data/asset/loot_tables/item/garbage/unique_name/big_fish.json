@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_horse_armor",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Name: '{\"text\":\"§b§l大魚\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

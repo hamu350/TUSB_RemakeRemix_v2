@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、\"}', '{\"text\":\"§8§l砂利スポナー§eを設置する。\"}'], Name: '{\"text\":\"§8§l砂利スポナー\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"SpawnerStand\", \"GravelSpawner\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

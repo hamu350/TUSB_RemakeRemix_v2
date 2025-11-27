@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"open": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:trapped_chest"
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:gimmic/simmic/trigger"
+	}
+}

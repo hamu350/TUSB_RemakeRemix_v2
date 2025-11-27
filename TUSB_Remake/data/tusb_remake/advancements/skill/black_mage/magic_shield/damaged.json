@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": false
+				},
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"MagicShield\"]}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill/black_mage/magic_shield/damaged"
+	}
+}

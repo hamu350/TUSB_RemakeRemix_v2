@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:hopper",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:nether_star\", Count: 30b}, {Slot: 1b, id: \"minecraft:nether_star\", Count: 30b}, {Slot: 2b, id: \"minecraft:nether_star\", Count: 30b}, {Slot: 3b, id: \"minecraft:nether_star\", Count: 30b}, {Slot: 4b, id: \"minecraft:nether_star\", Count: 30b}], TransferCooldown: 0, id: \"minecraft:hopper\", Lock: \"\"}, display: {Lore: ['{\"text\":\"150個のネザースターが入っている\"}'], Name: '{\"text\":\"報酬ドロッパー\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

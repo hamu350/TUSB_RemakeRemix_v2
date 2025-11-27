@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"§d§kSpace§5§l-§d۞§5§l-ネビュラ・ロッド-§d۞§5§l-§d§kSpace\"}',Lore: ['{\"text\":\"§d§l星雲の力が宿った杖。\"}']}, Enchantments: [{lvl: 10s, id: \"minecraft:sharpness\"}, {lvl: 10s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 10s, id: \"minecraft:knockback\"}, {lvl: 10s, id: \"minecraft:fire_aspect\"}], HideFlags: 35, Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"anmin\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"anmin\"}, {Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"anmin\"}, {Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"anmin\"}, {Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 6], Name: \"anmin\"}, {Amount: 0.1d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"anmin\"}, {Amount: 1.0d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 3], Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 2, 0, 4], Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 2, 0, 5], Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 2, 0, 6], Name: \"anmin\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]   
+}

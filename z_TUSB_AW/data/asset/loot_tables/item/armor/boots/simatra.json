@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"feet\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 6, 0, 1], Amount: 2.0d, Name: \"HaruEditor\"}, {Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 1, UUID: [I; 0, 6, 0, 2], Amount: 0.05d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§7§l§n§o  シマトラ\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:protection\"}, {lvl: 2s, id: \"minecraft:feather_falling\"}, {lvl: 2s, id: \"minecraft:depth_strider\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

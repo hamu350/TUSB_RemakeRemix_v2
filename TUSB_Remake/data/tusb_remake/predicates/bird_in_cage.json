@@ -1,0 +1,36 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "minecraft:the_nether",
+			"position": {
+				"x": {
+					"min": -327,
+					"max": -217
+				},
+				"y": {
+					"min": 0,
+					"max": 252
+				},
+				"z": {
+					"min": 1136,
+					"max": 1248
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"chest": {
+					"items": [
+						"minecraft:elytra"
+					],
+					"nbt": "{TrialItem:true,Unbreakable:true}"
+				}
+			}
+		}
+	}
+]

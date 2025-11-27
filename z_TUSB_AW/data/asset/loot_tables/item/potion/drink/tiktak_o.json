@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 26b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 0, Id: 14b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 600, Id: 9b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 600, Id: 2b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 20, Id: 14b, Amplifier: 5b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7蒸気機関§fの発達した世界で作られた蒸留酒。\"}', '{\"text\":\"§f何からのはずみで§d迷い込んだ。\"}', '{\"text\":\"§6アルコール度数が高い§fので吐き気に注意。\"}'], Name: '{\"text\":\"§7§l§nTikTak O Beer：チクタク・オー・酒\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

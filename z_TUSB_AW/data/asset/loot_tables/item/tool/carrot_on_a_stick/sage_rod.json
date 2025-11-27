@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 3, AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 2, 0, 1], Amount: -0.9d, Name: \"HaruEditor\"}, {Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 2], Amount: 10.0d, Name: \"HaruEditor\"}, {Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 3], Amount: 15.0d, Name: \"HaruEditor\"}, {Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 4], Amount: 0.1d, Name: \"HaruEditor\"}], display: {Lore: ['{\"text\":\"§9§l古の杖§6の真の姿。\"}', '{\"text\":\"§9古代の魔導士達§6の知識を結集して作られた\"}', '{\"text\":\"§d§l左手用§6の杖。\"}'], Name: '{\"text\":\"§e§ka§6§l賢者の杖§e§ka\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:infinity\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {color: 6107775, Lore: ['{\"text\":\"§5§l深淵なる者を倒した証。\"}'], Name: '{\"text\":\"§5終焉ヲ告ゲル者\"}'}, Enchantments: [{lvl: 10000s, id: \"minecraft:feather_falling\"}, {lvl: 10000s, id: \"minecraft:projectile_protection\"}, {lvl: 10000s, id: \"minecraft:fire_protection\"}, {lvl: 10000s, id: \"minecraft:aqua_affinity\"}, {lvl: 10000s, id: \"minecraft:blast_protection\"}, {lvl: 10000s, id: \"minecraft:protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

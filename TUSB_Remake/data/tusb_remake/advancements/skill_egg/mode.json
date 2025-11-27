@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:magma_cube_spawn_egg"
+					],
+					"nbt": "{EntityTag:{Tags:[\"ModeSwitch\"]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill_egg/mode/"
+	}
+}

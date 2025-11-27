@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"イエローテンパランス\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"悪夢から抽出して実現化したもの\",\"color\":\"red\",\"bold\":false,\"italic\":false}'],color:15662848},Enchantments:[{id:\"minecraft:protection\",lvl:16s},{id:\"minecraft:fire_protection\",lvl:16s},{id:\"minecraft:blast_protection\",lvl:16s},{id:\"minecraft:projectile_protection\",lvl:16s},{id:\"minecraft:respiration\",lvl:16s},{id:\"minecraft:aqua_affinity\",lvl:16s},{id:\"minecraft:thorns\",lvl:16s},{id:\"minecraft:unbreaking\",lvl:16s},{id:\"minecraft:mending\",lvl:16s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.15,Operation:1,UUID:[I;0,6,0,-1],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Amount:0.555,Operation:1,UUID:[I;0,6,0,1],Slot:\"feet\"},{AttributeName:\"generic.armor\",Amount:4,Operation:0,UUID:[I;0,6,0,2],Slot:\"feet\"},{AttributeName:\"generic.attack_speed\",Amount:0.555,Operation:1,UUID:[I;0,6,0,3],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;0,6,0,4],Slot:\"feet\"}],Unbreakable:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

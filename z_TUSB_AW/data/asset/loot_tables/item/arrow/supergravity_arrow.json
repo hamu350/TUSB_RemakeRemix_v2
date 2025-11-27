@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: -128b, Duration: 120, Id: 5b}, {Amplifier: -128b, Duration: 120, Id: 16b}, {Duration: 120, Id: 25b, Amplifier: -128b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:slowness\", display: {Lore: ['{\"text\":\"§7超重力で地に落とす。\"}'], Name: '{\"text\":\"§5§l超重力の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

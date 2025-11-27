@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_bed",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Enchantments: [{id: \"minecraft:knockback\", lvl: 255s}, {id: \"minecraft:efficiency\", lvl: 255s}, {id: \"minecraft:fire_aspect\", lvl: 255s}, {id: \"minecraft:smite\", lvl: 255s}, {id: \"minecraft:bane_of_arthropods\", lvl: 255s}], display: {Name: '{\"text\":\"ファイナルベント\"}',Lore:['{\"text\":\"どこかの世界のガバから生まれたファイナルベント\"}','{\"text\":\"何故か壊れない...\"}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

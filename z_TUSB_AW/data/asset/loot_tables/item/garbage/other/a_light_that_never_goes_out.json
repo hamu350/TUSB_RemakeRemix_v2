@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone_torch",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"消えない灯り\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:fire_aspect\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

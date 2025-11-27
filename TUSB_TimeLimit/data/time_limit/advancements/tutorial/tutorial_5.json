@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": "TUSB TimeLimit Editionの解説2",
+        "description": "v12Remakeは1.10時代のv12を\n1.19に移行したワールドです。",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "time_limit:tutorial/tutorial_4",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

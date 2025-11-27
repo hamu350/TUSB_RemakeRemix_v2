@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 97b, ShowParticles: 1b}, {Duration: 60, Id: 25b, Amplifier: 12b, ShowParticles: 0b}, {Duration: 360, Id: 24b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 1, Id: 7b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 60, Id: 11b, Amplifier: -5b, ShowParticles: 0b}], RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"§c§l火剣センサウ\"}'}, Enchantments: [{lvl: 33s, id: \"minecraft:fire_aspect\"}, {lvl: 2s, id: \"minecraft:knockback\"}, {lvl: 4s, id: \"minecraft:smite\"}, {lvl: 15s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

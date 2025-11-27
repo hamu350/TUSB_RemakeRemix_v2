@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['{\"text\":\"§r迷ってしまった…。\"}', '{\"text\":\"§rこの広大な氷の世界で…。\"}', '{\"text\":\"§rあの時地図を落とさなければ…。\"}', '{\"text\":\"§r後悔しても仕方がない。\"}', '{\"text\":\"§r人工物らしき建物の影で\"}', '{\"text\":\"§rなんとか暖を取ることはできた。\"}', '{\"text\":\"§rあとは食料が尽きる前に\"}', '{\"text\":\"§r帰る方法を見つけなければ…。\"}'], Name: '{\"text\":\"§7§l皺くちゃの紙切れ\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

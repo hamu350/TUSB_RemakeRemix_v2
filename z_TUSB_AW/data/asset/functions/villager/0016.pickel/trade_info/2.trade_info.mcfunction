@@ -1,0 +1,40 @@
+#> asset:villager/0016.pickel/trade_info/2.trade_info
+# ↑ここは一応やって
+
+# まずデータを初期化します(これは消さないでね)
+data remove storage asset: villager
+
+# まずアイテムを持たせる防具立てを召喚します
+# summon armor_stand -2000.0 0.0 0.0 {Tags:["ItemHolder"]}
+
+# 交易品となるアイテムを持たせます(Mainhand→buy、Offhand→buyB、Head→sell)
+# item replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand with diamond 5
+# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with emerald 64
+# item replace entity @e[tag=ItemHolder,limit=1] armor.head with diamond_block 1
+# /loot版も用意しておきますね
+# /lootでやる場合、個数を別コマンドで設定してあげる必要があります
+# loot replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand loot <path>
+# data modify entity @e[tag=ItemHolder,limit=1] HandItems[0].Count set value 1
+# loot replace entity @e[tag=ItemHolder,limit=1] weapon.offhand loot <path>
+# data modify entity @e[tag=ItemHolder,limit=1] HandItems[1].Count set value 1
+# loot replace entity @e[tag=ItemHolder,limit=1] armor.head loot <path>
+# data modify entity @e[tag=ItemHolder,limit=1] ArmorItems[0].Count set value 1
+
+# 持たせたアイテムを元にstorage上の取引を追加します
+# data modify storage _: _ set from entity @e[tag=ItemHolder,limit=1]
+# data modify storage asset: villager.Offers.Recipes set value {buy:{},buyB:{},sell:{}}
+# data modify storage asset: villager.Offers.Recipes[-1].buy set from storage _: _.HandItems[0]
+# data modify storage asset: villager.Offers.Recipes[-1].buyB set from storage _: _.HandItems[1]
+# data modify storage asset: villager.Offers.Recipes[-1].sell set from storage _: _.ArmorItems[0]
+# data remove storage _: _/
+# 他にも入れたい上方(xpや使用上限など)があれば各自設定します
+# data modify storage asset: villager.Offers.Recipes[-1] merge value {xp:0,MaxUses:2147483637}
+
+# 交易品を持たせるところから繰り返します。オフハンドを消したりするのは忘れずに
+
+# 取引情報を設定し終わったら防具立てを処理する
+# kill @e[tag=ItemHolder,limit=1]
+
+# nbtなどはsummon側で設定します。ということで終了
+
+data modify storage asset: villager.Offers.Recipes set value [{maxUses: 2147483647, buyB: {id: "minecraft:wooden_pickaxe", Count: 1b, tag: {Damage: 0}}, buy: {id: "minecraft:bowl", Count: 1b}, sell: {id: "minecraft:stone_pickaxe", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:stone_pickaxe", Count: 1b, tag: {Damage: 0}}, buy: {id: "minecraft:mushroom_stew", Count: 1b}, sell: {id: "minecraft:golden_pickaxe", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:golden_pickaxe", Count: 1b, tag: {Damage: 0}}, buy: {id: "minecraft:beetroot_soup", Count: 1b}, sell: {id: "minecraft:iron_pickaxe", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_pickaxe", Count: 1b, tag: {Damage: 0}}, buy: {id: "minecraft:rabbit_stew", Count: 1b}, sell: {id: "minecraft:diamond_pickaxe", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:air", Count: 65b}, buy: {id: "minecraft:lapis_lazuli", Count: 1b}, sell: {id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:efficiency"}]}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:air", Count: 65b}, buy: {id: "minecraft:lapis_lazuli", Count: 1b}, sell: {id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:air", Count: 65b}, buy: {id: "minecraft:lapis_lazuli", Count: 1b}, sell: {id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:fortune"}]}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:air", Count: 65b}, buy: {id: "minecraft:lapis_lazuli", Count: 2b}, sell: {id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:silk_touch"}]}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:air", Count: 65b}, buy: {id: "minecraft:cake", Count: 1b}, sell: {id: "minecraft:damaged_anvil", Count: 1b}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 2b}, buy: {id: "minecraft:damaged_anvil", Count: 1b}, sell: {id: "minecraft:chipped_anvil", Count: 1b}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 3b}, buy: {id: "minecraft:chipped_anvil", Count: 1b}, sell: {id: "minecraft:anvil", Count: 1b}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 1b}, buy: {id: "minecraft:white_wool", Count: 32b}, sell: {id: "minecraft:chiseled_quartz_block", Count: 32b}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 1b}, buy: {id: "minecraft:white_wool", Count: 32b}, sell: {id: "minecraft:quartz_stairs", Count: 32b}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 2b}, buy: {id: "minecraft:chainmail_helmet", Count: 1b, tag: {Damage: 0}}, sell: {id: "minecraft:iron_helmet", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 4b}, buy: {id: "minecraft:chainmail_chestplate", Count: 1b, tag: {Damage: 0}}, sell: {id: "minecraft:iron_chestplate", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 3b}, buy: {id: "minecraft:chainmail_leggings", Count: 1b, tag: {Damage: 0}}, sell: {id: "minecraft:iron_leggings", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:iron_ingot", Count: 1b}, buy: {id: "minecraft:chainmail_boots", Count: 1b, tag: {Damage: 0}}, sell: {id: "minecraft:iron_boots", Count: 1b, tag: {Damage: 0}}, xp: 1, uses: 0, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}, {maxUses: 2147483647, buyB: {id: "minecraft:obsidian", Count: 64b}, buy: {id: "minecraft:creeper_head", Count: 1b}, sell: {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0MTI1MDY1NTE0ODQsInByb2ZpbGVJZCI6IjkyNWFjYmQyZDFkZTRiZjZhNjkyY2ZjMzhiZjdlNmEwIiwicHJvZmlsZU5hbWUiOiJYcGlja2VsWCIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyNDViYjc5YWFlZjExMzUzYjI1N2EyODYxMWYwZDRjNDU4NmY2ZGM0YjRiYTJlNDg3Nzg2YzlkMjYzZWUifX19", Signature: "nDnDDDY/IIl2WfJjF5qRFL1d4o78VkHuWjq7QbNQKY9JM7Tc4TvdxW5Z2Gu1xmufsLdEplUToX3P/c9+FOTC5GCVHlov1UnWT/x0vwy5WR3ZV5tVhG641z26wVkGrgyud5xKtLqtLwPU3bB0HB4uzKIjQL85qFFfQtF3J110i/8s/Fwdfzd+OyUJpVxOgXnCveJYlI6ZiTShJh/dvTWNHP6Q5OlHrhooioe243809h44eDzZvLTL5SjAP8lF9g53GRiwclirG4r45vtn/Y0/s8OHm+dXVyOEvOfmhVeeKb6DvofXATep1atNF2Cc+I0LbDaBAqfQ6dv+AyaH8sCiYosczgsXfb15SDUSDqgWROV1aJgGHM12MnSJx68oAR9ho/ASodRrHVXeXLTlh+sR8/p6fYVqXcESkGl9fv22VYk9S6zng2TcNiEm3zZQpN0CcwGpef4iMlirnDLR72CcToGaR/ivbZkVsUNAN65J9FMM2mW5JUpfpMvDofoi0+8I7ip0zzMHIY1rLJ3vMAi5+dMF7GX/0RWx3qh22yT5MMyLFfsL54CoHHdzdsZ0VRHOkX2yj+D4A50I69aru62R1UiIfhX6a33dtWtSnCCGns62DLUrA02/pw2D5Ug9TIGKHYxmnkv9bE7Vl39L1Y7uOc+G8JImGvoX5Hv2HsS65gw="}]}, Id: [I; -1839543342, -773960714, -1500327997, -1946687840], Name: "XpickelX"}, display: {Name: '{"text":"§d§lぴっける"}'}}}, xp: 1, uses: 1, priceMultiplier: 0.0f, specialPrice: 0, demand: 0, rewardExp: 0b}]

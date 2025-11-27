@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": "TUSB TimeLimit Edition特有の仕様7",
+        "description": "煉獄に住むとある竜の様子がおかしいとの\n噂があるようだ。細心の注意を払って対峙するべし。",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "time_limit:tutorial/tutorial_14",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

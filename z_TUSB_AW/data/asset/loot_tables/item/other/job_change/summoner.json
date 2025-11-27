@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, JobChange: 1b, Job: 6, display: {Lore: ['{\"text\":\"§r§e僕と契約して召喚士になってよ\"}', '{\"text\":\"§r§nUSB職業安定所発行\"}'], Name: '{\"text\":\"§r§l召喚士変更許可証\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

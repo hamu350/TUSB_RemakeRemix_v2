@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poppy",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Legacy: 1b, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Amount: 20.0d, Name: \"anmin\"}], display: {Name: '{\"text\":\"§c§lﾌｧｲｱｰﾌﾗﾜｰ\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:knockback\"}, {lvl: 100s, id: \"minecraft:fire_aspect\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

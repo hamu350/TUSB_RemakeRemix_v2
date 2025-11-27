@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ghast_tear",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Enchantments: [{lvl: 5s, id: \"minecraft:knockback\"}, {lvl: 5s, id: \"minecraft:fire_aspect\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

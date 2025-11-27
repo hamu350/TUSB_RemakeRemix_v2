@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:10,id:unbreaking},{lvl:5,id:lure},{lvl:10,id:luck_of_the_sea}],RepairCost:1000000000,Unbreakable:1b,display:{Lore:['{\"text\":\"§7守護の力 Ⅹ\"}','{\"text\":\"§7魂の共鳴 Enchantmentsantment.level.0\"}','{\"text\":\"\"}','{\"text\":\"§b§l原初の世界の守護者§3が使っていたとされる釣竿。\"}','{\"text\":\"§3魚が釣れなくなる不思議な特性を持つようだ。\"}'],Name:'{\"text\":\"§d§kspica§r§b§l原初の守護者の釣竿§d§kspica§r\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:75.0d,Slot:\"mainhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"generic.max_health\"},{UUID:[I;0,1,0,2],Amount:1,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"generic.knockback_resistance\"},{UUID:[I;0,1,0,3],Amount:-2000.0d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:0,Name:\"wax\"},{UUID:[I;0,1,0,4],Amount:0.25d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:2,Name:\"frey\"},{UUID:[I;0,1,0,5],Amount:0.25d,Slot:\"mainhand\",AttributeName:\"generic.armor_toughness\",Operation:2,Name:\"frey\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

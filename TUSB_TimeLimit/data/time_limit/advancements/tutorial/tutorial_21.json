@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield",
+            "nbt": "{BlockEntityTag: {Patterns: [{Pattern: \"dls\", Color: 3}, {Pattern: \"drs\", Color: 3}, {Pattern: \"sc\", Color: 3}, {Pattern: \"mr\", Color: 7}, {Pattern: \"tts\", Color: 9}, {Pattern: \"bts\", Color: 9}, {Pattern: \"cbo\", Color: 9}, {Pattern: \"cr\", Color: 9}, {Pattern: \"mc\", Color: 3}, {Pattern: \"bo\", Color: 15}, {Pattern: \"bo\", Color: 3}, {Pattern: \"flo\", Color: 15}], Base: 7}}"
+        },
+        "title": "追加オプションについて1",
+        "description": "この世界では時間が経つごとに\n時送りの盾が強化されます。",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "time_limit:tutorial/start",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

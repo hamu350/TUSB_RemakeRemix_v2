@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:armor_stand",
+					"nbt": "{DisabledSlots: 2039326, Health: 1.0f, ArmorItems: [{tag: {AttributeModifiers: [{Name: \"minus\"}]}}]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:armor_stand/pick_up"
+	}
+}

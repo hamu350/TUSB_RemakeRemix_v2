@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:creeper_spawn_egg",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag: {Fuse: 0s, id: \"minecraft:creeper\", ActiveEffects: [{Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"TypeChecked\"]}, RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§e取り扱い注意\"}'], Name: '{\"text\":\"§e§lチンした卵\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "function": "copy_nbt",
+    "source": {
+        "type": "storage",
+        "source": "tusb_remake:"
+    },
+    "ops": [
+        {
+            "source": "legacy",
+            "target": "Legacy",
+            "op": "replace"
+        }
+    ]
+}

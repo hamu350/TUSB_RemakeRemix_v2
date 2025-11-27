@@ -1,0 +1,203 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 25,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:recovery_compass",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_hoe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:elytra",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 400, HideFlags: 1, Enchantments: [{lvl: 1s, id: \"minecraft:protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"§d§kSpace§5§l-§d۞§5§l-ネビュラ・ロッド-§d۞§5§l-§d§kSpace\"}', Lore: ['{\"text\":\"§d§l星雲の力が宿った杖。\"}']}, Enchantments: [{id: \"minecraft:sharpness\", lvl: 10s}, {id: \"minecraft:bane_of_arthropods\", lvl: 10s}, {id: \"minecraft:knockback\", lvl: 10s}, {id: \"minecraft:fire_aspect\", lvl: 10s}], HideFlags: 35, Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 1], AttributeName: \"generic.max_health\", Name: \"anmin\"}, {Amount: 0.2d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 2], AttributeName: \"generic.knockback_resistance\", Name: \"anmin\"}, {Amount: 0.1d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 3], AttributeName: \"generic.movement_speed\", Name: \"anmin\"}, {Amount: 10.0d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 4], AttributeName: \"generic.attack_damage\", Name: \"anmin\"}, {Amount: 10.0d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 5], AttributeName: \"generic.armor\", Name: \"anmin\"}, {Amount: 2.0d, Slot: \"mainhand\", Operation: 0, UUID: [I; 0, 1, 0, 6], AttributeName: \"generic.attack_speed\", Name: \"anmin\"}, {Amount: 0.1d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 1], AttributeName: \"generic.max_health\", Name: \"anmin\"}, {Amount: 0.2d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 2], AttributeName: \"generic.knockback_resistance\", Name: \"anmin\"}, {Amount: 1.0d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 3], AttributeName: \"generic.movement_speed\", Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 4], AttributeName: \"generic.attack_damage\", Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 5], AttributeName: \"generic.armor\", Name: \"anmin\"}, {Amount: 0.5d, Slot: \"offhand\", Operation: 2, UUID: [I; 0, 2, 0, 6], AttributeName: \"generic.attack_speed\", Name: \"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:Syanenne_paa}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:Yohi_ya}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:FreyCielu}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"怪しい広告\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"https://discord.com/invite/rTVWQm4ykR\",\"bold\":false,\"italic\":false}','[{\"text\":\"これも一種の\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\\'釣り\\'\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false},{\"text\":\"広告なのか？\",\"color\":\"white\",\"bold\":false,\"italic\":false}]']},Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

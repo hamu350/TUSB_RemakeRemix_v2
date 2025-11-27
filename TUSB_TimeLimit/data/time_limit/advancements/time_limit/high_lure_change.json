@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:lure",
+                                "levels": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "time_limit:item_data_change/high_lure_change"
+    }
+}

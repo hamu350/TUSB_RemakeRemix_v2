@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"tag": "tusb_remake:spawn_egg",
+					"nbt": "{EntityTag:{Tags:[\"RewardEgg\"]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:player/use_reward_egg"
+	}
+}

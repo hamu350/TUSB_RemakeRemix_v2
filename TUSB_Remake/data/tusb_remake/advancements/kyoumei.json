@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "death": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Health:0.0f}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "death"
+      ]
+    ],
+    "rewards": {
+      "function": "main:kyoumei"
+    }
+  }

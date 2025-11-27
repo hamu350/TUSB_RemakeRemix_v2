@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pig_spawn_egg",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"§r§7§l通常世界§rの鍵卵\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

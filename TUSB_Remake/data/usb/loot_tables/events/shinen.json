@@ -1,0 +1,123 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 75,
+                                "max": 85
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/zombie",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions":[
+                {
+                    "condition": "killed_by_player",
+                    "inverse": true
+                },
+                {
+                    "condition": "random_chance",
+                    "chance": 0.025
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"終焉ヲ告ゲル者\"}',color:8339378},Enchantments:[{id:\"protection\",lvl:15s},{id:\"fire_protection\",lvl:1s},{id:\"feather_falling\",lvl:2s},{id:\"blast_protection\",lvl:3s},{id:\"projectile_protection\",lvl:4s},{id:\"respiration\",lvl:5s},{id:\"aqua_affinity\",lvl:6s},{id:\"thorns\",lvl:7s},{id:\"depth_strider\",lvl:8s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"終焉ヲ告ゲル者\"}',color:8339378},Enchantments:[{id:\"protection\",lvl:0s},{id:\"fire_protection\",lvl:1s},{id:\"feather_falling\",lvl:2s},{id:\"blast_protection\",lvl:3s},{id:\"projectile_protection\",lvl:4s},{id:\"respiration\",lvl:5s},{id:\"aqua_affinity\",lvl:6s},{id:\"thorns\",lvl:7s},{id:\"depth_strider\",lvl:8s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"終焉ヲ告ゲル者\"}',color:8339378},Enchantments:[{id:\"protection\",lvl:0s},{id:\"fire_protection\",lvl:1s},{id:\"feather_falling\",lvl:2s},{id:\"blast_protection\",lvl:3s},{id:\"projectile_protection\",lvl:4s},{id:\"respiration\",lvl:5s},{id:\"aqua_affinity\",lvl:6s},{id:\"thorns\",lvl:7s},{id:\"depth_strider\",lvl:8s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"終焉ヲ告ゲル者\"}',color:8339378},Enchantments:[{id:\"protection\",lvl:0s},{id:\"fire_protection\",lvl:1s},{id:\"feather_falling\",lvl:2s},{id:\"blast_protection\",lvl:3s},{id:\"projectile_protection\",lvl:4s},{id:\"respiration\",lvl:5s},{id:\"aqua_affinity\",lvl:6s},{id:\"thorns\",lvl:7s},{id:\"depth_strider\",lvl:8s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.01
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"全能ノ一\"}'},Enchantments:[{id:\"sharpness\",lvl:5s},{id:\"knockback\",lvl:5s},{id:\"fire_aspect\",lvl:5s},{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:5s},{id:\"fortune\",lvl:5s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

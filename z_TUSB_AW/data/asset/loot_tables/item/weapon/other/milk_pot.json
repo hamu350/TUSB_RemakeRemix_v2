@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:milk_bucket",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"§e朝からずっしり ミルクポット\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:looting\"}, {lvl: 2s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

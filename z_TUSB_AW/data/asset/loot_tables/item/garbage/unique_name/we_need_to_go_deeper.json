@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blaze_rod",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"さらなる深みへ\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:fire_aspect\"}, {lvl: 2s, id: \"minecraft:knockback\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

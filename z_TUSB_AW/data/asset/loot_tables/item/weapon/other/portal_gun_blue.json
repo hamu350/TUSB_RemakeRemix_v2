@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:diamond_horse_armor",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -0.05d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: -0.04d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 0.03d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"wax\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§9§lポータルガン (青)\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:sharpness\"}, {lvl: 2s, id: \"minecraft:smite\"}, {lvl: 1s, id: \"minecraft:fire_aspect\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

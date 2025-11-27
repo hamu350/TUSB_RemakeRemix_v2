@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 99999, Unbreakable: 1b, CustomModelData: 1, HideFlags: 1, KyoumeiTag: 10, Enchantments: [{lvl: 15s, id: \"minecraft:aqua_affinity\"}, {lvl: 15s, id: \"minecraft:blast_protection\"}, {lvl: 15s, id: \"minecraft:depth_strider\"}, {lvl: 15s, id: \"minecraft:feather_falling\"}, {lvl: 15s, id: \"minecraft:fire_protection\"}, {lvl: 15s, id: \"minecraft:projectile_protection\"}, {lvl: 15s, id: \"minecraft:protection\"}, {lvl: 15s, id: \"minecraft:respiration\"}, {lvl: 15s, id: \"minecraft:thorns\"}, {lvl: 1s, id: \"minecraft:vanishing_curse\"}], display: {Lore: ['{\"text\":\"§7水中採掘 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7爆発耐性 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7水中歩行 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7落下耐性 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7火炎耐性 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7飛び道具耐性 enchantment.level.15\"}', '{\"text\":\"§7ダメージ軽減 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7水中呼吸 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7棘の鎧 enchantment.level.15\",\"italic\":false}', '{\"text\":\"§7魂の共鳴 enchantment.level.15\",\"italic\":false}'], Name: '{\"text\":\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§9§l§n§f§l§nアウターパーフェクト§d§l§n§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r§r \"}'}, Damage: 0, Kyoumei: 1b, AttributeModifiers: [{Amount: 0.25d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; -1166075610, 4, -1325495210, 668946242], Name: \"generic.max_health\"}, {Amount: 1, Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; -350499478, 4, -1306505026, -1701618212], Name: \"generic.knockback_resistance\"}, {Amount: 0.05d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; -1182654736, 4, -1560699448, 1207202444], Name: \"generic.movement_speed\"}, {Amount: 0.35d, Slot: \"chest\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; -14886484, 4, -1342997552, -1654630323], Name: \"generic.attack_damage\"}, {Amount: 0.35d, Slot: \"chest\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 2016874278, 4, -1156683976, 213141085], Name: \"generic.armor\"}, {Amount: 0.35d, Slot: \"chest\", AttributeName: \"generic.armor_toughness\", Operation: 2, UUID: [I; 1172707407, 4, -1916526540, -1658169076], Name: \"generic.armor_toughness\"}, {Amount: 0.4d, Slot: \"chest\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; -1735205794, 4, -1708179304, 992220054], Name: \"generic.attack_speed\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

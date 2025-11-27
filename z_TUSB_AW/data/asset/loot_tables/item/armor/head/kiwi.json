@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0MTM1NTI5MzU1MTgsInByb2ZpbGVJZCI6IjI0MjA2NDUzMjVkMTRkYjRhYzRhNTVhNTU4NzNlNmZkIiwicHJvZmlsZU5hbWUiOiIxMDI0S2l3aV9BbWFsIiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODQ2MjY5ZDI5MTFlMWIxNzQ3NzYyYjJiY2Y2ZjVjZmMxY2QwOTdjMDM3NjhhMWU5MTg0YTVlNDNhYzkwIn19fQ==\", Signature: \"bnj4CpoYrwhNf+2hod3ZdpMmF3GyC5ymI5Wo+4QD/V3M8PtHq58q32QcUNcx8fe0tdUXUnNUir004hgVxzkN3JTEzJ3M3MQMJsbqzkXs9MxGtg3gbFraDQmDPxvOmp4p0PKOej9fHlwj8kqdj0aEDRnWrLxhyu8flzSd7llvRj3KRfxGOYYS0N8H3f+Wc92ITZEJjwGKG8OP9UyrF5xHxNyMBoGDGI3mPr8H27ZQlnfe3vCdHVbScMGmoDYeTwqyX6aWeRwV3bzZC6OLK2a6qGArdjNLokLoIX7VkWM0ipIOgH8DOWNnFxIW4cqUyxcNqQHdX5+Foo7nPQ/FvQQe7D6styKocAhtozq9s9vYSGHQK7Fi0LfHA0VK6WhCXZfuLgH7jn0IPN3e44USNudy5X5lpwmdD4GeBrow1eAY5F5tvkrhiRnECKAF6oQltfmBMF9BD4TYg2nniXbgUiEAtCaEdRHOMvYeajb10BAKaHlWCGPwwoaXxvPxFlDBNfM0LDfRHFUv9DLYJLH7kev0P2uXmkxrXYXebSQXbZNy73QIxd1YSL4vPAOWUAQUHFbQ6F5qYAn9RPd91tsLy/LHCTsinuecZ62WDFCEEPEvTZEvfF4Ilcg1cgWq6zw2xD230psQrANNDTYgHgi7RkbNxZxf7Pvv2Jkr35CjPNIjgXI=\"}]}, Id: [I; 606102611, 634473908, -1404414555, 1483990781], Name: \"1024Kiwi_Amal\"}, display: {Name: '{\"text\":\"§a§lKiwi\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

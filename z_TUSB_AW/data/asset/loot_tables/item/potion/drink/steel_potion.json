@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:potion",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{CustomPotionEffects: [{Duration: 400, Id: 11b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 400, Id: 12b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 400, Id: 15b, Amplifier: 4b, ShowParticles: 1b}, {Duration: 400, Id: 2b, Amplifier: 4b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§8§o飲むと体が硬化して\"}', '{\"text\":\"§8§o防御力が上がり、炎にも強くなるが、\"}', '{\"text\":\"§8§o足が遅くなり、目も見えにくくなる。\"}'], Name: '{\"text\":\"§f鋼鉄のポーション\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

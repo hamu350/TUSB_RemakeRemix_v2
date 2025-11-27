@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 16b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 2, Id: 25b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 0, Id: 7b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 600, Id: 1b, Amplifier: 6b, ShowParticles: 0b}, {Duration: 720, Id: 8b, Amplifier: 6b, ShowParticles: 0b}, {Duration: 720, Id: 16b, Amplifier: 1b, ShowParticles: 0b}], HideFlags: 63, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7従来の§e§lΣジャンパー§7に金ニンジンを入れ\"}', '{\"text\":\"§7濃縮し性能を上げたもの\"}', '{\"text\":\"§7忍者のように素早く身軽に動く事ができる。\"}'], Name: '{\"text\":\"§e§lΣジャンパー§c§l＋\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

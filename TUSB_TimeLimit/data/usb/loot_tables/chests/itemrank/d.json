@@ -1,0 +1,965 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:hay_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flint",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "alternatives",
+                    "weight": 1,
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:oak_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:spruce_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:birch_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:jungle_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:acacia_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:dark_oak_planks",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "alternatives",
+                    "weight": 1,
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:coal",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 8,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:charcoal",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 8,
+                                        "max": 32
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:torch",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:obsidian",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sea_lantern",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:note_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanting_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_stone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 96
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 26b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§aマナがぽちょっと詰まった飲み物。\"}', '{\"text\":\"§a飲むとMPが大きく回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§2§lハイエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 19b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§bマナがぽちょっと詰まった瓶。\"}', '{\"text\":\"§b中身に触れるとMPが大きく回復する。\"}'], Name: '{\"text\":\"§3§lエリアハイエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§e金§f防具一式§eが圧縮された印玉。\"}', '{\"text\":\"§e使用すると§l§f防具一式§eが§b解凍§eされる。\"}'], Name: '{\"text\":\"§r§f圧縮防具の印玉§e§l-金-\"}'}, Enchantments: [], EntityTag: {DeathLootTable: \"usb:signs/goldenarmor\", id: \"minecraft:bat\", DeathTime: 19s, Tags: [\"RewardEgg\", \"TypeChecked\"], ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§e使用すると、ﾗﾝﾀﾞﾑで\"}', '{\"text\":\"§6金製§eの道具が出現する。\"}'], Name: '{\"text\":\"§r§6金道具の印玉\"}'}, Enchantments: [], EntityTag: {DeathLootTable: \"usb:signs/gold\", id: \"minecraft:bat\", DeathTime: 19s, ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"RewardEgg\", \"TypeChecked\"]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gravel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Name: '{\"text\":\"§8§lじゃりじゃり\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 1s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax\"}, {Amount: 4.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"wax\"}, {Amount: 0.02d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"wax\"}, {Amount: -0.01d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"wax\"}, {Amount: -0.03d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§6§lポータルガン (黄)\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:sharpness\"}, {lvl: 1s, id: \"minecraft:smite\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -0.05d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: -0.04d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 0.03d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"wax\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§9§lポータルガン (青)\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:sharpness\"}, {lvl: 2s, id: \"minecraft:smite\"}, {lvl: 1s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§6§lマスタフォフ\"}'}, Enchantments: [{lvl: 2, id: \"minecraft:knockback\"}, {lvl: 3, id: \"minecraft:sharpness\"}], Damage: 0, AttributeModifiers: [{Amount: 5.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bookshelf",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 4.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax\"}, {Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}], display: {Name: '{\"text\":\"§4§l仏供御符\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {color: 16751360, Name: '{\"text\":\"§6§l救命胴衣\"}'}, Enchantments: [{lvl: 2, id: \"minecraft:protection\"}, {lvl: 10, id: \"minecraft:aqua_affinity\"}], Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 4, 0, 1], Name: \"wax\"}, {Amount: 0.08d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"wax\"}, {Amount: 0.01d, Slot: \"chest\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:purple_stained_glass_pane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§5§lムラサキカガミ\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:fire_aspect\"}, {lvl: 2s, id: \"minecraft:knockback\"}, {lvl: 3s, id: \"minecraft:sharpness\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§e使用すると、付近に設置されている\"}', '{\"text\":\"§f白素材§eを強化することができる。\"}', '{\"text\":\"§f白羊毛§eは§f雪ﾌﾞﾛｯｸ§eに、\"}', '{\"text\":\"§f雪ﾌﾞﾛｯｸ§eは§f模様入りﾈｻﾞｰｸｫｰﾂ§eに変化する。\"}'], Name: '{\"text\":\"§f§l白材強化の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"WhiteUpgrader\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e使用すると、付近に設置されている\"}', '{\"text\":\"§r§7黒素材§r§eを強化することが出来る。\"}', '{\"text\":\"§r§7砂利§r§eは§r§7灰色羊毛§r§eに、\"}', '{\"text\":\"§r§7灰色羊毛§r§eは§r§7安山岩§r§eに変化する。\"}'], Name: '{\"text\":\"§7§l黒材強化の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"BlackUpgrader\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"tr\", Color: 0}, {Pattern: \"mr\", Color: 4}, {Pattern: \"bo\", Color: 4}, {Pattern: \"moj\", Color: 4}, {Pattern: \"flo\", Color: 14}], Base: 4}, display: {Name: '{\"text\":\"§e§l金装飾の盾\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:thorns\"}, {lvl: 3s, id: \"minecraft:knockback\"}, {lvl: 3s, id: \"minecraft:fire_aspect\"}, {lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:smite\"}, {lvl: 3s, id: \"minecraft:bane_of_arthropods\"}], Damage: 0, AttributeModifiers: []}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blaze_powder",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags: 60, display: {Name: '{\"text\":\"§c特炎\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:flame\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 3600, Id: 1b, Amplifier: -3b, ShowParticles: 1b}, {Duration: 3600, Id: 3b, Amplifier: -3b, ShowParticles: 1b}], Damage: 0, display: {Lore: ['{\"text\":\"効果は必ずしも叶うものではない\"}'], Name: '{\"text\":\"§5イミテーション\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:punch\"}, {lvl: 5s, id: \"minecraft:silk_touch\"}, {lvl: 5s, id: \"minecraft:looting\"}, {lvl: 5s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:flame\"}, {lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:efficiency\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:white_stained_glass",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers: [{Amount: 1.2d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax100\"}, {Amount: 3.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax100\"}], display: {Name: '{\"text\":\"§e§lアルクトゥルス\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 97b, ShowParticles: 1b}, {Duration: 60, Id: 25b, Amplifier: 12b, ShowParticles: 0b}, {Duration: 360, Id: 24b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 1, Id: 7b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 60, Id: 11b, Amplifier: -5b, ShowParticles: 0b}], HideFlags: 63, Potion: \"minecraft:water\", display: {Name: '{\"text\":\"§9§lバルーンレギスタンス\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,display:{Name:'{\"text\":\"ポンプショットガン\",\"color\":\"dark_red\",\"bold\":true,\"italic\": false}',Lore:['{\"text\":\"銃火器に見せかけたクロスボウ。\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"近距離で絶大な威力を誇る\",\"color\":\"gold\",\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:1,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

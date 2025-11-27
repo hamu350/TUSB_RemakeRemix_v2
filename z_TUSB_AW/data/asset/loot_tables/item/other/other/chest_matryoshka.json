@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chest",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: -2147483648, HideFlags: 63, BlockEntityTag: {Items: [{Slot: 13b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [{Slot: 11b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}, {Slot: 15b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [{Slot: 11b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}, {Slot: 13b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}, {Slot: 15b, id: \"minecraft:chest\", Count: 1b, tag: {BlockEntityTag: {Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0MTMwMjY1NjMxNTYsInByb2ZpbGVJZCI6IjczZDRlMDY4M2E2ZDRjOGI4Zjg1MzMyMzU0Njk1NWM0IiwicHJvZmlsZU5hbWUiOiJNSEZfQ2hlc3QiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNjhkNTA5YjVkMTY2OWI5NzFkZDFkNGRmMmU0N2UxOWJjYjFiMzNiZjFhN2ZmMWRkYTI5YmZjNmY5ZWJmIn19fQ==\", Signature: \"O3ioBL5NLmrpe/jDkT+A+FvJddEvArqt2uTf5xXtzRuorxYZNwtutooZ1eeQ9YaiNWGeMSxoJWEf4D+c50LyuSSC0Oi2qflJKQgx1/lbNCalvprMyJxnXr+JUzEfiELKhMiVmv2by14Jy0caz30tMEA+ms7FkkXBSRMPNWRqUetfCf5FsRZe7o4vy290hGx3vrDQD/8+OxKBEIZiyafjlGeywgPebCgJlecf3DxbTb+btqxWRCQmGTfXHy3Z55xfGdAHlIAPJ5kmkQK5oJmu+QgiCV1laOgZaI1S0Dppvynmr8HujjFj7FI+/U8FL1GmCQ6MKXllO1LxwuRfwunWAxxPJYH5Cdq+28EpjfYUcsEGjX6dduUd8MUIuy4KWBbWF7DI/9dX0aKzMGKJ/KlazXsLOsgeQ9LpvG1b/fjGvnL9Q8YDXyGqt+tb/0Fw8rpGTD2UXx7NfP2gQHZWjvnlwEZRpNw7x04FguAPKv08QST8GlB4fc6YeeeR1NHn7kd4bNpf41idjqdGosF/NmIkZiW4Ct4SN0C6aKM+1Mt5ne6EUFYa/b4U+Yd1irW1DAigQOopMVxE2UqwIgERL362jHvWSSnUs2jn9CcFsDXu/LOLaHuIlrIcgM51e+CqN1L1Ki8YdBGy7OkzH36ndbO0V7EmIKJEN+qUP9PzsbcGNjQ=\"}]}, Id: [I; 1943330920, 980241547, -1887096029, 1416189380], Name: \"MHF_Chest\"}, display: {Name: '{\"text\":\"ﾐﾆﾁｪｽﾄ\"}'}}}], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}']}}}], id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"(+NBT)\"}'], Name: '{\"text\":\"§r§r§r§6§nﾁｪｽﾄﾘｮｰｼｶ\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

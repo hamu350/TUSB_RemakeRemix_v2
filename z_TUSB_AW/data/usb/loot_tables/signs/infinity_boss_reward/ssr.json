@@ -1,0 +1,67 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "rarity": "20%",
+                    "type": "group",
+                    "name": "新世界武器",
+                    "weight": 6,
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/weapon/sword/holy_sword",
+                            "weight": 2
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/weapon/bow/holy_bow",
+                            "weight": 2
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/tool/carrot_on_a_stick/holy_rod",
+                            "weight": 2
+                        }
+                    ]
+                },
+                {
+                    "rarity": "SSR:20%",
+                    "type": "group",
+                    "name": "デビルガリバー花3種",
+                    "weight": 6,
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/helditem/offhand/ib",
+                            "weight": 2
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/helditem/offhand/mary",
+                            "weight": 2
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "asset:item/helditem/offhand/garry",
+                            "weight": 2
+                        }
+                    ]
+                },
+                {
+                    "rarity": "30%",
+                    "type": "loot_table",
+                    "name": "asset:item/potion/drink/i_wanna_be_the_unhuman",
+                    "weight": 9
+                },
+                {
+                    "rarity": "30%",
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/unbreakable_final_vent",
+                    "weight": 9
+                }
+            ]
+        }
+    ]
+}

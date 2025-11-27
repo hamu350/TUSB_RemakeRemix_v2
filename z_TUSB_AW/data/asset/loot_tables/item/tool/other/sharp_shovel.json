@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_shovel",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {Lore: ['{\"text\":\"ゾンビを倒すために使うものではない\"}'], Name: '{\"text\":\"鋭利なシャベル\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:efficiency\"}, {lvl: 2s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

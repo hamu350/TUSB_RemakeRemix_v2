@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sheep_spawn_egg",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag: {id: \"minecraft:sheep\"}, RepairCost: -2147483648, display: {Name: '{\"text\":\"jeb_\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:fortune\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

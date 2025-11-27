@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Compiler\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Corkus製の高性能なハイテク杖\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:20s},{id:\"minecraft:smite\",lvl:20s},{id:\"minecraft:bane_of_arthropods\",lvl:20s},{id:\"minecraft:knockback\",lvl:20s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:20,Operation:0,UUID:[I;0,1,0,-1],Slot:\"mainhand\"},{AttributeName:\"generic.follow_range\",Amount:20,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Amount:2,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Amount:20,Operation:0,UUID:[I;0,1,0,3],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Amount:20,Operation:0,UUID:[I;0,1,0,4],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Amount:20,Operation:0,UUID:[I;0,1,0,5],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Amount:-3.5,Operation:0,UUID:[I;0,1,0,6],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Amount:0.20,Operation:1,UUID:[I;0,1,0,7],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

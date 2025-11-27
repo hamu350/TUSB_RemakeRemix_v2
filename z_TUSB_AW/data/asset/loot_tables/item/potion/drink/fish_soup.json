@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 0b, Duration: 0, Id: 6b}], HideFlags: 40, Potion: \"minecraft:swiftness\", display: {Lore: ['{\"text\":\"見た目がグロテスクなトカルトでは一般的なスープ\"}', '{\"text\":\"体力が僅かに回復する\"}'], Name: '{\"text\":\"魚介スープ\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

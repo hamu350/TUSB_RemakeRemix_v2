@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint_and_steel",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 2], Amount: 10.0d, Name: \"HaruEditor\"}], display: {Lore: ['{\"text\":\"§cこれから毎日§6§l島§cを焼こうぜ？§f\"}'], Name: '{\"text\":\"§4§l放火魔の§6§l薦め§f\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 15s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:unbreaking\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

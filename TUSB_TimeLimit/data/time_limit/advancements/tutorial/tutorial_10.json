@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "title": "TUSB TimeLimit Edition特有の仕様2",
+        "description": "短時間でのプレイとなるため、\n作物などの成長速度が10倍になります。",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "time_limit:tutorial/tutorial_9",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

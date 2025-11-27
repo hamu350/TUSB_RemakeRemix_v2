@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:armor_stand",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§e上空に向けて、§7砂利§eを設置する\"}', '{\"text\":\"§bﾜｰﾅﾝｶｽｺﾞｲ-§e奴を召喚する。\"}'], Name: '{\"text\":\"§7§l積み上げの印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"GravelStacker\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

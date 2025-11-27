@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25},{Amplifier:104b,Duration:0,Id:27},{Amplifier:0b,Duration:120,Id:16,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10,ShowParticles:0b},{Amplifier:2b,Duration:60,Id:6,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:22,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:26,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9,ShowParticles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l１§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§lちょっぴり§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lO§3§l- §a§lライト§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:3s}],HideFlags:33}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

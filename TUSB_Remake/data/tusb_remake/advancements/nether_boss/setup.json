@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"enter": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_nether",
+						"position": {
+							"x": {
+								"min": -1862.0,
+								"max": -1856.0
+							},
+							"y": {
+								"min": 77.0,
+								"max": 78.0
+							},
+							"z": {
+								"min": -53.0,
+								"max": -47.0
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:nether_boss/setup"
+	}
+}

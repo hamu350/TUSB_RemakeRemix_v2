@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:vanishing_curse": 1
+      }
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{Kyoumei:true}"
+    }
+  ]
+  

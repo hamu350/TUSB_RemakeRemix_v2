@@ -1,0 +1,7 @@
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData.entity.Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].Passengers[0].CustomName","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}

@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:127s,id:power},{lvl:127s,id:flame},{lvl:127s,id:infinity},{lvl:127s,id:unbreaking},{lvl:127s,id:mending},{lvl:25s,id:sharpness},{lvl:25s,id:smite},{lvl:25s,id:bane_of_arthropods},{lvl:3s,id:punch}],RepairCost:-1000000000,Unbreakable:1b,HideFlags:4,display:{Lore:['{\"text\":\"§7魂の共鳴 Enchantmentsantment.level.0\"}','{\"text\":\"\"}','{\"text\":\"§f§l世界を救う§b§l英雄§f§lが持っていたとされる§d§l聖弓§r\"}','{\"text\":\"§c§lエンチャント及び修繕不可§r\"}'],Name:'{\"text\":\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§c§l§n-☀- §c§l§n新世界§b§l§nの§d§l§n聖弓 §d§l§n-☽-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:1.0d,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"frey\"},{UUID:[I;0,1,0,2],Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.movement_speed\",Operation:1,Name:\"frey\"},{UUID:[I;0,1,0,2],Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.attack_damage\",Operation:0,Name:\"frey\"},{UUID:[I;0,1,0,3],Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:1,Name:\"frey\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,166 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "total_weight": 33,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:kelp",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:bamboo",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:sea_pickle",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:honey_bottle",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:honey_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:honeycomb",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:sweet_berries",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:glow_berries",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:glow_lichen",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:small_dripleaf",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:big_dripleaf",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

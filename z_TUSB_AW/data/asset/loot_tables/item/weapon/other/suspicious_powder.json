@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sugar",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"怪しい粉\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:sharpness\"}, {lvl: 10s, id: \"minecraft:smite\"}, {lvl: 10s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 10s, id: \"minecraft:knockback\"}, {lvl: 10s, id: \"minecraft:fire_aspect\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

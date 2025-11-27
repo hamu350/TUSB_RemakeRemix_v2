@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag: {DeathLootTable: \"usb:signs/leatherarmor\", id: \"minecraft:bat\", DeathTime: 19s, Tags: [\"RewardEgg\", \"TypeChecked\"], ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}]}, RepairCost: 1000000000, HideFlags: 16, CanPlaceOn: [\"#minecraft:all\"], display: {Lore: ['{\"text\":\"§r§6革§f防具一式§eが圧縮された印玉。\"}', '{\"text\":\"§e使用すると§l§f防具一式§eが§b解凍§eされる。\"}'], Name: '{\"text\":\"§r§f圧縮防具の印玉§6§l-革-\"}'}, Enchantments: []}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

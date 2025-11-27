@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"TacticalHeal\"]}"
+						}
+					},
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"DamageTaken": {
+								"min": 120
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill/knight/tactical_heal/heal"
+	}
+}

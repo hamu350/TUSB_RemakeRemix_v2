@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 20, Id: 7b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 101b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7生物に対し大ﾀﾞﾒｰｼﾞを与え、\"}', '{\"text\":\"§7それ以外のものを癒す\"}'], Name: '{\"text\":\"§8§l冥界の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

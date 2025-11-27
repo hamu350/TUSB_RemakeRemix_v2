@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 5b, Amplifier: 4b, ShowParticles: 0b}, {Amplifier: -128b, Duration: 0, Id: 8b}, {Amplifier: -128b, Duration: 0, Id: 26b}, {Amplifier: 1b, Duration: 1200, Id: 10b}, {Amplifier: -128b, Duration: 0, Id: 25b}, {Duration: 0, Id: 6b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:strength\", display: {Lore: ['{\"text\":\"§7刺さった者を強化し、回復を促す。\"}'], Name: '{\"text\":\"§a§l活力の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

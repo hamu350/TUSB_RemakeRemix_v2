@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 5b, Duration: 150, Id: 2b}, {Amplifier: 10b, Duration: 150, Id: 18b}, {Amplifier: 3b, Duration: 150, Id: 20b}], HideFlags: 32, Potion: \"minecraft:awkward\", display: {Lore: ['{\"text\":\"§7刺さった者を呪い、拘束する\"}'], Name: '{\"text\":\"§4§l呪殺の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

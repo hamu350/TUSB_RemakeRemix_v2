@@ -1,0 +1,20 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:white_wool",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"\",{\"text\":\"a\",\"italic\":false,\"obfuscated\":true},{\"italic\":false,\"text\":\"巻き添えで封印された羊毛\",\"color\":\"dark_red\"},{\"italic\":false,\"text\":\"a\",\"obfuscated\":true}]',Lore:['[\"\",{\"text\":\"かつて\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"脅威\",\"italic\":false,\"color\":\"green\"},{\"text\":\"と呼ばれた塔が\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"この世界には存在した。\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"塔は\",\"italic\":false,\"color\":\"white\"},{\"text\":\"天\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"より\",\"italic\":false,\"color\":\"white\"},{\"text\":\"災禍\",\"italic\":false,\"color\":\"red\"},{\"text\":\"を齎し、\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"人々は塔の封印を試みた。\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"苦難の末封印は成功し、\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"塔はある寺院に封印された\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"だが、その\",\"italic\":false,\"color\":\"white\"},{\"text\":\"犠牲\",\"italic\":false,\"color\":\"red\"},{\"text\":\"は決して\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"少なくなかったのである…\",\"italic\":false,\"color\":\"white\"}]','[\"\"]','[\"\",{\"text\":\"そして、これはとても\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"やわらかいのである。\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]']},Enchantments:[{lvl:10,id:fire_aspect},{lvl:120,id:sharpness}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:offhand,UUID:[I;-12477,57475,141152,-114950],Name:1723008149907},{AttributeName:\"generic.knockback_resistance\",Amount:1,Slot:offhand,UUID:[I;-12477,57775,141152,-115550],Name:1723008149907}],HideFlags:35}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

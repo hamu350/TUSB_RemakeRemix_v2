@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:xp/128",
+                    "weight": 80
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:xp/256",
+                    "weight": 16
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:xp/512",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

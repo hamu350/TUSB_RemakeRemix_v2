@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 50,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:spyglass",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flint_and_steel",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:compass",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clock",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trident",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shears",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Lore: ['{\"text\":\"§3修繕機能を持ったスコップ！\"}'], Name: '{\"text\":\"§d§l生きてるスコップ\"}'}, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Lore: ['{\"text\":\"§3修繕機能を持ったツルハシ！\"}'], Name: '{\"text\":\"§d§l生きてるツルハシ\"}'}, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Lore: ['{\"text\":\"§3修繕機能を持った斧！\"}'], Name: '{\"text\":\"§d§l生きてる斧\"}'}, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_hoe",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Lore: ['{\"text\":\"§3修繕機能を持ったクワ！\"}'], Name: '{\"text\":\"§d§l生きてるクワ\"}'}, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:ponder_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:sing_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:seek_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:fell_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:admire_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:call_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:yearn_goat_horn\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instrument:\"minecraft:dream_goat_horn\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

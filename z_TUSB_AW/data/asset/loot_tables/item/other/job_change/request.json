@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['{\"text\":\"§7転職したいのですか？\"}', '{\"text\":\"§7いずれまた何らかの形で\"}', '{\"text\":\"§7ここを訪れれば\"}', '{\"text\":\"§7申請書を差し上げましょう。\"}'], Name: '{\"text\":\"§r§lジョブ変更申請書\"}'}, JobApply: 1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

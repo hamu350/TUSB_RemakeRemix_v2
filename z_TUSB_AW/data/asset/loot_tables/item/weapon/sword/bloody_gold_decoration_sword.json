@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 25, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Amount: -0.6d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§c§l血塗られた金装飾の剣\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:looting\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

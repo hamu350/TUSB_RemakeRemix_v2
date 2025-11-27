@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 31, display: {Lore: ['{\"text\":\"§rぼろい。\"}'], Name: '{\"text\":\"§7ぼろのつりざお\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:unbreaking\"}, {lvl: 2s, id: \"minecraft:lure\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

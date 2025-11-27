@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:bat_spawn_egg",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§e使用すると、ﾗﾝﾀﾞﾑで\"}', '{\"text\":\"§7鉄製§eの道具が出現する。\"}'], Name: '{\"text\":\"§r§7鉄道具の印玉\"}'}, Enchantments: [], EntityTag: {DeathLootTable: \"usb:signs/iron\", id: \"minecraft:bat\", DeathTime: 19s, ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"RewardEgg\", \"TypeChecked\"]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

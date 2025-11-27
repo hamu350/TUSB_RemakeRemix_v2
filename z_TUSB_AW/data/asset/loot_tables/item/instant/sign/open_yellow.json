@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['\"§4ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ§eに貼り付けて起動すると\"', '\"§6§lAdv.ｴﾘｱ§eの§e§l色ガラス§eで覆われている\"', '\"§e封印を解除する事ができる。\"'], Name: '\"§e§l解結晶の印板\"'}, Enchantments: [{}], EntityTag: {Tags: [\"SignStand\", \"YellowSealBreaker\", \"TypeChecked\"]}, Invulnerable: 1b, Invisible: 1b, CanPlaceOn: [\"minecraft:redstone_block\"]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

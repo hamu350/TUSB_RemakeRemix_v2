@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 15b, Amplifier: 9b, ShowParticles: 1b}, {Duration: 1200, Id: 15b, Amplifier: -9b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 9b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: -9b, ShowParticles: 1b}, {Duration: 0, Id: 12b, Amplifier: -100b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§4§o投げつける薬。\"}', '{\"text\":\"§4§oこれを浴びた者は、\"}', '{\"text\":\"§4§o強力な酸で視力と体力を奪われる。\"}'], Name: '{\"text\":\"§6王水\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

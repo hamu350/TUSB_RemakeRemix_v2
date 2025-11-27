@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{display:{Name:'{\"text\":\"§f§ktime§3§l時送りの盾§f§ktime\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "time_limit:time_shield/check_condition"
+  }
+}

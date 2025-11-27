@@ -1,0 +1,101 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "//" : "weightはそのloottableのweight総数を入れる",
+            "comment": "条件式が悪さしてるね、、",
+            "weight": 300,
+            "name": "usb:gameplay/fishing/default/item",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "_"
+                  },
+                  "score": "ConquerIsland",
+                  "scale": 1
+                },
+                "range": {
+                  "min": 0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 150,
+            "name": "usb:gameplay/fishing/conquer_10/item",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "_"
+                  },
+                  "score": "ConquerIsland",
+                  "scale": 1
+                },
+                "range": {
+                  "min": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 125,
+            "name": "usb:gameplay/fishing/conquer_20/item",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "_"
+                  },
+                  "score": "ConquerIsland",
+                  "scale": 1
+                },
+                "range": {
+                  "min": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 75,
+            "name": "usb:gameplay/fishing/conquer_30/item",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "_"
+                  },
+                  "score": "ConquerIsland",
+                  "scale": 1
+                },
+                "range": {
+                  "min": 30
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

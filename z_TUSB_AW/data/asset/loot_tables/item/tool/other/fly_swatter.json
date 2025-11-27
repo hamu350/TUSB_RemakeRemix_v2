@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_shovel",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: -2147483648, Damage: 0, HideFlags: 3, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 1, 0, 1], Amount: -1.0d, Name: \"NoDamage\"}], display: {Lore: ['{\"text\":\"§a棕櫚の葉を編み込んで作られた\"}', '{\"text\":\"§a害虫駆除専用の道具。\"}'], Name: '{\"text\":\"§2ハエたたき\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:knockback\"}, {lvl: 8s, id: \"minecraft:bane_of_arthropods\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

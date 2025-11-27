@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:111b},{Id:11b,Amplifier:-2b,Duration:60,ShowParticles:0b},{Id:20b,Amplifier:2b,Duration:60,ShowParticles:0b}],HideFlags:32,Potion: \"minecraft:water\",display:{Lore:['{\"text\":\"§7刺さった者の防御力を下げた後、呪う。\"}'],Name:'{\"text\":\"§d§lバイオレットプリズム\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

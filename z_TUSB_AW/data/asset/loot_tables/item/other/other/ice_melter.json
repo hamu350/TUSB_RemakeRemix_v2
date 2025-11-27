@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lava_bucket",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§7§l頑固な氷も簡単に融ける！\"}'], Name: '{\"text\":\"§4§lコオリトカース\"}'}, Enchantments: [{lvl: 100s, id: \"minecraft:fire_aspect\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

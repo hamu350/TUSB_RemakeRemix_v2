@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 400000, Unbreakable: 1b, HideFlags: 64, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:fire_protection\"}, {lvl: 7s, id: \"minecraft:feather_falling\"}, {lvl: 7s, id: \"minecraft:blast_protection\"}, {lvl: 7s, id: \"minecraft:projectile_protection\"}, {lvl: 7s, id: \"minecraft:aqua_affinity\"}, {lvl: 7s, id: \"minecraft:thorns\"}, {lvl: 7s, id: \"minecraft:depth_strider\"}, {lvl: 7s, id: \"minecraft:fortune\"}, {lvl: 7s, id: \"minecraft:infinity\"}], display: {color: 4342338, Lore: ['{\"text\":\"極めて不安定な防具。\",\"color\":\"dark_gray\",\"italic\":true}', '{\"text\":\"一式を装備することで安定する。\",\"color\":\"dark_gray\",\"italic\":true}'], Name: '[{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true},{\"text\":\"アトミックアーマー\",\"color\":\"dark_gray\",\"italic\":false,\"obfuscated\":false},{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true}]'}, Damage: 0, AttributeModifiers: [{Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; -1938639665, 272059721, -1680796031, -332047717], Amount: 50, Name: \"generic.max_health\"}, {Slot: \"chest\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; -1668258829, 2030258389, -1411383464, -1727402810], Amount: -20, Name: \"generic.attack_damage\"}, {Slot: \"chest\", AttributeName: \"generic.attack_speed\", Operation: 1, UUID: [I; 1258394802, 1129202916, -1377994182, -400195476], Amount: -0.25d, Name: \"generic.attack_speed\"}, {Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 384167624, -1371978406, -1789071986, -659027392], Amount: -1, Name: \"generic.knockback_resistance\"}, {Slot: \"chest\", AttributeName: \"generic.armor\", Operation: 1, UUID: [I; -1456231687, 191579150, -1648457490, 478981139], Amount: 0.5d, Name: \"generic.armor\"}, {Slot: \"chest\", AttributeName: \"generic.armor_toughness\", Operation: 1, UUID: [I; -1791136751, -1558951991, -1609745733, -1045219726], Amount: 0.25d, Name: \"generic.armor_toughness\"}]}"
+              }
+            ]
+          }
+        ],
+        "functions": []
+      }
+    ]
+  }

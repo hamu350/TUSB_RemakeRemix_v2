@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "death": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Health:0f,AbsorptionAmount:0f}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "no_sleep:death"
+    }
+}

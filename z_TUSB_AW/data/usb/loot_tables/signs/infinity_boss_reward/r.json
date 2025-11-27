@@ -1,0 +1,160 @@
+{
+    "pools": [
+        {
+            "total_weight": 21,
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/material/estrella",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/carrot_on_a_stick/sage_rod",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/arrow/shining_prism",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/carrot_on_a_stick/nebula_rod",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/helditem/shield/shield_of_the_abyss",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/currency/iceworld/burado",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/material/compressed_diamond_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/mu",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/currency/cloudia/angel_akumu",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/currency/nether/hell_cube",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/sun",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/moon",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/solar_wind",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/helditem/shield/enderman_shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/helditem/mainhand/hyperspace_mobile_device",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

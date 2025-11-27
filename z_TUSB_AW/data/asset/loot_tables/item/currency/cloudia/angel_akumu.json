@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snow_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§a希少なパールをふんだんに使用した\"}', '{\"text\":\"§a超柔軟ビーズ枕。\"}', '{\"text\":\"§aどんな姿勢でもぴったりフィットし\"}', '{\"text\":\"§a究極の安眠をお届けします。\"}'], Name: '{\"text\":\"§f§l天  使  の§0§l悪§f§l夢  枕\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

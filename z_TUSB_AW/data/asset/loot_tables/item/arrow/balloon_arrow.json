@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 1b, Duration: 60, Id: 24b}, {Amplifier: 1b, Duration: 60, Id: 25b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7相手を風船のように浮かせる矢。\"}'], Name: '{\"text\":\"§9§lバルーン・アローン\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

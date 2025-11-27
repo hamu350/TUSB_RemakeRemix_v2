@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bat_spawn_egg",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CanPlaceOn:[\"#minecraft:all\"],Enchantments:[],EntityTag:{ActiveEffects:[{Amplifier:5b,Duration:100,Id:7b,ShowParticles:0b},{Amplifier:0b,Duration:100,Id:14b,ShowParticles:0b}],DeathLootTable:\"usb:signs/exp\",DeathTime:19s,Tags:[\"RewardEgg\",\"TypeChecked\"],id:\"minecraft:bat\"},HideFlags:16,RepairCost:1000000000,display:{Lore:['{\"text\":\"§c使うことでスキル経験値を得られる。\"}','{\"text\":\"§c一体どのような§d経験§cなのだろうか…。\"}'],Name:'{\"text\":\"§d秘密経験の印玉\"}'}}",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

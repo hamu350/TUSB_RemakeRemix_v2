@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cake",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 1, UUID: [I; 0, 2, 0, 1], Amount: 2.0d, Name: \"anmin\"}], display: {Lore: ['{\"text\":\"§4凄まじい悪臭が漂っている...。\"}'], Name: '{\"text\":\"§5§l固形化ケーキ\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:thorns\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

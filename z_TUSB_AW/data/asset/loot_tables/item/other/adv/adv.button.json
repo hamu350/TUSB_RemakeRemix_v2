@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:oak_button",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, CanPlaceOn: [\"minecraft:command_block\"], display: {Lore: ['{\"text\":\"§r必要ないはずのボタン。\"}'], Name: '{\"text\":\"§4§lAdv.§f§lボタン\"}'}, Enchantments: [{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

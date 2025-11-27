@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:slime_spawn_egg"
+					],
+					"nbt": "{EntityTag:{Tags:[\"SkillEgg\",\"Instant\",\"Sapphire\"]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill_egg/instant/b/"
+	}
+}

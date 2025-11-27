@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{ForceVanishing:true}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:player/force_vanishing"
+	}
+}

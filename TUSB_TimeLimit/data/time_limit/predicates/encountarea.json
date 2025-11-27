@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/skyland"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/underworld"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/gullivers_land"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/table_mountain"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/cloudia"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/nether"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name":"tusb_remake:area/nether_dungeon"
+      }
+    ]
+  }

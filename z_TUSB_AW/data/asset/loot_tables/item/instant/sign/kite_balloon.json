@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag: {NoGravity: 0b, Motion: [0.0d, 2.0d, 0.0d], Small: 0b, Health: 1.0f, Attributes: [{Base: 1.0d, Name: \"generic.max_health\"}], Invulnerable: 1b, ShowArms: 0b, Marker: 1b, Glowing: 1b, DisabledSlots: 31, DeathTime: 0s, Pose: {Head: [0.0f, 0.0f, 180.0f]}, ArmorItems: [{}, {}, {}, {id: \"minecraft:beacon\", Count: 1b, tag: {AttributeModifiers: [{AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 6, 0, 2], Amount: -1, Name: \"minus\"}]}}], NoBasePlate: 1b, Team: \"Yellow\", id: \"minecraft:armor_stand\", Invisible: 1b, ActiveEffects: [{Duration: 110, Id: 21b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 100, Id: 25b, Amplifier: \"128b\", ShowParticles: 0b}]}, RepairCost: -2147483648, display: {Lore: ['{\"text\":\"§f使用すると上空へ飛び出し\"}', '{\"text\":\"§f少しの間滞空して目印となる\"}'], Name: '{\"text\":\"§f§l凧風船\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Unbreakable: 1, Damage: 0, HideFlags: 63, display: {Name: '{\"text\":\"§4不壊のピッケル\"}'}, Enchantments: [{lvl: 0s, id: \"minecraft:unbreaking\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

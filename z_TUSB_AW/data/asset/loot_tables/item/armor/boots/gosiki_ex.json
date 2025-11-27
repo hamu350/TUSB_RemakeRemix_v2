@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_boots",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Amount: 0.07d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 6, 0, 2], Amount: 0.12d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 6, 0, 3], Amount: 0.12d, Name: \"anmin\"}], Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

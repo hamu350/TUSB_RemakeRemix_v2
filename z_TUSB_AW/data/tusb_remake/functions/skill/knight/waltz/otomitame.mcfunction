@@ -1,0 +1,3 @@
+execute at @e[type=#tusb_remake:mob,distance=..60,tag=!waltz] run playsound entity.player.attack.knockback master @a[distance=..15] ~ ~ ~ 0.7 1 0
+execute at @e[type=#tusb_remake:mob,distance=..60,tag=!waltz] run playsound entity.player.attack.sweep master @a[distance=..15] ~ ~ ~ 0.7 1 0
+execute at @e[type=#tusb_remake:mob,distance=..60,tag=!waltz] run particle sweep_attack ~ ~ ~ 0.6 0.8 0.6 0.5 1 force

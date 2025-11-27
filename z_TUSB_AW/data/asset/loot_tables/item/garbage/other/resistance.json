@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {color: 0, Name: '{\"text\":\"レジスタンス\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:thorns\"}, {lvl: 5s, id: \"minecraft:unbreaking\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

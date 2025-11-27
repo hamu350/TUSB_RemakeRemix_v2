@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:mining_fatigue": {
+						"amplifier": 2,
+						"duration": 6000
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:guardian_curse/"
+	}
+}

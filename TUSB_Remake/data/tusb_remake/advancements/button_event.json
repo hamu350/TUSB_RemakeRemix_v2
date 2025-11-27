@@ -1,0 +1,90 @@
+{
+    "criteria": {
+        "super_craft": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    },
+                    "position": {
+                        "x": {
+                            "min": -2739,
+                            "max": -2738
+                        },
+                        "y": {
+                            "min": 90,
+                            "max": 91
+                        },
+                        "z": {
+                            "min": -363,
+                            "max": -362
+                        }
+                    }
+                }
+            }
+        },
+        "super_craft2": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    },
+                    "position": {
+                        "x": {
+                            "min": -2738,
+                            "max": -2737
+                        },
+                        "y": {
+                            "min": 90,
+                            "max": 91
+                        },
+                        "z": {
+                            "min": -362,
+                            "max": -361
+                        }
+                    }
+                }
+            }
+        },
+        "all_button": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "super_craft",
+            "super_craft2",
+            "all_button"
+        ]
+    ],
+    "rewards": {
+        "function": "tusb_remake:button_event/"
+    }
+}

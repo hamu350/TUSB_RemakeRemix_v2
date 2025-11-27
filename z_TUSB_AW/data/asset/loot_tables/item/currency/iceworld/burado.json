@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sea_lantern",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags: 1, display: {Lore: ['{\"text\":\"トカルトコルデの現宝通貨\"}'], Name: '{\"text\":\"ブラード氷晶貨\",\"color\":\"aqua\",\"italic\":false,\"underlined\":true}'}, Enchantments: [{lvl: 1s, id: \"minecraft:luck_of_the_sea\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

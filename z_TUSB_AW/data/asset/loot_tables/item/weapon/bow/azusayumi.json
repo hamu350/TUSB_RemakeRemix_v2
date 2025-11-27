@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:bow",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"§6§l梓弓\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:power\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

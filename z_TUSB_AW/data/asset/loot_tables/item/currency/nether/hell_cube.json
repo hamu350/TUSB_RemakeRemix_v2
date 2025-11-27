@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_wool",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['{\"text\":\"煉獄の熱さが籠った枕\"}', '{\"text\":\"ほのかな温かみは安眠を誘う\"}'], Name: '{\"text\":\"Hell Cube\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false}'}, Enchantments: [{lvl: 100s, id: \"minecraft:fire_aspect\"}]}",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

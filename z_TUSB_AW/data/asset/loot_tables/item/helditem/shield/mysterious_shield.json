@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:shield",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"cre\", Color: 13}, {Pattern: \"bt\", Color: 15}, {Pattern: \"tt\", Color: 15}, {Pattern: \"mc\", Color: 15}, {Pattern: \"cbo\", Color: 15}], Base: 5}, display: {Lore: ['{\"text\":\"§a弱い者ほど強くなれる不思議な盾。\"}'], Name: '{\"text\":\"§2§lミステリアスな盾\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:unbreaking\"}], Damage: 0, AttributeModifiers: [{Amount: 60.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"HP\"}, {Amount: 0.3d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"SPD\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 4], Name: \"SPD\"}, {Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"KB\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 2, 0, 6], Name: \"KB\"}, {Amount: 20.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 7], Name: \"ATK\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 2, 0, 8], Name: \"ATK\"}, {Amount: 20.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 9], Name: \"AMR\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 2, 0, 10], Name: \"AMR\"}, {Amount: 5.0d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 2, 0, 11], Name: \"ATS\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 2, 0, 12], Name: \"ATS\"}, {Amount: 60.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 13], Name: \"HP\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 14], Name: \"HP\"}, {Amount: 0.3d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 15], Name: \"SPD\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 16], Name: \"SPD\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 17], Name: \"KB\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 1, 0, 18], Name: \"KB\"}, {Amount: 20.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 19], Name: \"ATK\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 1, 0, 20], Name: \"ATK\"}, {Amount: 20.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 21], Name: \"AMR\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 1, 0, 22], Name: \"AMR\"}, {Amount: 5.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 23], Name: \"ATS\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 1, 0, 24], Name: \"ATS\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

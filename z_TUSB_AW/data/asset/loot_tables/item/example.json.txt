@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ここにIDを入力",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "ここにnbtを入力"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,152 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "total_weight": 30,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:tube_coral_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:brain_coral_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:bubble_coral_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:fire_coral_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:horn_coral_block",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:tube_coral_fan",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:brain_coral_fan",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:bubble_coral_fan",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:fire_coral_fan",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:horn_coral_fan",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

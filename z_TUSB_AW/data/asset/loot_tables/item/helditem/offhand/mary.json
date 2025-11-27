@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dandelion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:1,id:\"minecraft:protection\"}],HideFlags:1,display:{Lore:['{\"text\":\"この花はよく見ると偽物のようだ、、、\",\"color\":\"yellow\"}'],Name:'{\"text\":\"§e§l「Mary」\"}'},AttributeModifiers:[{UUID:[I;0,2,0,1],Amount:0.05d,Slot:\"offhand\",AttributeName:\"generic.movement_speed\",Operation:0,Name:\"generic.movement_Speed\"},{UUID:[I;0,2,0,2],Amount:6,Slot:\"offhand\",AttributeName:\"generic.attack_damage\",Operation:1,Name:\"generic.attack_Damage\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.6,Operation:1,UUID:[I;0,2,0,3],Slot:\"offhand\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

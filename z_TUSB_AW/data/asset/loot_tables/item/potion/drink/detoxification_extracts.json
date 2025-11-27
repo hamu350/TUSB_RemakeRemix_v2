@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags: 32, CustomPotionEffects: [{Amplifier: 127b, Duration: 0, Id: 19}], display: {Name: '\"§d§l毒消草エキス\"'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:armor_stand",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§2半径15m以内のすべてに\"}', '{\"text\":\"§2等しく§7死§2を与える。\"}'], Name: '{\"text\":\"§c全滅の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"WidowMaker\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

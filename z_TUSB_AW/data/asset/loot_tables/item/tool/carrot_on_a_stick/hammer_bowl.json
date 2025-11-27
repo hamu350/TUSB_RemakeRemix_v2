@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:99,id:sharpness},{lvl:4,id:knockback},{lvl:4,id:fire_aspect}],HideFlags:63,display:{Lore:['{\"text\":\"§f§l魔力が無いのなら筋力を増幅させて殴ればいい\"}','{\"text\":\"§f§lそんな思いを込めて作られた鎚鉾\"}'],Name:'{\"text\":\"§f§l闇魔術師の鎚鉾\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:-1,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\",Operation:1,Name:\"generic.knockbackResistance\"},{UUID:[I;0,1,0,2],Amount:-30,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"generic.armor\"},{UUID:[I;0,1,0,3],Amount:-2.2d,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\",Operation:0,Name:\"generic.attackSpeed\"}]}",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

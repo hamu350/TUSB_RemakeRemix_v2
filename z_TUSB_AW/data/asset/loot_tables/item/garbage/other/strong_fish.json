@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 1], Amount: 4.0d, Name: \"wax\"}], display: {color: 16711808, Name: '{\"text\":\"§6§l焼かれる前に逃げた力強き魚\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 4s, id: \"minecraft:respiration\"}, {lvl: 3s, id: \"minecraft:fortune\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

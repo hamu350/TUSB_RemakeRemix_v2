@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 1462, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 1], Amount: -0.02d, Name: \"HaruEditor\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 2], Amount: 15.0d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"氷の剣\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

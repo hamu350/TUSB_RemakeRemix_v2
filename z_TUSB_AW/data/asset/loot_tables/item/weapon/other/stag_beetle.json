@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shears",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"クワガタ\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:bane_of_arthropods\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

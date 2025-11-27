@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 5, 0, 1], Name: \"anmin\"}, {Amount: 0.03d, Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 5, 0, 2], Name: \"anmin\"}, {Amount: 0.7d, Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 5, 0, 3], Name: \"anmin\"}], display: {color: 16711680, Name: '{\"text\":\"§4§lブラッド・メナス\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

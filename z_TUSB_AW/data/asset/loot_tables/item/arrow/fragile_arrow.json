@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 75b, ShowParticles: 1b}, {Duration: 250, Id: 8b, Amplifier: -15b, ShowParticles: 0b}, {Duration: 150, Id: 18b, Amplifier: 10b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者を脆弱にし、接地時に傷つく\"}'], Name: '{\"text\":\"§2§l脆弱の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

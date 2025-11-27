@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Monster\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"この杖は、触れた者と一体化し、恐ろしい変化をもたらした。\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"伸びた爪、鋭い牙、そして吐かれる業火は、この猛獣を象徴する。\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},HideFlags:1,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:220s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:50,Operation:0,UUID:[I;0,1,0,-1],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:60,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.8,Operation:2,UUID:[I;0,1,0,3],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:10,Operation:0,UUID:[I;0,1,0,4],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

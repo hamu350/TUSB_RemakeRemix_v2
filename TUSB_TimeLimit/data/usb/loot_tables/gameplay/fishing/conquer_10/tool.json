@@ -1,0 +1,296 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 50,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 1, display: {Lore: ['{\"text\":\"§6おもちゃのような疑似餌の付いた釣り竿\"}'], Name: '{\"text\":\"§3§l疑似餌付き釣り竿\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:lure\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"§4§lレッドキャロット\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:sharpness\"}, {lvl: 7s, id: \"minecraft:smite\"}, {lvl: 7s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 1s, id: \"minecraft:knockback\"}, {lvl: 7s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§e使用すると、付近に設置されている\"}', '{\"text\":\"§f白素材§eを強化することができる。\"}', '{\"text\":\"§f白羊毛§eは§f雪ﾌﾞﾛｯｸ§eに、\"}', '{\"text\":\"§f雪ﾌﾞﾛｯｸ§eは§f模様入りﾈｻﾞｰｸｫｰﾂ§eに変化する。\"}'], Name: '{\"text\":\"§f§l白材強化の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"WhiteUpgrader\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e使用すると、付近に設置されている\"}', '{\"text\":\"§r§7黒素材§r§eを強化することが出来る。\"}', '{\"text\":\"§r§7砂利§r§eは§r§7灰色羊毛§r§eに、\"}', '{\"text\":\"§r§7灰色羊毛§r§eは§r§7安山岩§r§eに変化する。\"}'], Name: '{\"text\":\"§7§l黒材強化の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"BlackUpgrader\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§c§lけっこうな§e範囲にある§6§l芋作物§eを\"}', '{\"text\":\"§a収穫§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§a§l収穫の印板：§6§l芋\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"PotatoBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§c§lけっこうな§e範囲にある§c§l人参作物§eを\"}', '{\"text\":\"§a収穫§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§a§l収穫の印板：§c§l人参\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"CarrotBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§c§lけっこうな§e範囲にある§2§l麦作物§eを\"}', '{\"text\":\"§a収穫§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§a§l収穫の印板：§2§l麦\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"WheatBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§c§lけっこうな§e範囲にある§c§4ビートルート作物§eを\"}', '{\"text\":\"§a収穫§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§a§l収穫の印板：§c§4ビートルート\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"BeetBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§aちょっとの§e範囲にある§f§l雪§eを\"}', '{\"text\":\"§3粉砕/回収§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§3§l粉砕の印板：§f§l雪\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"SnowBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e設置して使用すると、看板から\"}', '{\"text\":\"§aちょっとの§e範囲にある§f§l蜘蛛の巣§eを\"}', '{\"text\":\"§3粉砕/回収§eできる。看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}', '{\"text\":\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"}'], Name: '{\"text\":\"§r§3§l粉砕の印板：§f§l蜘蛛の巣\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"WebBreaker\", \"OverOnly\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

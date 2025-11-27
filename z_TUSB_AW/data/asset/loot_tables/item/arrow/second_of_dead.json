@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 29b, Duration: 30, Id: 6b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7ｱﾝﾃﾞｯﾄﾞ系ﾓﾝｽﾀｰなら\"}', '{\"text\":\"§e3秒間に2回射たれると§7と§4§l即死§r§7する。\"}'], Name: '{\"text\":\"§4§lｾｶﾝﾄﾞ・ｵﾌﾞ・ﾃﾞｯﾄﾞの矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

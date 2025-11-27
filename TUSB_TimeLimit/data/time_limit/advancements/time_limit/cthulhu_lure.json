@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{RepairCost: 1000000000, Enchantments: [{id: \"minecraft:knockback\", lvl: 10s}, {id: \"minecraft:lure\", lvl: 8s}, {id: \"minecraft:luck_of_the_sea\", lvl: 4s}], Unbreakable: 1b, Damage: 0, HideFlags: 39, display: {Name: '{\"text\":\"§r§3§kcthulhu§2§lくとぅるあー§3§kcthulhu§r\"}', Lore: ['{\"text\":\"§8とある邪神の彫刻が刻み込まれた釣り竿\"}', '{\"text\":\"§8どこでも良いものが釣れるようになる\"}']}, AttributeModifiers: [{Amount: -0.95d, Operation: 2, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 1], AttributeName: \"generic.max_health\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 2], AttributeName: \"generic.movement_speed\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 3], AttributeName: \"generic.attack_damage\", Name: \"anmin\"}, {Amount: -0.95d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 4], AttributeName: \"generic.armor\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 5], AttributeName: \"generic.attack_speed\", Name: \"anmin\"}, {Amount: -10.0d, Operation: 0, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 6], AttributeName: \"generic.luck\", Name: \"anmin\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "time_limit:item_data_change/cthulhu_lure"
+    }
+}

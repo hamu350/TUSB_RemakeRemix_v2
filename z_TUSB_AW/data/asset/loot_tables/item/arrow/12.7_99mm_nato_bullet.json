@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:5263440,CustomPotionEffects:[{ShowParticles:0b,Duration:0,Id:16b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:1b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:3b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:5b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:8b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:10b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:11b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:12b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:16b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:22b,Amplifier:127b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:118b},{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:100,Id:2b,Amplifier:28b},{ShowParticles:1b,Duration:0,Id:15b,Amplifier:22b},{ShowParticles:1b,Duration:200,Id:20b,Amplifier:50b},{ShowParticles:1b,Duration:4,Id:25b,Amplifier:127b},{ShowParticles:1b,Duration:6,Id:23b,Amplifier:27b},{ShowParticles:1b,Duration:60,Id:7b,Amplifier:2b}],HideFlags:32,display:{Lore:['\"§7対人性能に特化した大口径弾薬\"','\"§730-06ライフル弾のマズルエナジーは2,000～3000Feet･Pound\"'],Name:'\"§7§l12.7x99mm NATO弾\"'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

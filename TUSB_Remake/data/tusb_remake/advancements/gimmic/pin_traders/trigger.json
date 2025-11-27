@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"enter": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 30.0,
+								"max": 37.0
+							},
+							"y": {
+								"min": 114.0,
+								"max": 122.0
+							},
+							"z": {
+								"min": -2214.0,
+								"max": -2213.0
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:gimmic/pin_traders/trigger"
+	}
+}

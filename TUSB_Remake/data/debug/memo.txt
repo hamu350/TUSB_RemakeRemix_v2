@@ -1,0 +1,140 @@
+テーブルマウンテン 入口→地下水路
+ゲート 31 2 -2152
+移動先 9.5 60.5 -2198.5
+開通用コマブロ 37 58 -2214
+execute @p[rm=0] -1910 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+テーブルマウンテン 地下水路→幸福街
+ゲート 56 55 -2188
+移動先 28.5 114.5 -2209.5
+開通用コマブロ 26 114 -2213
+execute @p[rm=0] -1910 5 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+クラウディア チュートリアル→チュートリアル
+ゲート -1884 113 -193
+移動先 -1886.5 115.5 -189.5
+開通用コマブロ -1886 115 -187
+execute @p[rm=0] -1915 6 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+クラウディア城→職業島
+ゲート -2381 78 -155
+移動先 -1782.5 114.5 -136.5
+開通用コマブロ  -1744 126 -137
+/execute @p[rm=0] -1915 5 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+クラウディア入口→クラウディア城
+ゲート -2477 4 -127
+移動先 -2374.5 80.5 -130.5
+開通用コマブロ -2380 75 -131 
+/execute @p[rm=0] -1915 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+煉獄入口→火山の麓
+ゲート 13 15 -74
+移動先  -98.5 118.5 -342.5
+開通用コマブロ -101 115 -343
+/summon XPOrb ~ ~ ~ {Passengers:[{id:Arrow,xTile:-5,yTile:1,zTile:-19,life:1200s},{id:Arrow,xTile:12,yTile:15,zTile:-76,life:1200s}],Age:6000s}
+
+地下世界入口→きのこの山
+ゲート 889 16 -213
+移動先 1049.5 5.5 34.5
+開通用コマブロ  1050 5 41
+/execute @p[rm=0] -1920 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+きのこの山→きのこの塔
+ゲート 1046 7 53
+移動先 1259.5 5.5 209.5
+開通用コマブロ  1263 2 209
+/execute @p[rm=0] -1920 5 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ filtered force minecraft:command_block
+
+→螺旋の塔
+ゲート 1360 97 1561
+移動先 2262.5 69.5 1821.5
+開通用コマブロ 2259 69 1820
+/execute @p[rm=0] -1905 7 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+→採掘場(下)
+ゲート 1355 97 1539
+移動先 2298.5 73.5 1419.5
+開通用コマブロ  2298 72 1414
+/execute @p[rm=0] -1900 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+→調査拠点跡地
+ゲート 1339 97 1523
+移動先 1697.5 98.5 1731.5
+開通用コマブロ 1698 95 1731
+/execute @p[rm=0] -1900 5 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+古代遺跡　調査コードCB
+ゲート 1295 97 1523
+移動先 1543.5 103.5 1357.5
+開通用コマブロ  1549 102 1349
+/execute @p[rm=0] -1900 7 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+古代遺跡　調査コードRS
+ゲート 1279 97 1539
+移動先 1164.5 97.5 1496.5
+開通用コマブロ  1161 95 1496
+/execute @p[rm=0] -1895 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+トカルト城
+ゲート 1279 97 1583
+移動先 1377.5 84.5 2291.5
+開通用コマブロ  1381 84 2291
+/execute @p[rm=0] -1895 6 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+スムフル
+ゲート 1339 97 1599
+移動先 1925.5 69.5 2388.5
+開通用コマブロ  1922 68 2390 
+/execute @p[rm=0] -1905 5 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force 
+
+ルルイエ
+ゲート 1295 97 1599
+移動先 1041.5 69.5 2063.5
+開通用コマブロ  1048 69 2056
+/execute @p[rm=0] -1895 7 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+辺境
+ゲート 1342 216 1559
+移動先 1331.5 97.5 1576.5
+開通用コマブロ  1324 96 1572
+/execute @p[rm=0] -1905 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+流氷
+ゲート 1355 97 1583
+移動先 2410.5 86.5 2248.5
+開通用コマブロ  2411 84 2247
+/execute @p[rm=0] -1905 6 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+採掘場(上)
+ゲート 2298 84 1430
+移動先 2402.5 240.5 1505.5
+開通用コマブロ  2404 238 1510
+/execute @p[rm=0] -1890 4 -98 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+トカルト 開通済み
+ゲート 1317 97 1604
+移動先 1337.5 214.5 1561.5
+
+ネザー入り口→ネザー 煉獄
+ゲート 13 15 -74
+移動先  -98.5 118.5 -342.5
+開通用コマブロ -101 115 -343
+/summon XPOrb ~ ~ ~ {Passengers:[{id:Arrow,xTile:-5,yTile:1,zTile:-19,life:1200s},{id:Arrow,xTile:12,yTile:15,zTile:-76,life:1200s}],Age:6000s} 
+/clone ~ ~-1 ~ ~ ~-1 ~ ~ ~-1 ~ filtered force minecraft:command_block
+/execute @p[rm=0] -5 1 -19 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+煉獄 入口→煉獄 恐れ断ち切る地
+ゲート -1946 119 -53
+移動先  -1858.5 79.5 -55.5
+開通用コマブロ-1858 77 -58
+/summon XPOrb ~ ~ ~ {Passengers:[{id:Arrow,xTile:-4,yTile:1,zTile:-19,life:1200s},{id:Arrow,xTile:-1948,yTile:118,zTile:-55,life:1200s}],Age:6000s}
+/clone ~ ~-1 ~ ~ ~-1 ~ ~ ~-1 ~ filtered force minecraft:command_block
+/execute @p[rm=0] -4 1 -19 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force
+
+煉獄 入口→煉獄 迷い断ち切る地
+ゲート 1946 124 -53
+移動先  -1938.5 121.5 -30.5
+開通用コマブロ -1937 119 -34
+/summon XPOrb ~ ~ ~ {Passengers:[{id:Arrow,xTile:-3,yTile:1,zTile:-19,life:1200s},{id:Arrow,xTile:-1948,yTile:123,zTile:-55,life:1200s}],Age:6000s}
+/clone ~ ~ ~1 ~ ~ ~1 ~ ~ ~1 filtered force minecraft:command_block
+/execute @p[rm=0] -3 1 -19 detect ~ ~ ~ minecraft:command_block -1 /clone ~ ~ ~ ~ ~ ~ ~ ~ ~ replace force

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 400000, Unbreakable: 1b, HideFlags: 64, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:fire_protection\"}, {lvl: 7s, id: \"minecraft:feather_falling\"}, {lvl: 7s, id: \"minecraft:blast_protection\"}, {lvl: 7s, id: \"minecraft:projectile_protection\"}, {lvl: 7s, id: \"minecraft:aqua_affinity\"}, {lvl: 7s, id: \"minecraft:thorns\"}, {lvl: 7s, id: \"minecraft:depth_strider\"}, {lvl: 7s, id: \"minecraft:unbreaking\"}, {lvl: 7s, id: \"minecraft:infinity\"}], display: {color: 4342338, Lore: ['{\"text\":\"極めて不安定な防具。\",\"color\":\"dark_gray\",\"italic\":true}', '{\"text\":\"一式を装備することで安定する。\",\"color\":\"dark_gray\",\"italic\":true}'], Name: '[{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true},{\"text\":\"アトミックアーマー\",\"color\":\"dark_gray\",\"italic\":false,\"obfuscated\":false},{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true}]'}, Damage: 0, AttributeModifiers: [{Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; -883109262, -128106002, -1540086239, 1504593838], Amount: -20, Name: \"generic.max_health\"}, {Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; -1162570464, 1087587587, -2142344694, 627154864], Amount: -1, Name: \"generic.knockback_resistance\"}, {Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 1, UUID: [I; -757241496, 595021107, -1507156093, -2104821843], Amount: -0.25d, Name: \"generic.movement_speed\"}, {Slot: \"head\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; -277300837, -628078020, -1641878175, 577262306], Amount: 50, Name: \"generic.attack_damage\"}, {Slot: \"head\", AttributeName: \"generic.armor\", Operation: 1, UUID: [I; 1793049145, 52511703, -1108106664, -505454770], Amount: 0.5d, Name: \"generic.armor\"}, {Slot: \"head\", AttributeName: \"generic.armor_toughness\", Operation: 1, UUID: [I; 1591724322, -1204402256, -1441843316, -652804086], Amount: 0.25d, Name: \"generic.armor_toughness\"}]}"
+              }
+            ]
+          }
+        ],
+        "functions": []
+      }
+    ]
+  }

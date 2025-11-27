@@ -1,0 +1,111 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 32
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 80,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 16,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 8191
+                },
+                {
+                    "rarity": "SSR:1/8192",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/ssr",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 95
+                },
+                {
+                    "rarity": "SR:5%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "//": "RareとNormal",
+            "rolls": 10,
+            "entries": [
+                {
+                    "//": "weightは合計1000",
+                    "type": "empty",
+                    "weight": 0
+                },
+                {
+                    "rarity": "R:20%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/r",
+                    "weight": 200
+                },
+                {
+                    "rarity": "N:80%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/n",
+                    "weight": 800
+                }
+            ]
+        }
+    ]
+}

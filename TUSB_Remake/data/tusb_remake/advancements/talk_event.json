@@ -1,0 +1,100 @@
+{
+	"criteria": {
+		"farmer": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Farmer\"]}"
+				}
+			}
+		},
+		"agent": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Agent\"]}"
+				}
+			}
+		},
+		"pastor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Pastor\"]}"
+				}
+			}
+		},
+		"augur": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Augur\"]}"
+				}
+			}
+		},
+		"villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager"
+				}
+			}
+		},
+		"hellowork": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Offers:{Recipes:[{sell:{tag:{display:{Name:'{\"text\":\"§r§lジョブ変更申請書\"}'}}}}]}}"
+				}
+			}
+		},
+		"old_shopstaff": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"ShopStaff\"]}"
+				}
+			}
+		},
+		"old_fish_pond": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{CustomName:'{\"text\":\"釣り堀-海幸彦-\"}',Offers:{Recipes:[{sell:{tag:{Enchantments: [{lvl: 8s, id: \"minecraft:lure\"}]}}}]}}"
+				}
+			}
+		},
+		"bonfire": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Offers: {Recipes: [{buy: {id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: '{\"text\":\"§7消えた松明\"}'}}}}]}, CustomName: '{\"text\":\"篝火\"}'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"farmer",
+			"agent",
+			"pastor",
+			"augur",
+			"villager",
+			"hellowork",
+			"old_shopstaff",
+			"old_fish_pond",
+			"bonfire"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:talk_event/"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:end_gateway"
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:portal/gateway"
+	}
+}

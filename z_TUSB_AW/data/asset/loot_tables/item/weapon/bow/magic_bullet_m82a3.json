@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{id:\"power\",lvl:20},{id:\"punch\",lvl:4},{id:\"flame\",lvl:8}],RepairCost:1000000000,display:{CustomModelData:4802,Lore:['\"§d§l魔弾が持つ最上の狙撃弓\"'],Name:'{\"text\":\"§5§k|§b§k|§5§k|§b§l M§5§lagic §b§lB§5§larrett §b§lM§5§l82A3 §5§k|§b§k|§5§k|\"}'},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"Magic Bullet M82A3\",Amount:-0.5,Operation:1,UUID:[I;469480564,2147239101,-1624563853,-1553781658],Slot:\"mainhand\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

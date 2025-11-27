@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 1, display: {Lore: ['{\"text\":\"§6おもちゃのような疑似餌の付いた釣り竿\"}'], Name: '{\"text\":\"§3§l疑似餌付き釣り竿\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:lure\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

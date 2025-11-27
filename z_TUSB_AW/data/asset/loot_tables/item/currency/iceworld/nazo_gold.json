@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_weighted_pressure_plate",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags: 1, display: {Lore: ['{\"text\":\"§8交換材料としての価値以外はない。\"}'], Name: '{\"text\":\"§e§l謎の金板\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:knockback\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

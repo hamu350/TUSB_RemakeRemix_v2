@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poppy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 1], Amount: -0.5d, Name: \"HaruEditor\"}, {Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 2], Amount: 30.0d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§l§c奈落の花\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

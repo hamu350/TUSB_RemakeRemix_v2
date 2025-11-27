@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 400000, Unbreakable: 1b, HideFlags: 64, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:fire_protection\"}, {lvl: 7s, id: \"minecraft:feather_falling\"}, {lvl: 7s, id: \"minecraft:blast_protection\"}, {lvl: 7s, id: \"minecraft:projectile_protection\"}, {lvl: 7s, id: \"minecraft:aqua_affinity\"}, {lvl: 7s, id: \"minecraft:thorns\"}, {lvl: 7s, id: \"minecraft:depth_strider\"}, {lvl: 7s, id: \"minecraft:unbreaking\"}, {lvl: 7s, id: \"minecraft:infinity\"}], display: {color: 4342338, Lore: ['{\"text\":\"極めて不安定な防具。\",\"color\":\"dark_gray\",\"italic\":true}', '{\"text\":\"一式を装備することで安定する。\",\"color\":\"dark_gray\",\"italic\":true}'], Name: '[{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true},{\"text\":\"アトミックアーマー\",\"color\":\"dark_gray\",\"italic\":false,\"obfuscated\":false},{\"text\":\"a\",\"color\":\"black\",\"italic\":false,\"obfuscated\":true}]'}, Damage: 0, AttributeModifiers: [{Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; -1589369235, -343192128, -1188520437, 779065448], Amount: -5, Name: \"generic.max_health\"}, {Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; -2114162581, 1642548676, -1252381278, 1422904527], Amount: 5, Name: \"generic.knockback_resistance\"}, {Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 391755537, 1813269106, -1420272935, -28154174], Amount: -0.5d, Name: \"generic.movement_speed\"}, {Slot: \"legs\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; -488811131, -1700050748, -1401919021, 19147309], Amount: -5, Name: \"generic.attack_damage\"}, {Slot: \"legs\", AttributeName: \"generic.armor\", Operation: 1, UUID: [I; 1607214053, 1405175688, -1822357053, 873656239], Amount: 0.5d, Name: \"generic.armor\"}, {Slot: \"legs\", AttributeName: \"generic.armor_toughness\", Operation: 1, UUID: [I; -2824598, 1474841956, -1661704051, -1519988565], Amount: 0.25d, Name: \"generic.armor_toughness\"}]}"
+              }
+            ]
+          }
+        ],
+        "functions": []
+      }
+    ]
+  }

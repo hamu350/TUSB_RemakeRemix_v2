@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 3, Id: 1b, Amplifier: 30b, ShowParticles: 1b}, {Duration: 1, Id: 5b, Amplifier: 30b, ShowParticles: 1b}], HideFlags: 63, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"ボブが入っている\"}'], Name: '{\"text\":\"§fボブロマン\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}, {lvl: 4s, id: \"minecraft:knockback\"}, {lvl: 2s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 1s, id: \"minecraft:smite\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

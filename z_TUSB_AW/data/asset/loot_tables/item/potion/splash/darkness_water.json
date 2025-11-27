@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 300, Id: 18b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 300, Id: 18b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 300, Id: 17b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 300, Id: 17b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 300, Id: 2b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 300, Id: 2b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 0, Id: 16b, Amplifier: -100b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§4§o投げつける薬。これを浴びた者は、\"}', '{\"text\":\"§4§oあらゆる能力が低下する。\"}'], Name: '{\"text\":\"§5暗黒水\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

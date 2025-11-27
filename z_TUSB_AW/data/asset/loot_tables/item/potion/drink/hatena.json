@@ -1,0 +1,15 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "loot_table",
+                "name": "usb:chests/hatena",
+                "weight": 1
+            }
+        ]
+      }
+    ]
+  }
+  

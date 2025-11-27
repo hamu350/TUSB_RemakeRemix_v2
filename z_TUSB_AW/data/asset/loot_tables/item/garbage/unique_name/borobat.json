@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_axe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 20, display: {Name: '{\"text\":\"ボロバット\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:knockback\"}, {lvl: 5s, id: \"minecraft:efficiency\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

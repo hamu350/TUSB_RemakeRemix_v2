@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 7b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 1200, Id: 17b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 20b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 1200, Id: 19b, Amplifier: 10b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§4§o投げつける薬。これを浴びた者は、\"}', '{\"text\":\"§4§oほぼ間違いなく即死。\"}'], Name: '{\"text\":\"§8禁忌・冥界落とし\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: -2147483648, HideFlags: 63, BlockEntityTag: {BurnTime: 10000s, Items: [{Slot: 1b, id: \"minecraft:red_stained_glass_pane\", Count: 1b, tag: {RepairCost: -2147483648, display: {Name: '{\"text\":\"§r§4§r§4灼熱の赤板\"}'}, Enchantments: [{lvl: 2b, id: \"minecraft:fire_aspect\"}]}}], id: \"minecraft:furnace\", CustomName: '{\"text\":\"熱を帯びた竈\"}', RecipesUsed: {}}, display: {Lore: ['{\"text\":\"§r§4溶岩一杯分§rの§c§l熱§rを持った§7§l竈\"}', '{\"text\":\"§r§5ｱｲﾃﾑ状態§rならば§c§l熱§rは保存され続けるが\"}', '{\"text\":\"§r設置した瞬間から、§c§l熱§rは逃げていく\"}'], Name: '{\"text\":\"§r§4§o§l熱を帯びた竈\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

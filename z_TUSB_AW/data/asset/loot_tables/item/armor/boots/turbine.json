@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 3, AttributeModifiers: [{AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1337525460, 0, 1337525460], Amount: 0.05d, Name: \"speedUp\"}], display: {Lore: ['{\"text\":\"§r§b一、水中で速い\"}', '{\"text\":\"§r§b一、陸上でもちょっと速い\"}', '{\"text\":\"§r§b一、金曜日はカレーのひ\"}'], Name: '{\"text\":\"§r§lたぁびん\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:depth_strider\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

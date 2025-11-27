@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:127s,id:sharpness},{lvl:127s,id:knockback},{lvl:127s,id:fire_aspect}],RepairCost:1,display:{Lore:['{\"text\":\"§f復活を始めたエンド剣。エンチャント&修繕可能！\"}'],Name:'{\"text\":\"エンド・オブ・エンド\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

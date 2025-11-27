@@ -1,0 +1,163 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 25,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§r幅広い剣身で攻撃を受け止める大剣\"}'],Name:'{\"text\":\"§r§l剣士の大剣\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:15.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,Name:\"AttackPlus\"},{UUID:[I;0,1,0,2],Amount:-3d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,Name:\"AtkSpeedPlus\"},{UUID:[I;0,1,0,3],Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"ArmorPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§r素早い動きを阻害しないよう\"}','{\"text\":\"§r軽さに拘って作られた小太刀\"}'],Name:'{\"text\":\"§r§l忍者の小太刀\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:5d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,Name:\"AttackPlus\"},{UUID:[I;0,1,0,2],Amount:4d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,Name:\"AtkSpeedPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§r神木の落枝から削って作られた\"}','{\"text\":\"§r幸運をもたらすとされる弓\"}'],Name:'{\"text\":\"§r§l狩人の弓\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:2.0d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:0,Name:\"LuckPlus\"},{UUID:[I;0,1,0,2],Amount:0.2d,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"KRPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§r森の香りが心地よい\"}','{\"text\":\"§r持つ者の生命力を増幅させる杖\"}'],Name:'{\"text\":\"§r§l白魔導士のクロージャ\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:12.0d,Slot:\"mainhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"HealthPlus\"},{UUID:[I;0,1,0,2],Amount:0.25d,Slot:\"mainhand\",AttributeName:\"generic.max_health\",Operation:2,Name:\"HealthPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§rマナがなければ殴ればいいじゃない\"}','{\"text\":\"§rというコンセプトで作られた鈍器\"}'],Name:'{\"text\":\"§r§l黒魔導士のメイス\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.attack_damage\",Operation:0,Name:\"AttackPlus\"},{UUID:[I;0,1,0,2],Amount:-1d,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\",Operation:0,Name:\"AtkSpeedPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"§r美味しそうな香りを放つ\"}','{\"text\":\"§rどこまでも走れそうに思わせる杖\"}'],Name:'{\"text\":\"§r§l召喚士のタクト\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:1.0d,Slot:\"mainhand\",AttributeName:\"generic.movement_speed\",Operation:1,Name:\"SpeedPlus\"},{UUID:[I;0,1,0,2],Amount:0.1d,Slot:\"mainhand\",AttributeName:\"generic.max_health\",Operation:1,Name:\"HealthPlus\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bundle",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 1, display: {Lore: ['{\"text\":\"§6本物と見紛うほど精巧な疑似餌の付いた釣り竿\"}'], Name: '{\"text\":\"§b§l高級疑似餌付き釣り竿\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:lure\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_hoe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

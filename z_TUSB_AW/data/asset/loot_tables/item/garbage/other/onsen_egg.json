@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:egg",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags: 63, display: {Lore: ['{\"text\":\"§fゆっくり温めて作られた温泉卵\"}', '{\"text\":\"§f投げるとたまに孵化する。\"}'], Name: '{\"text\":\"§c§l温泉卵\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

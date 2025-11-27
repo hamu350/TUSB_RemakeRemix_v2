@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 9, CanDestroy: [\"minecraft:spawner\"], display: {Name: '{\"text\":\"§l§cスポナーブレイカー\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:unbreaking\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

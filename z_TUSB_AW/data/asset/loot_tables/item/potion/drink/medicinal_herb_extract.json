@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion: \"minecraft:healing\", HideFlags: 32, display: {Name: '\"§a§l薬草エキス\"'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

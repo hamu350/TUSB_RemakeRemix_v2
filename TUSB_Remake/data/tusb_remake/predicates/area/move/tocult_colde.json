@@ -1,0 +1,31 @@
+[
+	{
+		"condition": "minecraft:reference",
+		"name": "tusb_remake:area/tocult_colde"
+	},
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"USBDimension": {
+						"min": -2147483648,
+						"max": 12
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"USBDimension": {
+						"min": 14,
+						"max": 2147483647
+					}
+				}
+			}
+		]
+	}
+]

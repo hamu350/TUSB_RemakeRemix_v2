@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Name: '{\"text\":\"§c§l§n§o§mあかしけ やなげ 緋色の鳥よ くさはみ ねはみ けをのばせ \"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

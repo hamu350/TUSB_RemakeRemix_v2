@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:milk_bucket",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Name: '{\"text\":\"§r§b高速修復材\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

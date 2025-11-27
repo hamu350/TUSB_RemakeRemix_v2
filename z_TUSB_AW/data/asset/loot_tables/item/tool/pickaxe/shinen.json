@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 1530, display: {Lore: ['{\"text\":\"§5§l深淵なる者を倒した証。\"}'], Name: '{\"text\":\"§e§l全能ノ一\"}'}, Enchantments: [{lvl: 10000s, id: \"minecraft:knockback\"}, {lvl: 10000s, id: \"minecraft:smite\"}, {lvl: 10000s, id: \"minecraft:flame\"}, {lvl: 10s, id: \"minecraft:looting\"}, {lvl: 10000s, id: \"minecraft:fire_aspect\"}, {lvl: 10000s, id: \"minecraft:sharpness\"}, {lvl: 10000s, id: \"minecraft:efficiency\"}, {lvl: 10s, id: \"minecraft:fortune\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

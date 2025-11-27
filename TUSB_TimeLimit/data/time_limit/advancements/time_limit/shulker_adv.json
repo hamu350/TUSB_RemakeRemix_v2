@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "time_limit:shulker"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "time_limit:player/adv_place/"
+    }
+}

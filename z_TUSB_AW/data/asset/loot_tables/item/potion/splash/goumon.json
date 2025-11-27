@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 400, Id: 8b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 400, Id: 2b, Amplifier: 6b, ShowParticles: 1b}, {Duration: 400, Id: 2b, Amplifier: -6b, ShowParticles: 1b}, {Duration: 400, Id: 18b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 400, Id: 18b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 400, Id: 20b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 400, Id: 20b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 400, Id: 9b, Amplifier: 1b, ShowParticles: 1b}, {Duration: 400, Id: 4b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 400, Id: 4b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 400, Id: 15b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 400, Id: 15b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 400, Id: 17b, Amplifier: 100b, ShowParticles: 1b}, {Duration: 400, Id: 17b, Amplifier: -100b, ShowParticles: 1b}, {Duration: 0, Id: 5b, Amplifier: -20b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§8§o歩かせません、ジャンプさせません\"}', '{\"text\":\"§8§o攻撃させません、死なせません\"}', '{\"text\":\"§8§o壊させません、etc\"}', '{\"text\":\"§8§o惨たらしい効果を施す。\"}', '{\"text\":\"§8§oポーションというより呪いに近い。\"}'], Name: '{\"text\":\"§4§l究極拷問安眠スペシャル\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

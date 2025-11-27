@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"dimension": "minecraft:the_nether",
+		"position": {
+			"x": {
+				"min": -624,
+				"max": 752
+			},
+			"y": {
+				"min": -300,
+				"max": 900
+			},
+			"z": {
+				"min": 672,
+				"max": 2679
+			}
+		}
+	}
+}

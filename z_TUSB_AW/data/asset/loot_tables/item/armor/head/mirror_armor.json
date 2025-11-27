@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"head\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 3, 0, 1], Amount: 2.0d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§7§lミラーアーマー\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 8s, id: \"minecraft:thorns\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

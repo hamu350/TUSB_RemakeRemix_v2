@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Divzer\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"この弓の弦の中には、虚空と闇の手に負えない魔力が封じ込められている。\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:100s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:-0.90,Operation:1,UUID:[I;0,1,0,-1],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Amount:-0.90,Operation:1,UUID:[I;0,1,0,-2],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:0,UUID:[I;0,1,0,2],Slot:\"offhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

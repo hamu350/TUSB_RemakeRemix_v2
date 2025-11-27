@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"launch": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Tags:[CannonSeat]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"launch"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:sign_event/gullivers_land/cannon_launch"
+	}
+}

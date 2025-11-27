@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Amount: 10.0d, Name: \"HaruEditor\"}, {Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Amount: 0.3d, Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§l§f天使の杖\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:knockback\"}, {lvl: 5s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

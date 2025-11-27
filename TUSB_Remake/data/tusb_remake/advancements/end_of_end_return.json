@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 127
+                            },
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 127
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 127
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tusb_remake:item_data_change/end_of_end"
+    }
+}

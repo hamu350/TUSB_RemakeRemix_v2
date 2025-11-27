@@ -1,0 +1,194 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "total_weight": 65,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:stone",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:smooth_stone",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:andesite",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:granite",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diorite",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:tuff",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:calcite",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:blackstone",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:basalt",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:deepslate",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:nether_bricks",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:red_nether_bricks",
+            "functions":[
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:dripstone_block",
+            "weight": 5,
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+            }
+        ]
+      }
+    ]
+  }
+  

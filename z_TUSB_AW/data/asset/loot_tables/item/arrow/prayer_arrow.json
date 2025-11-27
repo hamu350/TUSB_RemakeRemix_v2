@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 3b, Duration: 20, Id: 6b}, {Amplifier: -25b, Duration: 0, Id: 12b}, {Amplifier: -128b, Duration: 0, Id: 25b}], HideFlags: 32, Potion: \"minecraft:luck\", display: {Lore: ['{\"text\":\"§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、\"}', '{\"text\":\"§7それ以外のものを癒す\"}'], Name: '{\"text\":\"§f§l祈りの矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

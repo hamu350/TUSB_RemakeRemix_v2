@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blue_orchid",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{lvl:1,id:\"minecraft:protection\"}],HideFlags:1,display:{Lore:['{\"text\":\"§e一緒にいると、イヴが読めない字を読んでくれる。\"}'],Name:'{\"text\":\"§1§l「Garry」\"}'},AttributeModifiers:[{UUID:[I;0,2,0,1],Amount:10,Slot:\"offhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"generic.max_Health\"},{UUID:[I;0,2,0,2],Amount:0.1d,Slot:\"offhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"generic.knockback_Resistance\"},{UUID:[I;0,2,0,3],Amount:5,Slot:\"offhand\",AttributeName:\"generic.attack_damage\",Operation:1,Name:\"generic.attack_Damage\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

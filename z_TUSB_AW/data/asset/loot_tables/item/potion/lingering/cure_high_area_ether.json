@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 17b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 3, Id: 14b, Amplifier: 2b, ShowParticles: 0b}, {Duration: 0, Id: 23b, Amplifier: 127b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§3§lエリアエーテル§eと§c§lスイカジュース§eを\"}', '{\"text\":\"§e調合したことによって§2§l空腹§eを治しつつ§3§lMP§eを\"}', '{\"text\":\"§e回復する効果を兼ね備えた。\"}'], Name: '{\"text\":\"§b§kcure§c§lキュアハイエリアエーテル§b§kcure\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

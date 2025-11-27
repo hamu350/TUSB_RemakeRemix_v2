@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:armor_stand",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§2半径30m以内のすべての\"}', '{\"text\":\"§2アイテムを§7消去§2する。\"}'], Name: '{\"text\":\"§cアイテム全滅の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"ItemKill\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

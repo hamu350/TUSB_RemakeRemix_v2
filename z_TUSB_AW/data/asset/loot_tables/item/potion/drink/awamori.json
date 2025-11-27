@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 100, Id: 11b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 10b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 400, Id: 15b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§8§o泡立つなにかの液体§fをお酒にしてしまった。\"}', '{\"text\":\"§5あまりのまずさ§fに視界が歪み、§9§n一瞬まっくら§fになる。\"}'], Name: '{\"text\":\"§f§l泡盛\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

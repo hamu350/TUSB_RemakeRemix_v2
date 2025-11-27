@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/final_vent"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/fishing_rod/primordial_fishing_rod",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr_item/twilight_full",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr_item/mamorukun",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr_item/atomic_full",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr_item/primal_book_and_godly_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/helditem/offhand/mushroom_shards",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/sword/end_of_end",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/helditem/offhand/hope_of_dream",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/carrot_on_a_stick/baton",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/carrot_on_a_stick/hammer_bowl",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/tool/carrot_on_a_stick/kelikeion",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/weapon/other/blue_sky_carrot",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

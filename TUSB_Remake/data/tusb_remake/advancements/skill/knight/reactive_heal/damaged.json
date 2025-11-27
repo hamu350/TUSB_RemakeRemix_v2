@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": false
+				},
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"CurrentMode": {
+								"min": 1230,
+								"max": 1239
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill/knight/reactive_heal/damaged"
+	}
+}

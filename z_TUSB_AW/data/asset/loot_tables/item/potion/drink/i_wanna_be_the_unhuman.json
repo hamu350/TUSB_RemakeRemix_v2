@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Duration:2000000000,Id:8b,Amplifier:5b},{Duration:2000000000,Id:1b,Amplifier:5b},{Duration:2000000000,Id:3b,Amplifier:100b},{Duration:2000000000,Id:5b,Amplifier:100b},{Duration:2000000000,Id:13b,Amplifier:100b},{Duration:2000000000,Id:10b,Amplifier:100b},{Duration:2000000000,Id:16b,Amplifier:100b},{Duration:2000000000,Id:12b,Amplifier:100b}],Potion:\"minecraft:long_regeneration\",display:{Lore:['{\"text\":\"§c§o俺は人間を超越するッ！！\"}'],Name:'{\"text\":\"§b§l禁忌・§e§l俺は人間をやめるぞっ!\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

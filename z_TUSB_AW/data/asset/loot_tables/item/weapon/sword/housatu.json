@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"宝殺の剣\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:looting\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

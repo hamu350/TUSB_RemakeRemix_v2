@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 5, Id: 19b, Amplifier: 99b, ShowParticles: 1b}, {Duration: 120, Id: 9b, Amplifier: 99b, ShowParticles: 1b}, {Duration: 120, Id: 9b, Amplifier: -99b, ShowParticles: 1b}, {Duration: 1, Id: 23b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 120, Id: 8b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 0, Id: 26b, Amplifier: 0b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:empty\", display: {Lore: ['{\"text\":\"§e飲むと§2毒状態等§eになるが、\"}', '{\"text\":\"§a体内の毒§eを中和し、\"}', '{\"text\":\"§eわずかに§c腹が満たされる\"}', '{\"text\":\"§eケンコー飲料である。\"}', '{\"text\":\"§7尚、味は薄い。\"}'], Name: '{\"text\":\"§2§lドクダヨ茶\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

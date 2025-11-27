@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:gameplay/fishing/item",
+                    "weight": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:gameplay/fishing/tool",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "//": "現状型だけの用意、実装不明",
+                    "type": "loot_table",
+                    "name": "usb:gameplay/fishing/sea_creature",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 9
+                }
+            ]
+        }
+    ]
+}

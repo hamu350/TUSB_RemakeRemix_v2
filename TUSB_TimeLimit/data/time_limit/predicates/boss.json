@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "//" : "タグの判定はor判定だった(他のタグがついてても抜き出してくれる)", 
+        "nbt": "{Tags:[\"playing\"]}",
+        "location": {
+            "dimension": "minecraft:the_nether"
+        }
+    }
+}

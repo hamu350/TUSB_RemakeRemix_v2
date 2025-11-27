@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['{\"text\":\"§6§oレアアイテム。\"}', '{\"text\":\"§6§oエンダーパールと同時使用することで\"}', '{\"text\":\"§6§o側面に張り付いて行動することが出来る。\"}', '{\"text\":\"§4§o※ただし選ばれしものに限る。\"}', '{\"text\":\"§6§o知られていないと思うが、ついでにインテリア\"}', '{\"text\":\"§6§oとして使用できるという隠れた性能を持っている(驚愕)\"}'], Name: '{\"text\":\"§e§l素晴らしい蜘蛛の巣\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

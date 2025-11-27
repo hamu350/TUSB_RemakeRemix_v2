@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"enter": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 1529.0,
+								"max": 1531.0
+							},
+							"y": {
+								"min": 129.0,
+								"max": 132.0
+							},
+							"z": {
+								"min": 1336.0,
+								"max": 1338.0
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:gimmic/ruin_command_block/trigger"
+	}
+}

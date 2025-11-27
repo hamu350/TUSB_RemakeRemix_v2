@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:sugar_cane",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"かつての脅威\"}'}, Enchantments: [{lvl: 80s, id: \"minecraft:sharpness\"}, {lvl: 10s, id: \"minecraft:smite\"}, {lvl: 10s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 20s, id: \"minecraft:knockback\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

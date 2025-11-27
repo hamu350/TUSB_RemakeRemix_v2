@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:bow",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§5§lトンボキリ\"}'}, Enchantments: [{lvl: 5, id: \"minecraft:power\"}], Damage: 0, AttributeModifiers: [{Amount: -0.0125d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

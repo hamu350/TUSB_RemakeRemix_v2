@@ -1,0 +1,326 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 150,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crimson_fungus",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:warped_fungus",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:mangrove_propagule",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:azalea",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flowering_azalea",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:red_bed",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"ファイナル弁当\"}'}, Enchantments: [{lvl: 9s, id: \"minecraft:knockback\"}, {lvl: 9s, id: \"minecraft:sharpness\"}, {lvl: 9s, id: \"minecraft:efficiency\"}, {lvl: 9s, id: \"minecraft:fire_aspect\"}, {lvl: 9s, id: \"minecraft:smite\"}, {lvl: 9s, id: \"minecraft:bane_of_arthropods\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 1.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.01d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 3.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Name: '{\"text\":\"§4§l熱い赤塊\"}'}, Enchantments: [{lvl: 3, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal_block",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:copper_block",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_block",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_block",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_block",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_block",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,Potion:\"minecraft:water\",display:{Lore:['{\"text\":\"§aマナがぽちょっと詰まった飲み物。\"}','{\"text\":\"§a飲むとMPが大きく回復する。\"}','\"\"','{\"text\":\"§7スプラッシュ化不可\"}'],Name:'{\"text\":\"§2§lハイエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:1b}],HideFlags:32,Potion:\"minecraft:water\",display:{Lore:['{\"text\":\"§bマナがちょぴっと詰まった瓶。\"}','{\"text\":\"§b中身に触れるとMPが回復する。\"}'],Name:'{\"text\":\"§3§lエリアエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_blocks",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_chirp",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_far",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_mall",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_mellohi",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_stal",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_strad",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_ward",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_11",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_wait",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_otherside",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_5",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_pigstep",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUID:[I;0,2,0,1],Amount:-0.025d,Operation:2,Slot:\"offhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",Amount:-1d,Operation:0,UUID:[I;0,2,0,2],Slot:\"offhand\",AttributeName:\"generic.knockback_resistance\"},{Name:\"wax\",UUID:[I;0,2,0,3],Amount:2d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_damage\"},{Name:\"wax\",UUID:[I;0,2,0,4],Amount:-0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,2,0,5],Amount:-4d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:fortune\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s}],HideFlags:2,display:{Lore:['{\"text\":\"§6§lとある泉の中から\"}','{\"text\":\"§6§l現れた女神から貰ったと言われている\"}','{\"text\":\"§6§l不思議な斧\"}','{\"text\":\"§6§l左利き用に作られている。\"}'],Name:'{\"text\":\"§6§l泉から出てきた斧\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUID:[I;0,1,0,1],Amount:4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",UUID:[I;0,1,0,2],Amount:0.01d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\"},{Name:\"wax\",UUID:[I;0,1,0,3],Amount:2d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.armor\"},{Name:\"wax\",UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:4s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:looting\",lvl:1s}],HideFlags:2,display:{Lore:['{\"text\":\"§7§lとある泉の中から\"}','{\"text\":\"§7§l現れた女神から貰ったと言われている\"}','{\"text\":\"§7§l不思議な斧\"}','{\"text\":\"§7§l右利き用に作られている。\"}'],Name:'{\"text\":\"§f§l泉から出てきた斧\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",Amount:8d,Operation:0,UUID:[I;0,2,0,1],Slot:\"offhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",UUID:[I;0,2,0,2],Amount:0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,1,0,3],Amount:0.08d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\"},{Name:\"wax\",UUID:[I;0,2,0,5],Amount:6d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_damage\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:efficiency\",lvl:5s}],HideFlags:3,display:{Lore:['{\"text\":\"§8§lとある若者が泉に落とした\"}','{\"text\":\"§8§l不思議な斧\"}','{\"text\":\"§8§lボロボロで使い物にならなさそうだ。\"}'],Name:'{\"text\":\"§8§l泉に落ちた斧\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25},{Amplifier:104b,Duration:0,Id:27},{Amplifier:0b,Duration:120,Id:16,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10,ShowParticles:0b},{Amplifier:2b,Duration:60,Id:6,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:22,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:26,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9,ShowParticles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l１§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§lちょっぴり§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lO§3§l- §a§lライト§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:3s}],HideFlags:33}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

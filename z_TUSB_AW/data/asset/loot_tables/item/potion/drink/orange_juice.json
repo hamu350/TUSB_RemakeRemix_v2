@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: 1b, Duration: 600, Id: 1b}, {Amplifier: 1b, Duration: 600, Id: 3b}, {Amplifier: 2b, Duration: 600, Id: 5b}, {Amplifier: 1b, Duration: 600, Id: 22b}, {Amplifier: 1b, Duration: 100, Id: 23b}, {Amplifier: 0b, Duration: 20, Id: 7b}, {Amplifier: 0b, Duration: 100, Id: 9b}, {Amplifier: 3b, Duration: 600, Id: 10b}], HideFlags: 40, Potion: \"minecraft:fire_resistance\", display: {Lore: ['{\"text\":\"§c果汁100%§fのおいしい§6オレンジジュース\"}', '{\"text\":\"§f 一気飲みしてむせんなよ！\"}'], Name: '{\"text\":\"§6オレンジジュース\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

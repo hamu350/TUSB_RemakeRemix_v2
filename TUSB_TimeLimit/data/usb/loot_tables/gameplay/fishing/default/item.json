@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "//": "量が多いのでloottableで分割しておく",
+            "total_weight": 300,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 30,
+                    "name": "usb:gameplay/fishing/default/general/coral"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 33,
+                    "name": "usb:gameplay/fishing/default/general/farm_material"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 65,
+                    "name": "usb:gameplay/fishing/default/general/fish"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 64,
+                    "name": "usb:gameplay/fishing/default/general/other_block"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 43,
+                    "name": "usb:gameplay/fishing/default/general/other_item"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 65,
+                    "name": "usb:gameplay/fishing/default/general/stone"
+                }
+            ]
+        }
+    ]
+}

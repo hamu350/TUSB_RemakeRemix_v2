@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"まもる君なりきりセット\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"ダメージ軽減 enchantment.level.20\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"爆発耐性 enchantment.level.20\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"火炎耐性 enchantment.level.20\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"飛び道具耐性 enchantment.level.20\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"落下耐性 enchantment.level.20\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"blessing of kun mamoru \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"enchantment.level.20\",\"color\":\"gray\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"マモル君を最強たらしめた伝説の装備。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"一時期呪われていたが、一割くらいの力を取り戻した。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"- = mamorukun exclusive equipment = -\",\"color\":\"red\",\"bold\":true,\"italic\":false}','{\"text\":\" \"}','{\"text\":\"脚に装備したとき:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"-100% 移動速度\",\"color\":\"red\",\"italic\":false}','{\"text\":\"基礎ノックバック耐性 +100\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"基礎防御力 +100\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"基礎防具強度 +100\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"耐久\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],color:6316128},HideFlags:127,Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:20s},{id:\"minecraft:fire_protection\",lvl:20s},{id:\"minecraft:feather_falling\",lvl:20s},{id:\"minecraft:blast_protection\",lvl:20s},{id:\"minecraft:projectile_protection\",lvl:20s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:2,UUID:[I;-700030656,-941014802,-1346753876,-1282112600],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:10,Operation:0,UUID:[I;1578078326,-1963769667,-1334608811,1086275699],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:100,Operation:0,UUID:[I;-1389954684,-1982510013,-2125732066,1428187281],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:100,Operation:0,UUID:[I;1197825780,-957789432,-2072602218,899760063],Slot:\"legs\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 80,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 16,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "asset:item/instant/egg/emerald_block",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 95,
+                    "conditions": [
+                        {
+                            "condition": "inverted",
+                            "term": {
+                                "condition": "value_check",
+                                "value": {
+                                    "type": "score",
+                                    "score": "_",
+                                    "target": {
+                                        "type": "fixed",
+                                        "name": "GameMasterDefeated"
+                                    }
+                                },
+                                "range": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "rarity": "GM:5%/初回のみ100%",
+                    "type": "loot_table",
+                    "name": "usb:signs/game_master_reward/gm_item",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 995
+                },
+                {
+                    "rarity": "SSR:0.5%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/ssr",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 995
+                },
+                {
+                    "rarity": "SSR:0.5%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/ssr",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "rarity": "SR:100%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/sr",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "//": "RareとNormal",
+            "rolls": 20,
+            "entries": [
+                {
+                    "rarity": "R:50%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/r",
+                    "weight": 500
+                },
+                {
+                    "rarity": "N:50%",
+                    "type": "loot_table",
+                    "name": "usb:signs/infinity_boss_reward/n",
+                    "weight": 500
+                }
+            ]
+        }
+    ]
+}

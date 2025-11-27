@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"table_mountain_capsule": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "item_frame",
+					"nbt": "{Tags:[\"Capsule\"]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"table_mountain_capsule"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:item_frame_event/"
+	}
+}

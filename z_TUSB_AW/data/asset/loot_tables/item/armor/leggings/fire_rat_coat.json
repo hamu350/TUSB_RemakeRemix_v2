@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {color: 16711808, Name: '{\"text\":\"§c§l火鼠の皮衣\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:fire_aspect\"}, {lvl: 1s, id: \"minecraft:projectile_protection\"}, {lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 1s, id: \"minecraft:thorns\"}, {lvl: 1s, id: \"minecraft:blast_protection\"}, {lvl: 1s, id: \"minecraft:protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

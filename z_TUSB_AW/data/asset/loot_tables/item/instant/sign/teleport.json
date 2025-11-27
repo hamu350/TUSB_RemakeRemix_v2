@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:armor_stand",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{NoGravity: 1b, RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§r§e使用者の真上にあるﾌﾞﾛｯｸまで\"}', '{\"text\":\"§r§5一瞬で移動§eすることができる。\"}', '{\"text\":\"§r§e看板が壊れない限り\"}', '{\"text\":\"§d§n半永久的§eに使用できる。\"}'], Name: '{\"text\":\"§r§5§l転移の印板\"}'}, Enchantments: [], EntityTag: {Tags: [\"SignStand\", \"PermanentStand\", \"VerticalTeleporter\", \"TypeChecked\"], id: \"minecraft:armor_stand\"}, Invulnerable: 1b, Invisible: 1b}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

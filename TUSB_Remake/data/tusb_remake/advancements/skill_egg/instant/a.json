@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit_spawn_egg"
+					],
+					"nbt": "{EntityTag:{Tags:[\"SkillEgg\",\"Instant\",\"Ruby\"]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill_egg/instant/a/"
+	}
+}

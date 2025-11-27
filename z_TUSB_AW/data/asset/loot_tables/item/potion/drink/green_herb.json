@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:potion",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 97b, ShowParticles: 1b}, {Duration: 60, Id: 10b, Amplifier: 6b, ShowParticles: 0b}, {Duration: 320, Id: 9b, Amplifier: 1b, ShowParticles: 0b}], HideFlags: 63, Potion: \"minecraft:water\", AttributeModifiers: [{Amount: 6.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1629355762, 0, 1629355762], Name: \"HaruEditor\"}], display: {Lore: ['{\"text\":\"§a回復効果がある薬草を凝縮し煮詰めたもの\"}', '{\"text\":\"§aその効果は絶大であり、\"}', '{\"text\":\"§a触れただけで体力が湧き溢れてくる。\"}'], Name: '{\"text\":\"§aグリーンハーブ\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

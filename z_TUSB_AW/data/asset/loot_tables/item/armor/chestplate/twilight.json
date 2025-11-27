@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 99999, Unbreakable: 1b, HideFlags: 65, KyoumeiTag: 5, Enchantments: [{lvl: 4s, id: \"minecraft:blast_protection\"}, {lvl: 10s, id: \"minecraft:depth_strider\"}, {lvl: 4s, id: \"minecraft:feather_falling\"}, {lvl: 4s, id: \"minecraft:fire_protection\"}, {lvl: 4s, id: \"minecraft:projectile_protection\"}, {lvl: 4s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:thorns\"}, {lvl: 1s, id: \"minecraft:vanishing_curse\"}], display: {color: 4587395, Lore: ['{\"text\":\"爆発耐性 IV\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"水中歩行 X\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"落下耐性  IV\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"火炎耐性 IV\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"飛び道具耐性 IV\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"ダメージ軽減 IV\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"棘の鎧 X\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"魂の共鳴 I\",\"color\":\"gray\",\"italic\":false}', '{\"text\":\"神々が作った遊具は死をも克服する\",\"color\":\"#45FF83\"}'], Name: '{\"text\":\"§a§l§n§o神々の黄昏 戯\"}'}, Damage: 0, Kyoumei: 1b, AttributeModifiers: [{Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 1, UUID: [I; 286096428, 369839718, -1881190165, 1374348813], Amount: 0.15d, Name: \"generic.max_health\"}, {Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 1, UUID: [I; -1586000824, 325993206, -1680323176, 1303044472], Amount: 0.1d, Name: \"generic.knockback_resistance\"}, {Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 2019104065, -1760213518, -1300685660, -731636456], Amount: 0.04d, Name: \"generic.movement_speed\"}, {Slot: \"chest\", AttributeName: \"generic.attack_damage\", Operation: 1, UUID: [I; -128709332, -910474457, -1855701875, -1282185399], Amount: 0.2d, Name: \"generic.attack_damage\"}, {Slot: \"chest\", AttributeName: \"generic.armor\", Operation: 1, UUID: [I; 539232657, 664880646, -1665659459, -409050227], Amount: 0.15d, Name: \"generic.armor\"}, {Slot: \"chest\", AttributeName: \"generic.armor_toughness\", Operation: 0, UUID: [I; -229394569, -1402253610, -1804416214, -1764340525], Amount: 0.5d, Name: \"generic.armor_toughness\"}, {Slot: \"chest\", AttributeName: \"generic.attack_speed\", Operation: 1, UUID: [I; 709606988, 878791619, -1253300197, -1125478679], Amount: 0.1d, Name: \"generic.attack_speed\"}, {Slot: \"chest\", AttributeName: \"generic.luck\", Operation: 1, UUID: [I; -1132329351, -2087303063, -2071256012, -1942696564], Amount: 0.1d, Name: \"generic.luck\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

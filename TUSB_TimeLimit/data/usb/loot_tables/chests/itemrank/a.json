@@ -1,0 +1,730 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "weight": 1,
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:oak_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:spruce_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:birch_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:jungle_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:acacia_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:dark_oak_log",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 32,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 192,
+                                "max": 256
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 22,
+                                "max": 28
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 1b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 1200, Id: 8b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 1200, Id: 10b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 0, Id: 12b, Amplifier: -100b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", HideFlag: 0, display: {Lore: ['{\"text\":\"§6§o飲み薬。これを飲んだ者は、\"}', '{\"text\":\"§6§o跳躍力と速度が上がり、\"}', '{\"text\":\"§6§o傷の直りが早くなる体に生まれ変わる。\"}'], Name: '{\"text\":\"§e黄金蜂蜜酒\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 5b, Amplifier: 3b, ShowParticles: 1b}, {Duration: 1200, Id: 11b, Amplifier: 1b, ShowParticles: 1b}, {Duration: 2400, Id: 17b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 2400, Id: 19b, Amplifier: 0b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§2§o投げつける薬。\"}', '{\"text\":\"§2§oこれを浴びた者は、攻撃力と防御力が上昇するが、\"}', '{\"text\":\"§2§o代償として飢餓と毒状態になる。\"}'], Name: '{\"text\":\"§cバーサーク\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 200, Id: 8b, Amplifier: 49b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§6§oコレを使えば緊急時の上り下りが\"}', '{\"text\":\"§6§o非常に楽になります！\"}', '{\"text\":\"§4§o※ついでに落下死も増えます！\"}', '{\"text\":\"§0§o梯子なんていらなかったんや！\"}'], Name: '{\"text\":\"§dエレベータポーション\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 26b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 3b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§aマナがたぽっと詰まった飲み物。\"}', '{\"text\":\"§a飲むとMPがとても大きく回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§2§lスーパーエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 19b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§bマナがぽちょっと詰まった瓶。\"}', '{\"text\":\"§b中身に触れるとMPが大きく回復する。\"}'], Name: '{\"text\":\"§3§lエリアハイエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 5b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 5b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§dマナから作られた霊薬。\"}', '{\"text\":\"§d飲むとHPとMPが全回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§5§lラストエリクサー\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§b§lゴスウィット\"}'}, Enchantments: [{lvl: 10, id: \"minecraft:protection\"}, {lvl: 3, id: \"minecraft:fire_protection\"}, {lvl: 2, id: \"minecraft:unbreaking\"}, {lvl: 2, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: 3.0d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 3, 0, 1], Name: \"wax\"}, {Amount: 0.04d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Name: \"wax\"}, {Amount: 3.0d, Slot: \"head\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 3, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sugar_cane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"かつての脅威\"}'}, Enchantments: [{lvl: 80s, id: \"minecraft:sharpness\"}, {lvl: 10s, id: \"minecraft:smite\"}, {lvl: 10s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 20s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000,Legacy: 1b,display:{Name:'{\"text\":\"リン酸カルシウム\"}'},Enchantments:[{lvl:20s,id:\"minecraft:sharpness\"},{lvl:20s,id:\"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name:'{\"text\":\"§4§l国民の血税\"}'}, Enchantments: [{lvl: 50s, id: \"minecraft:sharpness\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,Enchantments:[{lvl:100s,id:\"minecraft:knockback\"}],Legacy:1b,display:{Name:'{\"text\":\"ホームランバット\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage: 0, AttributeModifiers: [{Amount: 1024.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -7.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}], display: {Lore: ['{\"text\":\"§eｲﾝｽﾄﾗｸｼｮﾝ・ﾜﾝ！\"}', '{\"text\":\"§e百発のｽﾘｹﾝで倒せぬ\"}', '{\"text\":\"§e相手だからといって、\"}', '{\"text\":\"§e一発の力に頼ってはならぬ。\"}', '{\"text\":\"§e一千発のｽﾘｹﾝを投げるのだ！\"}'], Name: '{\"text\":\"§8ニンジャソード\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: 40.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -3.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Lore: ['{\"text\":\"§4攻撃力が高いが、\"}', '{\"text\":\"§4振りが遅い斧。\"}'], Name: '{\"text\":\"§6§lバスターアックス\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 30.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: -3.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Lore: ['{\"text\":\"§4§k§oCane of ko handed down\"}', '{\"text\":\"§4§k§ofrom generation to generation...\"}'], Name: '{\"text\":\"§9§l古の杖\"}'}, Enchantments: []}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: 40.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -1.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.4d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Lore: ['{\"text\":\"§fかつての聖人が使ったとされる杖。\"}', '{\"text\":\"§f攻撃力はないが、コレを持つことで\"}', '{\"text\":\"§f忍耐力が上がる。\"}'], Name: '{\"text\":\"§7§l悟りの杖\"}'}, Enchantments: []}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 400, Id: 11b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 400, Id: 12b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 400, Id: 15b, Amplifier: 4b, ShowParticles: 1b}, {Duration: 400, Id: 2b, Amplifier: 4b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§8§o飲むと体が硬化して\"}', '{\"text\":\"§8§o防御力が上がり、炎にも強くなるが、\"}', '{\"text\":\"§8§o足が遅くなり、目も見えにくくなる。\"}'], Name: '{\"text\":\"§f鋼鉄のポーション\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 1b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 1200, Id: 16b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 100, Id: 9b, Amplifier: 0b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§3§oコレを飲んだものは目がさえ\"}', '{\"text\":\"§3§o何となく足が早くなる感覚に陥る。\"}'], Name: '{\"text\":\"§b深夜のテンション\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 200, Id: 10b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 200, Id: 11b, Amplifier: 4b, ShowParticles: 1b}, {Duration: 300, Id: 2b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 300, Id: 8b, Amplifier: -10b, ShowParticles: 1b}, {Duration: 300, Id: 4b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 200, Id: 5b, Amplifier: 1b, ShowParticles: 1b}, {Duration: 0, Id: 12b, Amplifier: -100b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§2§o即効性の§4§m飲める劇§2§o薬。\"}', '{\"text\":\"§2§o10秒間肉体を再生・活性化させ、\"}', '{\"text\":\"§2§o痛みを感じなくさせる。\"}', '{\"text\":\"§2§oただし、15秒間行動出来ない。\"}', '{\"text\":\"§6§l宣伝：§e§lバリキドリンクで！\"}', '{\"text\":\"§6§l宣伝：§e§l今夜もパーティ！パーティー！\"}', '{\"text\":\"§0§lﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ\"}'], Name: '{\"text\":\"§e§lバリキドリンク\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 800, Id: 9b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 800, Id: 15b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 800, Id: 10b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 800, Id: 5b, Amplifier: 3b, ShowParticles: 1b}, {Duration: 800, Id: 3b, Amplifier: 1b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§d§o酷い吐き気に襲われるお酒。\"}', '{\"text\":\"§e§o酔拳をマスターしたい人用。\"}'], Name: '{\"text\":\"§bスピリタス\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"cre\", Color: 13}, {Pattern: \"bt\", Color: 15}, {Pattern: \"tt\", Color: 15}, {Pattern: \"mc\", Color: 15}, {Pattern: \"cbo\", Color: 15}], Base: 5}, display: {Lore: ['{\"text\":\"§a弱い者ほど強くなれる不思議な盾。\"}'], Name: '{\"text\":\"§2§lミステリアスな盾\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:unbreaking\"}], Damage: 0, AttributeModifiers: [{Amount: 60.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"HP\"}, {Amount: 0.3d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"SPD\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 4], Name: \"SPD\"}, {Amount: 0.5d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"KB\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 2, 0, 6], Name: \"KB\"}, {Amount: 20.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 7], Name: \"ATK\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 2, 0, 8], Name: \"ATK\"}, {Amount: 20.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 9], Name: \"AMR\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 2, 0, 10], Name: \"AMR\"}, {Amount: 5.0d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 2, 0, 11], Name: \"ATS\"}, {Amount: -0.5d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 2, 0, 12], Name: \"ATS\"}, {Amount: 60.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 13], Name: \"HP\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 14], Name: \"HP\"}, {Amount: 0.3d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 15], Name: \"SPD\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 16], Name: \"SPD\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 17], Name: \"KB\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 1, 0, 18], Name: \"KB\"}, {Amount: 20.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 19], Name: \"ATK\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 1, 0, 20], Name: \"ATK\"}, {Amount: 20.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 21], Name: \"AMR\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 1, 0, 22], Name: \"AMR\"}, {Amount: 5.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 23], Name: \"ATS\"}, {Amount: -0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 1, 0, 24], Name: \"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"ts\", Color: 8}, {Pattern: \"mr\", Color: 15}, {Pattern: \"cr\", Color: 0}, {Pattern: \"bs\", Color: 8}, {Pattern: \"cbo\", Color: 15}, {Pattern: \"tt\", Color: 15}, {Pattern: \"bts\", Color: 15}, {Pattern: \"tts\", Color: 0}], Base: 4}, display: {Name: '{\"text\":\"§7§lベントラー\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:thorns\"}, {lvl: 10s, id: \"minecraft:knockback\"}], Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: 0.1d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"SPD\"}, {Amount: -0.1d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 2, 0, 3], Name: \"KB\"}, {Amount: 10.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"ATK\"}, {Amount: -10.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"AMR\"}, {Amount: -0.1d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 2, 0, 6], Name: \"ATS\"}, {Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 7], Name: \"HP\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 8], Name: \"SPD\"}, {Amount: -0.1d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 1, 0, 9], Name: \"KB\"}, {Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 10], Name: \"ATK\"}, {Amount: -10.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 11], Name: \"AMR\"}, {Amount: -0.1d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 1, 0, 12], Name: \"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"gra\", Color: 15}, {Pattern: \"sku\", Color: 7}, {Pattern: \"bri\", Color: 0}, {Pattern: \"tts\", Color: 0}, {Pattern: \"gru\", Color: 9}, {Pattern: \"gra\", Color: 0}], Base: 9}, display: {Lore: ['{\"text\":\"§r簡単に復元できる素材でできた盾。\"}', '{\"text\":\"§r足元が濡れやすく注意が必要。\"}'], Name: '{\"text\":\"§b§l氷の盾\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:mending\"}, {lvl: 5s, id: \"minecraft:sharpness\"}], Damage: 0, AttributeModifiers: [{Amount: -0.2d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"KB\"}, {Amount: -0.2d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"KB\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"flo\", Color: 0}, {Pattern: \"mr\", Color: 0}, {Pattern: \"bo\", Color: 0}, {Pattern: \"bo\", Color: 15}, {Pattern: \"mc\", Color: 14}, {Pattern: \"flo\", Color: 15}], Base: 15}, display: {Name: '{\"text\":\"§4§lレッド・アイ・シールド\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:thorns\"}, {lvl: 20s, id: \"minecraft:fire_aspect\"}], Damage: 0, AttributeModifiers: [{Amount: -0.1d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: 0.05d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"SPD\"}, {Amount: 4.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"ATK\"}, {Amount: 0.05d, Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 2, 0, 4], Name: \"ATS\"}, {Amount: -0.1d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 5], Name: \"HP\"}, {Amount: 0.05d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 6], Name: \"SPD\"}, {Amount: 4.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 7], Name: \"ATK\"}, {Amount: 0.05d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 1, 0, 8], Name: \"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.2d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 3, 0, 1], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 4, 0, 1], Name: \"anmin\"}, {Amount: -0.2d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 2], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 3, 0, 2], Name: \"anmin\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 4, 0, 2], Name: \"anmin\"}], display: {Name: '{\"text\":\"§c§lチャンドラダヌス\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:power\"}, {lvl: 20s, id: \"minecraft:flame\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: 7.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"anmin\"}, {Amount: 7.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"anmin\"}, {Amount: 7.0d, Slot: \"mainhand\", AttributeName: \"generic.armor_toughness\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"anmin\"}, {Amount: 7.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"anmin\"}, {Amount: 7.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"anmin\"}, {Amount: 7.0d, Slot: \"offhand\", AttributeName: \"generic.armor_toughness\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"anmin\"}], display: {Name: '{\"text\":\"§9§l天之麻古弓\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:power\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"§6§l梓弓\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:power\"}, {lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"anmin\"}, {Amount: 10.0d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"anmin\"}], display: {Name: '{\"text\":\"§e§l雷上動\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:punch\"}, {lvl: 10s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:polar_bear_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag: {id: \"minecraft:polar_bear\"}, AttributeModifiers: [{Amount: 4.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax100\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax100\"}, {Amount: 0.7d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax100\"}], display: {Name: '{\"text\":\"§f§l大神\"}'}, Enchantments: [{lvl: 14s, id: \"minecraft:sharpness\"}, {lvl: 1s, id: \"minecraft:respiration\"}, {lvl: 1s, id: \"minecraft:aqua_affinity\"}, {lvl: 1s, id: \"minecraft:depth_strider\"}, {lvl: 1s, id: \"minecraft:frost_walker\"}, {lvl: 3s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 200, Id: 5b, Amplifier: 20b, ShowParticles: 0b}, {Duration: 200, Id: 4b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 1, Id: 6b, Amplifier: 25b, ShowParticles: 0b}, {Duration: 100, Id: 9b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 200, Id: 12b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 250, Id: 15b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 10, Id: 23b, Amplifier: -5b, ShowParticles: 0b}, {Duration: 100, Id: 11b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 2, Id: 1b, Amplifier: 127b, ShowParticles: 0b}], HideFlags: 61, Potion: \"minecraft:water\", AttributeModifiers: [{Amount: -0.99d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"wax100\"}, {Amount: -0.99d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"wax100\"}], display: {Lore: ['{\"text\":\"§4§l手にすると最弱の力を手に入れるが\"}', '{\"text\":\"§4§l飲み干した瞬間に短時間だが最強の力を手に入れる。\"}', '{\"text\":\"\"}', '{\"text\":\"§4§l飲まずに§5§l死ぬ§4§lか\"}', '{\"text\":\"§4§l飲んで§c§l生きる§4§lか\"}'], Name: '{\"text\":\"§5§lデス§f§l∨§c§lライフ\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,display:{Name:'{\"text\":\"狂乱のボウガン\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"とある研究者が気持ちよくなるために\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"制作した禁断のボウガン。\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"撃っている間は我を忘れるようだ。\",\"color\":\"aqua\",\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

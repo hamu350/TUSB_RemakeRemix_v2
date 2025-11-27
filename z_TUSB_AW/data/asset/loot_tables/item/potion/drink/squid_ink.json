@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 100, Id: 2b, Amplifier: 6b, ShowParticles: 1b}, {Duration: 1, Id: 23b, Amplifier: 1b, ShowParticles: 1b}], HideFlags: 32, Potion: \"empty\", display: {Name: '{\"text\":\"§8§lイカスミ§r\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

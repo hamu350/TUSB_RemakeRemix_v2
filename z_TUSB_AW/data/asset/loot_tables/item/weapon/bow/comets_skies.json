@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:crossbow",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, display: {Name: '{\"text\":\"彗星の穹\"}'},RepairCost:1000000000,Enchantments: [{lvl:5s,id: \"sharpness\"},{id:\"knockback\",lvl:2},{id:\"silk_touch\",lvl:1},{id:\"unbreaking\",lvl:5},{id:\"quick_charge\",lvl:5},{id:\"piercing\",lvl:3}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:-0.5,Operation:1,Slot:\"offhand\",UUID:[I;549495227,770736264,-49216184,503883685]},{AttributeName:\"generic.movement_speed\",Amount:0.12,Operation:0,Slot:\"offhand\",UUID:[I;-978436051,-746435429,20050913,-158011965]},{AttributeName:\"generic.attack_damage\",Amount:-0.3,Operation:1,Slot:\"mainhand\",UUID:[I;51138982,352923453,-12479464,-569737461]},{AttributeName:\"generic.attack_speed\",Amount:1.0,Operation:0,Slot:\"mainhand\",UUID:[I;-629961606,-433555372,275866453,-459299640]}]}"
+                    }
+                    ]
+            }
+        ]
+      }
+    ]
+  }
+  

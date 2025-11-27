@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Amplifier: -128b, Duration: 0, Id: 8b}, {Amplifier: -128b, Duration: 0, Id: 26b}, {Amplifier: 127b, Duration: 3, Id: 25b}], HideFlags: 32, Potion: \"minecraft:swiftness\", display: {Lore: ['{\"text\":\"§7上空に吹き飛ばし、叩きつける\"}'], Name: '{\"text\":\"§3§l暴風の矢\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

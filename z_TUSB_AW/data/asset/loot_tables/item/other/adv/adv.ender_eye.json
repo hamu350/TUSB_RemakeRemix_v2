@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_eye",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, CanPlaceOn: [\"minecraft:end_portal_frame\"], display: {Lore: ['{\"text\":\"§rアドベンチャーエリアでも設置できる。\"}'], Name: '{\"text\":\"§4§lAdv.§f§lエンダーアイ\"}'}, Enchantments: [{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

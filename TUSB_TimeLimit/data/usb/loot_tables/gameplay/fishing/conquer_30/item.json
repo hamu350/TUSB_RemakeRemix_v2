@@ -1,0 +1,330 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 75,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 64
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 1530, display: {Name: '{\"text\":\"エンド・オブ・エンド\"}'}, Enchantments: [{lvl: 127s, id: \"minecraft:sharpness\"}, {lvl: 127s, id: \"minecraft:knockback\"}, {lvl: 127s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:copper_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_block",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_block",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_ingot",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beacon",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:red_bed",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, Enchantments: [{id: \"minecraft:knockback\", lvl: 9999s}, {id: \"minecraft:efficiency\", lvl: 9999s}, {id: \"minecraft:fire_aspect\", lvl: 9999s}, {id: \"minecraft:smite\", lvl: 9999s}, {id: \"minecraft:bane_of_arthropods\", lvl: 9999s}], display: {Name: '{\"text\":\"ファイナルベント\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[],HideFlags:3,display:{Lore:['{\"text\":\"§r§e本と交換できるチケット。§r\"}','{\"text\":\"§r§e防水加工が施されている。§r\"}'],Name:'{\"text\":\"§r§a§l§n図書券§r\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:0.01d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"},{UUID:[I;0,2,0,2],Amount:0.01d,Slot:\"offhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, BlockEntityTag: {LootTable: \"usb:chests/enjoy\", id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"§eなにか§cアイテム§eが入っている\"}', '{\"text\":\"§e開ける人の§a§l運§eによって\"}', '{\"text\":\"§a§l質§eが変わる不思議なチェスト\"}'], Name: '{\"text\":\"§dお楽しみセット\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 10s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}, {lvl: 10s, id: \"minecraft:blast_protection\"}, {lvl: 10s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 10s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}, {lvl: 10s, id: \"minecraft:blast_protection\"}, {lvl: 10s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 10s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}, {lvl: 10s, id: \"minecraft:blast_protection\"}, {lvl: 10s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 10s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:fire_protection\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}, {lvl: 10s, id: \"minecraft:blast_protection\"}, {lvl: 10s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 1s, id: \"minecraft:respiration\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 3, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 3, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 4, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 5, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 5, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 5, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:depth_strider\"}, {lvl: 1s, id: \"minecraft:frost_walker\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 6, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"feet\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 6, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 5b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 5b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§dマナから作られた霊薬。\"}', '{\"text\":\"§d飲むとHPとMPが全回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§5§lラストエリクサー\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 3, Id: 6b, Amplifier: 10b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 3b, ShowParticles: 1b}, {Duration: 0, Id: 25b, Amplifier: -127b, ShowParticles: 1b}, {Duration: 0, Id: 12b, Amplifier: -55b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§5神秘の液体が詰まっている。\"}', '{\"text\":\"§5中身に触れるとMPとHPが\"}', '{\"text\":\"§5異常な速度で回復する。\"}'], Name: '{\"text\":\"§c§lエ§6§lク§e§lス§a§lエ§3§lリ§9§lク§d§lサ§5§lー\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 3b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 8b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 100, Id: 25b, Amplifier: -1b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§3服用すると5秒の間\"}', '{\"text\":\"§3空中を平行移動できる。\"}'], Name: '{\"text\":\"§a§lホバーギフト\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25},{Amplifier:106b,Duration:0,Id:27},{Amplifier:0b,Duration:120,Id:16,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10,ShowParticles:0b},{Amplifier:4b,Duration:60,Id:6,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:22,ShowParticles:0b},{Amplifier:6b,Duration:1200,Id:26,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9,ShowParticles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l３§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§l大きく§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lT§3§l- §a§l７７７§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:7s}],HideFlags:33}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

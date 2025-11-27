@@ -1,0 +1,20 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:26,Duration:0,Amplifier:0b,ShowParticles:true},{Id:14,Duration:3,Amplifier:3b,ShowParticles:false}],Potion:\"minecraft:water\",display:{Name:'{\"text\":\"§2§lスーパーエーテル\"}',Lore:['{\"text\":\"§aマナがたぽっと詰まった飲み物。\"}','{\"text\":\"§a飲むとMPがとても大きく回復する。\"}','\"\"','{\"text\":\"§7スプラッシュ化不可\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

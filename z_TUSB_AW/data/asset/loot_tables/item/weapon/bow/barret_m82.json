@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Barrett M82\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"バレット・ファイアーアームズ社が開発した大型狙撃銃。\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"どういった経緯でGameMasterが手に入れたかは不明だが、\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"軽戦車にも通用するこの銃を容易に扱ってはいけない事は明らかである。\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:50s},{id:\"minecraft:punch\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:-0.9,Operation:2,UUID:[I;0,1,0,-1],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Amount:15,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;0,1,0,3],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

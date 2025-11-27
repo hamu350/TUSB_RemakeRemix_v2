@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:iron_sword",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{Damage: 0, AttributeModifiers: [{Amount: 1024.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -7.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}], display: {Lore: ['{\"text\":\"§eｲﾝｽﾄﾗｸｼｮﾝ・ﾜﾝ！\"}', '{\"text\":\"§e百発のｽﾘｹﾝで倒せぬ\"}', '{\"text\":\"§e相手だからといって、\"}', '{\"text\":\"§e一発の力に頼ってはならぬ。\"}', '{\"text\":\"§e一千発のｽﾘｹﾝを投げるのだ！\"}'], Name: '{\"text\":\"§8ニンジャソード\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

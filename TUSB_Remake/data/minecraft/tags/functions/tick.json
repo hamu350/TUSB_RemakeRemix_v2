@@ -1,0 +1,9 @@
+{
+	"values": [
+		"tusb_remake:clock/first",
+		"tusb_remake:clock/main",
+		"tusb_remake:clock/skill_trigger/setup",
+		"tusb_remake:clock/skill_trigger",
+		"tusb_remake:clock/last"
+	]
+}

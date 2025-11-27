@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:potion",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 1b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 1200, Id: 16b, Amplifier: 2b, ShowParticles: 1b}, {Duration: 100, Id: 9b, Amplifier: 0b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§3§oコレを飲んだものは目がさえ\"}', '{\"text\":\"§3§o何となく足が早くなる感覚に陥る。\"}'], Name: '{\"text\":\"§b深夜のテンション\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

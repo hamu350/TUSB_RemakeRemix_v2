@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display: {Name: '{\"text\":\"原初の書\",\"color\":\"gray\",\"bold\":true,\"underlined\":true}', Lore: ['{\"text\":\"全ての原点となった書であり始まりの書\",\"color\":\"gray\",\"italic\":true}']}, AttributeModifiers: [{Amount: 12, Slot: \"offhand\", Operation: 0, UUID: [I; -821731320, 1772899896, -1390723605, 2129747736], AttributeName: \"generic.max_health\", Name: \"generic.max_health\"}, {Amount: -0.3d, Slot: \"offhand\", Operation: 0, UUID: [I; 1614968328, -601471556, -1182523850, 1918648400], AttributeName: \"generic.knockback_resistance\", Name: \"generic.knockback_resistance\"}, {Amount: 0.15d, Slot: \"offhand\", Operation: 0, UUID: [I; -377422825, -1143782395, -1903849360, 1050083883], AttributeName: \"generic.movement_speed\", Name: \"generic.movement_speed\"}, {Amount: 0.15d, Slot: \"offhand\", Operation: 1, UUID: [I; 110681598, 1189300745, -1450884041, -175362165], AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\"}, {Amount: 10, Slot: \"offhand\", Operation: 0, UUID: [I; -57961976, 753027966, -1368877414, -104882859], AttributeName: \"generic.armor\", Name: \"generic.armor\"}, {Amount: 0.1d, Slot: \"offhand\", Operation: 1, UUID: [I; -856626551, 1785286015, -1846745128, -314419966], AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

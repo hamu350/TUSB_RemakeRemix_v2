@@ -1,0 +1,147 @@
+{
+    "criteria": {
+        "table_trialset_1": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:trapped_chest"
+                        ]
+                    },
+                    "position": {
+                        "dimension": "minecraft:overworld",
+                        "x": {
+                            "min": 17,
+                            "max": 18
+                        },
+                        "y": {
+                            "min": 18,
+                            "max": 19
+                        },
+                        "z": {
+                            "min": -1831,
+                            "max": -1830
+                        }
+                    }
+                }
+            }
+        },
+        "table_trialset_2": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:trapped_chest"
+                        ]
+                    },
+                    "position": {
+                        "dimension": "minecraft:overworld",
+                        "x": {
+                            "min": 15,
+                            "max": 16
+                        },
+                        "y": {
+                            "min": 18,
+                            "max": 19
+                        },
+                        "z": {
+                            "min": -1833,
+                            "max": -1832
+                        }
+                    }
+                }
+            }
+        },
+        "table_trialset_3": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:trapped_chest"
+                        ]
+                    },
+                    "position": {
+                        "dimension": "minecraft:overworld",
+                        "x": {
+                            "min": 17,
+                            "max": 18
+                        },
+                        "y": {
+                            "min": 18,
+                            "max": 19
+                        },
+                        "z": {
+                            "min": -1835,
+                            "max": -1834
+                        }
+                    }
+                }
+            }
+        },
+        "skill_setting_area_eggs": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "tusb_remake:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:trapped_chest"
+                        ]
+                    },
+                    "position": {
+                        "dimension": "minecraft:overworld",
+                        "x": {
+                            "min": -2734,
+                            "max": -2733
+                        },
+                        "y": {
+                            "min": 88,
+                            "max": 89
+                        },
+                        "z": {
+                            "min": -383,
+                            "max": -381
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "table_trialset_1",
+            "table_trialset_2",
+            "table_trialset_3",
+            "skill_setting_area_eggs"
+        ]
+    ],
+    "rewards": {
+        "function": "tusb_remake:chest_event/"
+    }
+}

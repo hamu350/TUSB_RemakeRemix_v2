@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 16b, Amplifier: 127b, ShowParticles: 1b}], RepairCost: 1000000000, HideFlags: 60, display: {color: 16711680, Name: '{\"text\":\"§c§lリベラフレイム\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:fire_protection\"}, {lvl: 10s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:flame\"}, {lvl: 2s, id: \"minecraft:protection\"}], Damage: 0, AttributeModifiers: [{Slot: \"legs\", AttributeName: \"generic.attack_damage\", Operation: 1, UUID: [I; 0, 5, 0, 1], Amount: 0.03d, Name: \"wax100\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

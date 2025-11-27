@@ -1,0 +1,617 @@
+{
+	"criteria": {
+		"mode_change_ruby": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text3: '{\"bold\":true,\"color\":\"light_purple\",\"text\":\"-ルビー-\"}', Text2: '{\"bold\":true,\"color\":\"white\",\"text\":\"モードチェンジ\"}'}"
+					}
+				}
+			}
+		},
+		"mode_change_sapphire": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text3: '{\"bold\":true,\"color\":\"aqua\",\"text\":\"-サファイア-\"}', Text2: '{\"bold\":true,\"color\":\"white\",\"text\":\"モードチェンジ\"}'}"
+					}
+				}
+			}
+		},
+		"instant_change_ruby": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"-ルビー-\"}', Text2: '{\"bold\":true,\"color\":\"yellow\",\"text\":\"サポートアクション\"}'}"
+					}
+				}
+			}
+		},
+		"instant_change_sapphire": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text3: '{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"-サファイア-\"}', Text2: '{\"bold\":true,\"color\":\"yellow\",\"text\":\"サポートアクション\"}'}"
+					}
+				}
+			}
+		},
+		"reset_mp": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text4: '{\"bold\":true,\"color\":\"gold\",\"text\":\"はリセットされます\"}', Text3: '{\"bold\":true,\"color\":\"gold\",\"text\":\"非ﾛｸﾞｲﾝﾌﾟﾚｲﾔｰのMPは\"}'}"
+					}
+				}
+			}
+		},
+		"hell_climb": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"dark_red\",\"text\":\"ヘルクライム\"}'}"
+					}
+				}
+			}
+		},
+		"speed_run": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"スピードラン\"}'}"
+					}
+				}
+			}
+		},
+		"like_snake": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"dark_green\",\"text\":\"ライクスネーク\"}'}"
+					}
+				}
+			}
+		},
+		"like_snake_up": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"dark_green\",\"text\":\"↑上に戻る↑\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_how_to": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[ジョブの就き方]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" ジョブは\\\\\"},{\\\\\"text\\\\\":\\\\\" 剣士、忍者、狩人、白魔導士、黒魔導士、召喚士 \\\\\",\\\\\"color\\\\\":\\\\\"yellow\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"の６種類あります。\\\\n目の前の村人からそれぞれの許可証を受け取ると、そのジョブになります。\\\\n好きなジョブになろう！\\\\\"}]\"},\"text\":\"ジョブの就き方\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_knight": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[剣士]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 剣の扱いに優れ\\\\\"},{\\\\\"text\\\\\":\\\\\"高い防御性能を誇る\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"、近接戦闘のエキスパート。\\\\\"}]\"},\"text\":\"剣士について\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_ninja": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[忍者]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 常人の３倍の脚力と多様なｼﾞﾂで悪環境にも自在に適応、\\\\\"},{\\\\\"text\\\\\":\\\\\"高い攻撃力\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"で敵を仕留める暗殺者。\\\\\"}]\"},\"text\":\"忍者について\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_archer": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[狩人]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 弓を用いた遠距離攻撃や\\\\\"},{\\\\\"text\\\\\":\\\\\"敵の能力を下げる罠\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"など、アウトレンジ戦法を得意とするハンター。\\\\\"}]\"},\"text\":\"狩人について\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_white_mage": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[白魔導士]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 攻撃は不得意だが、さまざまな\\\\\"},{\\\\\"text\\\\\":\\\\\"回復スキルを扱う\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"パーティの支え手。\\\\\"}]\"},\"text\":\"白魔導士について\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_black_mage": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[黒魔導士]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 強力な\\\\\"},{\\\\\"text\\\\\":\\\\\"攻撃魔法\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"をはじめ、様々な黒魔法を扱う属性操作のエキスパート。\\\\\"}]\"},\"text\":\"黒魔導士について\"}'}"
+					}
+				}
+			}
+		},
+		"hello_work_summoner": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\"\\\\\"},{\\\\\"text\\\\\":\\\\\"[召喚士]\\\\n\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\" 生物や物質まで\\\\\"},{\\\\\"text\\\\\":\\\\\"様々なものを呼び出して\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":true},{\\\\\"text\\\\\":\\\\\"攻撃や支援を行う、召還魔法のエキスパート。\\\\\"}]\"},\"text\":\"召喚士について\"}'}"
+					}
+				}
+			}
+		},
+		"cannon_ready": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text4: '{\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p {\\\\\"bold\\\\\":\\\\\"true\\\\\",\\\\\"underlined\\\\\":\\\\\"true\\\\\",\\\\\"text\\\\\":\\\\\"もう一度右クリックしてください\\\\\"}\"},\"text\":\"= 右クリック =\"}'}"
+					}
+				}
+			}
+		},
+		"tutorial_4": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-1905,y:115,z:-74}"
+					}
+				}
+			}
+		},
+		"old_warp_crystal": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text1:'{\"text\":\"\"}',Text2:'{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"ワープクリスタル\"}'}"
+					}
+				}
+			}
+		},
+		"sand_bag_zombie": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2732,y:89,z:-407}"
+					}
+				}
+			}
+		},
+		"sand_bag_creeper": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2729,y:89,z:-408}"
+					}
+				}
+			}
+		},
+		"sand_bag_skeleton": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2726,y:89,z:-407}"
+					}
+				}
+			}
+		},
+		"sand_bag_enter": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2728,y:89,z:-396}"
+					}
+				}
+			}
+		},
+		"sand_bag_enter2": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2737,y:90,z:-416}"
+					}
+				}
+			}
+		},
+		"sand_bag_exit": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2728,y:89,z:-398}"
+					}
+				}
+			}
+		},
+		"sand_bag_exit2": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{x:-2735,y:90,z:-416}"
+					}
+				}
+			}
+		},
+		"augur_fortune": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"dimension": "minecraft:overworld",
+					"block": {
+						"tag": "minecraft:wall_signs",
+						"state": {
+							"facing": "south"
+						},
+						"nbt": "{x:-62,y:13,z:2}"
+					}
+				}
+			}
+		},
+		"return_from_table": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle spell -90 15 54 0.01 1 0.01 0.05 700 force\"},\"translate\":\"=----%1$s----=\",\"with\":[{\"strikethrough\":true,\"color\":\"dark_purple\",\"text\":\"帰還\"}]}'}"
+					}
+				}
+			}
+		},
+		"unseal_table": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2: '{\"bold\":true,\"color\":\"dark_blue\",\"text\":\"バリアを解く\"}'}"
+					}
+				}
+			}
+		},
+		"clock_notice": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2:'{\"underlined\":true,\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\\\"text\\\\\":\\\\\" 大きな時計だ。目覚ましがセットされている。\\\\n \\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\"},{\\\\\"text\\\\\":\\\\\"注意：岩盤の枠内に設置されたブロックは消える事があります。\\\\\",\\\\\"color\\\\\":\\\\\"yellow\\\\\",\\\\\"underlined\\\\\":true}]\"},\"text\":\"     =-時計島-=      \"}'}"
+					}
+				}
+			}
+		},
+		"extra_hint": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text3:'{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.experience_orb.pickup master @a[r=16] ~ ~ ~ 1 0.5 0\"},\"text\":\"=-=-=-=-=-=-=-=-=\"}',Text4:'{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle enchantmenttable ~ ~1 ~ 0.1 0.1 0.1 1 90\"},\"text\":\"\"}'}"
+					}
+				}
+			}
+		},
+		"extra_hint_tutorial": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2:'{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @a[r=16] [{\\\\\"text\\\\\":\\\\\"看板の下にあるような\\\\\",\\\\\"color\\\\\":\\\\\"white\\\\\",\\\\\"bold\\\\\":\\\\\"true\\\\\"},{\\\\\"text\\\\\":\\\\\"鍵卵\\\\\",\\\\\"color\\\\\":\\\\\"dark_aqua\\\\\",\\\\\"bold\\\\\":\\\\\"true\\\\\"},{\\\\\"text\\\\\":\\\\\"が各地にあり、  それを手に持った状態ならば鍵付きのﾁｪｽﾄを開く事ができます。\\\\\",\\\\\"color\\\\\":\\\\\"white\\\\\",\\\\\"bold\\\\\":\\\\\"true\\\\\"}]\"},\"text\":\"=-鍵宝箱の開け方-=\"}'}"
+					}
+				}
+			}
+		},
+		"like_snake_return": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{Text2:'{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"↑上に戻る↑\"}'}"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"mode_change_ruby",
+			"mode_change_sapphire",
+			"instant_change_ruby",
+			"instant_change_sapphire",
+			"reset_mp",
+			"hell_climb",
+			"speed_run",
+			"like_snake",
+			"like_snake_up",
+			"hello_work_how_to",
+			"hello_work_knight",
+			"hello_work_ninja",
+			"hello_work_archer",
+			"hello_work_white_mage",
+			"hello_work_black_mage",
+			"hello_work_summoner",
+			"cannon_ready",
+			"tutorial_4",
+			"old_warp_crystal",
+			"sand_bag_zombie",
+			"sand_bag_creeper",
+			"sand_bag_skeleton",
+			"sand_bag_enter",
+			"sand_bag_enter2",
+			"sand_bag_exit",
+			"sand_bag_exit2",
+			"augur_fortune",
+			"return_from_table",
+			"unseal_table",
+			"clock_notice",
+			"extra_hint",
+			"extra_hint_tutorial",
+			"like_snake_return"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:sign_event/"
+	}
+}

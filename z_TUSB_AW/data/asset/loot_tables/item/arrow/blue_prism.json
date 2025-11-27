@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:tipped_arrow",
+                "weight": 9,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 13b, Amplifier: 118b, ShowParticles: 1b}, {Duration: 0, Id: 25b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 200, Id: 8b, Amplifier: -2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の浮遊を解いた後、足を脆くする。\"}'], Name: '{\"text\":\"§9§lブループリズム\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

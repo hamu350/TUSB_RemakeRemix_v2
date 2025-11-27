@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:crossbow",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost:1000000000,display:{Name:'{\"text\":\"狂乱のボウガン\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"とある研究者が気持ちよくなるために\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"制作した禁断のボウガン。\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"撃っている間は我を忘れるようだ。\",\"color\":\"aqua\",\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

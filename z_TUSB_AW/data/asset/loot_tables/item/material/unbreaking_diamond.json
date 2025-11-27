@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable: 1b, RepairCost: 0, Enchantments: [{lvl: 100s, id: \"minecraft:sharpness\"}, {lvl: 100s, id: \"minecraft:knockback\"}, {lvl: 100s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"ダイヤモンドは砕けない\",\"color\":\"aqua\",\"bold\":true,\"italic\":false,\"underlined\":true}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

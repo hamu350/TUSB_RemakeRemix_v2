@@ -1,0 +1,574 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "total_weight": 125,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ancient_debris",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"黄金の夢\"}'}, Enchantments: [{lvl: 100s, id: \"minecraft:sharpness\"}, {lvl: 100s, id: \"minecraft:knockback\"}, {lvl: 100s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"メリケンサック\"}'}, Enchantments: [{lvl: 100s, id: \"minecraft:sharpness\"}, {lvl: 100s, id: \"minecraft:knockback\"}, {lvl: 100s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sugar_cane",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"かつての脅威\"}'}, Enchantments: [{lvl: 80s, id: \"minecraft:sharpness\"}, {lvl: 10s, id: \"minecraft:smite\"}, {lvl: 10s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 20s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, display: {Name: '{\"text\":\"伝説のラピスラズリ\"}'}, Enchantments: [{lvl: 200s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pufferfish",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, AttributeModifiers: [{Amount: 0.25d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HaruEditor\"}], display: {Name: '{\"text\":\"§e§kuni§e§lウニ§e§kuni\"}'}, Enchantments: [{lvl: 30s, id: \"minecraft:sharpness\"}, {lvl: 5s, id: \"minecraft:thorns\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, BlockEntityTag: {LootTable: \"usb:chests/enjoy\", id: \"minecraft:chest\", Lock: \"\"}, display: {Lore: ['{\"text\":\"§eなにか§cアイテム§eが入っている\"}', '{\"text\":\"§e開ける人の§a§l運§eによって\"}', '{\"text\":\"§a§l質§eが変わる不思議なチェスト\"}'], Name: '{\"text\":\"§dお楽しみセット\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000,Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:fire_protection\"}, {lvl: 5s, id: \"minecraft:feather_falling\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 5s, id: \"minecraft:projectile_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzQxMjI1MTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVjMjU2ZWJjM2JhZDI5ZTNiYWYwYTBhZmI5M2I5MTE2N2U3NjZiZGMyODU1YTljZDcxZjg3ZTg2NTg3ZGM5In19fQ==\"}]}, Id: [I; 0, 202, 0, 1]}, AttributeModifiers: [{Amount: 7.0d, Slot: \"head\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 3, 0, 1], Name: \"DEF+\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 3, 0, 2], Name: \"DEF+\"}], display: {Name: '{\"text\":\"§7§l剣士の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzQyNTgxNjAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjQ1NDJlOWZmYzFjMDg0N2I2MDExM2UxNjFmODNhZWZlMmQ4NzJiNTFiMmU0NzQ1MWUxODZlZTlhYWVkNjkifX19\"}]}, Id: [I; 0, 202, 0, 2]}, AttributeModifiers: [{Amount: 7.0d, Slot: \"head\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 3, 0, 1], Name: \"ATK+\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 3, 0, 2], Name: \"ATS+\"}], display: {Name: '{\"text\":\"§4§l忍者の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzQzOTU2MjQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTQxOTE3OGQyNTM3MzNkY2EzMjRjZmQ5NTc0MzNmNzRiOTkwOTAzZDRkMjZmYmIyNmFiNDNkZjM5ZjNjY2QifX19\"}]}, Id: [I; 0, 202, 0, 3]}, display: {Name: '{\"text\":\"§2§l狩人の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:projectile_protection\"}, {lvl: 7s, id: \"minecraft:depth_strider\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzQ0OTAxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmFmZGRmODZkNTVkY2Y4ZWQ5MTY3MWI3MTlkMzkwZWU2YzZjNTY4NWNlNWIyM2NhZjJjYjlkOWUyN2NmOGYifX19\"}]}, Id: [I; 0, 202, 0, 4]}, AttributeModifiers: [{Amount: 7.0d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 3, 0, 1], Name: \"HP+\"}], display: {Name: '{\"text\":\"§f§l白魔導士の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:blast_protection\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzUxMjc5OTQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTVkMTNlNGI5ODhjNzVjNGFhMTVhYjc1N2M0ZjJhY2FmMzBkNGE2ZjRlZDdkNGVlM2ZhY2VmNWM0OTIifX19\"}]}, Id: [I; 0, 202, 0, 5]}, display: {Name: '{\"text\":\"§9§l黒魔導士の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:fire_protection\"}, {lvl: 7s, id: \"minecraft:respiration\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, SkullOwner: {Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE0NTk0MzUzMzU1NTIsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYWY1NTA1OWI3NzkzMzc4YTdkM2E1YWVmNzllZjBlZGY0YzE0OGMzODBhMTk3MjYwMjNhNTQ1MjQxZjc2OTIifX19\"}]}, Id: [I; 0, 202, 0, 6]}, display: {Name: '{\"text\":\"§e§l召喚士の魂\"}'}, Enchantments: [{lvl: 7s, id: \"minecraft:protection\"}, {lvl: 7s, id: \"minecraft:feather_falling\"}, {lvl: 7s, id: \"minecraft:aqua_affinity\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 3, 0, 1], Name: \"anmin\"}, {Amount: 0.03d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Name: \"anmin\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 3, 0, 3], Name: \"anmin\"}], display: {color: 16711680, Name: '{\"text\":\"§4§lブラッド・メナス\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 4, 0, 1], Name: \"anmin\"}, {Amount: 0.03d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"anmin\"}, {Amount: 0.7d, Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"anmin\"}], display: {color: 16711680, Name: '{\"text\":\"§4§lブラッド・メナス\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 5, 0, 1], Name: \"anmin\"}, {Amount: 0.03d, Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 5, 0, 2], Name: \"anmin\"}, {Amount: 0.7d, Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 5, 0, 3], Name: \"anmin\"}], display: {color: 16711680, Name: '{\"text\":\"§4§lブラッド・メナス\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Name: \"anmin\"}, {Amount: 0.03d, Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 6, 0, 2], Name: \"anmin\"}, {Amount: 0.7d, Slot: \"feet\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 6, 0, 3], Name: \"anmin\"}], display: {color: 16711680, Name: '{\"text\":\"§4§lブラッド・メナス\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 13b, Amplifier: 29b, ShowParticles: 1b}, {Duration: 0, Id: 5b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 600, Id: 18b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の力を消滅させた後、弱らせる。\"}'], Name: '{\"text\":\"§c§lレッドプリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 27b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 0, Id: 12b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 100, Id: 11b, Amplifier: -2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の火への耐性を消滅させた後、柔らかくする。\"}'], Name: '{\"text\":\"§6§lオレンジプリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 13b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 0, Id: 10b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 600, Id: 19b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の再生能力を消滅させた後、毒を与える。\"}'], Name: '{\"text\":\"§e§lイエロープリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 13b, Amplifier: 113b, ShowParticles: 1b}, {Duration: 0, Id: 8b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 1200, Id: 24b, Amplifier: 1b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の脚力を並にした後、発光させる。\"}'], Name: '{\"text\":\"§a§lグリーンプリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 87b, ShowParticles: 1b}, {Duration: 0, Id: 1b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 600, Id: 2b, Amplifier: 2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の移動力を並にした後、鈍足にする。\"}'], Name: '{\"text\":\"§b§lシアンプリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 13b, Amplifier: 118b, ShowParticles: 1b}, {Duration: 0, Id: 25b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 200, Id: 8b, Amplifier: -2b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の浮遊を解いた後、足を脆くする。\"}'], Name: '{\"text\":\"§9§lブループリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:111b},{Id:11b,Amplifier:-2b,Duration:60,ShowParticles:0b},{Id:20b,Amplifier:2b,Duration:60,ShowParticles:0b}],HideFlags:32,Potion: \"minecraft:water\",display:{Lore:['{\"text\":\"§7刺さった者の防御力を下げた後、呪う。\"}'],Name:'{\"text\":\"§d§lバイオレットプリズム\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 1200, Id: 5b, Amplifier: 4b, ShowParticles: 0b}, {Duration: 0, Id: 8b, Amplifier: -128b}, {Duration: 0, Id: 26b, Amplifier: -128b}, {Duration: 1200, Id: 10b, Amplifier: 1b}, {Duration: 0, Id: 25b, Amplifier: -128b}, {Duration: 0, Id: 6b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:strength\", display: {Lore: ['{\"text\":\"§7刺さった者を強化し、回復を促す。\"}'], Name: '{\"text\":\"§a§l活力の矢\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 3, Id: 23b, Amplifier: 127b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7撃ち込まれるとツボを刺激し、相手を満腹にさせる。\"}'], Name: '{\"text\":\"§6§l満腹の矢\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 20, Id: 6b, Amplifier: 3b}, {Duration: 0, Id: 12b, Amplifier: -25b}, {Duration: 0, Id: 25b, Amplifier: -128b}], HideFlags: 32, Potion: \"minecraft:luck\", display: {Lore: ['{\"text\":\"§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、\"}', '{\"text\":\"§7それ以外のものを癒す\"}'], Name: '{\"text\":\"§f§l祈りの矢\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 20, Id: 7b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 101b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7生物に対し大ﾀﾞﾒｰｼﾞを与え、\"}', '{\"text\":\"§7それ以外のものを癒す\"}'], Name: '{\"text\":\"§8§l冥界の矢\"}'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_crystal",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax100\",Amount:2d,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\",AttributeName:\"generic.max_health\"},{Name:\"wax100\",Amount:2d,Operation:0,UUID:[I;0,2,0,1],Slot:\"offhand\",AttributeName:\"generic.movement_speed\"}],HideFlags:60,display:{Name:'{\"text\":\"§e§lエストレーヤ\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25},{Amplifier:105b,Duration:0,Id:27},{Amplifier:0b,Duration:120,Id:16,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10,ShowParticles:0b},{Amplifier:3b,Duration:60,Id:6,ShowParticles:0b},{Amplifier:3b,Duration:1200,Id:22,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:26,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9,ShowParticles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l２§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§l程々に§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lW§3§l- §a§lスタンダード§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:5s}],HideFlags:33}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:5,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14,Amplifier:4b}],HideFlags:32,display:{Lore:['{\"text\":\"§dマナから作られた霊薬。\"}','{\"text\":\"§d飲むとHPとMPが半分回復する。\"}','\"\"','{\"text\":\"§7スプラッシュ化不可\"}'],Name:'{\"text\":\"§5§lエリクサー\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{ShowParticles: 1b, Duration: 0, Id: 19b, Amplifier: 0b}, {ShowParticles: 0b, Duration: 3, Id: 14b, Amplifier: 2b}], HideFlags: 32, display: {Name: '{\"text\":\"§3§lエリアハイエーテル\"}', Lore: ['{\"text\":\"§bマナがぽちょっと詰まった瓶。\"}', '{\"text\":\"§b中身に触れるとMPが大きく回復する。\"}']}, Potion: \"minecraft:water\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{ShowParticles: 1b, Duration: 0, Id: 26, Amplifier: 0b}, {ShowParticles: 0b, Duration: 3, Id: 14, Amplifier: 3b}], display: {Name: '{\"text\":\"§2§lスーパーエーテル\"}', Lore: ['{\"text\":\"§aマナがたぽっと詰まった飲み物。\"}', '{\"text\":\"§a飲むとMPがとても大きく回復する。\"}', '\"\"', '{\"text\":\"§7スプラッシュ化不可\"}']}, HideFlags: 32, Potion: \"minecraft:water\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[],HideFlags:3,display:{Lore:['{\"text\":\"§r§e本と交換できるチケット。§r\"}','{\"text\":\"§r§e防水加工が施されている。§r\"}'],Name:'{\"text\":\"§r§a§l§n図書券§r\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:0.01d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"},{UUID:[I;0,2,0,2],Amount:0.01d,Slot:\"offhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:16,Amplifier:93b},{ShowParticles:0b,Duration:1200,Id:18,Amplifier:20b},{ShowParticles:0b,Duration:1200,Id:3,Amplifier:4b}],HideFlags:32,display:{Lore:['{\"text\":\"§6鉱夫が§9§l精魂§6を込めて作ったドリンク。\"}','{\"text\":\"§e§n早い採掘§6が可能になるが、\"}','{\"text\":\"§d力が入らなく§6なってしまう。\"}'],Name:'{\"text\":\"§6§lマインソウル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13,Amplifier:119b},{ShowParticles:0b,Duration:1800,Id:21,Amplifier:0b},{ShowParticles:0b,Duration:1800,Id:22,Amplifier:9b}],HideFlags:32,display:{Lore:['{\"text\":\"§9脳に働きかけ、\"}','{\"text\":\"§d自分の体力§9を§3§l錯覚§9させる雫。\"}','{\"text\":\"§1§mうそつきは耐久型のはじまり\"}'],Name:'{\"text\":\"§3§l空音の雫\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

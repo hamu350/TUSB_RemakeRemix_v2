@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Unbreakable: 1b, Damage: 0, AttributeModifiers: [{Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Amount: 0.25d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.knockback_resistance\", Operation: 2, UUID: [I; 0, 6, 0, 2], Amount: 1.0d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 6, 0, 3], Amount: 0.05d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 6, 0, 4], Amount: 0.35d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.armor\", Operation: 2, UUID: [I; 0, 6, 0, 5], Amount: 0.35d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.armor_toughness\", Operation: 2, UUID: [I; 0, 6, 0, 6], Amount: 0.35d, Name: \"anmin\"}, {Slot: \"feet\", AttributeName: \"generic.attack_speed\", Operation: 2, UUID: [I; 0, 6, 0, 7], Amount: 0.4d, Name: \"anmin\"}], display: {color: 16777215, Name: '{\"text\":\"§5§km§9§ky§b§kt§a§kh§e§ki§6§kc§c§ka§d§kl§f§l§n アウターレジェンド §d§km§c§ky§6§kt§e§kh§a§ki§b§kc§9§ka§5§kl§r\"}'}, Enchantments: [{lvl: 15s, id: \"minecraft:protection\"}, {lvl: 15s, id: \"minecraft:fire_protection\"}, {lvl: 15s, id: \"minecraft:feather_falling\"}, {lvl: 15s, id: \"minecraft:projectile_protection\"}, {lvl: 2s, id: \"minecraft:respiration\"}, {lvl: 15s, id: \"minecraft:aqua_affinity\"}, {lvl: 15s, id: \"minecraft:thorns\"}, {lvl: 15s, id: \"minecraft:depth_strider\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

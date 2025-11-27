@@ -1,0 +1,79 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 10
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"§bポケットティッシュ\"}',Lore:['{\"text\":\"§r(  ´∀｀)つ□\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"§bGrandmaの手作りクッキー\"}',Lore:['{\"text\":\"§rクリックしても増えません\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/sapling/lemonade",
+                    "weight": 18
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:signs/sapling/house_keeping_set",
+                    "weight": 18
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dead_bush",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"§b枯れた苗木\"}',Lore:['{\"text\":\"§r許してヒヤシンス(ゝω・)\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:jungle_sapling",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"§b苗木\"}',Lore:['{\"text\":\"§rこれが欲しかったんだろ？\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

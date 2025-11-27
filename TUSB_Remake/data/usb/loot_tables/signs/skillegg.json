@@ -1,0 +1,64 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],RepairCost:1000000000,HideFlags:16,display:{Lore:['\"§6サポートスキル§c-ルビー-§rに\"','\"§r登録されたスキルを発動する\"'],Name:'\"§6サポートアクション§c-ルビー-\"'},EntityTag:{CustomName:\"\",DeathTime:19s,Invulnerable:1b,id:\"Rabbit\",NoAI:1b,ActiveEffects:[{ShowParticles:0b,Duration:100,Id:14,Amplifier:0b}],Tags:[\"SkillEgg\",\"Instant\",\"Ruby\",\"TypeChecked\"],Age:-1000},CanPlaceOn:[\"#minecraft:all\"]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:slime_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],RepairCost:1000000000,HideFlags:16,display:{Lore:['\"§6サポートスキル§3-サファイア-§rに\"','\"§r登録されたスキルを発動する\"'],Name:'\"§6サポートアクション§3-サファイア-\"'},EntityTag:{CustomName:\"\",DeathTime:19s,Size:0,Invulnerable:1b,id:\"Slime\",AbsorptionAmount:19.0f,NoAI:1b,ActiveEffects:[{ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:[\"SkillEgg\",\"Instant\",\"Sapphire\",\"TypeChecked\"]},CanPlaceOn:[\"#minecraft:all\"]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:magma_cube_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],RepairCost:1000000000,HideFlags:16,display:{Lore:['\"§dモードスキル§rを切り替える\"'],Name:'\"§dモードチェンジ§c-ルビー§d＆§3サファイア-\"'},EntityTag:{CustomName:\"\",DeathTime:19s,Size:0,Invulnerable:1b,id:\"LavaSlime\",AbsorptionAmount:19.0f,NoAI:1b,ActiveEffects:[{ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:[\"SkillEgg\",\"ModeSwitch\",\"TypeChecked\"]},CanPlaceOn:[\"#minecraft:all\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

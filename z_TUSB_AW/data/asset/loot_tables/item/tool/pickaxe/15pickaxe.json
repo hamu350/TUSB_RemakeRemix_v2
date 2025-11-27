@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Damage: 1530, RepairCost: 1000000000, Enchantments: [{lvl: 15s, id: \"minecraft:efficiency\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

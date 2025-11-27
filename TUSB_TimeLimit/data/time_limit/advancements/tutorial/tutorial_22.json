@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield",
+            "nbt": "{BlockEntityTag: {Patterns: [{Pattern: \"dls\", Color: 3}, {Pattern: \"drs\", Color: 3}, {Pattern: \"sc\", Color: 3}, {Pattern: \"mr\", Color: 7}, {Pattern: \"tts\", Color: 9}, {Pattern: \"bts\", Color: 9}, {Pattern: \"cbo\", Color: 9}, {Pattern: \"cr\", Color: 9}, {Pattern: \"mc\", Color: 3}, {Pattern: \"bo\", Color: 15}, {Pattern: \"bo\", Color: 3}, {Pattern: \"flo\", Color: 15}], Base: 7}}"
+        },
+        "title": "追加オプションについて2",
+        "description": "1時間ごとに3ずつ強化されます\n後半はとても頼もしい\nアイテムになるでしょう。",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "time_limit:tutorial/tutorial_21",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

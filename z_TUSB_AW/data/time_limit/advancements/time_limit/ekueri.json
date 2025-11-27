@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:lingering_potion"
+              ],
+              "nbt": "{display: {Lore: ['{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"神秘の液体が詰まっている。\"}],\"text\":\"\"}', '{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"中身に触れるとMPとHPが\"}],\"text\":\"\"}', '{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"異常な速度で回復する。\"}],\"text\":\"\"}'], Name: '{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"エ\"},{\"bold\":true,\"italic\":false,\"color\":\"gold\",\"text\":\"ク\"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"ス\"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"エ\"},{\"bold\":true,\"italic\":false,\"color\":\"dark_aqua\",\"text\":\"リ\"},{\"bold\":true,\"italic\":false,\"color\":\"blue\",\"text\":\"ク\"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"サ\"},{\"bold\":true,\"italic\":false,\"color\":\"dark_purple\",\"text\":\"ー\"}],\"text\":\"\"}'}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "time_limit:item_data_change/ekueri"
+    }
+  }
+  

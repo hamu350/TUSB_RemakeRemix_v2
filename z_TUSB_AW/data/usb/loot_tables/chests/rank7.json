@@ -1,0 +1,49 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/b",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/hatena",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

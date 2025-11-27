@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_bed",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Name: '{\"text\":\"弁当\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:knockback\"}, {lvl: 3s, id: \"minecraft:looting\"}, {lvl: 3s, id: \"minecraft:flame\"}, {lvl: 3s, id: \"minecraft:fire_protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

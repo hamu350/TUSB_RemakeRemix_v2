@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Lore:['{\"text\":\"§rマナがなければ殴ればいいじゃない\"}','{\"text\":\"§rというコンセプトで作られた鈍器\"}'],Name:'{\"text\":\"§r§l黒魔導士のメイス\"}'},AttributeModifiers:[{UUID:[I;0,1,0,1],Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.attack_damage\",Operation:0,Name:\"AttackPlus\"},{UUID:[I;0,1,0,2],Amount:-1d,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\",Operation:0,Name:\"AtkSpeedPlus\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 4, 0, 1], Amount: -0.05d, Name: \"HaruEditor\"}, {Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Amount: -0.01d, Name: \"HaruEditor\"}, {Slot: \"chest\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 4, 0, 3], Amount: 2.0d, Name: \"HaruEditor\"}], display: {color: 14135, Name: '{\"text\":\"§5怨霊の服\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:blast_protection\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

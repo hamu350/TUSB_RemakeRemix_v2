@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 100, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Operation: 1, UUID: [I; 0, 1, 0, 1], Amount: -0.7d, Name: \"anmin\"}, {Slot: \"offhand\", AttributeName: \"generic.attack_speed\", Operation: 1, UUID: [I; 0, 2, 0, 2], Amount: -0.7d, Name: \"anmin\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 1, UUID: [I; 0, 1, 0, 3], Amount: -0.7d, Name: \"anmin\"}, {Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 1, UUID: [I; 0, 2, 0, 4], Amount: -0.7d, Name: \"anmin\"}], display: {Lore: ['{\"text\":\"§8耐久性はお察し下さい。\"}'], Name: '{\"text\":\"§7§lウールピッケル\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

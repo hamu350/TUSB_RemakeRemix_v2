@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:writable_book",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{pages: [\"トカルトコルデ\\nかの氷塊の地に\\n生命を 文化を 歴史を\\n創りし神の使者\\n\\n此処にて眠る\", \"PS\\n\\nまだ寝ねーよバーカ！\\nもっと遊ぶ！\"]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

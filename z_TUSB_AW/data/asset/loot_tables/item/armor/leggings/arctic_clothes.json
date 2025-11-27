@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Damage: 0, HideFlags: 1, display: {color: 11053224, Lore: ['{\"text\":\"極寒の地方を生き抜くために必要な防寒具\"}', '{\"text\":\"他には大して意味はない\"}'], Name: '{\"text\":\"防寒具\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

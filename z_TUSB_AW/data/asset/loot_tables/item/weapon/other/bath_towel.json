@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags: 63, display: {Lore: ['{\"text\":\"§f濡れている為叩かれると痛い\"}'], Name: '{\"text\":\"§f§lバスタオル\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}, {lvl: 4s, id: \"minecraft:knockback\"}, {lvl: 2s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 1s, id: \"minecraft:smite\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

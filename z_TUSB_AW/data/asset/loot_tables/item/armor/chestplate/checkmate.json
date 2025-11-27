@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:chainmail_chestplate",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {color: 16751360, Name: '{\"text\":\"§6§l救命胴衣\"}'}, Enchantments: [{lvl: 2, id: \"minecraft:protection\"}, {lvl: 10, id: \"minecraft:aqua_affinity\"}], Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 4, 0, 1], Name: \"wax\"}, {Amount: 0.08d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"wax\"}, {Amount: 0.01d, Slot: \"chest\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"wax\"}]}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"looking_at": {
+				"type": "#tusb_remake:mob",
+				"nbt": "{Tags:[Enemy]}"
+			}
+		}
+	}
+}

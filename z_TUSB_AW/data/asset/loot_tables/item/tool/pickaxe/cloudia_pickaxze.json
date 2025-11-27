@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 1, CanDestroy: [\"minecraft:gold_block\", \"minecraft:iron_block\", \"minecraft:diamond_block\", \"minecraft:snow_block\", \"minecraft:quartz_block\", \"minecraft:glass\"], display: {Lore: ['{\"text\":\"§b§oクラウディア§e§oに存在する\"}', '{\"text\":\"§e§o一部のブロックを破壊できる\"}'], Name: '{\"text\":\"§r§b§lクラウディア探索用ピッケル§f§l\"}'}, Enchantments: [{lvl: 0s, id: \"minecraft:sharpness\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

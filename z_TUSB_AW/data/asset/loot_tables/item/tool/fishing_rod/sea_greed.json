@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 62, HideFlags: 3, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.luck\", Operation: 2, UUID: [I; 0, 1, 0, 1], Amount: 0.03d, Name: \"anmin\"}, {Slot: \"offhand\", AttributeName: \"generic.luck\", Operation: 2, UUID: [I; 0, 2, 0, 2], Amount: 0.03d, Name: \"anmin\"}], display: {Lore: ['{\"text\":\"§3なにか色々代用できそうな物で\"}', '{\"text\":\"§3自作した釣竿。適当に作ったにしては\"}', '{\"text\":\"§3凄まじい性能だが、§c3§3回使えば壊れる\"}'], Name: '{\"text\":\"§9§lシーグリード\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:lure\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

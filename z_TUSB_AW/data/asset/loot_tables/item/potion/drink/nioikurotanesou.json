@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 20, Id: 1b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 2b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 3b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 4b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 5b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 6b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 7b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 8b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 9b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 10b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 11b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 12b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 13b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 14b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 15b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 16b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 17b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 18b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 19b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 20b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 21b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 22b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 23b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 24b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 25b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 26b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 20, Id: 27b, Amplifier: 0b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§c治せないものは§l死§r§cのみ\"}'], Name: '{\"text\":\"§l§cニオイクロタネソウ\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

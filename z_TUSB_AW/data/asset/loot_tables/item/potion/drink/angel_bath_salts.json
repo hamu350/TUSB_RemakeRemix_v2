@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 27b, Amplifier: 92b, ShowParticles: 1b}, {Duration: 10, Id: 6b, Amplifier: 2b, ShowParticles: 0b}, {Duration: 200, Id: 11b, Amplifier: 2b, ShowParticles: 0b}, {Duration: 400, Id: 1b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 20, Id: 23b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 600, Id: 8b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 1200, Id: 12b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 200, Id: 9b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 600, Id: 17b, Amplifier: 1b, ShowParticles: 0b}], HideFlags: 63, Potion: \"minecraft:water\", AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Amount: 4.0d, Name: \"wax\"}], display: {Lore: ['{\"text\":\"§f§lお湯に入れるだけで癒される入浴剤\"}'], Name: '{\"text\":\"§f§l天使の入浴剤\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

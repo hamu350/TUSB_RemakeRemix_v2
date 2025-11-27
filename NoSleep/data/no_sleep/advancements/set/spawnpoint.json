@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"check": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"nbt": "{SpawnForced:true}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "no_sleep:set/spawnpoint"
+	}
+}

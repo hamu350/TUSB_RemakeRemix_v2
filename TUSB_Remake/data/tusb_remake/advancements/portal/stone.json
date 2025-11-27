@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:stone_pressure_plate"
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:portal/plate"
+	}
+}

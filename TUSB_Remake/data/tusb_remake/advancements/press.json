@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"skill_settings_show_current": {
+			"trigger": "minecraft:impossible"
+		},
+		"trading_show_status": {
+			"trigger": "minecraft:impossible"
+		},
+		"trading_show_conquer": {
+			"trigger": "minecraft:impossible"
+		},
+		"unlock_tocult": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"skill_settings_show_current",
+			"trading_show_status",
+			"trading_show_conquer",
+			"unlock_tocult"
+		]
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 0, Id: 23b, Amplifier: 127b, ShowParticles: 1b}, {Duration: 0, Id: 1b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 300, Id: 2b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 0, Id: 5b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 300, Id: 18b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 20, Id: 6b, Amplifier: 6b, ShowParticles: 0b}, {Duration: 20, Id: 7b, Amplifier: 6b, ShowParticles: 0b}, {Duration: 0, Id: 8b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 0, Id: 10b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 0, Id: 11b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 0, Id: 12b, Amplifier: 127b, ShowParticles: 0b}, {Duration: 300, Id: 19b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 300, Id: 20b, Amplifier: 10b, ShowParticles: 0b}, {Duration: 100, Id: 25b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7刺さった者の全能力を封じ弱体化させ、\"}', '{\"text\":\"§7体力が少ない者を即死させる。\"}'], Name: '{\"text\":\"§5§km§9§ky§b§kt§a§kh§e§ki§6§kc§c§ka§d§kl§f§l シャイニングプリズム §d§km§c§ky§6§kt§e§kh§a§ki§b§kc§9§ka§5§kl§r\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

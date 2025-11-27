@@ -1,0 +1,41 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 33,
+                                "max": 60
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/d",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/c",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

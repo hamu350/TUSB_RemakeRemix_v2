@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, AttributeModifiers: [{Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 6, 0, 1], Amount: 10.0d, Name: \"HaruEditor\"}], display: {color: 8453888, Name: '{\"text\":\"採掘戦隊マインクラフター\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:protection\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

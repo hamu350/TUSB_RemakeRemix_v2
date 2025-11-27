@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"ステテコパンツ\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:thorns\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

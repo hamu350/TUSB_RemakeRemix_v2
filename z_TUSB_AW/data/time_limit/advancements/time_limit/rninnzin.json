@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{display: {Name: '{\"text\":\"§4§lレッドキャロット\"}'}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "time_limit:item_data_change/rninnzin"
+    }
+  }

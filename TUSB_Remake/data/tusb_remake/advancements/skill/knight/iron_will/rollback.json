@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[IronWillRollback]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:skill/knight/iron_will/rollback"
+	}
+}

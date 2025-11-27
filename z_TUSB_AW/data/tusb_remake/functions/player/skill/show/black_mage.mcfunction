@@ -1,0 +1,37 @@
+#> tusb_remake:player/skill/show/black_mage
+# 黒魔導士スキル名称の表示
+### Copyright © 2022 赤石愛
+### This software is released under the MIT License, see LICENSE.
+
+execute if score @s ShowSkill matches 5000 run data modify storage tusb_remake: skill_name set value "スノウ"
+execute if score @s ShowSkill matches 5010 run data modify storage tusb_remake: skill_name set value "キャンドル"
+execute if score @s ShowSkill matches 5020 run data modify storage tusb_remake: skill_name set value "ウェザー"
+execute if score @s ShowSkill matches 5030 run data modify storage tusb_remake: skill_name set value "グロウ"
+execute if score @s ShowSkill matches 5040 run data modify storage tusb_remake: skill_name set value "マナリフレッシュ"
+execute if score @s ShowSkill matches 5041 run data modify storage tusb_remake: skill_name set value "マナリフレッシュⅡ"
+execute if score @s ShowSkill matches 5050 run data modify storage tusb_remake: skill_name set value "エンアスピル"
+execute if score @s ShowSkill matches 5051 run data modify storage tusb_remake: skill_name set value "エンアスピルⅡ"
+execute if score @s ShowSkill matches 5060 run data modify storage tusb_remake: skill_name set value "マジックシールド"
+execute if score @s ShowSkill matches 5070 run data modify storage tusb_remake: skill_name set value "ルーラ"
+execute if score @s ShowSkill matches 5080 run data modify storage tusb_remake: skill_name set value "ウィンドウォール"
+execute if score @s ShowSkill matches 5090 run data modify storage tusb_remake: skill_name set value "ラナルータ"
+execute if score @s ShowSkill matches 5100 run data modify storage tusb_remake: skill_name set value "§aマジカルエンゲージ"
+execute if score @s ShowSkill matches 5200 run data modify storage tusb_remake: skill_name set value "アイスストーム"
+execute if score @s ShowSkill matches 5201 run data modify storage tusb_remake: skill_name set value "アイスストームⅡ"
+execute if score @s ShowSkill matches 5202 run data modify storage tusb_remake: skill_name set value "アイスストームⅢ"
+execute if score @s ShowSkill matches 5210 run data modify storage tusb_remake: skill_name set value "クロスファイアー"
+execute if score @s ShowSkill matches 5211 run data modify storage tusb_remake: skill_name set value "クロスファイアーⅡ"
+execute if score @s ShowSkill matches 5212 run data modify storage tusb_remake: skill_name set value "クロスファイアーⅢ"
+execute if score @s ShowSkill matches 5220 run data modify storage tusb_remake: skill_name set value "サンダーボルト"
+execute if score @s ShowSkill matches 5221 run data modify storage tusb_remake: skill_name set value "サンダーボルトⅡ"
+execute if score @s ShowSkill matches 5222 run data modify storage tusb_remake: skill_name set value "サンダーボルトⅢ"
+execute if score @s ShowSkill matches 5230 run data modify storage tusb_remake: skill_name set value "ジオクラッシュ"
+execute if score @s ShowSkill matches 5231 run data modify storage tusb_remake: skill_name set value "ジオクラッシュⅡ"
+execute if score @s ShowSkill matches 5232 run data modify storage tusb_remake: skill_name set value "ジオクラッシュⅢ"
+execute if score @s ShowSkill matches 5240 run data modify storage tusb_remake: skill_name set value "ドレイン"
+execute if score @s ShowSkill matches 5241 run data modify storage tusb_remake: skill_name set value "ドレインⅡ"
+execute if score @s ShowSkill matches 5250 run data modify storage tusb_remake: skill_name set value "パルプンテ"
+execute if score @s ShowSkill matches 5260 run data modify storage tusb_remake: skill_name set value "§bマジカルドレイン"
+execute if score @s ShowSkill matches 5270 run data modify storage tusb_remake: skill_name set value "§dライトニングシャワー"
+execute if score @s ShowSkill matches 5280 run data modify storage tusb_remake: skill_name set value "§6シャドウボルト"
+

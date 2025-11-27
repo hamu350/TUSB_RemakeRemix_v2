@@ -1,0 +1,47 @@
+{
+    "criteria": {
+        "old_can_place_on_all": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CanPlaceOn: [\"minecraft:stone\"]}"
+                    }
+                ]
+            }
+        },
+        "carve_halloween": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pumpkin"
+                        ],
+                        "nbt": "{display: {Name: '{\"text\":\"§6§lハロウィンヘッド\"}'}}"
+                    }
+                ]
+            }
+        },
+        "skill_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EntityTag:{Tags:[\"SkillEgg\"]}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "old_can_place_on_all",
+            "carve_halloween",
+            "skill_egg"
+        ]
+    ],
+    "rewards": {
+        "function": "tusb_remake:inventory_event/"
+    }
+}

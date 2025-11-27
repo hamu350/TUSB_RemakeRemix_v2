@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display: {Lore: ['{\"text\":\"§f腹が減ったらお互い様。\"}', '{\"text\":\"§aお金§fは頂きますが、\"}', '{\"text\":\"§fお裾分けします。\"}'], Name: '{\"text\":\"§f今日の昼食\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

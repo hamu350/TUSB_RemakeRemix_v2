@@ -1,0 +1,758 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_chest",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:jukebox",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 128,
+                                "max": 192
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 30,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§e使用すると、ﾗﾝﾀﾞﾑで\"}', '{\"text\":\"§bﾀﾞｲﾔ製§eの道具が出現する。\"}'], Name: '{\"text\":\"§r§b剛道具の印玉\"}'}, Enchantments: [], EntityTag: {DeathLootTable: \"usb:signs/diamond\", id: \"minecraft:bat\", DeathTime: 19s, ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"RewardEgg\", \"TypeChecked\"]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 16, display: {Lore: ['{\"text\":\"§r§bダイヤ§f防具一式§eが圧縮された印玉。\"}', '{\"text\":\"§e使用すると§l§f防具一式§eが§b解凍§eされる。\"}'], Name: '{\"text\":\"§r§f圧縮防具の印玉§b§l-剛-\"}'}, Enchantments: [], EntityTag: {DeathLootTable: \"usb:signs/diamondarmor\", id: \"minecraft:bat\", DeathTime: 19s, ActiveEffects: [{Duration: 100, Id: 7b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 100, Id: 14b, Amplifier: 0b, ShowParticles: 0b}], Tags: [\"RewardEgg\", \"TypeChecked\"]}, CanPlaceOn: [\"#minecraft:all\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 26b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 3b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§aマナがたぽっと詰まった飲み物。\"}', '{\"text\":\"§a飲むとMPがとても大きく回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§2§lスーパーエーテル\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects: [{Duration: 0, Id: 5b, Amplifier: 0b, ShowParticles: 1b}, {Duration: 3, Id: 14b, Amplifier: 4b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§dマナから作られた霊薬。\"}', '{\"text\":\"§d飲むとHPとMPが半分回復する。\"}', '{\"text\":\"\"}', '{\"text\":\"§7スプラッシュ化不可\"}'], Name: '{\"text\":\"§5§lエリクサー\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spruce_sapling",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 4.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Name: '{\"text\":\"§9§l棘松\"}'}, Enchantments: [{lvl: 5, id: \"minecraft:thorns\"}, {lvl: 3, id: \"minecraft:knockback\"}, {lvl: 5, id: \"minecraft:looting\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"cbo\", Color: 7}, {Pattern: \"flo\", Color: 0}, {Pattern: \"tts\", Color: 7}, {Pattern: \"bts\", Color: 7}], Base: 15}, display: {Name: '{\"text\":\"§8§l歯車の盾\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 2s, id: \"minecraft:thorns\"}, {lvl: 1s, id: \"minecraft:fire_aspect\"}], Damage: 0, AttributeModifiers: [{Amount: 1.5d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax\"}, {Amount: 6.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"wax\"}, {Amount: 0.05d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"wax\"}, {Amount: -0.02d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"wax\"}, {Amount: -0.03d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 6], Name: \"wax\"}, {Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 7], Name: \"wax\"}, {Amount: -0.03d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 8], Name: \"wax\"}, {Amount: 0.03d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 9], Name: \"wax\"}, {Amount: 0.06d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 10], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cobweb",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 1.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.02d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}], display: {Name: '{\"text\":\"§f§l解けた毛糸\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:feather",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 8.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -0.08d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 0.01d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§c§lソーラー・ウインド\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 4s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:knockback\"}, {lvl: 3s, id: \"minecraft:fire_aspect\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 6.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"wax\"}, {Amount: 0.04d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"wax\"}, {Amount: 0.04d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"wax\"}, {Amount: 4.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§3§lムーン\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cake",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§f§lふっ飛ばしケーキ\"}'}, Enchantments: [{lvl: 10s, id: \"minecraft:knockback\"}, {lvl: 20s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§7§lレーヴァテイン\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 5s, id: \"minecraft:unbreaking\"}], Damage: 0, AttributeModifiers: [{Amount: 6.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.03d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 0.07d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": 0.0
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§9§l諸刃の剣\"}'}, Enchantments: [{lvl: 16s, id: \"minecraft:sharpness\"}], Damage: 251, AttributeModifiers: [{Amount: -0.45d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -0.09d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 3.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:magma_cream",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 6.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"wax\"}, {Amount: 4.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"wax\"}], display: {Name: '{\"text\":\"§c§lサン\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_crystal",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 20.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: -0.02d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 12.0d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}], display: {Name: '{\"text\":\"§d§lクリストフェル\"}'}, Enchantments: [{lvl: 2, id: \"minecraft:knockback\"}, {lvl: 5, id: \"minecraft:sharpness\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§b§lスイハ\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:infinity\"}, {lvl: 5s, id: \"minecraft:punch\"}, {lvl: 3s, id: \"minecraft:power\"}], Damage: 0, AttributeModifiers: [{Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.02d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§2§lトリスタンの弓\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:knockback\"}, {lvl: 5s, id: \"minecraft:unbreaking\"}, {lvl: 2s, id: \"minecraft:power\"}, {lvl: 1s, id: \"minecraft:infinity\"}], Damage: 0, AttributeModifiers: []}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§3§lアヌーク\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}, {lvl: 1s, id: \"minecraft:sharpness\"}, {lvl: 1s, id: \"minecraft:infinity\"}, {lvl: 3s, id: \"minecraft:power\"}], Damage: 0, AttributeModifiers: [{Amount: 1.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {Name: '{\"text\":\"§5§lトンボキリ\"}'}, Enchantments: [{lvl: 5, id: \"minecraft:power\"}], Damage: 0, AttributeModifiers: [{Amount: -0.0125d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"§b§lシェキナーの弓\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}, {lvl: 2s, id: \"minecraft:punch\"}, {lvl: 4s, id: \"minecraft:power\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": 0.0
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, display: {color: 16777215, Name: '{\"text\":\"§f§l衝撃吸収ブーツ§l\"}'}, Enchantments: [{lvl: 100s, id: \"minecraft:feather_falling\"}], Damage: 66, AttributeModifiers: [{Amount: 0.0d, Slot: \"feet\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 6, 0, 1], Name: \"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, AttributeModifiers: [{Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax\"}, {Amount: 0.04d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax\"}, {Amount: 4.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"wax\"}, {Amount: 0.05d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 5], Name: \"wax\"}, {Amount: 1.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 6], Name: \"wax\"}, {Amount: 3.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 7], Name: \"wax\"}, {Amount: 10.0d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 3, 0, 8], Name: \"wax\"}, {Amount: 10.0d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 9], Name: \"wax\"}, {Amount: 4.0d, Slot: \"head\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 3, 0, 10], Name: \"wax\"}, {Amount: 15.0d, Slot: \"head\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 3, 0, 11], Name: \"wax\"}], display: {Name: '{\"text\":\"§6§lハロウィンヘッド\"}'}, Enchantments: []}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"bo\", Color: 0}, {Pattern: \"cr\", Color: 0}, {Pattern: \"flo\", Color: 0}, {Pattern: \"ms\", Color: 0}, {Pattern: \"cs\", Color: 0}, {Pattern: \"bt\", Color: 0}, {Pattern: \"sc\", Color: 9}, {Pattern: \"mr\", Color: 3}, {Pattern: \"cbo\", Color: 9}, {Pattern: \"mc\", Color: 0}, {Pattern: \"bo\", Color: 0}, {Pattern: \"gra\", Color: 0}, {Pattern: \"tts\", Color: 0}], Base: 3}, display: {Name: '{\"text\":\"§b§l金剛の盾\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}, {lvl: 2s, id: \"minecraft:knockback\"}, {lvl: 10s, id: \"minecraft:sharpness\"}], Damage: 0, AttributeModifiers: [{Amount: -0.08d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"SPD\"}, {Amount: 6.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"AMR\"}, {Amount: -0.08d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 3], Name: \"SPD\"}, {Amount: 6.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 4], Name: \"AMR\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"bri\", Color: 4}, {Pattern: \"bri\", Color: 5}, {Pattern: \"bo\", Color: 15}], Base: 13}, display: {Name: '{\"text\":\"§2§l畳\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:unbreaking\"}], Damage: 0, AttributeModifiers: [{Amount: 5.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: -0.1d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"SPD\"}, {Amount: 0.05d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"KB\"}, {Amount: 5.0d, Slot: \"offhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"AMR\"}, {Amount: 5.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"HP\"}, {Amount: -0.1d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 6], Name: \"SPD\"}, {Amount: 0.05d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 7], Name: \"KB\"}, {Amount: 5.0d, Slot: \"mainhand\", AttributeName: \"generic.armor\", Operation: 0, UUID: [I; 0, 1, 0, 8], Name: \"AMR\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"ss\", Color: 2}, {Pattern: \"ss\", Color: 2}, {Pattern: \"ms\", Color: 15}, {Pattern: \"sc\", Color: 15}, {Pattern: \"hhb\", Color: 15}, {Pattern: \"ts\", Color: 15}], Base: 10}, display: {Name: '{\"text\":\"§5§lエンダーマンの盾\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:unbreaking\"}], Damage: 0, AttributeModifiers: [{Amount: 10.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: 3.0d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"SPD\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"KB\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 2, 0, 4], Name: \"ATK\"}, {Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 5], Name: \"HP\"}, {Amount: 3.0d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 1, 0, 6], Name: \"SPD\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 7], Name: \"KB\"}, {Amount: 0.2d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; 0, 1, 0, 8], Name: \"ATK\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost: 1000000000, HideFlags: 32, BlockEntityTag: {Patterns: [{Pattern: \"gru\", Color: 1}, {Pattern: \"ss\", Color: 1}, {Pattern: \"cre\", Color: 1}, {Pattern: \"cre\", Color: 4}, {Pattern: \"tts\", Color: 1}], Base: 14}, display: {Name: '{\"text\":\"§6§lジャック・オ・ランタン\"}'}, Enchantments: [], Damage: 0, AttributeModifiers: [{Amount: 0.1d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 2, 0, 1], Name: \"HP\"}, {Amount: 0.31d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 2, 0, 2], Name: \"SPD\"}, {Amount: 0.1d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 1, 0, 3], Name: \"HP\"}, {Amount: 0.31d, Slot: \"mainhand\", AttributeName: \"generic.movement_speed\", Operation: 2, UUID: [I; 0, 1, 0, 4], Name: \"SPD\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers: [{Amount: 6.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax100\"}, {Amount: 0.8d, Slot: \"mainhand\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax100\"}, {Amount: 3.0d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax100\"}, {Amount: 1.4d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"wax100\"}], display: {Name: '{\"text\":\"§b§l冷凍銃\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:protection\"}, {lvl: 5s, id: \"minecraft:thorns\"}, {lvl: 10s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:knockback\"}, {lvl: 1s, id: \"minecraft:punch\"}, {lvl: 3s, id: \"minecraft:bane_of_arthropods\"}, {lvl: 4s, id: \"minecraft:smite\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage: 0, HideFlags: 60, AttributeModifiers: [{Amount: 2.0d, Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 1, 0, 1], Name: \"wax100\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 1, 0, 2], Name: \"wax100\"}, {Amount: 0.5d, Slot: \"mainhand\", AttributeName: \"generic.armor_toughness\", Operation: 0, UUID: [I; 0, 1, 0, 3], Name: \"wax100\"}], display: {Name: '{\"text\":\"§e§lエステレラ\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 2s, id: \"minecraft:smite\"}, {lvl: 3s, id: \"minecraft:knockback\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:torch",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags: 60, AttributeModifiers: [{Amount: 6.0d, Slot: \"offhand\", AttributeName: \"generic.follow_range\", Operation: 0, UUID: [I; 0, 2, 0, 1], Name: \"wax100\"}, {Amount: 6.0d, Slot: \"offhand\", AttributeName: \"generic.max_health\", Operation: 0, UUID: [I; 0, 2, 0, 2], Name: \"wax100\"}, {Amount: 0.4d, Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 2, 0, 3], Name: \"wax100\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 0, UUID: [I; 0, 2, 0, 4], Name: \"wax100\"}], display: {Lore: ['{\"text\":\"探検家が捨てていった松明\"}', '{\"text\":\"少し力がみなぎってくる\"}'], Name: '{\"text\":\"§cテンポラリートーチ\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:fire_aspect\"}, {lvl: 5s, id: \"minecraft:flame\"}, {lvl: 3s, id: \"minecraft:knockback\"}, {lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 5s, id: \"minecraft:smite\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,display:{Name:'{\"text\":\"KRSB 5.0x160mm\",\"color\":\"gray\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"ごく一般的なクロスボウだが\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"職人の技により軽量化がなされている。\",\"color\":\"yellow\",\"italic\":false}']},Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:quick_charge\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:0,UUID:[I;0,1,0,1],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;0,1,0,2],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

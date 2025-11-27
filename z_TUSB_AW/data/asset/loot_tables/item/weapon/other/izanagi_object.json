@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Legacy: 1b, display: {Name: '{\"text\":\"§a§lイ§2§lザ§b§lナ§3§lギ§a§lオ§2§lブ§b§lジ§3§lェ§a§lク§2§lト\"}'}, Enchantments: [{lvl: 20s, id: \"minecraft:smite\"}, {lvl: 5s, id: \"minecraft:thorns\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

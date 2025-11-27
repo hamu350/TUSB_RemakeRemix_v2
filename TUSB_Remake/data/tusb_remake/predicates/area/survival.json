@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/skyland"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/underworld"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/nether"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:armor_stand"
+					],
+					"nbt": "{EntityTag:{Tags:[\"SignStand\"]}}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"place"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:armor_stand/place"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "values": [
+        "no_sleep:respawn/check/bed",
+        "no_sleep:respawn/check/respawn_anchor",
+        "no_sleep:respawn/check/none"
+    ]
+}

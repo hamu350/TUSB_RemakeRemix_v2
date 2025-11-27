@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 200, Id: 2b, Amplifier: 7b, ShowParticles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§5§o当たると相手の移動を一時的に封じる。\"}'], Name: '{\"text\":\"§d移動封じの聖水\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

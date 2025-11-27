@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "rarity": "Mythic: Monster 8.33%",
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "asset:item/tool/carrot_on_a_stick/monster"
+                },
+                {
+                    "rarity": "Mythic: Divzer 8.33%",
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "asset:item/weapon/bow/divzer"
+                },
+                {
+                    "rarity": "Mythic: Hero 8.33%",
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "asset:item/weapon/sword/hero"
+                },
+                {
+                    "rarity": "Rare: Compiler 25%",
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "asset:item/tool/carrot_on_a_stick/compiler"
+                },
+                {
+                    "rarity": "Rare: Barrett M82 25%",
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "asset:item/weapon/bow/barret_m82"
+                },
+                {
+                    "rarity": "Rare: イエローテンパランス 25%",
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "usb:signs/game_master_reward/yellow_temperance_full"
+                }
+            ]
+        }
+    ]
+}

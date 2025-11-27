@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_hoe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, display: {Name: '{\"text\":\"草刈り鎌\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:sharpness\"}, {lvl: -2s, id: \"minecraft:unbreaking\"}, {lvl: 5s, id: \"minecraft:smite\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"enter": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": -2816.0,
+								"max": -2800.0
+							},
+							"y": {
+								"min": 72.0,
+								"max": 300.0
+							},
+							"z": {
+								"min": -400.0,
+								"max": -368.0
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tusb_remake:gimmic/close_tower_bank/trigger"
+	}
+}

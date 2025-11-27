@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 0, HideFlags: 60, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.max_health\", Operation: 1, UUID: [I; 0, 1, 0, 1], Amount: 0.045d, Name: \"wax100\"}, {Slot: \"offhand\", AttributeName: \"generic.knockback_resistance\", Operation: 1, UUID: [I; 0, 2, 0, 1], Amount: 0.4d, Name: \"wax100\"}, {Slot: \"offhand\", AttributeName: \"generic.movement_speed\", Operation: 1, UUID: [I; 0, 2, 0, 2], Amount: 0.4d, Name: \"wax100\"}], display: {Name: '{\"text\":\"§b§lシーケンスクリエイター\"}'}, Enchantments: [{lvl: 3s, id: \"minecraft:sharpness\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}, {lvl: 4s, id: \"minecraft:efficiency\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

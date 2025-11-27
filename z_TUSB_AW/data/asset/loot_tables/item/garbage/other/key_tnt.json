@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tnt",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, display: {Lore: ['{\"text\":\"§eR&D特製の完全完璧なドアの鍵。\"}', '{\"text\":\"§eとてもスリリングな外見をしているが\"}', '{\"text\":\"§e市民もまた完全完璧であるため、\"}', '{\"text\":\"§e取り扱いを誤るはずがない。\"}'], Name: '{\"text\":\"§c反逆者撃退機能付き認証キー\"}'}, Enchantments: []}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Lore:['{\"text\":\"§4謳い謳え\"}','{\"text\":\"§4我らが§e§l主君§4の御帰りだ\"}','{\"text\":\"§4唱え踊れ騒げ敬え\"}','{\"text\":\"§4今宵持って我らは終焉の神を出迎える\"}'],Name:'{\"text\":\"§4§k|||§r§4§l-封印されし§e§l災歌§4-§4§k|||§r\"}'},AttributeModifiers:[{UUID:[I;0,2,0,1],Amount:30,Slot:\"offhand\",AttributeName:\"generic.max_health\",Operation:0,Name:\"generic.max_health\"},{UUID:[I;0,3,0,1],Amount:-999,Slot:\"head\",AttributeName:\"generic.follow_range\",Operation:0,Name:\"generic.follow_range\"},{UUID:[I;0,2,0,3],Amount:0.1d,Slot:\"offhand\",AttributeName:\"generic.movement_speed\",Operation:0,Name:\"generic.movement_dpeed\"},{UUID:[I;0,2,0,4],Amount:20,Slot:\"offhand\",AttributeName:\"generic.attack_damage\",Operation:0,Name:\"generic.attack_damage\"},{UUID:[I;0,2,0,5],Amount:20,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"generic.armor\"},{UUID:[I;0,3,0,2],Amount:-999,Slot:\"head\",AttributeName:\"generic.luck\",Operation:0,Name:\"generic.luck\"},{UUID:[I;0,2,0,7],Amount:15,Slot:\"offhand\",AttributeName:\"generic.armor_toughness\",Operation:0,Name:\"generic.armor_toughness\"},{UUID:[I;0,2,0,8],Amount:0.25d,Slot:\"offhand\",AttributeName:\"generic.attack_speed\",Operation:1,Name:\"generic.attack_speed\"},{UUID:[I;0,2,0,9],Amount:0.5d,Slot:\"offhand\",AttributeName:\"generic.knockback_resistance\",Operation:0,Name:\"generic.knockback_resistance\"}],HideFlags:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

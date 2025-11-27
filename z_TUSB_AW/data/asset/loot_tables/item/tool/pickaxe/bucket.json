@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1000000000, Damage: 22, display: {Name: '{\"text\":\"バケツ\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:silk_touch\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

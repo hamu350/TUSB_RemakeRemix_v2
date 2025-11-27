@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects: [{Duration: 0, Id: 25b, Amplifier: -128b, ShowParticles: 1b}, {Duration: 6000, Id: 16b, Amplifier: 123b, ShowParticles: 1b}, {Duration: 320, Id: 9b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 600, Id: 10b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 6000, Id: 11b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 6000, Id: 12b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 2400, Id: 22b, Amplifier: 5b, ShowParticles: 0b}, {Duration: 20, Id: 14b, Amplifier: 1b, ShowParticles: 0b}, {Duration: 6000, Id: 1b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 6000, Id: 3b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 6000, Id: 16b, Amplifier: 0b, ShowParticles: 0b}, {Duration: 6000, Id: 5b, Amplifier: 3b, ShowParticles: 0b}, {Duration: 300, Id: 6b, Amplifier: 0b, ShowParticles: 0b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§7様々な作物を混ぜ合わせて作られたポーション。\"}', '{\"text\":\"§9見た目は悪い§7が、その効果は･･･？\"}'], Name: '{\"text\":\"§8§l廃ポーション\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

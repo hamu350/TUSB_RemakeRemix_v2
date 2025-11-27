@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "pack_format": 12,
+        "description": "迫るリミット、その過程で成長する。"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}
