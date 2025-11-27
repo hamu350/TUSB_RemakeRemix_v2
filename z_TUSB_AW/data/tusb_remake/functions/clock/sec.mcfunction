@@ -64,7 +64,7 @@ execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft
 execute as @a[tag=Doom] run function tusb_remake:doom/
 
 ## サバイバルスポナー処理
-execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air align xyz run kill @e[dx=0,tag=Spawner]
+execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run kill @e[distance=..0.99,tag=Spawner,limit=2,sort=nearest]
 
 ## CooldownRequired 誤差許容長期用
 tag @e[tag=CooldownRequiredLong,nbt={PortalCooldown:0}] add Garbage
