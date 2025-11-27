@@ -24,4 +24,8 @@ data modify entity @e[limit=1,tag=SetSpawner] DisplayOffset set from storage oh_
 
 data modify entity @e[limit=1,tag=SetSpawner] DisplayState set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].spawner.DisplayState
 
+# 情報表示
+function name:a
+function main:name
+
 tag @e[tag=SetSpawner] remove SetSpawner
