@@ -106,6 +106,7 @@
         "asset:mob/4109.angel_soldier/summon/1.trigger",
         "asset:mob/4203.heaven_mage/summon/1.trigger",
         "asset:mob/4302.angel_eye/summon/1.trigger",
-        "asset:mob/4004.rihuzin/summon/1.trigger"
+        "asset:mob/4004.rihuzin/summon/1.trigger",
+        "asset:mob/0200.runa/summon/1.trigger"
     ]
 }

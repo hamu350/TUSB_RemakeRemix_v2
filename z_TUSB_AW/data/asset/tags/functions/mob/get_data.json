@@ -109,6 +109,7 @@
         "asset:mob/4109.angel_soldier/data/1.trigger",
         "asset:mob/4203.heaven_mage/data/1.trigger",
         "asset:mob/4302.angel_eye/data/1.trigger",
-        "asset:mob/4004.rihuzin/data/1.trigger"
+        "asset:mob/4004.rihuzin/data/1.trigger",
+        "asset:mob/0200.runa/data/1.trigger"
     ]
 }
