@@ -162,7 +162,7 @@ data modify storage asset: mob.Passengers append from storage asset: mob.Passeng
 data modify storage asset: mob.Passengers append from storage asset: mob.Passengers[]
 
 # 一番下をすぐ死ぬようにする
-data modify storage asset: mob.ActiveEffects set value [{ShowParticles: 1b, Duration: 2147483647, Id: 6, Amplifier: 0b}]
+data modify storage asset: mob.ActiveEffects set value [{ShowParticles: 1b, Duration: 2147483647, Id: 7, Amplifier: 0b}]
 
 data modify storage _: _ set from storage asset: mob
 data modify storage asset: mob set value {DeathTime:19, Health: 0.0f, Silent: 1b, id: "minecraft:villager"}
