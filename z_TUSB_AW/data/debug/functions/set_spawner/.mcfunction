@@ -30,6 +30,10 @@ data modify storage _: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-
 # Aura:trueならオーラを乗っける
 execute if data storage _: {_:{Aura:true}} as @e[type=armor_stand,tag=this,limit=1] run function debug:set_spawner/aura
 
+# 情報表示
+    function name:a
+    function main:name
+
 tag @e[tag=this] remove this
 
 data remove storage _: _
