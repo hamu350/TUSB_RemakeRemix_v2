@@ -10,7 +10,7 @@ data modify storage asset: mob.id set value "pufferfish"
 
 ### 体力等nbtを設定
 # 体力
-data modify storage asset: mob.Health set value 20
+data modify storage asset: mob.Health set value 60
 # 緩衝体力
 # data modify storage asset: mob.AbsorptionAmount set value 20
 # AIを持っているか(trueで持たない
@@ -38,7 +38,7 @@ data modify storage asset: mob.CustomName set value '{"text":"バンパー河豚
 
 ### Attributes
 # 最大体力
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:20}
+data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:60}
 # (近接)攻撃力
 # data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:10}
 # 移動速度
@@ -162,8 +162,7 @@ data modify storage asset: mob.Passengers append from storage asset: mob.Passeng
 data modify storage asset: mob.Passengers append from storage asset: mob.Passengers[]
 
 # 一番下をすぐ死ぬようにする
-data modify storage asset: mob.ActiveEffects set value [{ShowParticles: 1b, Duration: 2147483647, Id: 20, Amplifier: 0b}]
-data modify storage asset: mob.Health set value 5
+data modify storage asset: mob.ActiveEffects set value [{ShowParticles: 1b, Duration: 2147483647, Id: 6, Amplifier: 0b}]
 
 data modify storage _: _ set from storage asset: mob
 data modify storage asset: mob set value {DeathTime:19, Health: 0.0f, Silent: 1b, id: "minecraft:villager"}
