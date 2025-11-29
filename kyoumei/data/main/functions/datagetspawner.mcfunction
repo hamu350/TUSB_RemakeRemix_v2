@@ -2,4 +2,4 @@
 #
 # 
 #
-tellraw @s {"nbt": "SpawnData","entity": "@e[limit=1,sort= nearest,type=spawner_minecart]"}
+tellraw @s {"translate":"%1$s","with":[{"nbt":"SpawnData","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]","interpret": true}]}

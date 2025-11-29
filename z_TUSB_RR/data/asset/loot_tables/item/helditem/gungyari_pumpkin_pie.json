@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_pie",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"minecraft:generic.luck\", Operation: 0, UUID: [I; 0, 2, 0, 1], Amount: 401}], display:{Name:'{\"text\":\"ガンギマリパンプキンπ\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
