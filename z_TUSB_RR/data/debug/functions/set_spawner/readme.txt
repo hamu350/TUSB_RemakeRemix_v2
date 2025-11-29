@@ -7,6 +7,8 @@ debug:set_spawnerというstorageに要素を代用してどうこうします
 
 テンプレ：/data modify storage debug:set_spawner _ set value {DebugId:,merge:false,set:true,data:{SpawnMob:[{AssetId:,weight:1}],Delay:{Delay:1,Min:100,Max:700},Count:1,Range:4,ReqRange:16,Display:""}}
 
+/data modify storage debug:set_spawner _ set value {DebugId:3,merge:false,set:true,data:{SpawnMob:[{AssetId:238,weight:1}],Delay:{Delay:-1,Min:1000,Max:2000},Count:1,Range:4,ReqRange:8,Display:""}}
+
 よくある間違い：AssetId:0800のようにしてしまう。正しくはAssetId:800。0800の場合数値と認識されない
 
 各要素についての説明
