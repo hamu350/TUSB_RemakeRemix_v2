@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### レベルが100以下の場合だけレベルアップ
-scoreboard players add @s[scores={Level=..149}] Level 1
+scoreboard players add @s[scores={Level=..99}] Level 1
 ### 最大MPはレベルに関わらずあがる
 scoreboard players add @s MPMax 1
 ### 最大500
@@ -38,12 +38,14 @@ title @s subtitle [{"text":"現在のレベル : ","italic":true},{"score":{"nam
 title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 
 ### レベル49までと、レベル50になりたての場合、新しいスキル取得メッセージを表示
-execute if entity @s[scores={Level=1..150,NextExp=..749}] run function tusb_remake:player/skill/learn/
+execute if entity @s[scores={Level=1..100,NextExp=..499}] run function tusb_remake:player/skill/learn/
+execute if entity @s[scores={Level=100,NextExp=..499}] run scoreboard players add @s ExpReduce 1
 ### 次の経験値の設定
 function tusb_remake:player/hp/set_max
 effect give @s instant_health 1 6 true
 scoreboard players operation @s NextExp = @s Level
 execute store result score _ TUSB run data get storage tusb_remake: Const.ExpMul
 scoreboard players operation @s NextExp *= _ TUSB
+execute if entity @s[scores={Level=1..99}] unless score @s ExpReduce matches 6.. run function tusb_remake:player/expreduce
 scoreboard players operation @s ExpToLevel += @s NextExp
-execute as @a if score @s ExpToLevel matches 750.. run scoreboard players set @s ExpToLevel 750
+execute as @a if score @s ExpToLevel matches 500.. run scoreboard players set @s ExpToLevel 500

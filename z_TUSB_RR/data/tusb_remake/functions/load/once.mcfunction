@@ -320,12 +320,14 @@ scoreboard objectives add GMA dummy
 ### gamemaster_end
 scoreboard objectives add CountDown dummy
 
-
 ### UNO
 scoreboard objectives add UNO trigger
 
 ### 爆発回数
 scoreboard objectives add blast dummy
+
+### 必要経験値減少係数
+scoreboard objectives add ExpReduce dummy
 
 ### チーム
 team add FriendlyTeam
@@ -370,7 +372,7 @@ worldborder set 7000
 ### setdisplay
 scoreboard objectives setdisplay list Level
 scoreboard objectives setdisplay sidebar MP
-scoreboard objectives setdisplay below_name HP
+scoreboard objectives setdisplay belowName HP
 scoreboard players reset * MP
 
 ### ワールド初期設定
