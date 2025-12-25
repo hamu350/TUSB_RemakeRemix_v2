@@ -34,9 +34,9 @@ data modify storage tusb_remake: conquer.rate.cent append from storage math: out
 
 ## ストレージだけでNで割った余りが0かどうかをみて
 ## 0だったら村人を追加
-execute store result storage tusb_remake: _ int 3 run data get storage tusb_remake: conquer.count.total 0.3333333334
-execute store result storage tusb_remake: _ byte 1 run data modify storage tusb_remake: _ set from storage tusb_remake: conquer.count.total
-execute if data storage tusb_remake: {_:false} in minecraft:overworld as @e[x=-1902,y=4,z=-81,dx=24,type=villager,tag=!ShopStaff,sort=random,limit=1] at @s run function tusb_remake:area/conquer/new_shop
+# execute store result storage tusb_remake: _ int 3 run data get storage tusb_remake: conquer.count.total 0.3333333334
+# execute store result storage tusb_remake: _ byte 1 run data modify storage tusb_remake: _ set from storage tusb_remake: conquer.count.total
+# execute if data storage tusb_remake: {_:false} in minecraft:overworld as @e[x=-1902,y=4,z=-81,dx=24,type=villager,tag=!ShopStaff,sort=random,limit=1] at @s run function tusb_remake:area/conquer/new_shop
 
 # 追加部分
 # 難易度に応じて秒数を増やすよ

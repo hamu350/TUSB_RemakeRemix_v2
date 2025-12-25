@@ -39,7 +39,7 @@ data modify storage tusb_remake: _.25 set value {name:["ガストキャノン","
 data modify storage tusb_remake: _.26 set value {name:["フェイタルショット"],level:[50],cost:100,description:[["周囲の敵を弱体化する特殊な矢を放つ。"]],condition:"利き手で弓を構え矢を放つ",range:[10],duration:[20]}
 data modify storage tusb_remake: _.27 set value {name:["§b魔弾一閃"],level:[75],cost:30,description:[["命中すると広範囲に大ダメージを与える特殊な矢を放つ。"]],condition:"利き手で弓を構え矢を放つ",range:[45]}
 data modify storage tusb_remake: _.28 set value {name:["§dエースインザホール"],level:[100],cost:150,description:[["矢の周囲にいる味方の体力を持続回復し、敵にダメージを与える。着弾時、広範囲の味方の体力を回復し、敵にダメージを与える"]],condition:"利き手で弓を構え矢を放つ",range:[8]}
-data modify storage tusb_remake: _.29 set value {name:["§6クレイジーショット"],level:[150],cost:500,description:[["最寄りの敵に大ダメージを与え、持続的に味方に支援効果を与え敵にダメージを与えるフィールドを展開する"]],condition:"ニンジン付きの棒を持って右クリック",range:[10],duration:[10]}
+execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.29 set value {name:["§6クレイジーショット"],level:[100],cost:500,description:[["最寄りの敵に大ダメージを与え、持続的に味方に支援効果を与え敵にダメージを与えるフィールドを展開する"]],condition:"ニンジン付きの棒を持って右クリック",range:[10],duration:[10]}
 
 
 data modify storage tusb_remake: skill_table.archer set from storage tusb_remake: _

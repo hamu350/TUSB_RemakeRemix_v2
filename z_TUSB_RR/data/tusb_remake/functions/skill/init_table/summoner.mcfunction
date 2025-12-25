@@ -50,8 +50,8 @@ data modify storage tusb_remake: _.28 set value {COMMENT:"/* 26@6mと同様 */",
 data modify storage tusb_remake: _.29 set value {name:["きらきらタライ"],level:[43],cost:15,description:[["周囲の敵の頭上にきらきらタライを召喚する。"]],condition:"ニンジン付きの棒を持って右クリック",range:[15]}
 data modify storage tusb_remake: _.30 set value {name:["サモン:ぷちブラック"],level:[50],cost:100,description:[["ぷちブラックホールを召喚する。"]],condition:"ニンジン付きの棒を持って右クリック",duration:[15]}
 data modify storage tusb_remake: _.31 set value {name:["§bテスラフレア"],level:[51],cost:70,description:[["自身の位置に敵を引き寄せ硬直させたのちで電子爆発を起こす。ただし小ダメージを受ける。"]],condition:"ニンジン付きの棒を持って右クリック",range:[20]}
-data modify storage tusb_remake: _.32 set value {name:["§6ファイナルカタストロフィ"],level:[150],cost:500,description:[["もっとも近い敵を中心に深淵の魔物を召喚する。召喚された魔物は周囲を一掃する。"]],condition:"ニンジン付きの棒を持って右クリック",range:[30]}
-data modify storage tusb_remake: _.33 set value {name:["§dインバイトアビス"],level:[100],cost:60,description:[["もっとも近い敵を中心に深淵の遺物を召喚する。召喚された遺物は最も近い敵に特大ダメージ、周囲の敵に大ダメージを与えヒットした敵のバフを解除する。攻撃成功時、攻撃された敵周囲の味方のデバフを解除しバフと体力回復を付与する"]],condition:"ニンジン付きの棒を持って右クリック",range:[20]}
+data modify storage tusb_remake: _.32 set value {name:["§dインバイトアビス"],level:[100],cost:60,description:[["もっとも近い敵を中心に深淵の遺物を召喚する。召喚された遺物は最も近い敵に特大ダメージ、周囲の敵に大ダメージを与えヒットした敵のバフを解除する。攻撃成功時、攻撃された敵周囲の味方のデバフを解除しバフと体力回復を付与する"]],condition:"ニンジン付きの棒を持って右クリック",range:[20]}
+execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.33 set value {name:["§6ファイナルカタストロフィ"],level:[100],cost:500,description:[["もっとも近い敵を中心に深淵の魔物を召喚する。召喚された魔物は周囲を一掃する。"]],condition:"ニンジン付きの棒を持って右クリック",range:[30]}
 
 data modify storage tusb_remake: skill_table.summoner set from storage tusb_remake: _
 data remove storage tusb_remake: _

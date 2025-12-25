@@ -15,28 +15,13 @@ scoreboard players set MobGriefing Settings 0
 ### 難易度
 scoreboard players set Difficulty Settings 0
 ### 攻略対象最大数
-scoreboard players set MaxPortalCount Settings 70
+scoreboard players set MaxPortalCount Settings 80
 
 ### シュルカーボックス
 execute in overworld run forceload add 3500 3500 3500 3500
 execute in the_nether run forceload add 3500 3500 3500 3500
 execute in the_end run forceload add 3500 3500 3500 3500
 schedule function tusb_remake:load/set_shulker_box 1t
-
-### 超作業台置き換え
-execute in overworld run forceload add -2737 -392 -2721 -353
-schedule function tusb_remake:load/sagyou 1t
-
-### アイテム修正
-execute in minecraft:overworld run forceload add 3 2 3 2
-schedule function tusb_remake:load/start_item 1t
-
-### アイテム修正屋さん追加
-forceload add -2740 -361 -2740 -361
-schedule function tusb_remake:area/conquer/itemmurabito 1t
-
-# インフィニティボス報酬
-forceload add -2721 105 -2721 105
 
 ### ライブラリ用
 scoreboard objectives add Temporary dummy
@@ -161,6 +146,9 @@ scoreboard objectives add MPCost dummy "スキル消費MP"
 scoreboard objectives add SpawnX dummy
 scoreboard objectives add SpawnY dummy
 scoreboard objectives add SpawnZ dummy
+
+# 500スキルフラグ
+data modify storage tusb_remake: skill_liberation set value 0b
 
 ### スキルテーブルを初期化
 function tusb_remake:skill/init_table/
@@ -415,4 +403,5 @@ function tusb_remake:game_master/chest/dataset
 # scoreboard作成
 function time_limit:load/scoreboard_make
 
-data modify storage tusb_remake: settings.version set value "1.2.0"
+# ver設定
+data modify storage tusb_remake: settings.version set value "2.0.0"

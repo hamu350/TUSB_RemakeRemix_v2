@@ -18,8 +18,7 @@ function tusb_remake:area/conquer/total
 execute as @a at @s run playsound minecraft:entity.ender_dragon.death master @s ~ ~ ~ 0.3 2 0.3
 execute as @a at @s run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0 30 normal
 execute as @a at @s run particle minecraft:instant_effect ~ ~1 ~ 1 1 1 0.1 90 normal
-execute as @a at @s run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Type:1b,Flicker:true,Trail:true,Colors:[I;16774552],FadeColors:[I;16777215]},{Type:0b,Flicker:false,Trail:false,Colors:[I;65407,16777215,16777215],FadeColors:[I;16777215]}]}}},Tags:[ConquerFirework]}
-execute as @e[type=firework_rocket,tag=ConquerFirework] at @s run tp @s 0.0 0.0 0.0
+summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{}},Tags:[ConquerFirework]}
 
 title @a times 5 150 20
 title @a subtitle {"translate":"攻略率 : %1$s/%2$s (%3$s.%4$s%%)","italic":true,"color":"white","with":[{"nbt":"conquer.count.total","storage":"tusb_remake:","bold":true,"italic":false},{"score":{"name":"MaxPortalCount","objective":"Settings"}},{"nbt":"conquer.rate.int[]","storage":"tusb_remake:","separator":""},{"nbt":"conquer.rate.cent[]","storage":"tusb_remake:","separator":""}]}
@@ -45,10 +44,16 @@ execute in minecraft:overworld if block 3 77 87 minecraft:end_portal_frame[eye=t
 execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/traders_island
 ### テーブルの場合村人追加
 execute in minecraft:overworld if block -3 243 -2222 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/murabito
-### テーブルの場合村人追加
-execute in minecraft:overworld if block 15 18 -1827 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/murabito
-### 旧深淵だった場合岩盤を黒曜石に置き換え
-execute in minecraft:overworld if block -95 159 -151 minecraft:end_portal_frame[eye=true] run fill -95 174 -151 -95 174 -151 minecraft:obsidian replace bedrock
+
+# 20島攻略した場合の処理
+execute if data storage tusb_remake: conquer.count{total:20} as @a run tellraw @a {"translate": "EXドメインにて周回ボス戦ができるようになりました！","color": "yellow"}
+
+# 50島攻略した場合の処理
+execute if data storage tusb_remake: conquer.count{total:50} positioned -2720 9 122 run forceload add ~ ~ ~ ~
+execute if data storage tusb_remake: conquer.count{total:50} run schedule function tusb_remake:area/conquer/island_complete_50 1t
+
+# 80島攻略した場合の処理
+execute if data storage tusb_remake: conquer.count{total:80} as @a run function tusb_remake:area/conquer/island_complete_80
 
 ### ハードコアモードだった場合全員を復活
 execute if data storage tusb_remake: settings{hardcore:true} as @a[tag=death] run function tusb_remake:hcmode/respawn
