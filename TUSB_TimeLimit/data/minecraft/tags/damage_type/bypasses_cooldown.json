@@ -1,0 +1,28 @@
+{
+    "values": [
+        "minecraft:arrow",
+        "minecraft:bad_respawn_point",
+        "minecraft:drown",
+        "minecraft:explosion",
+        "minecraft:fall",
+        "minecraft:falling_anvil",
+        "minecraft:falling_block",
+        "minecraft:falling_stalactite",
+        "minecraft:fireworks",
+        "minecraft:fireball",
+        "minecraft:fly_into_wall",
+        "minecraft:freeze",
+        "minecraft:lightning_bolt",
+        "minecraft:mob_attack",
+        "minecraft:mob_projectile",
+        "minecraft:out_of_world",
+        "minecraft:player_explosion",
+        "minecraft:sonic_boom",
+        "minecraft:stalagmite",
+        "minecraft:sting",
+        "minecraft:thorns",
+        "minecraft:thrown",
+        "minecraft:trident",
+        "minecraft:wither_skull"
+    ]
+}

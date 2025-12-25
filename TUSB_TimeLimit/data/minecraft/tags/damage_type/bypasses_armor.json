@@ -1,0 +1,16 @@
+{
+    "replace": true,
+    "values": [
+        "drown",
+        "fly_into_wall",
+        "generic",
+        "freeze",
+        "starve",
+        "stalagmite",
+        "out_of_world",
+        "sonic_boom",
+        "falling_anvil",
+        "falling_block",
+        "falling_stalactite"
+    ]
+}
