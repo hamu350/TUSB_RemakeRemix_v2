@@ -398,7 +398,6 @@ function tusb_remake:load/define_const
 
 # インフィニティボスチェストデータセット
 function tusb_remake:boss/chest/dataset
-function tusb_remake:game_master/chest/dataset
 
 # scoreboard作成
 function time_limit:load/scoreboard_make

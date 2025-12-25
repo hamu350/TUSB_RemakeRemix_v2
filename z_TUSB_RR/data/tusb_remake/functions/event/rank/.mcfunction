@@ -9,33 +9,30 @@ tag @s remove CauseEvent
 execute if predicate tusb_remake:random/event run function tusb_remake:event/rank/roll
 
 # TUSB origin
-execute if score @s EventRank matches ..-1 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/none
-execute if score @s EventRank matches 0..9 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/nanika
-execute if score @s EventRank matches 10..19 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/breath
-execute if score @s EventRank matches 20..29 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/shadow
-execute if score @s EventRank matches 30..39 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/meal
-execute if score @s EventRank matches 40..49 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/abyss
-execute if score @s EventRank matches 50..59 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/sat
-execute if score @s EventRank matches 60..69 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/rare
-execute if score @s EventRank matches 70..79 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/supply
-execute if score @s EventRank matches 80..89 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/servant
-execute if score @s EventRank matches 90..99 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/gift
+# execute if score @s EventRank matches ..-1 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/none
+# execute if score @s EventRank matches 0..9 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/nanika
+# execute if score @s EventRank matches 10..19 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/breath
+# execute if score @s EventRank matches 20..29 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/shadow
+# execute if score @s EventRank matches 30..39 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/meal
+# execute if score @s EventRank matches 40..49 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/abyss
+# execute if score @s EventRank matches 50..59 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/sat
+# execute if score @s EventRank matches 60..69 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/rare
+# execute if score @s EventRank matches 70..79 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/supply
+# execute if score @s EventRank matches 80..89 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/servant
+# execute if score @s EventRank matches 90..99 if score @s ChooseEvent matches 1 run function tusb_remake:event/rank/gift
 
-
-# TLE
-
-execute if score @s EventRank matches ..-1 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/none
-execute if score @s EventRank matches 0..9 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/acceralator
-execute if score @s EventRank matches 10..19 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/lost_animal
-execute if score @s EventRank matches 20..29 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/pandemic
-execute if score @s EventRank matches 30..39 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/hells_emissary
-execute if score @s EventRank matches 40..49 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/dimensional_wanderer
-execute if score @s EventRank matches 50..59 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/time_bomb
-execute if score @s EventRank matches 60..69 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/legends_of_exp
-execute if score @s EventRank matches 70..79 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/enhance_raid
-execute if score @s EventRank matches 80..89 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/warden
-execute if score @s EventRank matches 90..99 if score @s ChooseEvent matches 2 run function tusb_remake:event/rank/tle_addition/today_weather_is_tnt
-
+# TUSB_RR
+# execute if score @s EventRank matches ..-1 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 0..9 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 10..19 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 20..29 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 30..39 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 40..49 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 50..59 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 60..69 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 70..79 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 80..89 if score @s ChooseEvent matches 1 run 
+# execute if score @s EventRank matches 90..99 if score @s ChooseEvent matches 1 run 
 
 ### 次のイベントが何になるか🎲しちゃう！！
 ## 0 - 99
