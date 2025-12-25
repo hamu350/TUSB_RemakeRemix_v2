@@ -29,8 +29,7 @@ execute as @s[scores={CurrentMode=6280..6289}] run function tusb_remake:skill/su
 execute as @s[scores={CurrentMode=6290..6299}] run function tusb_remake:skill/summoner/blast_basin/spell
 execute as @s[scores={CurrentMode=6300..6309}] run function tusb_remake:skill/summoner/summon_petit_black/spell
 execute as @s[scores={CurrentMode=6310..6319}] run function tusb_remake:skill/summoner/furea/spell
-execute as @s[scores={CurrentMode=6320..6329}] run function tusb_remake:skill/summoner/katatoro/spell
-execute as @s[scores={CurrentMode=6330..6339}] run function tusb_remake:skill/summoner/abisu/spell
-
+execute as @s[scores={CurrentMode=6320..6329}] run function tusb_remake:skill/summoner/abisu/spell
+execute as @s[scores={CurrentMode=6330..6339}] run function tusb_remake:skill/summoner/katatoro/spell
 
 scoreboard players reset @s UseCarrotStick

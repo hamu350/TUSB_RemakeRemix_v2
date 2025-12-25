@@ -32,5 +32,5 @@ execute if score @s ShowSkill matches 6280 run data modify storage tusb_remake: 
 execute if score @s ShowSkill matches 6290 run data modify storage tusb_remake: skill_name set value "きらきらタライ"
 execute if score @s ShowSkill matches 6300 run data modify storage tusb_remake: skill_name set value "サモン：ぷちブラック"
 execute if score @s ShowSkill matches 6310 run data modify storage tusb_remake: skill_name set value "テスラフレア"
-execute if score @s ShowSkill matches 6320 run data modify storage tusb_remake: skill_name set value "§6ファイナルカタストロフィ"
-execute if score @s ShowSkill matches 6330 run data modify storage tusb_remake: skill_name set value "§dインバイトアビス"
+execute if score @s ShowSkill matches 6320 run data modify storage tusb_remake: skill_name set value "§dインバイトアビス"
+execute if score @s ShowSkill matches 6330 run data modify storage tusb_remake: skill_name set value "§6ファイナルカタストロフィ"
