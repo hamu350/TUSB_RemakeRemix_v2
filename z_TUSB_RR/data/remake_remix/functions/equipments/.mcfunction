@@ -12,3 +12,6 @@ execute if predicate remake_remix:masou run function remake_remix:equipments/mas
 
 # 黄昏
 execute if predicate remake_remix:twilight run function remake_remix:equipments/twilight
+
+# 紡がれし星光
+execute if predicate remake_remix:tumugi run function remake_remix:equipments/tumugi

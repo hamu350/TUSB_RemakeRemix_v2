@@ -1,19 +1,19 @@
 #> remake_remix:equipments/konton
 
 
-effect give @s minecraft:regeneration 61 2 false
+effect give @s minecraft:regeneration 61 2 true
 
-effect give @s minecraft:fire_resistance 61 127 false
+effect give @s minecraft:fire_resistance 61 127 true
 
-effect give @s minecraft:haste 61 2 false
+effect give @s minecraft:haste 61 2 true
 
-effect give @s minecraft:jump_boost 61 4 false
+effect give @s minecraft:jump_boost 61 4 true
 
-effect give @s minecraft:water_breathing 61 127 false
+effect give @s minecraft:water_breathing 61 127 true
 
-effect give @s minecraft:night_vision 61 127 false
+effect give @s minecraft:night_vision 61 127 true
 
-effect give @s minecraft:resistance 61 3 false
+effect give @s minecraft:resistance 61 3 true
 
 particle dust 0.6 0.25 0.8 1 ~ ~1 ~ 1.2 1.2 1.2 10 2 force @a
 
