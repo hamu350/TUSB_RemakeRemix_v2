@@ -8,12 +8,7 @@
         "items": [
           "minecraft:elytra"
         ],
-        "enchantments": [
-          {
-            "enchantment": "minecraft:thorns",
-            "levels": 7
-          }
-        ]
+        "nbt": "{konton:1b}"
       }
     }
   }

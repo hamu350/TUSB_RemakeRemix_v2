@@ -4,6 +4,9 @@
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
+# 個別ストレージ呼び出し
+function #oh_my_dat:please
+
 ### スキップ数をカウントアップ
 execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.skip int -1 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.skip -1.0000000001
 

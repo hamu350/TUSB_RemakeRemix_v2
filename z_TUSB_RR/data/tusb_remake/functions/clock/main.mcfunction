@@ -116,7 +116,10 @@ execute as @a at @s run function tusb_remake:tick/player_tick
 
 execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerB] if entity @s[distance=..30] run function tusb_remake:boss/barrier
 execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=barrier] if entity @s[distance=..8] run function tusb_remake:boss/barrier
-execute as @a[tag=!GameMasterArea,tag=!GameMasterBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerC] if entity @s[distance=..70] run function tusb_remake:game_master/barrier
+execute as @a[tag=!GameMasterBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerC] if entity @s[distance=..70] run function tusb_remake:game_master/barrier
+
+# 装備セット効果
+execute as @a at @s run function tusb_remake:equipments/elytra
 
 # CantTp
 tag @a[tag=CantTp] remove CantTp

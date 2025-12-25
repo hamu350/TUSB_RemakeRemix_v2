@@ -90,5 +90,10 @@ execute as @a[predicate=time_limit:player] at @s if block ~ ~ ~ #time_limit:unbr
 ## gamemasterの音
 execute at @e[tag=GMSP,limit=1] run playsound minecraft:entity.warden.heartbeat master @a[distance=..60] ~ ~ ~ 0.6 1 0.0
 
-execute in minecraft:overworld run schedule function tusb_remake:clock/sec 1s
+# 装備セット効果
+execute as @a at @s run function tusb_remake:equipments/
 
+# 煉獄マグマ
+execute as @a[predicate=tusb_remake:area/nether_dungeon] at @s if block ~ ~0.5 ~ minecraft:lava unless predicate remake_remix:masou unless predicate remake_remix:saika run function remake_remix:rengoku_process/in_lava
+
+execute in minecraft:overworld run schedule function tusb_remake:clock/sec 1s

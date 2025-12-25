@@ -8,12 +8,7 @@
         "items": [
           "minecraft:elytra"
         ],
-        "enchantments": [
-          {
-            "enchantment": "minecraft:protection",
-            "levels": 15
-          }
-        ]
+        "nbt": "{nizi:1b}"
       }
     }
   }

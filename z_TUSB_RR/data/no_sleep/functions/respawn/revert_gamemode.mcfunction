@@ -19,6 +19,6 @@ execute if data storage tusb_remake: settings{hardcore:true} run tag @s add deat
 execute if data storage tusb_remake: settings{hardcore:true} run gamemode spectator @s
 # ボス部屋パス剝奪
 tag @s remove InfinityBossArea
-tag @s remove GameMasterArea
+
 # トカルトモード時松明付与
 execute if data storage tusb_remake: settings{toculting:true} run give @s torch 32

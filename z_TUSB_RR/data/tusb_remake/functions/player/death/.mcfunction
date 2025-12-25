@@ -25,7 +25,6 @@ execute if entity @s[tag=Kyoumei] in overworld run function tusb_remake:player/d
 
 # 周回ボスなら消す
 execute if data storage tusb_remake: settings{is_sightseeing:true} if entity @s[tag=InfinityBossArea] run clear @s
-execute if data storage tusb_remake: settings{is_sightseeing:true} if entity @s[tag=GameMasterArea] run clear @s
 
 ### ネザーアスレチック
 execute as @s[predicate=tusb_remake:area/nether_trial] at @s run function tusb_remake:player/death/in_nether_trial

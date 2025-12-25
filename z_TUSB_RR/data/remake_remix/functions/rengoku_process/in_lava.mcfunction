@@ -1,0 +1,11 @@
+#> remake_remix:rengoku_process/in_lava
+# 
+#
+
+# 演出
+particle minecraft:lava ~ ~ ~ 1 1 1 1 20 force @a[distance=..8]
+playsound minecraft:entity.warden.heartbeat player @a[distance=..4] ~ ~ ~ 0.8 2 0.0
+
+# ダメージ
+data modify storage score_damage: Argument set value {Damage:16,EPF:0,BypassArmor:true,BypassResistance:true,Type:"None",DisableParticle:true}
+execute if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack

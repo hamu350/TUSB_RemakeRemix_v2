@@ -16,8 +16,8 @@ tag @s[tag=ISFUnreached] remove ISFUnreached
 execute as @s[tag=RemoveTorch] at @s if block ~ ~0.5 ~ minecraft:water run tag @s add RemoveTorchInWater
 tag @s[tag=RemoveTorchInWater,nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] remove RemoveTorchInWater
 ### 松明消費
-execute if entity @s[tag=RemoveTorch,tag=!RemoveTorchInWater] run function tusb_remake:tocult_process/out_of_water
-execute if entity @s[tag=RemoveTorch,tag=RemoveTorchInWater] run function tusb_remake:tocult_process/in_water
+execute if entity @s[tag=RemoveTorch,tag=!RemoveTorchInWater] unless predicate remake_remix:giattyo unless predicate remake_remix:saika run function tusb_remake:tocult_process/out_of_water
+execute if entity @s[tag=RemoveTorch,tag=RemoveTorchInWater] unless predicate remake_remix:giattyo unless predicate remake_remix:saika run function tusb_remake:tocult_process/in_water
 
 ### 村人の近くは敵が出ない
 execute if entity @e[distance=..16,type=villager,tag=!Enemy,limit=1] run tag @s remove RemoveTorch

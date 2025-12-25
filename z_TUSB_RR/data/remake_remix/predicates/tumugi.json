@@ -1,0 +1,32 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "items": [
+                    "minecraft:diamond_helmet"
+                ],
+                "nbt": "{tumugi:1b}"
+            },
+            "chest": {
+                "items": [
+                    "minecraft:elytra"
+                ],
+                "nbt": "{tumugi:1b}"
+            },
+            "legs": {
+                "items": [
+                    "minecraft:diamond_leggings"
+                ],
+                "nbt": "{tumugi:1b}"
+            },
+            "feet": {
+                "items": [
+                    "minecraft:diamond_boots"
+                ],
+                "nbt": "{tumugi:1b}"
+            }
+        }
+    }
+}
