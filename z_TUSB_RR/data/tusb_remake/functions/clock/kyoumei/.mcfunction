@@ -3,7 +3,7 @@
 tag @s add Kyoumei
 
 # 個人ストレージを呼び出し
-function oh_my_dat:please
+function #oh_my_dat:please
 
 # Inventoryをストレージに突っ込みます
 data modify storage _: _.Inventory set from entity @s Inventory

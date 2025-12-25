@@ -1,7 +1,4 @@
-#> tusb_remake:skill/summoner/gold_basin/cast
-# 金タライ発動
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/summoner/abisu/cast
 
 execute as @e[distance=..20,type=#tusb_remake:mob,tag=Enemy] at @s anchored eyes positioned ^ ^ ^ anchored feet positioned ~ ~1.0 ~ run function tusb_remake:skill/summoner/abisu/summon
 execute as @e[distance=..20,type=#tusb_remake:mob,tag=Enemy] at @s run particle dragon_breath ~ ~1 ~ 1 0.7 1 0.1 80 force

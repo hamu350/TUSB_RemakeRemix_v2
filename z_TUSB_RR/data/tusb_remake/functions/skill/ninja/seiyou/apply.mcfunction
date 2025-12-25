@@ -1,7 +1,5 @@
 #> tusb_remake:skill/ninja/seiyou/apply
 ### 跳躍発動時の処理
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
 
 scoreboard players add @s seiyou 3
 scoreboard players set @s NinjaTime 3

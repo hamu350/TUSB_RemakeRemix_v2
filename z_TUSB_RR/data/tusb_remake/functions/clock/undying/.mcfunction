@@ -25,7 +25,7 @@
 
 # tellraw @s {"translate": "SelectedItem: %1$s", "with":[{"nbt": "SelectedItem","entity": "@s"}]}
 
-function oh_my_dat:please
+function #oh_my_dat:please
 
 # 負荷軽減のため先にSelectedItemを取得しておく
 data modify storage tusb_remake: SelectedItem set from entity @s SelectedItem

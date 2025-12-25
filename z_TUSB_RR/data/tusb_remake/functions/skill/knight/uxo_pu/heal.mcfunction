@@ -1,7 +1,4 @@
-#> tusb_remake:skill/knight/reactive_heal/heal
-### リアクティブヒールの効果
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/knight/uxo_pu/heal
 
 playsound item.trident.thunder master @a[distance=..16] ~ ~ ~ 0.5 2 0
 particle end_rod ~ ~1 ~ 0.5 0.5 0.5 0.15 30 force

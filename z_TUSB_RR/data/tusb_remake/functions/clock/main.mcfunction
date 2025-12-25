@@ -47,10 +47,10 @@ execute as @a[scores={PastorFlag=1..}] at @s run function tusb_remake:talk_event
 execute as @a[scores={AugurFlag=1..}] at @s run function tusb_remake:talk_event/augur/trigger/
 
 ### 村人更新
-execute at @a as @e[type=villager,scores={VillagerId=0..},distance=..10] run function tusb_remake:villager/
+execute at @a as @e[type=villager,scores={VillagerId=0..},distance=..10] run function remake_remix:villager/
 
 ## スポナー更新
-execute as @e[tag=Spawner,type=armor_stand,scores={SpawnerId=-2147483648..2147483647}] at @s run function tusb_remake:spawner/
+execute as @e[tag=Spawner,type=armor_stand,scores={SpawnerId=-2147483648..2147483647}] at @s run function remake_remix:spawner/
 
 ### テーブルマウンテンの不思議な力
 execute positioned -6 65 -2148 as @a[dx=64,dy=135,dz=48,gamemode=adventure] run function tusb_remake:clock/gimmic/table_mountain/fall_force
@@ -116,10 +116,10 @@ execute as @a at @s run function tusb_remake:tick/player_tick
 
 execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerB] if entity @s[distance=..30] run function tusb_remake:boss/barrier
 execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=barrier] if entity @s[distance=..8] run function tusb_remake:boss/barrier
-execute as @a[tag=!GameMasterBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerC] if entity @s[distance=..70] run function tusb_remake:game_master/barrier
+execute as @a[tag=!GameMasterBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerC] if entity @s[distance=..70] run function remake_remix:game_master/barrier
 
 # 装備セット効果
-execute as @a at @s run function tusb_remake:equipments/elytra
+execute as @a at @s run function remake_remix:equipments/elytra
 
 # CantTp
 tag @a[tag=CantTp] remove CantTp

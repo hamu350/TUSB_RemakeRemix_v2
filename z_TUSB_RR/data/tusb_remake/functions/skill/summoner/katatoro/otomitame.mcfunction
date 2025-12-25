@@ -1,3 +1,5 @@
+#> tusb_remake:skill/summoner/katatoro/otomitame
+
 execute at @e[type=#tusb_remake:mob,distance=..15,tag=!FinalPoint] run playsound entity.lightning_bolt.impact master @a[distance=..30] ~ ~ ~ 1 0 0
 execute at @e[type=#tusb_remake:mob,distance=..15,tag=!FinalPoint] run playsound item.totem.use master @a[distance=..30] ~ ~ ~ 0.2 2 0
 execute at @e[type=#tusb_remake:mob,distance=..15,tag=!FinalPoint] run particle dragon_breath ~ ~1 ~ 0.6 0.8 0.6 0.5 30 force

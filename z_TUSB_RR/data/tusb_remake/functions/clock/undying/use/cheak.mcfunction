@@ -24,7 +24,7 @@ execute if data storage tusb_remake: {cheak:false} run function tusb_remake:cloc
 
 # tag @s remove UndyingMainhand
 
-# function oh_my_dat:please
+# function #oh_my_dat:please
 
 # なにかが投げられているかを確かめる
 # data modify storage _: _.use set value false

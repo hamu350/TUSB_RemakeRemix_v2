@@ -11,7 +11,7 @@ data modify storage tusb_remake: _.2 set value {name:["リジェネレーショ�
 data modify storage tusb_remake: _.3 set value {name:["クイック","クイックⅡ"],level:[20,35],cost:40,description:[["周囲のプレイヤーの攻撃速度を上昇させる。"]],range:[15],duration:[30]}
 data modify storage tusb_remake: _.4 set value {name:["バオル"],level:[26],cost:50,description:[["周囲のプレイヤーを潜水・炎上に強くする。"]],range:[15],duration:[30]}
 data modify storage tusb_remake: _.5 set value {name:["レイズ"],level:[39],cost:80,description:[["周囲の死んでいるプレイヤーにレイズの効果を与える。","また、自身にリレイズの効果を与える。","レイズ：一定時間、（可能であれば、）","リスポーン時に死亡地点へ復帰する。","リレイズ：死亡時にレイズの効果を得る。"]],range:[10],duration:[30]}
-data modify storage tusb_remake: _.6 set value {name:["§aララバイ"],level:[150],cost:200,description:[["周囲の味方の移動速度を極端に低下させるが、レイズを除く白魔導士の全てのサポートスキルの効果を付与する。"]],range:[10],duration:[60]}
+execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.6 set value {name:["§aララバイ"],level:[100],cost:200,description:[["周囲の味方の移動速度を極端に低下させるが、レイズを除く白魔導士の全てのサポートスキルの効果を付与する。"]],range:[10],duration:[60]}
 
 # data modify storage tusb_remake: _.20 set value {name:["ケアル","ケアルⅡ","ケアルⅢ","ケアルⅣ","ケアルⅤ"],level:[1,10,25,40,49],cost:1,description:[["てすと"]]}
 # data modify storage tusb_remake: _.21 set value {name:["ディア","ディアⅡ","ディアⅢ","ディアⅣ","ディアⅤ"],level:[3,13,23,33,43],cost:1,description:[["てすと"]]}

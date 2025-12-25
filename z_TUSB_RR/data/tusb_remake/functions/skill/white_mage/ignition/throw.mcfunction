@@ -1,7 +1,4 @@
-#> tusb_remake:skill/white_mage/holy/throw
-# ホーリーを発動(423X)
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/white_mage/ignition/throw
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode

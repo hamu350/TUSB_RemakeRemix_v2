@@ -1,7 +1,4 @@
-#> tusb_remake:skill/knight/reactive_heal/damaged
-# リアクティブヒールを発動(123X)
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/knight/uxo_pu/damaged
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode

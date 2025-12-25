@@ -1,7 +1,4 @@
-#> tusb_remake:skill/knight/zan_tetsu_ken/apply
-# 斬鉄剣の対象に効果をかける
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/knight/musou/apply
 
 execute store result score _ TUSB run time query gametime
 summon minecraft:marker ~ ~ ~ {Tags:[MusouPoint,SystemEntity,TypeChecked]}

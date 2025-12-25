@@ -1,3 +1,5 @@
+#> tusb_remake:skill/summoner/zyunnkan/
+
 execute at @s store result score @s petto if entity @e[type=#tusb_remake:friendly,distance=..15,limit=10]
 
 scoreboard players set _ TUSB 20

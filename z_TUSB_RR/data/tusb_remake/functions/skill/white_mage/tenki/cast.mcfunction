@@ -1,7 +1,5 @@
-#> tusb_remake:skill/white_mage/cure/cast
-# ケアルを詠唱(420X)
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/white_mage/tenki/cast
+
 execute at @s run scoreboard players set @a[distance=..15] HealCount 80
 playsound block.beacon.activate master @a[distance=..15] ~ ~ ~ 4 1.5 0
 execute at @s run particle end_rod ~ ~ ~ 0.5 0.5 0.5 0.1 30 force

@@ -3,7 +3,7 @@
 
 execute align xyz positioned ~0.5 ~ ~0.5 run kill @e[type=armor_stand,distance=..0.01,sort=nearest,tag=Spawner]
 
-function oh_my_dat:please
+function #oh_my_dat:please
 
 # まず生成用storageを他に移す
 data modify storage _: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].set_spawner
