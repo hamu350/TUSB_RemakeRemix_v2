@@ -319,7 +319,7 @@ scoreboard objectives add ExpReduce dummy
 
 ### チーム
 team add FriendlyTeam
-team modify FriendlyTeam color red
+team modify FriendlyTeam color gold
 team modify FriendlyTeam friendlyFire false
 team modify FriendlyTeam seeFriendlyInvisibles true
 team modify FriendlyTeam collisionRule never
