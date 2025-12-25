@@ -1,7 +1,4 @@
-#> tusb_remake:skill/knight/zan_tetsu_ken/hit
-# 斬鉄剣を発動(125X)
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/knight/musou/hit
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode

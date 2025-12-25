@@ -1,5 +1,4 @@
-#> tusb_remake:skill/archer/chain_arrow/hit/
-# チェインアローが直接当たった時
+#> tusb_remake:skill/archer/madan/hit/
 
 ### ダメージ * 100 + 1000X 入っているので、まずは10000を引く
 scoreboard players operation _ PotentialSkill = @s PotentialSkill

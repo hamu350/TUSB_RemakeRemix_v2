@@ -1,4 +1,4 @@
-#> tusb_remake:skill/black_mage/magic_shield/
+#> tusb_remake:skill/black_mage/engage/
 # マジックシールドを発動させる(506X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

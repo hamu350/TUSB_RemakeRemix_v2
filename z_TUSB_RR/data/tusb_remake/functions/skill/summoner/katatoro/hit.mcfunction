@@ -1,3 +1,5 @@
+#> tusb_remake:skill/summoner/katatoro/hit
+
 execute as @e[tag=FinalPoint] at @s run particle portal ~ ~ ~ 4 4 4 0.1 80 force
 execute as @e[tag=FinalPoint] at @s run function tusb_remake:skill/summoner/katatoro/otomitame
 data modify storage score_damage: Argument set value {Damage:120.00,DamageType:"None"}

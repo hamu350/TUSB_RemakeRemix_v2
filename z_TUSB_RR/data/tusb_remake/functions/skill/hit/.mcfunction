@@ -25,7 +25,7 @@ execute as @s[scores={EnAspir=0..}] run function tusb_remake:skill/black_mage/en
 execute if data entity @s SelectedItem.tag.Legacy run function tusb_remake:skill/hit/legacy/
 
 ### RR:全能ノ一を使い、終わらせる。
-execute as @s[predicate=tusb_remake:zennnou] run function tusb_remake:game_master/bossdefeat/
+execute as @s[predicate=tusb_remake:zennnou] run function remake_remix:game_master/bossdefeat/
 
 scoreboard players reset @s DamageDealt
 scoreboard players reset @s DamageDealtAbsorbed

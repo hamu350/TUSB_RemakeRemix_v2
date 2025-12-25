@@ -15,7 +15,7 @@ data modify storage tusb_remake: _.1 set value {name:["アイアンウィル","�
 data modify storage tusb_remake: _.2 set value {name:["ストライ","ストライⅡ","ストライⅢ"],level:[10,25,40],cost:15,description:[["自身の攻撃力を上昇させる。"]],sneak:{description:[["自身の攻撃力を上昇させる。"]],range:[15]}}
 data modify storage tusb_remake: _.3 set value {name:["デコイ","デコイⅡ"],level:[18,38],cost:10,description:[["周囲の敵を引き寄せる。"]]}
 data modify storage tusb_remake: _.4 set value {name:["タクティカルヒール"],level:[43],cost:10,description:[["次に大ダメージを受けた時、HPを大きく回復する。"]]}
-data modify storage tusb_remake: _.5 set value {name:["§aウィルオブナイト"],level:[150],cost:50,description:[["周囲の味方にタクティカルヒールとストライの効果を付与する。"]],range:[15],duration:[60]}
+execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.5 set value {name:["§aウィルオブナイト"],level:[100],cost:50,description:[["周囲の味方にタクティカルヒールとストライの効果を付与する。"]],range:[15],duration:[60]}
 
 # data modify storage tusb_remake: _.20 set value {name:["流し斬り","流し斬りⅡ","流し斬りⅢ"],level:[3,20,37],cost:5,description:[["てすと"]]}
 # data modify storage tusb_remake: _.21 set value {name:["薙ぎ払い","薙ぎ払いⅡ","薙ぎ払いⅢ"],level:[8,28,48],cost:10,description:[["てすと"]]}

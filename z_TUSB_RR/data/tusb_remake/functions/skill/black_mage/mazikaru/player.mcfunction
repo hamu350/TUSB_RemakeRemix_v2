@@ -1,10 +1,4 @@
-#> tusb_remake:skill/black_mage/drain/player
-# ドレインで吸う側
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
-
-### 
-
+#> tusb_remake:skill/black_mage/mazikaru/player
 
 execute at @s store result score @s mazikaru if entity @e[type=#tusb_remake:mob,tag=Enemy,distance=..8,limit=10]
 

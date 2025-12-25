@@ -56,4 +56,4 @@ execute if data storage tusb_remake: conquer.count{total:50} run schedule functi
 execute if data storage tusb_remake: conquer.count{total:80} as @a run function tusb_remake:area/conquer/island_complete_80
 
 ### ハードコアモードだった場合全員を復活
-execute if data storage tusb_remake: settings{hardcore:true} as @a[tag=death] run function tusb_remake:hcmode/respawn
+execute if data storage tusb_remake: settings{hardcore:true} as @a[tag=death] run function remake_remix:hcmode/respawn

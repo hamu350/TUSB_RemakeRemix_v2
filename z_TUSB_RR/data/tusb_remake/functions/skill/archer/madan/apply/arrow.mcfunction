@@ -1,7 +1,4 @@
-#> tusb_remake:skill/archer/chain_arrow/apply/arrow
-### 矢をチェインアローにする
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/archer/madan/apply/arrow
 
 ### damage * 100 + 10000
 scoreboard players add @s ProjectileSkill 100000

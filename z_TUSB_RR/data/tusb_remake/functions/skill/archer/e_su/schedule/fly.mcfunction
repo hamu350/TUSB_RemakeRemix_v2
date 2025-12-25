@@ -1,7 +1,4 @@
-#> tusb_remake:skill/white_mage/holy/schedule/fly
-### ホーリーが飛んでいる演出
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/archer/e_su/schedule/fly
 
 playsound entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.3 2 0.05
 particle end_rod ~ ~0.2 ~ 2 2 2 0.1 50 force

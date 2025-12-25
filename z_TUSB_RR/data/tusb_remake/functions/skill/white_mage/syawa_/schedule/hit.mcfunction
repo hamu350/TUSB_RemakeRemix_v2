@@ -1,7 +1,4 @@
-#> tusb_remake:skill/white_mage/holy/schedule/hit
-# ホーリーが当たった時
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/white_mage/syawa_/schedule/hit
 
 ### マルチヒット防止のエフェクト
 effect give @s minecraft:saturation 10 127 true

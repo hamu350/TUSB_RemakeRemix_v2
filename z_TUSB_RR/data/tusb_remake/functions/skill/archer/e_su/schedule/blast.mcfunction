@@ -1,7 +1,4 @@
-#> tusb_remake:skill/archer/fatal_shot/schedule/blast
-### ガストキャノンが弾ける
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/archer/e_su/schedule/blast
 
 ### 矢自体に当たったことにする
 

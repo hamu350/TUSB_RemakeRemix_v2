@@ -1,3 +1,5 @@
+#> tusb_remake:skill/black_mage/syawa_/apply
+
 data modify storage score_damage: Argument set value {Damage:80.00,DamageType:"None"}
 execute at @e[tag=syawa_] as @e[tag=Enemy,type=#tusb_remake:mob,distance=..10] run function score_damage:api/attack
 execute as @e[tag=syawa_] at @s run function tusb_remake:skill/black_mage/syawa_/otomitame

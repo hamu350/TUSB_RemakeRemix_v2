@@ -1,7 +1,4 @@
-#> tusb_remake:skill/summoner/gold_basin/schedule/hit
-# 金タライが当たった時
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/summoner/abisu/schedule/hit
 
 ### マルチヒット防止のエフェクト
 data modify storage score_damage: Argument set value {Damage:80.00,DamageType:"None"}

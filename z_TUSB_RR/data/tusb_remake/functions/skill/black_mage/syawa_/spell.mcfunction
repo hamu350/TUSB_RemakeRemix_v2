@@ -1,7 +1,4 @@
-#> tusb_remake:skill/black_mage/drain/spell
-# ドレインを詠唱(524X)
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/black_mage/syawa_/spell
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode

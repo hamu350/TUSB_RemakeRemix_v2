@@ -1,7 +1,4 @@
-#> tusb_remake:skill/black_mage/drain/apply
-# ドレインで吸われる側
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/black_mage/mazikaru/apply
 
 execute at @s run particle end_rod ~ ~1 ~ 0.3 5 0.3 0.1 100 force
 playsound entity.illusioner.prepare_blindness master @a[distance=..16] ~ ~ ~ 2 1 0

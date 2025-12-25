@@ -1,7 +1,7 @@
 #> debug:set_spawner/
 # storageの情報通りにスポナーを設置します
 
-function oh_my_dat:please
+function #oh_my_dat:please
 
 # まず生成用storageを他に移す
 data modify storage _: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].set_spawner

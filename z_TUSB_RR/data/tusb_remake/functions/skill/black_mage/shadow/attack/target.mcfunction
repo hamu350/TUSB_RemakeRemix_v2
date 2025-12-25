@@ -1,7 +1,4 @@
-#> tusb_remake:skill/knight/zan_tetsu_ken/slash/target
-# 斬鉄剣で斬られる
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> tusb_remake:skill/black_mage/shadow/attack/target
 
 ### ダメージを与える
 data modify storage score_damage: Argument set value {Damage:2000.00,DamageType:"Projectile"}
