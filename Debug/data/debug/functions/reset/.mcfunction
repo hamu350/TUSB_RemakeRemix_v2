@@ -216,6 +216,7 @@ scoreboard players reset * NinjaTime
 scoreboard players reset * Tsuremai 
 scoreboard players reset * Choyaku 
 scoreboard players reset * seiyou 
+scoreboard players reset * Syungoku
 scoreboard players reset * KasapLevel 
 scoreboard players reset * KasapTimer 
 scoreboard players reset * Kazakiri 

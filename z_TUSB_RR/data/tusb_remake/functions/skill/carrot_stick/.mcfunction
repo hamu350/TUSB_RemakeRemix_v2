@@ -3,6 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 execute as @s[scores={CurrentMode=2250..2259}] run function tusb_remake:skill/ninja/taiso/spell
+execute as @s[scores={CurrentMode=2270..2279}] run function tusb_remake:skill/ninja/syungokusatsu/carrot/spell
 execute as @s[scores={CurrentMode=3290..3299}] run function tusb_remake:skill/archer/crazy/spell
 execute as @s[scores={CurrentMode=4200..4209}] run function tusb_remake:skill/white_mage/cure/spell
 execute as @s[scores={CurrentMode=4240..4249}] run function tusb_remake:skill/white_mage/tenki/spell

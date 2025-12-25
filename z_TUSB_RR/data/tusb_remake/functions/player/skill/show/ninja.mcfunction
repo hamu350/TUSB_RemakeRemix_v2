@@ -32,3 +32,4 @@ execute if score @s ShowSkill matches 2231 run data modify storage tusb_remake: 
 execute if score @s ShowSkill matches 2240 run data modify storage tusb_remake: skill_name set value "サヨナラ"
 execute if score @s ShowSkill matches 2250 run data modify storage tusb_remake: skill_name set value "§d太素診要"
 execute if score @s ShowSkill matches 2260 run data modify storage tusb_remake: skill_name set value "§6靖妖儺舞"
+execute if score @s ShowSkill matches 2270 run data modify storage tusb_remake: skill_name set value "§6奥義・瞬獄殺"

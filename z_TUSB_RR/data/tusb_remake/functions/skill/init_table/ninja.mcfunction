@@ -23,6 +23,7 @@ data modify storage tusb_remake: _.23 set value {name:["居縮","居縮Ⅱ"],lev
 data modify storage tusb_remake: _.24 set value {name:["サヨナラ"],level:[50],cost:0,description:[["爆発四散し、周囲に残りMPに応じたダメージを与える。","また、残りMPが100以上だった時、レイズの効果を得る。","レイズ：一定時間、（可能であれば、）","リスポーン時に死亡地点へ復帰する。"]],condition:"死亡する"}
 data modify storage tusb_remake: _.25 set value {name:["§d太素診要"],level:[100],cost:200,description:[["敵を攻撃し体力を回復させる。"]],condition:"ニンジン付きの棒を持って右クリック"}
 execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.26 set value {name:["§6靖妖儺舞"],level:[100],cost:40,description:[["自身の体力を消耗し、自身が跳躍する度に広範囲にダメージを与える。"]],condition:"スニークする",range:[45]}
+execute if data storage tusb_remake: {skill_liberation:1b} run data modify storage tusb_remake: _.27 set value {name:["§6奥義・瞬獄殺"],level:[100],cost:100,description:[["左クリック時と右クリック時で効果が異なる。","右クリック時、敵を数秒間その場に拘束する。","左クリック時、最大5回まで発動する連舞を発動する。また、この攻撃は周囲の敵にもダメージを与える。"]],condition:"ニンジン付きの棒を持って右クリック、又は敵を攻撃",range:[15]}
 
 data modify storage tusb_remake: skill_table.ninja set from storage tusb_remake: _
 data remove storage tusb_remake: _

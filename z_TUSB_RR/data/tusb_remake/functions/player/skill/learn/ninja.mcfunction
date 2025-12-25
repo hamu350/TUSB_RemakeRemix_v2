@@ -34,3 +34,4 @@ scoreboard players set @s[scores={Level=49}] ShowSkill 2071
 scoreboard players set @s[scores={Level=50}] ShowSkill 2240
 scoreboard players set @s[scores={Level=100}] ShowSkill 2250
 scoreboard players set @s[scores={Level=150}] ShowSkill 2260
+scoreboard players set @s[scores={Level=150}] ShowSkill 2270

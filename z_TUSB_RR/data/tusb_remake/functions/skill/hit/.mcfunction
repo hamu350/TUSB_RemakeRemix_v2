@@ -13,6 +13,8 @@ execute as @s[scores={CurrentMode=1240..1249},predicate=tusb_remake:has_sword] r
 execute as @s[scores={CurrentMode=1250..1259},predicate=tusb_remake:has_sword] run function tusb_remake:skill/knight/zan_tetsu_ken/hit
 ### 連舞
 execute as @s[scores={CurrentMode=2210..2219}] run function tusb_remake:skill/ninja/tsuremai/hit
+### 瞬獄殺
+execute as @s[scores={CurrentMode=2270..2279}] run function tusb_remake:skill/ninja/syungokusatsu/punch/hit
 ### 夢想
 execute as @s[scores={CurrentMode=1270..1279},predicate=tusb_remake:has_sword] run function tusb_remake:skill/knight/musou/hit
 ### ブレードワルツ

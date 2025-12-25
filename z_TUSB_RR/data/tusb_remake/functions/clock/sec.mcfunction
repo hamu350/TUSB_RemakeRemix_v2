@@ -10,6 +10,7 @@ execute as @a[scores={ManaRefresh=0..}] run function tusb_remake:skill/black_mag
 execute as @a[scores={Tsuremai=0..}] at @s run function tusb_remake:skill/ninja/tsuremai/check
 execute as @a[scores={Choyaku=0..}] at @s run function tusb_remake:skill/ninja/choyaku/check
 execute as @a[scores={seiyou=0..}] at @s run function tusb_remake:skill/ninja/seiyou/check
+execute as @a[scores={Syungoku=0..}] at @s run function tusb_remake:skill/ninja/syungokusatsu/punch/check
 
 # 黙想継続
 execute as @a[tag=Mokuso] at @s run function tusb_remake:skill/ninja/mokuso/check
