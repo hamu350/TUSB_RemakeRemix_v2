@@ -3,7 +3,6 @@
 
 # 待機部屋に転送
 execute at @s if entity @e[type=armor_stand,distance=..60,tag=Boss_MarkerC] run tp @s -2721 19 101
-execute at @s if entity @e[type=armor_stand,distance=..60,tag=Boss_MarkerC] run clear @s
 
 # タグ消し
 tag @s remove GameMasterBattle
