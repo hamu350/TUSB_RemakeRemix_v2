@@ -1,4 +1,4 @@
-#> tusb_remake:tlmode/no
+#> remake_remix:tlmode/no
 # ハードコア拒否ぃ
 
 schedule clear remake_remix:tlmode/start

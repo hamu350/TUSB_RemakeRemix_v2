@@ -1,4 +1,4 @@
-#> tusb_remake:tlmode/settings
+#> remake_remix:tlmode/settings
 # １分後にハードコアモードにする
 
 schedule function remake_remix:tlmode/start 60s
