@@ -11,3 +11,5 @@ tellraw @a {"translate": "EXドメインにて？？？戦ができるように�
 
 # 入場看板設置
 setblock -2720 9 122 minecraft:crimson_sign[rotation=6]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/function tusb_remake:area/move/game_master/admission"}}',Text2:'["",{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"},{"text":"\\u300c\\uff1f\\uff1f\\uff1f\\u300d\\u3078","bold":true,"color":"dark_red"},{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"}]'}
+
+execute positioned -2720 9 122 run forceload remove ~ ~ ~ ~

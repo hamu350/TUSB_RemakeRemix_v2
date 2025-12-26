@@ -45,6 +45,9 @@ execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye
 ### テーブルの場合村人追加
 execute in minecraft:overworld if block -3 243 -2222 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/murabito
 
+# 15島攻略した場合の処理
+execute if data storage tusb_remake: conquer.count{total:15} as @a run tellraw @a {"translate": "テーブルマウンテンに行けるようになった！","color": "green"}
+
 # 20島攻略した場合の処理
 execute if data storage tusb_remake: conquer.count{total:20} as @a run tellraw @a {"translate": "EXドメインにて周回ボス戦ができるようになりました！","color": "yellow"}
 
