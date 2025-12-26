@@ -21,7 +21,7 @@ scoreboard players set MaxPortalCount Settings 80
 execute in overworld run forceload add 3500 3500 3500 3500
 execute in the_nether run forceload add 3500 3500 3500 3500
 execute in the_end run forceload add 3500 3500 3500 3500
-schedule function remake_remix:load/set_shulker_box 1t
+schedule function tusb_remake:load/set_shulker_box 1t
 
 ### ライブラリ用
 scoreboard objectives add Temporary dummy
@@ -393,7 +393,7 @@ execute store result storage tusb_remake: start_time int 1 run time query gameti
 data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"text":"サポートアクション","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"サポートアクション","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'},mode:{a:'[{"text":"モードスキル","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"モードスキル","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'}}
 
 # 定数設定
-function remake_remix:load/define_const
+function tusb_remake:load/define_const
 
 # execute in minecraft:overworld positioned -1896.000000 118.000000 -136.000000 run summon minecraft:marker ~ ~ ~ {CustomName:'"システムマーカー"',UUID:[I;0,1,0,1]}
 

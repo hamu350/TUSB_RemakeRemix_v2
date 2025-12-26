@@ -24,19 +24,19 @@ execute if entity @s[tag=PaleRider] run function tusb_remake:enemy/skill/pale_ri
 
 
 # RRスキル
-### 亜空間転移
-execute if score @s[tag=akuu] MobCastTime matches 0..4 run function remake_remix:enemy/skill/akuu
+# 亜空間転移
+    execute if score @s[tag=akuu] MobCastTime matches 0..4 run function tusb_remake:enemy/skill/akuu
 # RiderR
-    execute if entity @s[tag=BlackRiderR] run function remake_remix:enemy/skill/remix_rider/black_rider_remix/
-    execute if entity @s[tag=WhiteRiderR] run function remake_remix:enemy/skill/remix_rider/white_rider_remix/
-    execute if entity @s[tag=RedRiderR] run function remake_remix:enemy/skill/remix_rider/red_rider_remix/
-    execute if entity @s[tag=PaleRiderR] run function remake_remix:enemy/skill/remix_rider/pale_rider_remix/
+    execute if entity @s[tag=BlackRiderR] run function tusb_remake:enemy/skill/remix_rider/black_rider_remix/
+    execute if entity @s[tag=WhiteRiderR] run function tusb_remake:enemy/skill/remix_rider/white_rider_remix/
+    execute if entity @s[tag=RedRiderR] run function tusb_remake:enemy/skill/remix_rider/red_rider_remix/
+    execute if entity @s[tag=PaleRiderR] run function tusb_remake:enemy/skill/remix_rider/pale_rider_remix/
 
-### infinity_boss
-execute if entity @s[tag=InfinityBoss] run function remake_remix:enemy/skill/infinity_boss/
+# infinity_boss
+execute if entity @s[tag=InfinityBoss] run function tusb_remake:enemy/skill/infinity_boss/
 
-### game_master
-execute if entity @s[tag=GM] unless entity @s[tag=GMend] run function remake_remix:enemy/skill/game_master/
+# game_master
+execute if entity @s[tag=GM] unless entity @s[tag=GMend] run function tusb_remake:enemy/skill/game_master/
 
 ### 次のスキルとタイミングを設定
 ### 0-99を取得

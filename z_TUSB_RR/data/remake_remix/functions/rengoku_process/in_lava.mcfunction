@@ -1,6 +1,6 @@
 #> remake_remix:rengoku_process/in_lava
 # 
-#
+# 煉獄溶岩処理
 
 # 演出
 particle minecraft:lava ~ ~ ~ 1 1 1 1 20 force @a[distance=..8]

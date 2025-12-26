@@ -12,6 +12,6 @@ execute if score @s isfmode matches 1 run function remake_remix:tlmode/no
 
 execute if score @s isfmode matches 1 run scoreboard players reset @s isfmode
 
-execute if score @s UNO matches 1 run function remake_remix:enemy/skill/game_master/1/uno
+execute if score @s UNO matches 1 run function tusb_remake:enemy/skill/game_master/1/uno
 
 execute if score @s UNO matches 1 run scoreboard players reset @s UNO
