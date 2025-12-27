@@ -1,4 +1,4 @@
-#> remake_remix:area/move/game_master/admission
+#> tusb_remake:sign_event/game_master/admission
 # ボス部屋に移動
 
 # conquer.countを取得

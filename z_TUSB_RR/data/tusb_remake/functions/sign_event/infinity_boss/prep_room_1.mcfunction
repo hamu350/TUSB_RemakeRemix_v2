@@ -1,4 +1,4 @@
-#> remake_remix:area/move/infinity_boss/prep_room_1
+#> tusb_remake:sign_event/infinity_boss/prep_room_1
 # 準備部屋に移動
 
 # conquer.countを取得

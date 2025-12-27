@@ -1,7 +1,6 @@
-#> remake_remix:sign_event/infinity_boss/extla
+#> tusb_remake:sign_event/game_master/extla
 # exドメインに帰還
 
-tag @s remove InfinityBossArea
 execute if data storage tusb_remake: settings{toculting:1b} run give @s torch 64
 tellraw @s {"translate":"%s はエクストラドメインに帰還した！","with":[{"selector":"@s"}]}
 clear @s

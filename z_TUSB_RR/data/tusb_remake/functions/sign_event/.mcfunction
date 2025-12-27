@@ -63,27 +63,26 @@ execute if entity @s[advancements={tusb_remake:sign_event={extra_hint_tutorial=t
 ## ライクスネークの戻るときの回復
 execute if entity @s[advancements={tusb_remake:sign_event={like_snake_return=true}}] run function tusb_remake:sign_event/like_snake_return/
 
-# EXDからinfinity_boss準備部屋へ
-execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_prep_room_1=true}}] run function remake_remix:sign_event/infinity_boss/prep_room_1
-
 # infinity_boss部屋へ
-execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_admission=true}}] run function remake_remix:sign_event/infinity_boss/admission
+execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_admission=true}}] run function tusb_remake:sign_event/infinity_boss/admission
+
+# EXDからinfinity_boss準備部屋へ
+execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_prep_room_1=true}}] run function tusb_remake:sign_event/infinity_boss/prep_room_1
 
 # infinity_boss部屋からinfinity_boss準備部屋へ
-execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_prep_room_2=true}}] run function remake_remix:sign_event/infinity_boss/prep_room_2
+execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_prep_room_2=true}}] run function tusb_remake:sign_event/infinity_boss/prep_room_2
 
 # infinity_boss準備部屋からEXDへ
-execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_extla=true}}] run function remake_remix:sign_event/infinity_boss/extla
+execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_extla=true}}] run function tusb_remake:sign_event/infinity_boss/extla
 
 # infinity_bossチュートリアル
-execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_tutorial=true}}] run function remake_remix:sign_event/infinity_boss/tutorial
+execute if entity @s[advancements={tusb_remake:sign_event={infinity_boss_tutorial=true}}] run function tusb_remake:sign_event/infinity_boss/tutorial
 
 # game_master部屋へ
-execute if entity @s[advancements={tusb_remake:sign_event={game_master_admission=true}}] run function remake_remix:sign_event/game_master/admission
+execute if entity @s[advancements={tusb_remake:sign_event={game_master_admission=true}}] run function tusb_remake:sign_event/game_master/admission
 
 # game_master帰還
-execute if entity @s[advancements={tusb_remake:sign_event={game_master_extla=true}}] run function remake_remix:sign_event/game_master/extla
-
+execute if entity @s[advancements={tusb_remake:sign_event={game_master_extla=true}}] run function tusb_remake:sign_event/game_master/extla
 
 
 advancement revoke @s only tusb_remake:sign_event

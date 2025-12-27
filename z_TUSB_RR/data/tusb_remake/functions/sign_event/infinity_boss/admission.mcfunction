@@ -1,4 +1,4 @@
-#> remake_remix:sign_event/infinity_boss/admission
+#> tusb_remake:sign_event/infinity_boss/admission
 
 # エフェクト除去
 effect clear @s
