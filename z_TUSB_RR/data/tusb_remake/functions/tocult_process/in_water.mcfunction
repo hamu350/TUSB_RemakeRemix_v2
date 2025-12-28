@@ -10,6 +10,8 @@ execute store result score @s ItemCount run clear @s minecraft:torch 50
 data modify storage score_damage: Argument set value {Damage:0,EPF:0,BypassArmor:true,BypassResistance:true,Type:"None",DisableParticle:true}
 execute store result storage score_damage: Argument.Damage double 0.1 run data get entity @s Health
 execute if score @s ItemCount matches ..49 if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
+data modify storage score_damage: Argument set value {Damage:12,BypassArmor:true,Type:"None",BypassResistance:false,DisableParticle:true}
+execute if score @s ItemCount matches ..49 if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
 execute if score @s ItemCount matches ..49 if entity @s[gamemode=!creative,gamemode=!spectator] run playsound minecraft:entity.player.hurt_freeze player @a[distance=..16] ~ ~ ~ 0.5 1
 ### 松明を減らした場合、減らした分の松明を消して戻す
 execute if entity @s[scores={ItemCount=1..}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lever",Count:1b,tag:{display:{Name:'{"text":"§7消えた松明"}',Lore:['"§r火が消えてしまった松明。"','"§r篝火で火を付け直せる。"']}}},Tags:[OffTorch,TypeChecked]}

@@ -8,7 +8,9 @@ scoreboard players set @s ItemCount -1
 execute store result score @s ItemCount run clear @s minecraft:torch 1
 ### 松明がなければダメージ
 data modify storage score_damage: Argument set value {Damage:0,EPF:0,BypassArmor:true,BypassResistance:true,Type:"None",DisableParticle:true}
-execute store result storage score_damage: Argument.Damage double 0.05 run data get entity @s Health
+execute store result storage score_damage: Argument.Damage double 0.1 run data get entity @s Health
+execute if score @s ItemCount matches ..0 if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
+data modify storage score_damage: Argument set value {Damage:12,BypassArmor:true,Type:"None",BypassResistance:false,DisableParticle:true}
 execute if score @s ItemCount matches ..0 if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
 execute if score @s ItemCount matches ..0 if entity @s[gamemode=!creative,gamemode=!spectator] run playsound minecraft:entity.player.hurt_freeze player @a[distance=..16] ~ ~ ~ 0.5 1
 ### 松明を減らした場合、減らした分の松明を消して戻す
