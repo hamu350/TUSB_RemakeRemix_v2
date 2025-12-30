@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0015.akasame/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 48.0d, Name: "minecraft:generic.follow_range"}, {Base: 0.03d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 10591423L, HandDropChances: [0.085f, 0.0f], PersistenceRequired: 0b, Tags: ["TypeChecked", "ShieldTried"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§c§n§lあかさめ"}', Pos: [-1881.5d, 4.3125d, -80.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0MTQyNTU1MjA5NDEsInByb2ZpbGVJZCI6IjFmNmU3NmFiOWUyNjQ0MzZiMDE0YTFmYjA5Njc0ZmU2IiwicHJvZmlsZU5hbWUiOiJha2FzYW1lIiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYmE5MTI3YmZjOTI4OTJmNDU5NDFkZTU5ODU0Y2JlODdiNjAxMmQ4MzliN2JhOTZhYWMxNmI3NTMzZjQ1ZjIyIn19fQ==", Signature: "hqcv2la37Y/TEh6B+bwb8Oz1c6HAuyQZ9MDiSA9hwXZut7lvbbn516GRQKW1FE3157ruytUvmWCS3YZcxJ6UX9VkAdydgjuq/v/TLbW2rWmtTfaF187DKWIKxDZLM/bOw9R2j3zsFNE/fzGS6N+lb/xYSIXcJsjP4+ZpC7iU4UUuvajdood4/yL5WTMgyCnG/rra/J8KaxTEcJRI/U3z5hwMu4+kxgdiQJReQrQ41dZgHmVRG4Uh2hAxg4JFrF3Qg2he01QXnQeHY10ndG3ROwm6KJImx60pFpQb7cvRHM6R0Du4f05NWD0cWk3C05s7OItUGdIUnHw6lQdS5wH+HRnG4KkObhFfW2I5dnaVORb2dI5X3hRdCNgBlXU0vAG8euJqOW9EL8zI9fGLVr3O1H4m/BPKcz6v0zq62STlPYSzC4+JY9vMZ+M2rQkDDMVl3P6WDrfGqC/69hmcJ127TIghuojYYLye68WJjRZpy07p9MF6DDC1TsLkNh4cxLgI8hzBCydW+uj0SWUO+dWIjIZPDwzcxgLNHdd+ERckj8SDHwNFALteC+ma7bTlKgK42a79ep/Ukr06A6+pOsflPZmtRBwxoVJbaXFv54hhBmDXhW0lrKXO2RKCmrIU5VZedkLMvOiO5wf1uBkMe4ugwPplFOTQKl6DaL9nzKOhMPY="}]}, Id: [I; 527333035, -1641659338, -1340825093, 157765606], Name: "akasame"}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:cleric", level: 100, type: "minecraft:plains"}, HurtTime: 0s, Inventory: [], CustomNameVisible: 1b}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

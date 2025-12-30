@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0024.wakokara/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 48.0d, Modifiers: [{Amount: -0.018774745657856168d, Operation: 1, UUID: [I; -1464802856, -1532475296, -1224605322, -576485026], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}, {Base: 0.1d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 10620700L, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, Tags: ["TypeChecked", "ShieldTried"], Age: 0, Motion: [0.0012002946733258454d, -0.0784000015258789d, -5.905375388979012E-4d], Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [243.80347f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§e§lわこから"}', Pos: [-2799.2764109146365d, 76.0d, -359.1180169358107d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0NzM1ODE2MDgwODUsInByb2ZpbGVJZCI6ImZjNDlhMmFjNzQ2YTQxOTFiNDQ0OTgxNDNhMmQ1NDY5IiwicHJvZmlsZU5hbWUiOiJ3YXhzZDEwMCIsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMxMDVkZWZiZDJlMjM5ODU3ZjE1ZGNiZjc5ZTU0YjVjNjY5YzRkZmIxYmE0YTQyNjRlMWNmOWFjMjE4OTEifX19", Signature: "QAVAIULIowxLupc8Iyq9mLFhA0WRbwG8jnu4cCoIol/m2UUNiNoEKRsR4w/BBgkHa7ZIgzUarxagEGfpjW24MO+VkD34qDZlpyk7P+jR65CPxqQbSJAa2Rtl3i8CdRqdpJtHNm5mYUonssYzMcd2P6GN7ZMw4rXF+gfx9aquszVy/WNzmrpWx+WfmBT6Os4Qa48s5pEzofl6snfgP1NA+JizAuecY4p44pmVn2X3cg9ZfY2XMvCatCuU4ei8ed2nFox601uHiWoAZJ79OX5yUWHOo6KPPwtC9d2Kg+7SNVIx84djRQotvDswO8TVi2ChKIZJ5C6Wo8Vasbzk0PlCJ8wOW5u0da8WRVLpzD1oqeYpeHE/NqNgyHV4PEo4PgTS92XTRpKjli8ErJbFMVvR+H10h2sgDhBJDsz0up1tbDLmLRrMzs16S0oJjJqqtaUiLW7B4mfXI53bXlRQJ2APOHsJ+o52euU6T70ISrwCFpJHVrlQXUyBHMR4hpMDZLW6PA7Ps4I4ZnMVEsitPUkLcw1jX3H9IIZRz96E0d4iNyaKVTaWzrgLt+/0rAj5epansO0mYXei2V6MgvYYu5znYWyDm6FAOAgexp+HuS+JhSKhHt2qvBemQVfd35pgf2beZvK3z/7L33GOSoFzpwWd62JabkzA0HDpHlJI/XN8pRQ="}]}, Id: [I; -62283092, 1953120657, -1270573036, 976049257], Name: "waxsd100"}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:armorer", level: 2000004, type: "minecraft:plains"}, HurtTime: 0s, Inventory: []}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

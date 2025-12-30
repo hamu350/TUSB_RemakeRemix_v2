@@ -9,7 +9,7 @@ execute store result bossbar minecraft:game_master max run data get storage asse
 bossbar set minecraft:game_master visible true
 data modify storage util: in set from storage asset: mob
 
-function util:spawn/
+function #util:spawn
 
 schedule function remake_remix:game_master/cast 1t
 

@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0017.kiwi/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 48.0d, Name: "minecraft:generic.follow_range"}, {Base: 0.03d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 10591423L, HandDropChances: [0.085f, 0.0f], PersistenceRequired: 0b, Tags: ["TypeChecked", "ShieldTried"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§a§n§lKiwi"}', Pos: [-1885.5d, 4.3125d, -80.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0MTQyNTU1MTk4MDQsInByb2ZpbGVJZCI6IjI0MjA2NDUzMjVkMTRkYjRhYzRhNTVhNTU4NzNlNmZkIiwicHJvZmlsZU5hbWUiOiIxMDI0S2l3aV9BbWFsIiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODQ2MjY5ZDI5MTFlMWIxNzQ3NzYyYjJiY2Y2ZjVjZmMxY2QwOTdjMDM3NjhhMWU5MTg0YTVlNDNhYzkwIn19fQ==", Signature: "J9mu1dqJUMiRFVa210prJwoCwu4AqKILP4URcR47lXCrhYbUxJilM39g2TONncPxrMDbFIxim8p69p8xDhtX9OuymnldmnT1mtiGUvWb4eElfI7mdUXvQZVtc0EaTqvat0a2eNjO1fXeuj6Qr0sAa+/kqtWHbt5POA7pJHC6D/xEfXV9qtRd24nsP96zJiNoxE2hcTSsX983gwyieDo0o3Cm97Lu4im8txkkM08quHGpBC7pEHmehn+BLBkh+Fuw2ZJLFt326AGqAsaMCJY3u/NLTG6TCvZQVAP/kUoTZyxhAZdisOu34YK59Nye9aWG/uvrzFsIfEpNTUW6NBQlBUFZKTJMr1f4B4hzvE0Rlwgg9UEDEIUzuv85i8QUjQNPZDE6hv13MO1FzvP00zARCCpLwly5dlTQSjXzOs/SX9UrMSiF6pKLFMxQw9vnwiGRI3StB+TNab+5TfuLComX+6/Y6egpchWLyRurAqmqle950UAyT+/pVCadSpBsCUwh2WqEirnx+BRtLYfgRvARJEpAJzwY7ISq2oM6SnYNLLG6zk4z6iZq2cPPLukrPku4jpAhNro/YKMNj3qBoOuOurMWN2XEJ4jDD22SjJ2holxhuOq2BZ1RsAkF9gHyTHZvAT+11EOGvX53rBkAtt/irwzuHytqTWOseq1GAtYyfI0="}]}, Id: [I; 606102611, 634473908, -1404414555, 1483990781], Name: "1024Kiwi_Amal"}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:librarian", level: 100, type: "minecraft:plains"}, HurtTime: 0s, Inventory: [], CustomNameVisible: 1b}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

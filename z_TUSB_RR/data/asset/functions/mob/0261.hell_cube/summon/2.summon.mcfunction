@@ -4,4 +4,4 @@
 function asset:mob/0261.hell_cube/data/2.data_set
 # AiUtilを使ってmobを召喚します
 data modify storage util: in set from storage asset: mob
-function util:spawn/
+function #util:spawn

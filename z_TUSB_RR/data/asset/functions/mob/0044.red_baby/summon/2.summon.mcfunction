@@ -4,4 +4,4 @@
 function asset:mob/0044.red_baby/data/2.data_set
 # AiUtilを使ってmobを召喚します
 data modify storage util: in set from storage asset: mob
-function util:spawn/
+function #util:spawn

@@ -9,7 +9,7 @@ execute store result bossbar infinity_boss max run data get storage asset: mob.A
 bossbar set minecraft:infinity_boss visible true
 data modify storage util: in set from storage asset: mob
 
-function util:spawn/
+function #util:spawn
 
 schedule function remake_remix:infinity_boss/cast 1t
 

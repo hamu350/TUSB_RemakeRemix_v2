@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0039.rento/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.armor"}, {Base: 48.0d, Name: "minecraft:generic.follow_range"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 0.0d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 7366058L, HandDropChances: [0.085f, 0.0f], PersistenceRequired: 1b, Tags: ["TypeChecked"], Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [89.999985f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§b§lれんと"}', Pos: [6.5d, 114.0d, -2235.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {ID: "6ee89f87-9134-41e2-a1e8-2c8810e60bd", SkullOwner: {Id: [I; 1860738951, -1858846238, -1578619768, 283511767], Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0NzQ2MzEzNzYzOTUsInByb2ZpbGVJZCI6IjZlZTg5Zjg3OTEzNDQxZTJhMWU4MmM4ODEwZTYwYmQ3IiwicHJvZmlsZU5hbWUiOiJzYXRvcmlfcmVudG8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifSwidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGIxZDc3OGQ2NGU2YWNhZjY0NzIyMDY1ZDU3ZjNkNzY1NjI2YWIyMzc1MmU0MzZjZGMyZTE2NDRjZDBhNCJ9fX0=", Signature: "FM2IcrphEl/Fz83gJq/RmUGgIOjP7bjDxN9ibKZwVKXrtnx/DN05Jw/7O+pS/WHbmK+RHRdS43GeBvZJsdaYcG5z6dEzhN0/8M2AfU12Z/PsLVJKfIyxtPWdZosMuHhug0RLnmuj68zUnB8UCge2Emyuaf06LAZvbAgCP+XRyZbIW09yv/EwBSXx5iS4zp52oRFjBKYQeC3N/0OvImxcULiCk0WoZStutpPvD+lw9lo0bPJC8T6xugEhEFqfwhoRk+FymH86O96BQQW9GOmkRnkdVVxNOe2hjLOu7d2smRCTT8SXAL/pOs+nX1WWPVN7HR3J81rlTcn4S1oD5UkUH++ryxEzlZIgdKim4EUPP+pWRM3kR+MNZZc/RYYKVNvIUZYcQfZLkCrsmdwYAodIuGQ0ujCqPJ6+oTNPWcdZeV8BlKp+KN6PYEL/ClXKNgYYaemEA2v2G+LX/b4iOGbID8oD2sZgh83GGvX+wEURKtYFPT28E2K/tG9oZnhBHnYI3YRMm12qlu7bxkakhHv+ThkaTspHBoUBccuFVqkk9cjYmWayC7GJV0Qz7aSm0R3DgHwplKNMvR/vBdkUeCrttBimAzJxDs59VY6f3fMzikllWCwURcFPZ/FGhA41v8AFDhotIzJCP4Lv5GX+UW0Jxuxch16C4YG1QhDVnUorIWs="}]}, Name: "satori_rento"}, display: {Name: '{"text":"§b§lれんと"}'}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:farmer", level: 2000019, type: "minecraft:plains"}, HurtTime: 0s, Inventory: []}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

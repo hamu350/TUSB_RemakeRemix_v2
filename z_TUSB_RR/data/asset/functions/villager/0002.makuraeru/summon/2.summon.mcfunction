@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0002.makuraeru/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 252160, Attributes: [{Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 48.0d, Name: "minecraft:generic.follow_range"}, {Base: 0.5d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 10495423L, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Tags: ["TypeChecked", "ShieldTried"], Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [72.1662f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§r§r§f§n§lマクラエル"}', Pos: [-1898.2644055077471d, 141.5d, -135.56608716350942d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0NjIwMzQwNjgyMDgsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1YzcwNWY2ODEyNGM0MGQ2NWE2Zjk3M2VkZWFmNThkZmRkMTVjYTVjYmI5Njc3ZDUyNzY4NTY0ZGYxOTM4In19fQ==", Signature: "nq9MW+RsoE/roTSlV3EQtgLH4p2QVHjsyg+qLdLOUflMYP6mmsFQrNd80a9Y2ztWazok5pFETdd0Qi9PsrST/Hp9Y9HtqFUs3Zi5YLhvQtciBHXRul1UGVzxdhowCgR2kD33LVXjkjQyrCb4VdZoJtUSUUKiQGRRpcDNEtqsoztG+oxfsSQl0pBAsFSfuywJlh9u66VXiBNCc9mO/g2BYgEiOzwV0lAkH6Tp7cAy2fX75ff9Oq0uIHP1PN40tMoNxuJEuvew/nWdo2nfiOgpQN/YUjhhqqQ88uLQbXnWou63xLVGQCAAvzC+EAE0FVoCnfOwGCy1KdF1rOznjywfBzxrjmXrRUaj/tdHd0/uRDJ3ylGiBCdEWtXfkTufrUvhl1kQ6V4uz3Ag7HpfV+PUOtrVMl5GKmp84keXNWAAoBwVDNQKPQ0eOdAxtXn2om9yRPW3wZcAg2eROrriZHMiXItQ57bO2XImCFC1FsEDvAyn2ie+Q3KFV8U7425j4giOabArPoBK7Nm10CsRFddZBCJoC+xUMbg2YC3G0vmS9Jzf0Of3C3ARrVzNLXbHkoQIokriAafOrLRbFJQorVcCGp3Hx89QE0rj05xsENLOB8xes99T1yk/Eyf7+IGMez0Lr/V0d4H/SLf7WFIW5aFmAX1JVtJoJqRRy9cYsVfdqFc="}]}, Id: [I; 1260581019, 1401898967, -1209350246, -1306364163], Name: "anminmakura"}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:librarian", level: 102, type: "minecraft:plains"}, HurtTime: 0s, Inventory: [], CustomNameVisible: 1b}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

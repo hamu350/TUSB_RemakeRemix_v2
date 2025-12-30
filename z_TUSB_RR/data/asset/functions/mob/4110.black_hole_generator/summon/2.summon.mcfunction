@@ -4,4 +4,4 @@
 function asset:mob/4110.black_hole_generator/data/2.data_set
 # AiUtilを使ってmobを召喚します
 data modify storage util: in set from storage asset: mob
-function util:spawn/
+function #util:spawn

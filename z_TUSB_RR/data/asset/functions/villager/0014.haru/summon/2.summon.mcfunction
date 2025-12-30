@@ -3,14 +3,7 @@
 # まず取引情報を取得します
 function asset:villager/0014.haru/trade_info/2.trade_info
 # 次にnbtを色々設定します
-data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity","SpawnMob"]}
-# 召喚します。まず乗り物となる経験値を召喚
-summon experience_orb ~ ~ ~ {Age:6000,Tags:["SummonMob"]}
-# そしてstorageから乗せます
-data modify entity @e[tag=SummonMob,limit=1] Passengers append from storage asset: villager
-# 騎乗させたことで座標がずれているので修正します
-data modify entity @e[tag=SpawnMob,limit=1] Pos set from entity @e[tag=SummonMob,limit=1] Pos
-
-# 経験値をkillし、村人のtagも消します
-kill @e[tag=SummonMob,limit=1]
-tag @e[tag=SpawnMob,limit=1] remove SpawnMob
+data modify storage asset: villager merge value {id:"villager",NoAI:true,Invulnerable:true,Tags:["TypeChecked","SystemEntity"],Brain: {memories: {}}, HurtByTimestamp: 747014, Attributes: [{Base: 0.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 48.0d, Name: "minecraft:generic.follow_range"}, {Base: 0.03d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.0d, Name: "minecraft:generic.armor"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 150, LastGossipDecay: 10591423L, HandDropChances: [0.085f, 0.0f], PersistenceRequired: 0b, UUID: [I; 1616502957, 865933614, -2066176102, -2137353913], Tags: ["TypeChecked", "ShieldTried"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"§7§n§lハル"}', Pos: [-1879.5d, 4.3125d, -80.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0aW1lc3RhbXAiOjE0MTQyNTU1MjE1MTksInByb2ZpbGVJZCI6ImY4MGRhY2ZiZmI1MzQwMjBhYWQ1ZWQ4MmQyZmQ1ZTk0IiwicHJvZmlsZU5hbWUiOiJsYnBfdGF0dWhhcnUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwNzg1OWM2Mjg4MWQ1NmE1MDg0NjYyZmE2MzZjNzM0ZmE3MjM1MjliYzhiNmY0MjYxY2JhODY4Mjk1ZmQiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==", Signature: "ax/9Gaikuaf4cl9RxwQifSUUapM8CJk+vg0zGw6N2m8MkVf6jRguhxeeWJC0QaBi9bUjf+6+QomIbn93VD63JyatbhfivE6/ZC0+oOXrKF5wpJ0lRcxx2LPN0Jky+yXd97M2WT50lagjUqXomT9LRcTwk7iSH+k+PE/7U1EuxB74L4z8TVNWjD32Q99J/XIu1tzyMKDBklzfdz1SGCOl4YGTCblYz3crDAMEveex6mdHGC4ziZ9pQh5jHlIrclFAx1r4FH272h9b1+2K/HA7N1wQewMmxF2G7RQwV4rQjrnpl2rzT2mkdiYj94M7pcHy0oPYSVY29UOAJYj/WpaVxW7O2+XajP9vzlea38sPOTj30iEU1FvPPF5xvnCOmvu4X3M78tsLu1Yki7a+k4nRRnNZgc+i+Xx28qKTuWkdDk9FFuYr3vtbIZkyY+LTPow6QZAMk5nv2WTFfnnM+jnvG2L9/Y3JEi42ExYu6qjmfo7EwoAS1PFFzYwHHZQy43fBh+duSKIvge/beGMsJOL+wOrfj7LYdjQTJs3FTOJpEo7+450aue76kEPLmJyQGhRvIo4rZMQ6XjlPt748iDOWIGX5gD4TJ38vRA2bCrKBEbglsW9rqv4cCFghHF37pUW1VZfGKNo1gx0w0Hp2H243r2+PPnmbTUuBNNOEcoylQi0="}]}, Id: [I; -133321477, -78430176, -1428820606, -755147116], Name: "lbp_tatuharu"}}}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:farmer", level: 100, type: "minecraft:plains"}, HurtTime: 0s, Inventory: [], CustomNameVisible: 1b}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

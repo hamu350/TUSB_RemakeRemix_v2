@@ -4,4 +4,4 @@
 function asset:mob/4802.magic_bullet_prince/data/2.data_set
 # AiUtilを使ってmobを召喚します
 data modify storage util: in set from storage asset: mob
-function util:spawn/
+function #util:spawn
