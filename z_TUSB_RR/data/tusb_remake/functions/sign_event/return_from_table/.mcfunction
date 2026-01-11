@@ -8,5 +8,5 @@ playsound minecraft:entity.ender_dragon.hurt master @a ~ ~ ~ 10 1.9 1
 execute at @s run particle minecraft:effect ~ ~ ~ 0.01 1 0.01 0.05 700 force
 
 ### 戻った後の演出
-tp @s -144 51 70 270 0
+tp @s -139 15 39 270 0
 execute at @s run particle minecraft:effect ~ ~ ~ 0.01 1 0.01 0.05 700 force
