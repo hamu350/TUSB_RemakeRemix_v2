@@ -61,3 +61,11 @@ RR追加村人一覧
     0101.通常世界の鍛冶屋
     0102.灼熱地獄の鍛冶屋
     0103.煉獄商 Remix
+
+RR製作者村人一覧
+    0201.hamu
+    0202.mocope
+    0203.take
+    0204.mamorukun_neo
+    0205.soba
+    0206.bekemann
