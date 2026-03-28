@@ -1,5 +1,8 @@
 #> remake_remix:equipments/konton
-
+#
+#
+#
+# @within function remake_remix:equipments/
 
 effect give @s minecraft:regeneration 61 2 true
 

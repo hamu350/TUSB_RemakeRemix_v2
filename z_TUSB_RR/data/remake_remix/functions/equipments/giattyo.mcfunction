@@ -1,6 +1,6 @@
 #> remake_remix:equipments/giattyo
 #
-# 
+# ブル・ギアッチョ
 #
 # @within function remake_remix:equipments/
 

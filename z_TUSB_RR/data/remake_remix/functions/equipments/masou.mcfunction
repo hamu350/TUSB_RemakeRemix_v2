@@ -1,6 +1,6 @@
 #> remake_remix:equipments/masou
 #
-# 
+# 煉獄魔装
 #
 # @within function remake_remix:equipments/
 

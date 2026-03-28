@@ -1,4 +1,8 @@
 #> remake_remix:equipments/nizi
+#
+# 虹の翼
+#
+# @within function remake_remix:equipments/
 
 effect give @s minecraft:regeneration 61 1 false
 

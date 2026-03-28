@@ -1,6 +1,6 @@
 #> remake_remix:equipments/twilight
 #
-# 黄昏のセット効果
+# 黄昏
 #
 # @within function remake_remix:equipments/
 

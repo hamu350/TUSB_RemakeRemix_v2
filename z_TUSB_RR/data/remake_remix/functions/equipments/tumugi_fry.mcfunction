@@ -1,6 +1,6 @@
 #> remake_remix:equipments/tumugi
 #
-# 
+# 紡がれし星光 飛行演出
 #
 # @within function remake_remix:equipments/
 
