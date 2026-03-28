@@ -7,6 +7,10 @@
 tag @s[tag=!SaveTorch] add RemoveTorch
 tag @s[tag=SaveTorch] remove SaveTorch
 
+# トカルト無効
+execute if predicate remake_remix:giattyo run tag @s remove RemoveTorch
+execute if entity @e[distance=..32,type=armor_stand,tag=ISFInvalid] run tag @s remove RemoveTorch
+
 ### トカルトに初めてきたプレイヤーに松明を渡す処理
 execute unless data storage tusb_remake: settings{toculting:1b} run tellraw @s[tag=ISFUnreached] [{"text":"[辺境調査員] おや？ 他の島からかい？ 珍しいねぇ。\n これを持ってお行き。\n ここは寒さが厳しいからね。凍え死んじまうよ。\n"},{"translate":"* %1$s を64個受け取った。","with":[{"text":"松明","color":"aqua"}]},{"translate":"\n[辺境調査員] %2$sは%1$sで付け直せるからね。\n %3$sが減ったら%1$sのあるところまで戻るんだよ。","with":[{"text":"篝火","color":"gold"},{"text":"消えた松明","color":"aqua"},{"text":"松明","color":"aqua"}]}]
 give @s[tag=ISFUnreached] minecraft:torch 64
