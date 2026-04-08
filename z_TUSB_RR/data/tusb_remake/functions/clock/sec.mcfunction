@@ -49,9 +49,6 @@ execute unless data storage tusb_remake: settings{toculting:1b} as @a[predicate=
 execute unless data storage tusb_remake: settings{toculting:1b} as @a[predicate=!tusb_remake:area/tocult_colde,gamemode=!spectator] at @s if entity @e[tag=TocultArea,distance=..32] run function tusb_remake:tocult_process/
 execute if data storage tusb_remake: settings{toculting:1b} as @a[predicate=!tusb_remake:area/nether_trial,gamemode=!spectator] at @s run function tusb_remake:tocult_process/
 
-## TLEエンカウント処理
-execute as @a[predicate=time_limit:encountarea,predicate=time_limit:player] at @s run function time_limit:encount/
-
 ## ゾンビピッグマンのおこる対象を設定する
 execute as @a[gamemode=!spectator] at @s run function tusb_remake:clock/gimmic/nether/angry
 
