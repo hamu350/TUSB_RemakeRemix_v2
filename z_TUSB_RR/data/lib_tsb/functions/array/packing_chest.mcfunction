@@ -1,4 +1,4 @@
-#> lib:array/packing_chest
+#> lib_tsb:array/packing_chest
 #
 # 配列の後ろから27個を別の配列にSlotを付与して移します。
 #
@@ -13,11 +13,11 @@
 # @public
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが開かれずに利用されています。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが開かれずに利用されています。","color":"white"}]
 
 # 初期化
     scoreboard players set $Index Temporary 0
 # 箱詰め
-    function lib:array/core/packing_chest
+    function lib_tsb:array/core/packing_chest
 # リセット
     scoreboard players reset $Index Temporary

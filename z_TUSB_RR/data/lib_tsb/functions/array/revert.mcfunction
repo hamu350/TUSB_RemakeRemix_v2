@@ -1,4 +1,4 @@
-#> lib:array/revert
+#> lib_tsb:array/revert
 #
 # 配列をキャッシュを元に復元します。
 #
@@ -14,7 +14,7 @@
 
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが開かれずに利用されています。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが開かれずに利用されています。","color":"white"}]
 
 # Cacheを復元
-    execute if data storage lib: Cache[0] run function lib:array/core/revert
+    execute if data storage lib: Cache[0] run function lib_tsb:array/core/revert

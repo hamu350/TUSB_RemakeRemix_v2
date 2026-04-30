@@ -1,5 +1,5 @@
-#> lib:array/core/mask_inverted
-# @within function lib:array/**mask_inverted
+#> lib_tsb:array/core/mask_inverted
+# @within function lib_tsb:array/**mask_inverted
 
 # マスクデータの一般化
     data modify storage lib: Mask set from storage lib: Masks[-1]
@@ -11,7 +11,7 @@
     data remove storage lib: CopiedArray[-1]
     data remove storage lib: Masks[-1]
 # 要素の数がずれていないかのチェック
-    execute if data storage lib: CopiedArray[0] unless data storage lib: Masks[0] run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"リストの要素の数が異なります。 / from lib:array/mask","color":"white"}]
-    execute unless data storage lib: CopiedArray[0] if data storage lib: Masks[0] run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"リストの要素の数が異なります。 / from lib:array/mask","color":"white"}]
+    execute if data storage lib: CopiedArray[0] unless data storage lib: Masks[0] run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"リストの要素の数が異なります。 / from lib_tsb:array/mask","color":"white"}]
+    execute unless data storage lib: CopiedArray[0] if data storage lib: Masks[0] run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"リストの要素の数が異なります。 / from lib_tsb:array/mask","color":"white"}]
 # 要素がまだあるなら再帰
-    execute if data storage lib: CopiedArray[0] if data storage lib: Masks[0] run function lib:array/core/mask_inverted
+    execute if data storage lib: CopiedArray[0] if data storage lib: Masks[0] run function lib_tsb:array/core/mask_inverted

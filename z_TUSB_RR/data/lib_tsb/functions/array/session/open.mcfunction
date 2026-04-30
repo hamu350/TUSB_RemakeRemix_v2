@@ -1,11 +1,11 @@
-#> lib:array/session/open
+#> lib_tsb:array/session/open
 #
 #
 #
 # @api
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:true} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが正常に閉じられていません。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:true} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが正常に閉じられていません。","color":"white"}]
 # 初期化
     data modify storage lib: Array set value []
     data modify storage lib: ArrayA set value []

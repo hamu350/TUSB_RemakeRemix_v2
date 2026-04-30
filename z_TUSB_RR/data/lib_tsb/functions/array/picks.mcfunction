@@ -1,4 +1,4 @@
-#> lib:array/picks
+#> lib_tsb:array/picks
 #
 # 指定された配列の要素を抜き出します。
 #
@@ -15,7 +15,7 @@
 # @api
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが開かれずに利用されています。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが開かれずに利用されています。","color":"white"}]
 
 # 初期化
     data remove storage lib: Elements
@@ -24,7 +24,7 @@
         data modify storage lib: ArrayTemp set from storage lib: Array
         data modify storage lib: Array set from storage lib: Picks
     # ソート
-        function lib:array/sort_ascend
+        function lib_tsb:array/sort_ascend
     # 配列を元に戻す
         data modify storage lib: Picks set from storage lib: Array
         data modify storage lib: Array set from storage lib: ArrayTemp
@@ -32,15 +32,15 @@
     data modify storage lib: Picks append value -1
     execute store result storage lib: Picks[-1] int 1 if data storage lib: Array[]
 # 再帰的に抜き取る
-    function lib:array/core/picks
+    function lib_tsb:array/core/picks
 # Cacheを戻す
-    function lib:array/revert
+    function lib_tsb:array/revert
 # Elementsの順番を反転させる
     # 配列を入れ替える
         data modify storage lib: ArrayTemp set from storage lib: Array
         data modify storage lib: Array set from storage lib: Elements
     # 反転させる
-        function lib:array/reverse
+        function lib_tsb:array/reverse
     # 配列を元に戻す
         data modify storage lib: Elements set from storage lib: Array
         data modify storage lib: Array set from storage lib: ArrayTemp

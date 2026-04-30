@@ -1,4 +1,4 @@
-#> lib:array/compare
+#> lib_tsb:array/compare
 #
 # 配列と比較対象配列の各要素について同一であるかを比較し、その結果の配列を返します。
 #
@@ -15,16 +15,16 @@
 # @api
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが開かれずに利用されています。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが開かれずに利用されています。","color":"white"}]
 
 # 初期化
     data remove storage lib: Array
 
 # 再帰的に動かす
-    execute if data storage lib: ArrayA[0] if data storage lib: ArrayB[0] run function lib:array/core/compare
+    execute if data storage lib: ArrayA[0] if data storage lib: ArrayB[0] run function lib_tsb:array/core/compare
 
 # 結果を反転
-    function lib:array/reverse
+    function lib_tsb:array/reverse
     data modify storage lib: CompareResult set from storage lib: Array
 
 # リセット

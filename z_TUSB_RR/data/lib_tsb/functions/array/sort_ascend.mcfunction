@@ -1,4 +1,4 @@
-#> lib:array/sort_ascend
+#> lib_tsb:array/sort_ascend
 #
 # 配列の要素を昇順ソートします。
 #
@@ -9,7 +9,7 @@
 
 
 # セッションチェック
-    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib:array/のセッションが開かれずに利用されています。","color":"white"}]
+    execute if data storage lib: {ArrayLibSessionOpened:false} run tellraw @a [{"storage":"global","nbt":"Prefix.ERROR"},{"text":"lib_tsb:array/のセッションが開かれずに利用されています。","color":"white"}]
 
 # 実際ただのエイリアスである。
     function natural_merge_sort:ascend

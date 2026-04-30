@@ -1,6 +1,6 @@
-#> lib:array/core/compare_single
+#> lib_tsb:array/core/compare_single
 # @within function
-#   lib:array/**compare_single
+#   lib_tsb:array/**compare_single
 
 # 比較/結果代入
     data modify storage lib: Array append value {_:{_:-1b}}
@@ -9,4 +9,4 @@
 # 末尾削除
     data remove storage lib: CopiedArray[-1]
 # 要素がまだあるなら再帰
-    execute if data storage lib: CopiedArray[0] run function lib:array/core/compare_single
+    execute if data storage lib: CopiedArray[0] run function lib_tsb:array/core/compare_single
