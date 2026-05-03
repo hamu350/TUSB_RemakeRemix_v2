@@ -29,8 +29,8 @@ data modify storage tusb_remake: nether_boss_clear set value false
 gamerule doDaylightCycle false
 data modify storage tusb_remake: settings set value {force_night:true}
 
-### 最初はキープインベントリなし
-gamerule keepInventory false
+### キープインベントリあり
+gamerule keepInventory true
 data modify storage tusb_remake: settings.is_sightseeing set value false
 
 ### 苗木を既に入手しているかどうか
