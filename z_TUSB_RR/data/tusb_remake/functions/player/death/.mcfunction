@@ -6,25 +6,15 @@
 ### 満腹度を記録する
 scoreboard players operation @s Hunger = @s Food
 
-### 観光モードだったら、観光中の死をカウントアップ
-execute if data storage tusb_remake: settings{is_sightseeing:true} run scoreboard players add SightseeingDeath Settings 1
-### 観光モードじゃないならキープインベントリはだめ
-execute unless data storage tusb_remake: settings{is_sightseeing:true} run gamerule keepInventory false
-execute unless data storage tusb_remake: settings{is_sightseeing:true} run clear @s
-
-
-# TLE追加部分(ﾅﾆﾓﾅｲ)
-
-# でもボス戦だったらkeepinvを温情でつける
-# これ上のclear @sも消さないとだめだなぁ()
-
-
 # RR追加部分
-# 共鳴アイテム回収
-execute if entity @s[tag=Kyoumei] in overworld run function tusb_remake:player/death/kyoumei/
+# アイテムをぶちまける
+execute unless data storage tusb_remake: settings{is_sightseeing:true} run function tusb_remake:player/death/item_drop
+
+### 観光モードだったら、死をカウントアップ
+scoreboard players add DeathCount Settings 1
 
 # 周回ボスなら消す
-execute if data storage tusb_remake: settings{is_sightseeing:true} if entity @s[tag=InfinityBossArea] run clear @s
+execute if entity @s[tag=InfinityBossArea] run clear @s
 
 ### ネザーアスレチック
 execute as @s[predicate=tusb_remake:area/nether_trial] at @s run function tusb_remake:player/death/in_nether_trial
