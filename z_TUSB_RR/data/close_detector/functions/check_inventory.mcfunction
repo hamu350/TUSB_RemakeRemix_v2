@@ -8,15 +8,15 @@
 function #oh_my_dat:please
 
 ### パフォーマンス向上のため先にインベントリを保存しておく
-data modify storage close_detector: new_inventory set from entity @s Inventory
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.new_inventory set from entity @s Inventory
 # tellraw @a {"nbt":"new_inventory","storage": "close_detector:"}
-# tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.Inventory","storage": "oh_my_dat:"}
+# tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.inventory","storage": "oh_my_dat:"}
 
 ### 変化がないか、占有数に差がないかをチェック
 ## last
-data modify storage close_detector: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.Inventory
+data modify storage close_detector: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.inventory
 ## now
-execute store result storage close_detector: changed byte 1 run data modify storage close_detector: _ set from storage close_detector: new_inventory
+execute store result storage close_detector: changed byte 1 run data modify storage close_detector: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.new_inventory
 ## check
 execute store result storage close_detector: closed byte 1 unless data storage close_detector: {changed:true}
 
@@ -28,4 +28,4 @@ execute store result storage close_detector: closed byte 1 unless data storage c
 ### 変化があったら連続して無視しないといけない可能性があるので確認
 execute if data storage close_detector: {changed:true,skip:0} run function close_detector:check_inventory/
 
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.Inventory set from storage close_detector: new_inventory
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.inventory set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.new_inventory

@@ -4,9 +4,6 @@
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-# 個別ストレージ呼び出し
-function #oh_my_dat:please
-
 data modify storage close_detector: _ set from storage close_detector: inventory.last[-1]
 execute store result storage close_detector: _ byte 1 run data modify storage close_detector: _ set from storage close_detector: inventory.now[-1]
 

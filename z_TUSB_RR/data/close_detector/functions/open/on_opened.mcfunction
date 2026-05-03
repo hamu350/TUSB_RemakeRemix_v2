@@ -13,4 +13,4 @@ function close_detector:open/setup
 # 個別ストレージ呼び出し
 function #oh_my_dat:please
 ### インベントリ記録
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.Inventory set from entity @s Inventory
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].close_detector.inventory set from entity @s Inventory

@@ -4,6 +4,9 @@
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
+# 呼び出し
+function #oh_my_dat:please
+
 ### 仮アイテムを元に戻す
 function close_detector:close/tear_down
 
