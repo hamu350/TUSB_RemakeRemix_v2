@@ -12,4 +12,4 @@ tp 0-0-1-0-8 0-0-1-0-4
 
 ### まだ残り回数があったら繰り返し
 execute store result storage tusb_remake: lightning_bolt_count int 0.9999999999 run data get storage tusb_remake: lightning_bolt_count
-execute unless data storage tusb_remake: {lightning_bolt_count:0} in minecraft:overworld run schedule function tusb_remake:nether_boss/lightning_bolt/schedule 1t
+execute unless data storage tusb_remake: {lightning_bolt_count:0} in minecraft:overworld run schedule function world_manager:dimension/purgatory/boss/lightning_bolt/schedule 1t

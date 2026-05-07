@@ -3,11 +3,11 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-### ディメンションの番号を設定
-scoreboard players operation @s USBDimension = @s AreaChangeFlag
+# ディメンションの番号を設定
+    scoreboard players operation @s USBDimension = @s AreaChangeFlag
 
-### エリア処理持ち込み判定 BringItemError
-execute at @s run function world_manager:area/move/check_item/
+# エリア処理持ち込み判定 BringItemError
+    execute at @s run function world_manager:area/move/check_item/
 
 ### テーブルマウンテンに移動できたとき
 tag @s[scores={AreaChangeFlag=11}] add IgnoreEnderChest

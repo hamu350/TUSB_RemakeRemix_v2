@@ -8,5 +8,5 @@ execute as 0-0-1-0-5 at @s positioned ~ ~ ~ run tp 0-0-1-0-5 @e[tag=RightEyeTarg
 ### おめめ光らせる
 execute as 0-0-1-0-5 at @s positioned ~ ~ ~ as @e[distance=..3,type=minecraft:end_crystal] run data merge entity @s {Glowing:true}
 ### ビーム発射！！
-schedule function tusb_remake:nether_boss/right_beam/schedule 1t
-schedule function tusb_remake:nether_boss/right_beam/blast 1s
+schedule function world_manager:dimension/purgatory/boss/right_beam/schedule 1t
+schedule function world_manager:dimension/purgatory/boss/right_beam/blast 1s

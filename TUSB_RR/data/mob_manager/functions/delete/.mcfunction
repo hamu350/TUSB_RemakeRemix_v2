@@ -3,14 +3,14 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-### 接地削除処理(FloatingRequired)
-tag @e[tag=FloatingRequired,nbt={OnGround:true}] add Garbage
-### 乗っていないと削除(RidingRequired)
-tag @e[tag=RidingRequired,predicate=!lib:is_riding] add Garbage
-### 時間削除処理(CooldownRequired / PortalCooldown=0)
-tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage
-### 自然スライム系削除
-execute as @e[type=#lib:slimey,nbt={AbsorptionAmount:0f}] run function mob_manager:delete/slimey/
+# 接地削除処理(FloatingRequired)
+    tag @e[tag=FloatingRequired,nbt={OnGround:true}] add Garbage
+# 乗っていないと削除(RidingRequired)
+    tag @e[tag=RidingRequired,predicate=!lib:is_riding] add Garbage
+# 時間削除処理(CooldownRequired / PortalCooldown=0)
+    tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage
+# 自然スライム系削除
+    execute as @e[type=#lib:slimey,nbt={AbsorptionAmount:0f}] run function mob_manager:delete/slimey/
 
-### 不要エンティティ削除
-execute as @e[tag=Garbage] run function mob_manager:delete/kill
+# 不要エンティティ削除
+    execute as @e[tag=Garbage] run function mob_manager:delete/kill

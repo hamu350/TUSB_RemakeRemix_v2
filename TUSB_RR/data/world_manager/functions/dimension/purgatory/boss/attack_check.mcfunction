@@ -16,6 +16,6 @@ execute store result storage tusb_remake: nether_boss_count int -1 run data get 
 ## カウントが44になっていたら、ドラゴンが吠える
 execute if data storage tusb_remake: {nether_boss_count:44} as 0-0-1-0-4 at @s positioned ~ ~-30 ~74 run playsound minecraft:entity.ender_dragon.growl master @a[distance=..80] ~ 0 ~ 0.1 0.7 1
 ## カウントが46になっていたら、アタックチャーンス！
-execute if data storage tusb_remake: {nether_boss_count:46} run function tusb_remake:nether_boss/attack_chance
+execute if data storage tusb_remake: {nether_boss_count:46} run function world_manager:dimension/purgatory/boss/attack_chance
 ## クリアしていたら、クリア演出！
-execute if data storage tusb_remake: {nether_boss_clear:true} run function tusb_remake:nether_boss/clear
+execute if data storage tusb_remake: {nether_boss_clear:true} run function world_manager:dimension/purgatory/boss/clear
