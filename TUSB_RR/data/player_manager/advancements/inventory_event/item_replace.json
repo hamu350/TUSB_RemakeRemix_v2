@@ -1,0 +1,165 @@
+{
+	"criteria": {
+		"old_can_place_on_all": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{CanPlaceOn: [\"minecraft:stone\"]}"
+					}
+				]
+			}
+		},
+		"carve_halloween": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pumpkin"
+						],
+						"nbt": "{display: {Name: '{\"text\":\"§6§lハロウィンヘッド\"}'}}"
+					}
+				]
+			}
+		},
+		"cthulhu_lure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{RepairCost: 1000000000, Enchantments: [{id: \"minecraft:knockback\", lvl: 10s}, {id: \"minecraft:lure\", lvl: 8s}, {id: \"minecraft:luck_of_the_sea\", lvl: 4s}], Unbreakable: 1b, Damage: 0, HideFlags: 39, display: {Name: '{\"text\":\"§r§3§kcthulhu§2§lくとぅるあー§3§kcthulhu§r\"}', Lore: ['{\"text\":\"§8とある邪神の彫刻が刻み込まれた釣り竿\"}', '{\"text\":\"§8どこでも良いものが釣れるようになる\"}']}, AttributeModifiers: [{Amount: -0.95d, Operation: 2, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 1], AttributeName: \"generic.max_health\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 2], AttributeName: \"generic.movement_speed\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 3], AttributeName: \"generic.attack_damage\", Name: \"anmin\"}, {Amount: -0.95d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 4], AttributeName: \"generic.armor\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 5], AttributeName: \"generic.attack_speed\", Name: \"anmin\"}, {Amount: -10.0d, Operation: 0, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 6], AttributeName: \"generic.luck\", Name: \"anmin\"}]}"
+                    }
+                ]
+            }
+        },
+		"ex_elixir": {
+        	"trigger": "minecraft:inventory_changed",
+        	"conditions": {
+        		"items": [
+					{
+            			"items": [
+                			"minecraft:lingering_potion"
+            			],
+            			"nbt": "{display: {Lore: ['{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"神秘の液体が詰まっている。\"}],\"text\":\"\"}', '{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"中身に触れるとMPとHPが\"}],\"text\":\"\"}', '{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"異常な速度で回復する。\"}],\"text\":\"\"}'], Name: '{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"エ\"},{\"bold\":true,\"italic\":false,\"color\":\"gold\",\"text\":\"ク\"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"ス\"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"エ\"},{\"bold\":true,\"italic\":false,\"color\":\"dark_aqua\",\"text\":\"リ\"},{\"bold\":true,\"italic\":false,\"color\":\"blue\",\"text\":\"ク\"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"サ\"},{\"bold\":true,\"italic\":false,\"color\":\"dark_purple\",\"text\":\"ー\"}],\"text\":\"\"}'}}"
+            		}
+        		]
+        	}
+    	},
+		"end_of_end": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 127
+                            },
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 127
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 127
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+		"high_lure_change": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:lure",
+                                "levels": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+		"no_got_return": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:flame",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:looting",
+                                "levels": 10
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 255
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+		"red_carrot": {
+        	"trigger": "minecraft:inventory_changed",
+        	"conditions": {
+        		"items": [
+        			{
+              			"items": [
+                			"minecraft:carrot_on_a_stick"
+              			],
+              			"nbt": "{display: {Name: '{\"text\":\"§4§lレッドキャロット\"}'}}"
+            		}
+          		]
+        	}
+    	}
+	},
+	"requirements": [
+		[
+			"old_can_place_on_all",
+			"carve_halloween",
+			"cthulhu_lure",
+			"ex_elixir",
+			"end_of_end",
+			"high_lure_change",
+			"no_got_return",
+			"red_carrot"
+		]
+	],
+	"rewards": {
+		"function": "player_manager:inventory_event/item_replace/"
+	}
+}

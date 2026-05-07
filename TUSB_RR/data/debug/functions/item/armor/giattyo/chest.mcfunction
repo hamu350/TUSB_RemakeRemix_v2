@@ -1,0 +1,5 @@
+#> debug:item/giattyo/chest
+#
+# 
+
+give @s elytra{AttributeModifiers:[{Amount:0.03d,AttributeName:"generic.movement_speed",Operation:0,Slot:"legs",UUID:[I;0,5,0,1]},{Amount:0.7d,AttributeName:"generic.knockback_resistance",Operation:0,Slot:"legs",UUID:[I;0,5,0,2]},{Amount:7.0d,AttributeName:"generic.armor",Operation:0,Slot:"legs",UUID:[I;0,5,0,3]},{Amount:3.0d,AttributeName:"generic.armor_toughness",Operation:0,Slot:"legs",UUID:[I;0,5,0,4]}],Damage:0,Enchantments:[{id:"minecraft:protection",lvl:15s},{id:"minecraft:fire_protection",lvl:15s},{id:"minecraft:feather_falling",lvl:15s},{id:"minecraft:blast_protection",lvl:15s},{id:"minecraft:projectile_protection",lvl:15s},{id:"minecraft:vanishing_curse",lvl:1s}],HideFlags:65,RepairCost:100000000,Unbreakable:1b,Kyoumei:1b,giattyo:1b,display:{Lore:['{"text":"§7ダメージ軽減 enchantment.level.15"}','{"text":"§7火炎耐性 enchantment.level.15"}','{"text":"§7落下耐性 enchantment.level.15"}','{"text":"§7爆発耐性 enchantment.level.15"}','{"text":"§7飛び道具耐性 enchantment.level.15"}','{"text":"§7魂の共鳴"}','{"text":""}','{"text":"§7一式装備したとき："}','{"text":"§3氷結の加護"}'],Name:'{"text":"§3§kblue§3§lブル・ギアッチョ§r§3§kblue"}'}} 1

@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"eating_fruit": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_manager:eating_fruit/"
+	}
+}

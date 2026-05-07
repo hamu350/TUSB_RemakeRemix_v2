@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{FallFlying:1b}",
+    "equipment": {
+      "chest": {
+        "items": [
+          "minecraft:elytra"
+        ],
+        "nbt": "{niji:1b}"
+      }
+    }
+  }
+}

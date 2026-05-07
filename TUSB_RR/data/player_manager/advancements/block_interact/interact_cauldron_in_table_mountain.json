@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"interact": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:water_cauldron",
+							"minecraft:cauldron"
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "reference",
+						"name": "world_manager:area/table_mountain"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_manager:interact_cauldron_in_table_mountain"
+	}
+}

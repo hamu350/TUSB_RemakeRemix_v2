@@ -1,0 +1,6 @@
+#> mob_manager:gimmic/skill/remix_rider/pale_rider_remix/hadesusu_nightmare/
+# 毒即死。従来のペスクロ
+
+me はハデーススナイトメアを唱えた！
+execute as @a[distance=..32,nbt={ActiveEffects:[{Id:19}]}] run function mob_manager:gimmic/skill/remix_rider/pale_rider_remix/hadesusu_nightmare/apply
+playsound entity.ravager.celebrate master @a[distance=..32] ~ ~ ~ 1 1.8 1

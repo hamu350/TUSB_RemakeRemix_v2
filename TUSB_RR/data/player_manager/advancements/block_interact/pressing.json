@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"pressing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"player_manager:block_interact/press": true
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_manager:block_interact/pressing"
+	}
+}

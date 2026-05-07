@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"open": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "player_manager:is_interactable"
+                    }
+                ],
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:trapped_chest"
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "mob_manager:gimmic/simmic/trigger"
+	}
+}

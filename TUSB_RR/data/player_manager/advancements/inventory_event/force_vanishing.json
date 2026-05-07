@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{ForceVanishing:true}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_manager:inventory_event/force_vanishing"
+	}
+}

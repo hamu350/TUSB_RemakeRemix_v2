@@ -1,0 +1,5 @@
+#> debug:item/saika
+#
+# 
+
+give @s book{AttributeModifiers:[{Amount:10,AttributeName:"generic.max_health",Name:"generic.max_health",Operation:0,Slot:"offhand",UUID:[I;0,2,0,1]},{Amount:0.15d,AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Operation:0,Slot:"offhand",UUID:[I;0,2,0,3]},{Amount:15,AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Slot:"offhand",UUID:[I;0,2,0,5]},{Amount:8,AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Slot:"offhand",UUID:[I;0,2,0,6]},{Amount:0.30d,AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:1,Slot:"offhand",UUID:[I;0,2,0,7]}],Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],HideFlags:1,saika:1b,Kyoumei:1b,display:{Lore:['{"text":"§7魂の共鳴"}','{"text":"人々は恐れたはるか先にある無を...","color":"gray"}','{"text":"それを何よりも恐れる故に忘却したのだった","color":"gray"}','{"text":""}','{"text":"§7オブハンドに装備したとき："}','{"text":"§5虚空の加護"}'],Name:'{"text":"§7§ksika§r§7忘却されし虚空への災禍§7§ksika§r"}'}} 1
