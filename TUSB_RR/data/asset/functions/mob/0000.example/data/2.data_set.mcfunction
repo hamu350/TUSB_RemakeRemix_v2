@@ -69,7 +69,7 @@
     item replace entity @e[tag=ItemHolder,limit=1] armor.feet with diamond_boots{Unbreakable:true} 1
     # 手にも持たせます
     # 防具と同様に/lootか/itemで
-    loot replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand loot asset:item/weapon/bow/gale_bow
+    loot replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand loot asset:item/tool/bow/gale_bow
     item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield{Damage:256} 1
     # 最後に、防具立ての防具のnbtと持っているアイテムのnbtをstorageに移し、killします
     data modify storage asset: mob.ArmorItems set from entity @e[tag=ItemHolder,limit=1] ArmorItems

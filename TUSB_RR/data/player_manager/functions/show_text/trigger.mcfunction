@@ -23,7 +23,6 @@ execute if score @s UNO matches 1 run function mob_manager:gimmic/skill/game_mas
 
 execute if score @s UNO matches 1 run scoreboard players reset @s UNO
 
-
 # シフトメニュー
 # 情報トリガー
 execute if score @s ShowMenu matches 1 run function player_manager:show_text/sneak_menu/data/list
@@ -38,7 +37,7 @@ execute if score @s ShowMenu matches 11 run function player_manager:show_text/sn
 execute if score @s ShowMenu matches 12 run function player_manager:show_text/sneak_menu/data/status
 
 # 設定画面再表示
-function player_manager:show_text/sneak_menu/show
+execute if score @s ShowMenu matches 1.. run function player_manager:show_text/sneak_menu/show
 
 ##トリガーリセット
 scoreboard players reset @s ShowMenu

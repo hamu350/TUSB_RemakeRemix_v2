@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "world_manager:dimension/purgatory/setup"
+		"function": "world_manager:dimension/purgatory/boss/setup"
 	}
 }
