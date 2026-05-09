@@ -1,4 +1,4 @@
-#> tusb_remake:nether_boss/clear
+#> world_manager:dimension/purgatory/boss/clear
 # ネザーボスの攻撃タイミングの確認
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

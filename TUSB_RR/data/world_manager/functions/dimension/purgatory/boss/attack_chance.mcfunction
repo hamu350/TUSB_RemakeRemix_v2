@@ -1,4 +1,4 @@
-#> tusb_remake:nether_boss/attack_chance
+#> world_manager:dimension/purgatory/boss/attack_chance
 # ネザーボスもアタックチャーンス！！！
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

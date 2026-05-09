@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "world_manager:gimmic/table_bridge/trigger"
+		"function": "world_manager:dimension/table_mountain/table_bridge/trigger"
 	}
 }

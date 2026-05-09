@@ -95,6 +95,6 @@
 		]
 	],
 	"rewards": {
-		"function": "tusb_remake:talk_event/"
+		"function": "mob_manager:villager/talk_event/"
 	}
 }

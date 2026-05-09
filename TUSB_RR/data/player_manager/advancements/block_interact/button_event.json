@@ -6,7 +6,7 @@
                 "player": [
                     {
                         "condition": "reference",
-                        "name": "player_manager:trigger/is_interactable"
+                        "name": "player_manager:is_interactable"
                     }
                 ],
                 "location": {
@@ -36,7 +36,7 @@
                 "player": [
                     {
                         "condition": "reference",
-                        "name": "player_manager:trigger/is_interactable"
+                        "name": "player_manager:is_interactable"
                     }
                 ],
                 "location": {
@@ -66,7 +66,7 @@
                 "player": [
                     {
                         "condition": "reference",
-                        "name": "player_manager:trigger/is_interactable"
+                        "name": "player_manager:is_interactable"
                     }
                 ],
                 "location": {
@@ -85,6 +85,6 @@
         ]
     ],
     "rewards": {
-        "function": "tusb_remake:button_event/"
+        "function": "player_manager:block_interact/button_event/"
     }
 }

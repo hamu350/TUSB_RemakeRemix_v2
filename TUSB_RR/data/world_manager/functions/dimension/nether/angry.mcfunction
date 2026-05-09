@@ -1,4 +1,4 @@
-#> world_manager:gimmic/nether/angry
+#> world_manager:dimension/nether/angry
 # 近くのぶたさんの怒りを自分に向ける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

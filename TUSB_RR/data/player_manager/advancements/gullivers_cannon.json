@@ -16,6 +16,6 @@
 		]
 	],
 	"rewards": {
-		"function": "tusb_remake:sign_event/gullivers_land/cannon_launch"
+		"function": "player_manager:block_interact/sign_event/gullivers_land/cannon_launch"
 	}
 }

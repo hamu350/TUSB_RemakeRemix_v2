@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "tusb_remake:guardian_curse/"
+		"function": "player_manager:effect/guardian_curse/"
 	}
 }

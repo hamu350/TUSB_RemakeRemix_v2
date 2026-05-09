@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "tusb_remake:nether_boss/setup"
+		"function": "world_manager:dimension/purgatory/setup"
 	}
 }

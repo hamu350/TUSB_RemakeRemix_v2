@@ -5,11 +5,6 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"bypasses_armor": false,
-						"bypasses_magic": false,
-						"bypasses_invulnerability": false,
-						"is_magic": false,
-						"is_fire": false
 					}
 				},
 				"player": [

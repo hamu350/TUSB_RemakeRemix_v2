@@ -1,4 +1,4 @@
-#> tusb_remake:nether_boss/lightning_bolt/schedule
+#> world_manager:dimension/purgatory/boss/lightning_bolt/schedule
 # ライトニングボルト
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

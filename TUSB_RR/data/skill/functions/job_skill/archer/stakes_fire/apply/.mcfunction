@@ -7,11 +7,11 @@
 ### まずは負け確定にしておく
 data modify storage tusb_remake: stakes_result set value false
 ### レベル１なら50%の確率で勝ちに
-execute if score _ ActivatedSkill matches 3200 if predicate api:random/stakes_fire/1 run data modify storage tusb_remake: stakes_result set value true
+execute if score _ ActivatedSkill matches 3200 if predicate lib:random/stakes_fire/1 run data modify storage tusb_remake: stakes_result set value true
 ### レベル２なら70%の確率で勝ちに
-execute if score _ ActivatedSkill matches 3201 if predicate api:random/stakes_fire/2 run data modify storage tusb_remake: stakes_result set value true
+execute if score _ ActivatedSkill matches 3201 if predicate lib:random/stakes_fire/2 run data modify storage tusb_remake: stakes_result set value true
 ### レベル３なら90%の確率で勝ちに
-execute if score _ ActivatedSkill matches 3202..3209 if predicate api:random/stakes_fire/3 run data modify storage tusb_remake: stakes_result set value true
+execute if score _ ActivatedSkill matches 3202..3209 if predicate lib:random/stakes_fire/3 run data modify storage tusb_remake: stakes_result set value true
 
 # タグ判別追加
 ### 負け

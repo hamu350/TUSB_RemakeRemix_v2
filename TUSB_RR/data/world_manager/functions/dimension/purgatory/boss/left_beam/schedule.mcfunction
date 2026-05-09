@@ -1,4 +1,4 @@
-#> tusb_remake:nether_boss/left_beam/schedule
+#> world_manager:dimension/purgatory/boss/left_beam/schedule
 # 左目からのビーム
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

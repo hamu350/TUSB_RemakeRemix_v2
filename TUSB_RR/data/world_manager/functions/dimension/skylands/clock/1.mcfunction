@@ -5,7 +5,7 @@
 
 ### 達成率が11~40
 ### 時計の針襲撃スポナーを修正
-execute in minecraft:overworld positioned -58 23 22 if block ~ ~ ~ minecraft:spawner run data merge block ~ ~ ~ {SpawnData:{entity:{id:"minecraft:villager",Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:enderman",CustomName:'"秒針"',DeathLootTable:"usb:entities/clock",Health:50f,Attributes:[{Name:"minecraft:generic.max_health",Base:50d},{Name:"minecraft:generic.movement_speed",Base:0.45d},{Name:"minecraft:generic.attack_damage",Base:6d}],carriedBlockState:{Name:"minecraft:water"}}]}}}
+execute in minecraft:overworld positioned -58 23 22 if block ~ ~ ~ minecraft:spawner run data merge block ~ ~ ~ {SpawnData:{entity:{id:"minecraft:villager",Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:enderman",CustomName:'"秒針"',DeathLootTable:"usb:noloot/no_loot",Health:50f,Attributes:[{Name:"minecraft:generic.max_health",Base:50d},{Name:"minecraft:generic.movement_speed",Base:0.45d},{Name:"minecraft:generic.attack_damage",Base:6d}],carriedBlockState:{Name:"minecraft:water"}}]}}}
 execute in minecraft:overworld positioned -58 23 22 if block ~ ~ ~ minecraft:spawner run data merge block ~ ~ ~ {RequiredPlayerRange:32s,Delay:100s}
 execute in minecraft:overworld positioned -58 23 22 if block ~ ~ ~ minecraft:spawner run data remove block ~ ~ ~ SpawnPotentials
 

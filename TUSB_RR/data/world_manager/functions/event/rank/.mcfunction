@@ -6,7 +6,7 @@
 tag @s remove CauseEvent
 
 ### 低確率で占いを外す
-execute if predicate api:random/event run function world_manager:event/rank/roll
+execute if predicate lib:random/event run function world_manager:event/rank/roll
 
 # TUSB RR
 # execute if score @s EventRank matches ..-1 if score @s ChooseEvent matches 1 run function world_manager:event/rank/none

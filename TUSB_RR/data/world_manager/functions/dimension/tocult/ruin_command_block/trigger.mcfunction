@@ -1,4 +1,4 @@
-#> world_manager:gimmic/ruin_command_block/trigger
+#> world_manager:dimension/tocult/ruin_command_block/trigger
 # コマンドブロック遺跡のコマンドを修正する
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
