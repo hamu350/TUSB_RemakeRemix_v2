@@ -27,5 +27,8 @@ execute if entity @s[advancements={player_manager:inventory_event/item_replace={
 # レッキャロ
 execute if entity @s[advancements={player_manager:inventory_event/item_replace={red_carrot=true}}] run function player_manager:inventory_event/item_replace/red_carrot
 
+# TLE印判
+execute if entity @s[advancements={player_manager:inventory_event/item_replace={tl_sign_stand=true}}] run function player_manager:inventory_event/item_replace/tl_sign_stand
+
 # 進捗戻す
 advancement revoke @s only player_manager:inventory_event/item_replace

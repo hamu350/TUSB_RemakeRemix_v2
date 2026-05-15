@@ -145,6 +145,19 @@
             		}
           		]
         	}
+    	},
+		"tl_sign_stand": {
+        	"trigger": "minecraft:inventory_changed",
+        	"conditions": {
+        		"items": [
+        			{
+              			"items": [
+                			"minecraft:armor_stand"
+              			],
+              			"nbt": "{EntityTag:{Tags:[\"TL_SignStand\"]}}"
+            		}
+          		]
+        	}
     	}
 	},
 	"requirements": [
@@ -156,7 +169,8 @@
 			"end_of_end",
 			"high_lure_change",
 			"no_got_return",
-			"red_carrot"
+			"red_carrot",
+            "tl_sign_stand"
 		]
 	],
 	"rewards": {
