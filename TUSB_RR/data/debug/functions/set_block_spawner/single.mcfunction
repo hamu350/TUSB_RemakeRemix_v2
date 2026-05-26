@@ -19,7 +19,7 @@
         execute if data storage _: {_:{Once:true}} run data remove storage _: _.SpawnPotentials
 
 # 召喚、設置、データ適応
-execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoBasePlate:true,Marker:true,Small:true,NoAI:true,Invisible:true,Invulnerable:true,Tags:["Spawner","SystemEntity","this"]}
+execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoBasePlate:true,Marker:true,Small:true,Invisible:true,Invulnerable:true,Tags:["Spawner","SystemEntity","this"]}
 setblock ~ ~ ~ spawner replace
 data modify block ~ ~ ~ {} merge from storage _: _
 execute store result score @e[limit=1,tag=this] SpawnerId run data get storage _: _.SpawnMob[0].AssetId

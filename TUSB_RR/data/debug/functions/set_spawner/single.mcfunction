@@ -21,7 +21,7 @@
         execute if data storage _: {_:{Once:true}} run data remove storage _: _.SpawnPotentials
 
 # スポナーの防具立てを召喚(スポナーも乗っける)
-execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoBasePlate:true,Marker:true,Small:true,NoAI:true,Invisible:true,Invulnerable:true,Tags:["Spawner","SystemEntity","this"],Passengers:[{SpawnCount:0,id:"spawner_minecart",Invulnerable:true,Tags:["SystemEntity","Spawner","SpawnerCore","TypeChecked"]}]}
+execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoBasePlate:true,Marker:true,Small:true,Invisible:true,Invulnerable:true,Tags:["Spawner","SystemEntity","this"],Passengers:[{SpawnCount:0,id:"spawner_minecart",Invulnerable:true,Tags:["SystemEntity","Spawner","SpawnerCore","TypeChecked"]}]}
 # スポナーのデータをmergeします
 execute as @e[limit=1,tag=this] on passengers run data modify entity @s {} merge from storage _: _
 # 防具立てにidを設定します
