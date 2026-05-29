@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/hello_work/black_mage
+#> player_manager:block_interact/sign_event/hello_work/black_mage
 # 黒魔導士の説明
 ### Copyright © 2022 赤石愛
 

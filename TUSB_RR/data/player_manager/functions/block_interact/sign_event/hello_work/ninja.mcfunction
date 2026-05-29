@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/hello_work/ninja
+#> player_manager:block_interact/sign_event/hello_work/ninja
 # 忍者の説明
 ### Copyright © 2022 赤石愛
 

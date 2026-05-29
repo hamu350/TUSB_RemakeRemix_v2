@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/infinity_boss/admission
+#> player_manager:block_interact/sign_event/infinity_boss/admission
 
 # エフェクト除去
 effect clear @s

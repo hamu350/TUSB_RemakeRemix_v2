@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/game_master/admission
+#> player_manager:block_interact/sign_event/game_master/admission
 # ボス部屋に移動
 
 # conquer.countを取得

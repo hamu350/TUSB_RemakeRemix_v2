@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "player_manager:interact_cauldron_in_table_mountain"
+		"function": "player_manager:block_interact/cauldron/table_mountain"
 	}
 }

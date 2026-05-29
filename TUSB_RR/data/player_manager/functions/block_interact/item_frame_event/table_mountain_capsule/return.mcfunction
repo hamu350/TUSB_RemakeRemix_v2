@@ -1,4 +1,4 @@
-#> tusb_remake:item_frame_event/table_mountain_capsule/return
+#> player_manager:block_interact/item_frame_event/table_mountain_capsule/return
 # ガチャガチャの中身を返す
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

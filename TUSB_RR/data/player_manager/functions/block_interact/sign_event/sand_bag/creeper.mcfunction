@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/sand_bag/creeper
+#> player_manager:block_interact/sign_event/sand_bag/creeper
 # スキル設定場のサンドバッグ看板
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

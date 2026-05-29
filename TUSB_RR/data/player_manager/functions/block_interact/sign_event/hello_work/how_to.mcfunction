@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/hello_work/how_to
+#> player_manager:block_interact/sign_event/hello_work/how_to
 # 職業の就き方
 ### Copyright © 2022 赤石愛
 

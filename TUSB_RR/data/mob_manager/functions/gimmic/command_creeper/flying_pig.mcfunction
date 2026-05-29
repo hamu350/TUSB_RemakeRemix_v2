@@ -1,4 +1,4 @@
-#> tusb_remake:enemy/command_creeper/flying_pig
+#> mob_manager:gimmic/command_creeper/flying_pig
 
 execute as @p run me コマンドクリーパーが爆発した！
 title @a[distance=..16] subtitle "/effect @e[distance=..16,type=zombified_piglin] levitation 1 10"

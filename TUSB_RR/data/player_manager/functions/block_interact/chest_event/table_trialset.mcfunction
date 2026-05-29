@@ -1,10 +1,10 @@
-#> tusb_remake:chest_event/table_trialset
+#> player_manager:block_interact/chest_event/table_trialset
 # テーブルマウンテンの試供品をリセット
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
 ## テーブルマウンテンの試供品のデータがなければ、データを取得
-execute unless data storage tusb_remake: settings.table_trialset run function tusb_remake:chest_event/table_trial_dataset
+execute unless data storage tusb_remake: settings.table_trialset run function player_manager:block_interact/chest_event/table_trial_dataset
 
 ## 試供品のデータを戻す
 data modify block 17 18 -1831 Items set from storage tusb_remake: settings.table_trialset

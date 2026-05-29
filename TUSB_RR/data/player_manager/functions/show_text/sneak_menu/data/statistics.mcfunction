@@ -1,4 +1,4 @@
-#> tusb_remake:display/statistics
+#> player_manager:show_text/sneak_menu/data/statistics
 #
 # ワールド統計
 

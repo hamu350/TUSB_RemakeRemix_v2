@@ -16,6 +16,3 @@ playsound minecraft:item.shield.break master @s[scores={DoomSecond=..0,Doom=0..3
 scoreboard players set @s[scores={DoomSecond=..0}] DoomSecond 3
 tag @s[scores={Doom=..0}] remove Doom
 execute if score @s Doom matches ..0 run function player_manager:effect/invisible/doom/death
-
-# 変更点
-# Tellrawからactionbarに変更しサウンドを追加、0になったとき特殊デスログが出るように変更。

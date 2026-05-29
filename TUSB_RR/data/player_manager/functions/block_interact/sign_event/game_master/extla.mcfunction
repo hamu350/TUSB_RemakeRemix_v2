@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/game_master/extla
+#> player_manager:block_interact/sign_event/game_master/extla
 # exドメインに帰還
 
 execute if data storage tusb_remake: settings{toculting:1b} run give @s torch 64

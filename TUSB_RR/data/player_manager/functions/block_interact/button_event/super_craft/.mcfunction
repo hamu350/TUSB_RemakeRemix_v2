@@ -1,4 +1,4 @@
-#> tusb_remake:button_event/super_craft/
+#> player_manager:block_interact/button_event/super_craft/
 # 超作業台
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -18,4 +18,4 @@ fill -2735 70 -390 -2721 70 -354 minecraft:command_block[facing=up]{Command:"/ex
 
 ### 結果発表の予約
 setblock -2723 70 -352 minecraft:reinforced_deepslate
-setblock -2723 70 -352 minecraft:command_block[facing=up]{Command:"/function tusb_remake:button_event/super_craft/result/",SuccessCount:0,TrackOutput:false,UpdateLastExecution:true,auto:true,conditionMet:true,powered:false}
+setblock -2723 70 -352 minecraft:command_block[facing=up]{Command:"/function player_manager:block_interact/button_event/super_craft/result/",SuccessCount:0,TrackOutput:false,UpdateLastExecution:true,auto:true,conditionMet:true,powered:false}

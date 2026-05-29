@@ -1,4 +1,4 @@
-#> tusb_remake:display/conquer
+#> player_manager:show_text/sneak_menu/data/conquer
 # 攻略率表示
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> tusb_remake:talk_event/pay/success
+#> mob_manager:villager/talk_event/pay/success
 # エメラルドの支払いできたとき
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

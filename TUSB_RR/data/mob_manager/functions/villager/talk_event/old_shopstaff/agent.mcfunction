@@ -1,4 +1,4 @@
-#> tusb_remake:talk_event/old_shopstaff/agent
+#> mob_manager:villager/talk_event/old_shopstaff/agent
 # 古い交易島村人に話しかけた時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -7,4 +7,4 @@
 tag @s add Agent
 tag @s add NPC
 
-advancement grant @a[tag=TalkingToOldStaff] only tusb_remake:talk_event agent
+advancement grant @a[tag=TalkingToOldStaff] only player_manager:talk_event agent

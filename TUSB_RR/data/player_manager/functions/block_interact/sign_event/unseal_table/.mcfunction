@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/unseal_table/
+#> player_manager:block_interact/sign_event/unseal_table/
 # テーブルマウンテンのガラスの封印を解く
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

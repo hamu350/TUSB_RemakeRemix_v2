@@ -1,4 +1,4 @@
-#> tusb_remake:talk_event/bonfire/
+#> mob_manager:villager/talk_event/bonfire/
 # 篝火との会話
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

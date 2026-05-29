@@ -16,6 +16,6 @@
 		]
 	],
 	"rewards": {
-		"function": "tusb_remake:item_frame_event/"
+		"function": "player_manager:block_interact/item_frame_event/"
 	}
 }

@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/infinity_boss/extla
+#> player_manager:block_interact/sign_event/infinity_boss/extla
 # exドメインに帰還
 
 tag @s remove InfinityBossArea

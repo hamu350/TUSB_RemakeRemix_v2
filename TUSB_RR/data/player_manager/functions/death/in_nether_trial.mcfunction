@@ -9,7 +9,6 @@ tag @s add Raise
 function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.RaisePoint set value {Pos:[-274.5d,23.5d,879.5d],Rotation:[-90f,0f],Dimension:"minecraft:the_nether"}
 
-scoreboard players set @s RaisedArea -90
 scoreboard players set @s Hunger 21
 gamemode spectator @s
 ### ネザーアスレチックのエリトラ持ってたら消す

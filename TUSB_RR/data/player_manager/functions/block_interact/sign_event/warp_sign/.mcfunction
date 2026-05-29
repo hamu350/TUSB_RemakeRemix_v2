@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/warp_sign/
+#> player_manager:block_interact/sign_event/warp_sign/
 #
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/hello_work/knight
+#> player_manager:block_interact/sign_event/hello_work/knight
 # 剣士の説明
 ### Copyright © 2022 赤石愛
 

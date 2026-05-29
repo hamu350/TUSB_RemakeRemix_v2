@@ -1,4 +1,4 @@
-#> tusb_remake:button_event/super_craft/result/ng
+#> player_manager:block_interact/button_event/super_craft/result/ng
 # 結果が変化していなかったら
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

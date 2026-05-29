@@ -1,4 +1,4 @@
-#> tusb_remake:talk_event/old_shopstaff/buronto
+#> mob_manager:villager/talk_event/old_shopstaff/buronto
 # ブロントに話しかけた時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

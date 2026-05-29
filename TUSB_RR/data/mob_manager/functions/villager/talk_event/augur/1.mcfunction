@@ -1,4 +1,4 @@
-#> tusb_remake:talk_event/augur/1
+#> mob_manager:villager/talk_event/augur/1
 # 占い師との会話１
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

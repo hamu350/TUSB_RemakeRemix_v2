@@ -1,4 +1,4 @@
-#> tusb_remake:enemy/command_creeper/teleport
+#> mob_manager:gimmic/command_creeper/teleport
 
 execute as @p run me コマンドクリーパーが爆発した！
 title @a[distance=..16] subtitle "/spreadplayers ~ ~ 0 200 @a[distance=..16]"

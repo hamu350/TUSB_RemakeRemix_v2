@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/sand_bag/exit
+#> player_manager:block_interact/sign_event/sand_bag/exit
 # スキル設定場の訓練場の入り口の看板
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

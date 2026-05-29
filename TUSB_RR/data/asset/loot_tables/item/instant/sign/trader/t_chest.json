@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:[\"SignStand\",\"PermanentStand\",\"TChestTrader\",\"TypeChecked\"]},Repaircost:1000000000,display:{Lore:['{\"text\":\"ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"それと引き換えにｱｲﾃﾑを入手する事が出来る印板。\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"取引内容：ﾁｪｽﾄ1個,ｴﾒﾗﾙﾄﾞ1個をﾄﾗｯﾌﾟﾁｪｽﾄ1個と交換する。\",\"color\":\"green\",\"italic\":false}'],Name:'[{\"text\":\"取引\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"の印判\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"(\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"ﾁｪｽﾄ \",\"color\":\"#C39143\",\"bold\":true,\"italic\":false},{\"text\":\"ｴﾒﾗﾙﾄﾞ\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"→\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"ﾄﾗｯﾌﾟﾁｪｽﾄ\",\"color\":\"#C39143\",\"bold\":true,\"italic\":false},{\"text\":\")\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

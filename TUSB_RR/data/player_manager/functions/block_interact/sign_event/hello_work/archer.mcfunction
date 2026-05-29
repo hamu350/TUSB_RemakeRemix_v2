@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/hello_work/archer
+#> player_manager:block_interact/sign_event/hello_work/archer
 # 狩人の説明
 ### Copyright © 2022 赤石愛
 

@@ -1,4 +1,4 @@
-#> tusb_remake:display/data_list
+#> player_manager:show_text/sneak_menu/data/list
 #
 # 
 #

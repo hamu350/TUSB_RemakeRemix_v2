@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/infinity_boss/prep_room_2
+#> player_manager:block_interact/sign_event/infinity_boss/prep_room_2
 # 準備部屋に移動
 
 clear @s

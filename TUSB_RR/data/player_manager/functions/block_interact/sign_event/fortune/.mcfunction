@@ -1,4 +1,4 @@
-#> tusb_remake:sign_event/fortune/
+#> player_manager:block_interact/sign_event/fortune/
 # 占い師のところの占い看板
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

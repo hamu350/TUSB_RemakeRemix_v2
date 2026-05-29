@@ -1,4 +1,4 @@
-#> tusb_remake:enemy/tick/potion_barrier
+#> mob_manager:gimmic/tick/potion_barrier
 # ボスチームに近付いたポーションが発動するfunction
 
 data modify storage _: _ set from entity @s Item.tag.CustomPotionEffects
