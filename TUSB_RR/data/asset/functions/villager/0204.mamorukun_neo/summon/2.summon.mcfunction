@@ -1,0 +1,9 @@
+#> asset:villager/0204.mamorukun_neo/summon/2.summon
+
+# まず取引情報を取得します
+function asset:villager/0204.mamorukun_neo/trade_info/2.trade_info
+# 次にnbtを色々設定します
+data modify storage asset: villager merge value {id:"villager",Brain: {memories: {}}, HurtByTimestamp: 24771, Attributes: [{Base: 0.5d, Name: "minecraft:generic.movement_speed"}, {Base: 1024.0d, Name: "minecraft:generic.max_health"}], FoodLevel: 0b, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 99, LastGossipDecay: 17524828L, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b,  Tags: ["TypeChecked", "ShieldTried"], Age: 0, Health: 1024.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, Inventory: [], NoAI: 1b, HandItems: [{id: "minecraft:echo_shard", Count: 1b, tag: {display: {Lore: ['{"text":"主に超作業台で使用する。","color":"dark_blue","italic":false}'], Name: '{"text":"無限の可能性","color":"dark_blue","italic":false}'}, Enchantments: []}}, {id: "minecraft:pufferfish", Count: 1b}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"extra":[{"text":"mamorukun"}],"text":""}', Pos: [-1899.699999988079d, 96.0625d, -145.69999998807907d], Fire: 0s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:shepherd", level: 5, type: "minecraft:taiga"}, HurtTime: 0s, ActiveEffects: [{Ambient: 0b, ShowIcon: 0b, ShowParticles: 0b, Duration: -1, Id: 6, Amplifier: 41b}, {Ambient: 0b, ShowIcon: 0b, ShowParticles: 0b, Duration: -1, Id: 10, Amplifier: 127b}, {Ambient: 0b, ShowIcon: 0b, ShowParticles: 0b, Duration: -1, Id: 11, Amplifier: 127b}, {Ambient: 0b, ShowIcon: 0b, ShowParticles: 0b, Duration: -1, Id: 14, Amplifier: 100b}]}
+# AiUtilを使ってmobを召喚します
+data modify storage util: in set from storage asset: villager
+function #util:spawn

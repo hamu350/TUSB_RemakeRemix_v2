@@ -73,3 +73,4 @@ RR製作者村人一覧
     0204.mamorukun_neo
     0205.soba
     0206.bekemann
+    0207.yamiumi
