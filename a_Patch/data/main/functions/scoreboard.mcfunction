@@ -2,4 +2,4 @@
 #
 # scoreboard objectives
 
-scoreboard objectives add ScoreToHealth air
+scoreboard objectives add ScoreToHealth dummy

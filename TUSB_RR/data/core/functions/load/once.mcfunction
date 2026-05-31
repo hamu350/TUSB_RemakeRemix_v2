@@ -47,7 +47,6 @@ scoreboard objectives add Armor armor "アーマーポイント"
 scoreboard objectives add HPMax dummy "最大HP"
 scoreboard objectives add FoodMax dummy "最大満腹量"
 
-# scoreboard objectives add RefreshHPMax minecraft.used:minecraft.milk_bucket "最大HP更新フラグ"
 scoreboard objectives add HealCount dummy "HP回復量"
 ## なくせるかも？
 scoreboard objectives add EventRank dummy "イベントランク"
@@ -318,11 +317,6 @@ scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 
 # 死亡検知用スコア
 scoreboard objectives add DeathCount deathCount
-
-
-# mob attribute代入用スコア
-scoreboard objectives add MobAttribute dummy
-
 
 ### RR追加
 
