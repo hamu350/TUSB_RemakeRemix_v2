@@ -79,10 +79,7 @@
     execute at @e[tag=leap] run effect clear @a[distance=..32] jump_boost
 
 # ボスチーム
-    execute at @e[team=Boss] as @e[type=potion,distance=..3] run function mob_manager:gimmic/tick/potion_barrier
-    effect give @e[team=Boss] resistance 3 2 true
-    effect clear @e[team=Boss] weakness
-    effect clear @e[team=Boss] slowness
+    execute as @e[team=Boss] at @s run function mob_manager:boss/tick
 
 # くもの巣を設置してくる害悪
     execute as @e[tag=CanSpin] at @s positioned ~-0.5 ~ ~-0.5 run fill ~ ~ ~ ~1 ~1 ~1 minecraft:cobweb keep
@@ -105,11 +102,6 @@
     execute at @e[tag=CantTpMedium] run tag @a[distance=..16] add CantTp
     execute at @e[tag=CantTpLarge] run tag @a[distance=..32] add CantTp
     execute at @e[tag=Boss_MarkerC] run tag @a[distance=..70] add CantTp
-
-# ItemClear
-    execute at @e[tag=ItemClear] run kill @e[type=item,distance=..8]
-    execute at @e[tag=Boss_MarkerB] run kill @e[type=item,distance=..20]
-    execute at @e[tag=Boss_MarkerC] run kill @e[type=item,distance=..70]
 
 # タイム計測
     execute as @e[tag=Timer] run scoreboard players add @s LiveTime 1

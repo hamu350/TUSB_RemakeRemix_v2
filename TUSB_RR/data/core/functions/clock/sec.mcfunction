@@ -91,8 +91,5 @@
 # 煉獄マグマ
     execute as @a if dimension minecraft:the_nether unless score @s PurgatoryInvalid matches 1.. at @s if block ~ ~0.5 ~ minecraft:lava run function world_manager:dimension/nether/in_lava
 
-# 装備セット効果
-    execute as @a at @s run function player_manager:custom_item/equipments/
-
 # loop
     execute in minecraft:overworld run schedule function core:clock/sec 1s

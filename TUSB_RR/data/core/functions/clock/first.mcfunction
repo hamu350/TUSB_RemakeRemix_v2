@@ -57,8 +57,5 @@
         tellraw @a[gamemode=survival,tag=Adv] {"text":"ブロックの設置・破壊が制限された。","color":"red"}
         gamemode adventure @a[gamemode=survival,tag=Adv]
 
-# MobGriefingの修正
-    execute store result storage tusb_remake: _ byte 1 run gamerule mobGriefing
-    execute if data storage tusb_remake: {_:false} run gamerule mobGriefing true
 # ハード固定
     difficulty hard

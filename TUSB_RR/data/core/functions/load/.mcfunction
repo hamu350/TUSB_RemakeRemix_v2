@@ -25,4 +25,4 @@ execute in minecraft:overworld run schedule function core:clock/sec 1s
 
 ### アップデートを確認
 # デバッグモードなら実行しない
-execute if score Debug Settings matches 0 unless data storage tusb_remake: {settings:{version:"1.1.3"}} run function core:load/update/
+# execute if score Debug Settings matches 0 unless data storage tusb_remake: {settings:{version:"2.0.0"}} run function core:load/update/

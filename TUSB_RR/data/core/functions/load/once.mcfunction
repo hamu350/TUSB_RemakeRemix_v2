@@ -256,6 +256,7 @@ gamerule randomTickSpeed 3
 gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true
+gamerule mobGriefing false
 difficulty hard
 defaultgamemode adventure
 worldborder center 0 0
@@ -318,10 +319,6 @@ scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 # 死亡検知用スコア
 scoreboard objectives add DeathCount deathCount
 
-# 時送りの盾仕様変更用スコア
-scoreboard objectives add Before_Version_Mainhand dummy
-scoreboard objectives add After_Version dummy
-scoreboard objectives add Modifier_Amount dummy
 
 # mob attribute代入用スコア
 scoreboard objectives add MobAttribute dummy
@@ -335,29 +332,8 @@ scoreboard objectives add isfmode trigger
 # ハードコアモード
 scoreboard objectives add hcmode trigger
 
-# インフィニティボスメイクアップ
-scoreboard objectives add MakeupTickB dummy
-
-# インフィニティボス報酬の数
-scoreboard objectives add infinity_boss.reward dummy
-
-# gamemasterメイクアップ
-scoreboard objectives add MakeupTickC dummy
-
-# gamemaster報酬の数
-scoreboard objectives add game_master.reward dummy
-
-# gamemaster緩衝体力
-scoreboard objectives add GMA dummy
-
 # gamemaster_end
 scoreboard objectives add CountDown dummy
-
-# UNO
-scoreboard objectives add UNO trigger
-
-# 爆発回数
-scoreboard objectives add blast dummy
 
 # 生存tick
 scoreboard objectives add LiveTime dummy
@@ -382,9 +358,6 @@ function core:load/define_const
 
 # debug関連
 function debug:load/
-
-# インフィニティボスチェストデータセット
-function mob_manager:boss/infinity_boss/chest/dataset
 
 # ver設定
 data modify storage tusb_remake: settings.version set value "2.0.0"
