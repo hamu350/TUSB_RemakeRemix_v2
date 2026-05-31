@@ -72,7 +72,7 @@
 
 ###### 島ギミック ########
 # エンダーチェスト島のワープ
-    execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17,team=!NotExit,nbt=!{Passengers:[]}] at @s if block ~ ~-1 ~ #lib:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
+    execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17,nbt=!{Passengers:[]}] at @s if block ~ ~-1 ~ #lib:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
 # ホッパー島のワープ
     execute positioned 177 39 -75 if entity @a[distance=..60,gamemode=!spectator] run function world_manager:dimension/skylands/hopper/
 
@@ -89,7 +89,7 @@
     execute at @e[tag=GMSP,limit=1] run playsound minecraft:entity.warden.heartbeat master @a[distance=..60] ~ ~ ~ 0.6 1 0.0
 
 # 煉獄マグマ
-    execute as @a[predicate=world_manager:area/nether_dungeon] unless score @s PurgatoryInvalid matches 1.. at @s if block ~ ~0.5 ~ minecraft:lava run function world_manager:dimension/purgatory/in_lava
+    execute as @a if dimension minecraft:the_nether unless score @s PurgatoryInvalid matches 1.. at @s if block ~ ~0.5 ~ minecraft:lava run function world_manager:dimension/nether/in_lava
 
 # 装備セット効果
     execute as @a at @s run function player_manager:custom_item/equipments/
