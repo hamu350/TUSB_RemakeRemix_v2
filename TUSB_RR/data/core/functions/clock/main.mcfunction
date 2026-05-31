@@ -67,8 +67,6 @@
 
 # 奈落防止
     execute as @e[tag=AbyssWarp] at @s positioned ~-0.5 -70 ~-0.5 run tp @s[dy=-29] @p
-    # execute @a ~ -30 ~ /tp @a[dy=32] ~ ~ ~
-    # execute as @a at @s positioned ~ -30 ~ run tp @s[dy=32] ~ ~ ~
 
 # エリトラ花火の対策処理
     execute as @a[scores={UseFireworkRocket=1..}] run function player_manager:item_use/firework/
@@ -97,11 +95,6 @@
 
 # tick/trigger
     execute as @a at @s run function player_manager:show_text/trigger
-
-# rr boss
-    execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerB] if entity @s[distance=..30] run function mob_manager:boss/infinity_boss/barrier
-    execute as @a[tag=!InfinityBossArea,tag=!InfinityBossBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=barrier] if entity @s[distance=..8] run function mob_manager:boss/infinity_boss/barrier
-    execute as @a[tag=!GameMasterBattle,gamemode=!spectator,gamemode=!creative] at @e[type=armor_stand,tag=Boss_MarkerC] if entity @s[distance=..70] run function mob_manager:boss/game_master/barrier
 
 # 装備効果
     execute as @a at @s run function player_manager:custom_item/equipments/

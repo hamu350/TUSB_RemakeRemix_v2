@@ -15,7 +15,7 @@ execute positioned -2723 89 -392 run function core:load_chunk
 execute positioned -2723 89 -392 as @e[type=armor_stand,name="door",tag=SystemEntity,distance=..3] run loot replace entity @s armor.head mine ~ ~ ~ minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:silk_touch",lvl:1s}]}
 
 ### ついでに観光モードの看板も更新する
-data merge block -2718 90 -393 {Text1:'{"text":"観光ﾓｰﾄﾞを切替えます","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"function core:settings/switch_sightseeing"}}',Text2:'{"text":"観光モード中の","color":"dark_red","bold":true}',Text3:'{"text":"死亡回数は","color":"dark_red","bold":true}',Text4:'{"text":"記録されます","color":"dark_red","bold":true}'}
+data merge block -2718 90 -393 {Text1:'{"text":"観光ﾓｰﾄﾞを切替えます","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"/function core:settings/switch_sightseeing"}}',Text2:'{"text":"観光モード中の","color":"dark_red","bold":true}',Text3:'{"text":"死亡回数は","color":"dark_red","bold":true}',Text4:'{"text":"記録されます","color":"dark_red","bold":true}'}
 
 ### スキル説明の看板を修正する
 execute positioned -2736 90 -382 run function core:load_chunk

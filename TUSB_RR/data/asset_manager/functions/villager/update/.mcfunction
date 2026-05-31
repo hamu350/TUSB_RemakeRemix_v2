@@ -1,4 +1,4 @@
-#> remake_remix:villager/update/
+#> asset_manager:villager/update/
 # 村人の取引情報をアップデートするfunction
 
 # 村人のidを取得
