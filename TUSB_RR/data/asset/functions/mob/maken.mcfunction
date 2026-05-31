@@ -1,0 +1,7 @@
+#> asset:mob/maken
+#
+# 
+#
+# @within function data/asset/functions/mob/id.txt
+
+{Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 8.0d, Name: "minecraft:generic.armor"}, {Base: 50.0d, Name: "minecraft:generic.max_health"}, {Base: 1.0d, Name: "minecraft:generic.knockback_resistance"}, {Base: 0.30000001192092896d, Name: "minecraft:generic.movement_speed"}, {Base: 60.0d, Name: "minecraft:generic.follow_range"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, RabbitType: 99, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; 898456352, -282440086, -1832033272, 135755937], Tags: ["TypeChecked", "LivingEnemy", "BurnableEnemy", "Poofable", "Enemy", "ShieldTried"], Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], MoreCarrotTicks: 0, Health: 50.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [262.71527f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"踊る魔剣"}', Pos: [177.20000000298023d, 192.0d, 146.53835028260474d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, ActiveEffects: [{Ambient: 0b, ShowIcon: 1b, ShowParticles: 1b, Duration: 1999127966, Id: 14, Amplifier: 0b}, {Ambient: 0b, ShowIcon: 1b, ShowParticles: 1b, Duration: 1999127966, Id: 8, Amplifier: 3b}]}

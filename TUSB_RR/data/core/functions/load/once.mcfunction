@@ -380,6 +380,9 @@ schedule function core:load/set_shulker_box 1t
 # 定数設定
 function core:load/define_const
 
+# debug関連
+function debug:load/
+
 # インフィニティボスチェストデータセット
 function mob_manager:boss/infinity_boss/chest/dataset
 
