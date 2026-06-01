@@ -4,6 +4,6 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### エリトラ装備だったら消費を検証する
-execute if data entity @s Inventory[{Slot:102b,id:"minecraft:elytra"}] run function player_manager:item_use/firework/damage
+execute if data entity @s[gamemode=!creative] Inventory[{Slot:102b,id:"minecraft:elytra"}] run function player_manager:item_use/firework/damage
 
 scoreboard players reset @s UseFireworkRocket
