@@ -4,7 +4,7 @@
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"item": {
-					"tag": "tusb_remake:spawn_egg",
+					"tag": "lib:spawn_egg",
 					"nbt": "{EntityTag:{Tags:[\"RewardEgg\"]}}"
 				}
 			}

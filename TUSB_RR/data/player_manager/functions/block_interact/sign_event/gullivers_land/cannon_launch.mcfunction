@@ -10,4 +10,4 @@ execute as @e[tag=CannonBullet2] positioned -32 72 764 positioned ~6 ~6 ~-2 run 
 execute as @e[tag=CannonBullet2] run data merge entity @s {Motion:[1.4d,1.4d,0d],Tags:[FloatingRequired,Cannon,SystemEntity,TypeChecked],NoGravity:false,OnGround:false,FallDistance:-10000f}
 summon minecraft:item -34.2 71.0 762 {PickupDelay:32767s,Age:-32768s,Invulnerable:true,Item:{id:"minecraft:fire_charge",Count:1b},Tags:[CannonBullet2,SystemEntity,TypeChecked],NoGravity:true,Passengers:[{id:"minecraft:horse",Tags:[CannonSeat,RidingRequired,SystemEntity,TypeChecked],ActiveEffects:[{Id:14,Duration:2147483647,Amplifier:0b,ShowParticles:false}],Rotation:[-90f,-10f],Silent:true,Tame:true,NoAI:true,Invulnerable:true}]}
 
-advancement revoke @s only tusb_remake:gullivers_cannon
+advancement revoke @s only player_manager:gullivers_cannon

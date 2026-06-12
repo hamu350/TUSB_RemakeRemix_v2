@@ -45,6 +45,6 @@ effect give @s instant_health 1 6 true
 scoreboard players operation @s NextExp = @s Level
 execute store result score _ TUSB run data get storage tusb_remake: Const.ExpMul
 scoreboard players operation @s NextExp *= _ TUSB
-execute if entity @s[scores={Level=1..99}] unless score @s ExpReduce matches 6.. run function player_manager:job/level_up/each_player
+execute if entity @s[scores={Level=1..99}] unless score @s ExpReduce matches 6.. run function player_manager:job/pick_exp/each_player
 scoreboard players operation @s ExpToLevel += @s NextExp
 execute as @a if score @s ExpToLevel matches 500.. run scoreboard players set @s ExpToLevel 500

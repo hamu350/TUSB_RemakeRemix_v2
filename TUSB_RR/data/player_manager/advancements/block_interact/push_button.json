@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "player_manager:push_button"
+		"function": "player_manager:block_interact/button_event/push_button"
 	}
 }
