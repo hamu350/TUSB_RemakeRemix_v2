@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "skill:job_skill/knight/iron_will/rollback"
+		"function": "skill:job/knight/iron_will/rollback"
 	}
 }

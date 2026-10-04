@@ -20,7 +20,7 @@
     scoreboard players enable @s kill
 
 # レイズ中ならレイズの後処理
-    execute as @s[tag=Raise] at @s run function skill:job_skill/white_mage/raise/return
+    execute as @s[tag=Raise] at @s run function skill:job/white_mage/raise/return
 
 # 生きてる間は空腹度=-1
     scoreboard players set @s Hunger -1

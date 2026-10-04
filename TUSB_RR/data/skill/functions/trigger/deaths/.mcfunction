@@ -4,6 +4,6 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### サヨナラ
-execute as @s[scores={CurrentMode=2240..2249}] at @s run function skill:job_skill/ninja/sayonara/triggered
+execute as @s[scores={CurrentMode=2240..2249}] at @s run function skill:job/ninja/sayonara/triggered
 ### リレイズ
-execute as @s[tag=ReRaise] at @s run function skill:job_skill/white_mage/raise/apply
+execute as @s[tag=ReRaise] at @s run function skill:job/white_mage/raise/apply

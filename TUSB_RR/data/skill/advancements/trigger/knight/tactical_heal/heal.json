@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "skill:job_skill/knight/tactical_heal/heal"
+		"function": "skill:job/knight/tactical_heal/heal"
 	}
 }

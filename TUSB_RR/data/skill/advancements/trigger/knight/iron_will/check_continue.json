@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "skill:job_skill/knight/iron_will/check_continue"
+		"function": "skill:job/knight/iron_will/check_continue"
 	}
 }

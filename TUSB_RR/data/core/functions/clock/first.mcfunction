@@ -14,7 +14,7 @@
     execute as @a[predicate=player_manager:bird_in_cage] run function world_manager:dimension/nether/athletic/bird_cage/modify_elytra
 
 # 魔法のブロックの共通処理
-    execute as @e[type=item_frame,tag=MagicBlock] at @s run function skill:job_skill/summoner/magic_block/check
+    execute as @e[type=item_frame,tag=MagicBlock] at @s run function skill:job/summoner/magic_block/check
 
 # 不滅
     # TypeCheckedされると不都合なのでここ

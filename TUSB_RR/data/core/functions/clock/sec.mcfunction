@@ -4,22 +4,22 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # マナリフレッシュ
-    execute as @a[scores={ManaRefresh=0..}] run function skill:job_skill/black_mage/mana_refresh/check
+    execute as @a[scores={ManaRefresh=0..}] run function skill:job/black_mage/mana_refresh/check
 
 # 連舞 跳躍
-    execute as @a[scores={Tsuremai=0..}] at @s run function skill:job_skill/ninja/tsuremai/check
-    execute as @a[scores={Choyaku=0..}] at @s run function skill:job_skill/ninja/choyaku/check
-    execute as @a[scores={seiyou=0..}] at @s run function skill:job_skill/ninja/seiyou/check
-    execute as @a[scores={Syungoku=0..}] at @s run function skill:job_skill/ninja/syungokusatsu/punch/check
+    execute as @a[scores={Tsuremai=0..}] at @s run function skill:job/ninja/tsuremai/check
+    execute as @a[scores={Choyaku=0..}] at @s run function skill:job/ninja/choyaku/check
+    execute as @a[scores={seiyou=0..}] at @s run function skill:job/ninja/seiyou/check
+    execute as @a[scores={Syungoku=0..}] at @s run function skill:job/ninja/syungokusatsu/punch/check
 
 # 黙想継続
-    execute as @a[tag=Mokuso] at @s run function skill:job_skill/ninja/mokuso/check
+    execute as @a[tag=Mokuso] at @s run function skill:job/ninja/mokuso/check
 
 # 風切
-    execute as @a[scores={Kazakiri=0..}] at @s run function skill:job_skill/ninja/kazakiri/check
+    execute as @a[scores={Kazakiri=0..}] at @s run function skill:job/ninja/kazakiri/check
 
 # レーダーヴィジョン
-    execute as @a[tag=RadarVision,scores={HP=1..}] at @s run function skill:job_skill/archer/radar_vision/check
+    execute as @a[tag=RadarVision,scores={HP=1..}] at @s run function skill:job/archer/radar_vision/check
 
 # 個人ロッカー(印板)から音
     execute at @e[tag=PersonalLockerSign] run playsound minecraft:block.beacon.ambient block @a[distance=..16]

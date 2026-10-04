@@ -6,7 +6,7 @@
 # マジックシールドのチェック
     execute as @a[tag=MagicShield] run effect give @s minecraft:resistance 1 100
 # ウィンドウォール
-    execute as @a[scores={WindWall=0..}] at @s run function skill:job_skill/black_mage/wind_wall/check
+    execute as @a[scores={WindWall=0..}] at @s run function skill:job/black_mage/wind_wall/check
 
 # プレイヤーの回復効果
     execute as @a[scores={HealCount=1..3},nbt=!{ActiveEffects:[{Id:10}]}] run function player_manager:health/heal/small
