@@ -17,4 +17,7 @@ execute if entity @s[advancements={player_manager:block_interact/press={unlock_t
 ### もう新ディメ説明の感圧版を押してないなら
 execute if entity @s[advancements={player_manager:block_interact/press={new_dimension=true}}] if predicate world_manager:area/skyland positioned -77 263 -84 align xyz unless entity @s[dx=0] run advancement revoke @s only player_manager:block_interact/press new_dimension
 
+### もうGMの感圧版を押してないなら
+execute if entity @s[advancements={player_manager:block_interact/press={GM=true}}] in minecraft:overworld positioned -2990 71 -41 align xyz unless entity @s[dx=0] run advancement revoke @s only player_manager:block_interact/press GM
+
 advancement revoke @s only player_manager:block_interact/pressing

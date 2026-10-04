@@ -55,3 +55,7 @@ execute positioned 203 147 -20 align xyz if entity @s[dx=0] run advancement gran
 ### 新ディメ
 execute positioned -77 263 -84 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={new_dimension=false}}] run function world_manager:dimension/new_dimension/description
 execute positioned -77 263 -84 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press new_dimension
+
+### GM
+execute positioned -2990 71 -41 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={GM=false}}] run function mob_manager:boss/game_master/makeup/
+execute positioned -2990 71 -41 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press GM

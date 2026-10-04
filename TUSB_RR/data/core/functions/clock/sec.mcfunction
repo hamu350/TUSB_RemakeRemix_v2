@@ -21,9 +21,6 @@
 # レーダーヴィジョン
     execute as @a[tag=RadarVision,scores={HP=1..}] at @s run function skill:job/archer/radar_vision/check
 
-# 個人ロッカー(印板)から音
-    execute at @e[tag=PersonalLockerSign] run playsound minecraft:block.beacon.ambient block @a[distance=..16]
-
 # 1分処理
     scoreboard players add #SecCount Global 1
 # 0になるのは嫌な予感の演出が終わる時だけなので、赤い視界をリセットする

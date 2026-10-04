@@ -1,7 +1,7 @@
 #> player_manager:block_interact/button_event/
-#
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+
+## inf_boss
+execute in minecraft:overworld positioned -2769 225 -280 if block ~ ~-2 ~ minecraft:command_block{powered:true} run function mob_manager:boss/infinity_boss/makeup/
 
 ## スキル設定場の超作業台
 execute unless entity @s[advancements={player_manager:block_interact/button_event={super_craft=false,super_craft2=false}}] run function player_manager:block_interact/button_event/super_craft/

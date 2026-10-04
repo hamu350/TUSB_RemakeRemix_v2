@@ -5,7 +5,7 @@
 # @within function mob_manager:boss/game_master/schedule
 me §4あれは...？まさか！？
 me §4来るなぁぁぁぁ！！！
-function tusb_remake:enemy/skill/game_master/su
+function mob_manager:gimmic/skill/game_master/su
 tag @s add GMend
 tag @s remove GM
 effect give @s instant_damage infinite 10 false

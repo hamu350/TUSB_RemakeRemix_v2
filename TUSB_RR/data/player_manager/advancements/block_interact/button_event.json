@@ -1,5 +1,26 @@
 {
     "criteria": {
+        "inf_boss": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "player_manager:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    },
+                    "position": {
+                        "x": -2769,
+                        "y": 225,
+                        "z": -280
+                    }
+                }
+            }
+        },
         "super_craft": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
@@ -79,6 +100,7 @@
     },
     "requirements": [
         [
+            "inf_boss",
             "super_craft",
             "super_craft2",
             "all_button"

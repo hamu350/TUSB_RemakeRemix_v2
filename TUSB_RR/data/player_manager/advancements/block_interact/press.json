@@ -14,6 +14,9 @@
 		},
 		"new_dimension": {
 			"trigger": "minecraft:impossible"
+		},
+		"GM": {
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"requirements": [
@@ -22,7 +25,8 @@
 			"trading_show_status",
 			"trading_show_conquer",
 			"unlock_tocult",
-			"new_dimension"
+			"new_dimension",
+			"GM"
 		]
 	]
 }

@@ -101,7 +101,6 @@
     execute at @e[tag=CantTpSmall] run tag @a[distance=..8] add CantTp
     execute at @e[tag=CantTpMedium] run tag @a[distance=..16] add CantTp
     execute at @e[tag=CantTpLarge] run tag @a[distance=..32] add CantTp
-    execute at @e[tag=Boss_MarkerC] run tag @a[distance=..70] add CantTp
 
 # タイム計測
     execute as @e[tag=Timer] run scoreboard players add @s LiveTime 1

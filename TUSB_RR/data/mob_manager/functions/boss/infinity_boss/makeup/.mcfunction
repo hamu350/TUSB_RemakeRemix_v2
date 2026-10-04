@@ -14,7 +14,6 @@ execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s run tag @a[distance=..20]
 
 # ボスボタン除去
 setblock -2769 225 -280 air
-setblock -2769 223 -280 air
 
 # 帰還看板除去
 setblock -2764 224 -280 air
@@ -65,8 +64,8 @@ execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s if score Count MakeupTick
 
 #> 魔法陣出現
 execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s if score Count MakeupTickB matches 302 run function mob_manager:boss/infinity_boss/makeup/sound2
-execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s positioned ~ ~1 ~ if score Count MakeupTickB matches 302..342 run function mob_manager:boss/infinity_boss/makeup/particle1
+execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s positioned ~ ~2 ~ if score Count MakeupTickB matches 302..342 run function mob_manager:boss/infinity_boss/makeup/particle1
 
 #> summon
-execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s positioned ~ ~1 ~ if score Count MakeupTickB matches 343.. run function mob_manager:boss/infinity_boss/makeup/summon
+execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s positioned ~ ~2 ~ if score Count MakeupTickB matches 343.. run function mob_manager:boss/infinity_boss/makeup/summon
 execute as @e[type=armor_stand,tag=Boss_MarkerB] at @s if score Count MakeupTickB matches ..343 run schedule function mob_manager:boss/infinity_boss/makeup/ 1t

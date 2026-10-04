@@ -326,8 +326,15 @@ scoreboard objectives add isfmode trigger
 # ハードコアモード
 scoreboard objectives add hcmode trigger
 
-# gamemaster_end
+# inf_boss
+scoreboard objectives add MakeupTickB dummy
+scoreboard objectives add infinity_boss.reward dummy
+
+# gamemaster
 scoreboard objectives add CountDown dummy
+scoreboard objectives add GMA dummy
+scoreboard objectives add game_master.reward dummy
+scoreboard objectives add MakeupTickC dummy
 
 # 生存tick
 scoreboard objectives add LiveTime dummy
@@ -346,6 +353,11 @@ execute in overworld run forceload add 3500 3500 3500 3500
 execute in the_nether run forceload add 3500 3500 3500 3500
 execute in the_end run forceload add 3500 3500 3500 3500
 schedule function core:load/set_shulker_box 1t
+
+# boss_marker
+execute in overworld run forceload add -2769 -280 -2769 -280
+execute in overworld run forceload add -2986 -41 -2986 -41
+function core:load/marker_summon
 
 # 定数設定
 function core:load/define_const

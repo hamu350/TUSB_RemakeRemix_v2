@@ -64,4 +64,4 @@ title @a[distance=..20] subtitle {"text":"§0- §5§k|||§r§5混沌ヲ§4制シ
     bossbar set infinity_boss style notched_6
 
 #> この下でspawn funciton実行すればいい感じになるんじゃないですか( ᐛ)
-execute at @e[type=armor_stand,tag=Boss_MarkerB] positioned ~ ~1 ~ run function mob_manager:boss/infinity_boss/spawn
+execute positioned -2769 225 -280 run function mob_manager:boss/infinity_boss/spawn
