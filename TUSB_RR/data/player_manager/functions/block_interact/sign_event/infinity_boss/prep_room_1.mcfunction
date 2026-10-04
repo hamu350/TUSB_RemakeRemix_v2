@@ -10,7 +10,7 @@
 # tag削除
     # if conquer.count < 20
         execute if score _ TUSB matches ..19 run tag @s remove InfinityBossArea
-        execute if score _ TUSB matches ..19 run tellraw @s {"translate": "20島の攻略が必要です！","color": "red"}
+        execute if score _ TUSB matches ..19 run tellraw @s [{"translate": "20","color": "gold"},{"translate": "島の攻略が必要です！","color": "white"}]
 
 # トカルトモード時の処理
     execute if entity @s[tag=ISFUnreached] if entity @s[tag=InfinityBossArea] unless data entity @s Inventory[0] if data storage tusb_remake: settings{toculting:1b} run clear @s torch

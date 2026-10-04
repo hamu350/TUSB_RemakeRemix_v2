@@ -5,12 +5,12 @@
     execute store result score _ TUSB run data get storage tusb_remake: conquer.count.total
 
 # tag付与
-    execute if score _ TUSB matches 50.. run tag @s add GameMasterBattle
+    execute if score _ TUSB matches 75.. run tag @s add GameMasterBattle
 
 # tag削除
     # if conquer.count < 30
-        execute if score _ TUSB matches ..49 run tag @s remove GameMasterBattle
-        execute if score _ TUSB matches ..49 run tellraw @s {"translate": "50島の攻略が必要です！","color": "red"}
+        execute if score _ TUSB matches ..74 run tag @s remove GameMasterBattle
+        execute if score _ TUSB matches ..74 run tellraw @s [{"translate": "75","color": "red"},{"translate": "島の攻略が必要です！","color": "white"}]
 
 # エフェクト除去
     execute if entity @s[tag=GameMasterBattle] run effect clear @s
