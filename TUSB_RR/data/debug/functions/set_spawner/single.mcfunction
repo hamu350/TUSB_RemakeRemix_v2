@@ -5,7 +5,7 @@
 ### SpawnPotentialsとSpawnDataを作る
     # idを取ってくる
         data remove storage asset:context id
-        data modify storage asset:context id set from storage _: _.SpawnMob[0].AssetId
+        data modify storage asset:context id set from storage _: _.SpawnMob.AssetId
     # mob asset内で_: _を使うかも知れないので避難させる
         data modify storage debug: _set_spawner set from storage _: _
     # idからmobデータを取得
@@ -16,9 +16,9 @@
     # 避難させたデータを戻す
         data modify storage _: _ set from storage debug: _set_spawner
     # mobデータを入れる
-        data modify storage _: _.SpawnMob[0].data.entity set from storage asset: mob
+        data modify storage _: _.SpawnMob.data.entity set from storage asset: mob
     # データがなければ豚に
-        execute unless data storage _: _.SpawnMob[0].data run data modify storage _: _.SpawnMob[0].data.entity.id set value "pig"
+        execute unless data storage _: _.SpawnMob.data run data modify storage _: _.SpawnMob.data.entity.id set value "pig"
     # SpawnPotentialsに移す
         execute unless data storage _: _.SpawnPotentials run data modify storage _: _.SpawnPotentials set from storage _: _.SpawnMob
     # SpawnDataに突っ込む
@@ -31,6 +31,6 @@
 # スポナーのデータをmergeします
     execute as @e[limit=1,tag=this] on passengers run data modify entity @s {} merge from storage _: _
 # 防具立てにidを設定します
-    execute store result score @e[limit=1,tag=this] SpawnerId run data get storage _: _.SpawnMob[0].AssetId
+    execute store result score @e[limit=1,tag=this] SpawnerId run data get storage _: _.SpawnMob.AssetId
 
 # thisは元functionで消します
