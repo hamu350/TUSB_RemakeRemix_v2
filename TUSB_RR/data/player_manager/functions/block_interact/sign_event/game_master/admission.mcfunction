@@ -1,20 +1,6 @@
 #> player_manager:block_interact/sign_event/game_master/admission
 # ボス部屋に移動
 
-# conquer.countを取得
-    execute store result score _ TUSB run data get storage tusb_remake: conquer.count.total
-
-# tag付与
-    execute if score _ TUSB matches 75.. run tag @s add GameMasterBattle
-
-# tag削除
-    # if conquer.count < 30
-        execute if score _ TUSB matches ..74 run tag @s remove GameMasterBattle
-        execute if score _ TUSB matches ..74 run tellraw @s [{"translate": "75","color": "red"},{"translate": "島の攻略が必要です！","color": "white"}]
-
-# エフェクト除去
-    execute if entity @s[tag=GameMasterBattle] run effect clear @s
-
 # 戦闘中関係者以外立ち入り禁止
     execute if data storage tusb_remake: game_master{battle:1b} unless entity @s[tag=GameMasterBattle] run tellraw @s {"text":"ボス戦開始時に戦場にいなかった人は戦闘中に入れません！","color":"dark_red","bold":true}
 

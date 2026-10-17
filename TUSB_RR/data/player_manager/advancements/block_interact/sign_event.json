@@ -658,6 +658,23 @@
 				}
 			}
 		},
+		"game_master_prep_room": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "player_manager:is_interactable"
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "minecraft:signs",
+						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"text\":\"\"}', x: -2720, Text3: '{\"text\":\"\"}', y: 9, Text2: '{\"extra\":[{\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\",\"text\":\"1\"},{\"bold\":true,\"color\":\"dark_red\",\"text\":\"「？？？」へ\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\",\"text\":\"1\"}],\"text\":\"\"}', z: 122, Text1: '{\"text\":\"\"}', id: \"minecraft:sign\"}"
+					}
+				}
+			}
+		},
 		"game_master_admission": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
@@ -733,6 +750,7 @@
 			"infinity_boss_admission",
 			"infinity_boss_extla",
 			"infinity_boss_tutorial",
+			"game_master_prep_room",
 			"game_master_admission",
 			"game_master_extla"
 		]

@@ -21,6 +21,27 @@
                 }
             }
         },
+        "game_master": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "player_manager:is_interactable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    },
+                    "position": {
+                        "x": -2961,
+                        "y": -59,
+                        "z": -41
+                    }
+                }
+            }
+        },
         "super_craft": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
@@ -101,6 +122,7 @@
     "requirements": [
         [
             "inf_boss",
+            "game_master",
             "super_craft",
             "super_craft2",
             "all_button"

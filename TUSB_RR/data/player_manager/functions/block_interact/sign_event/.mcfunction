@@ -78,7 +78,10 @@ execute if entity @s[advancements={player_manager:block_interact/sign_event={inf
 # infinity_bossチュートリアル
 execute if entity @s[advancements={player_manager:block_interact/sign_event={infinity_boss_tutorial=true}}] run function player_manager:block_interact/sign_event/infinity_boss/tutorial
 
-# game_master部屋へ
+# game_master準備部屋へ
+execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_prep_room=true}}] run function player_manager:block_interact/sign_event/game_master/prep_room
+
+# game_master戦場へ
 execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_admission=true}}] run function player_manager:block_interact/sign_event/game_master/admission
 
 # game_master帰還
