@@ -80,9 +80,7 @@ execute if entity @s[advancements={player_manager:block_interact/sign_event={inf
 
 # game_master準備部屋へ
 execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_prep_room=true}}] run function player_manager:block_interact/sign_event/game_master/prep_room
-
-# game_master戦場へ
-execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_admission=true}}] run function player_manager:block_interact/sign_event/game_master/admission
+execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_prep_room_2=true}}] run function player_manager:block_interact/sign_event/game_master/prep_room_2
 
 # game_master帰還
 execute if entity @s[advancements={player_manager:block_interact/sign_event={game_master_extla=true}}] run function player_manager:block_interact/sign_event/game_master/extla
