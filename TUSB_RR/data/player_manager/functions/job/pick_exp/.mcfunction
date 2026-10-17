@@ -8,6 +8,7 @@ execute store result score @s ItemCount run clear @s minecraft:nether_star
 execute store result score _ _ run clear @s minecraft:heart_of_the_sea
 scoreboard players operation _ _ *= $64 Const
 scoreboard players operation @s ItemCount += _ _
+scoreboard players reset _ _
 
 # 取得量×(全体の経験値量÷自分の総経験値量)
 scoreboard players operation $Global TotalXp += @s ItemCount
