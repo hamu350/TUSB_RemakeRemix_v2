@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/strike/apply
+#> skill:job/knight/strike/apply
 # ストライをかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

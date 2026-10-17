@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/isukumi/apply
+#> skill:job/ninja/isukumi/apply
 ### 雪玉を居縮にする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -8,7 +8,7 @@ execute as @e[distance=0,type=snowball,limit=1] run data merge entity @s {Tags:[
 scoreboard players operation @e[distance=0,type=snowball,limit=1] ProjectileSkill = _ ActivatedSkill
 
 ### 居縮の演出有効化
-function skill:job_skill/ninja/isukumi/schedule/
+function skill:job/ninja/isukumi/schedule/
 
 ### 飛んでるやつの判定有効化
 function skill:trigger/projectile/

@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/zan_tetsu_ken/slash/target
+#> skill:job/knight/zan_tetsu_ken/slash/target
 # 斬鉄剣で斬られる
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

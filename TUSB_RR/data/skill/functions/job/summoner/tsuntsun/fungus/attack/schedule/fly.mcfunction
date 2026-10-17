@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/tsuntsun/fungus/attack/schedule/fly
+#> skill:job/summoner/tsuntsun/fungus/attack/schedule/fly
 ### 飛んでいるつんつん雪玉の演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

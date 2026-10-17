@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/isukumi/hit
+#> skill:job/ninja/isukumi/hit
 # 居縮が当たった時
 
 tag @s add Freeze

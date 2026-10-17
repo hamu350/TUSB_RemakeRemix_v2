@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/blast_basin/schedule/hit
+#> skill:job/summoner/blast_basin/schedule/hit
 # きらきらタライが当たった時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -11,6 +11,6 @@ playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 1 1 0
 effect give @s minecraft:saturation 10 127 true
 
 ### ダメージと吹き飛ばしを与える
-execute as @e[distance=..8,type=#lib:mob,tag=Enemy] run function skill:job_skill/archer/blast_shot/hit/damage1
+execute as @e[distance=..8,type=#lib:mob,tag=Enemy] run function skill:job/archer/blast_shot/hit/damage1
 
 data modify storage tusb_remake: hit set value true

@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/kasap_trap/schedule/apply
+#> skill:job/archer/kasap_trap/schedule/apply
 ### ルカナントラップの効果をかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

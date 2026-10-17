@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/thunder_bolt/schedule/invoke/apply
+#> skill:job/black_mage/thunder_bolt/schedule/invoke/apply
 # サンダーボルトの範囲をテスト
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

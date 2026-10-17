@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/tenki/cast
+#> skill:job/white_mage/tenki/cast
 
 execute at @s run scoreboard players set @a[distance=..15] HealCount 80
 playsound block.beacon.activate master @a[distance=..15] ~ ~ ~ 4 1.5 0

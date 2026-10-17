@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/thunder_bolt/spell
+#> skill:job/black_mage/thunder_bolt/spell
 # サンダーボルトを詠唱(522X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 5220..5229 run function skill:job_skill/black_mage/thunder_bolt/ready
+execute if score _ ActivatedSkill matches 5220..5229 run function skill:job/black_mage/thunder_bolt/ready

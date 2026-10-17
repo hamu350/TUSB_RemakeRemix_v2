@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/musou/slash/target
+#> skill:job/knight/musou/slash/target
 
 ### ダメージを与える
 data modify storage score_damage: Argument set value {Damage:800.00,DamageType:"Projectile"}

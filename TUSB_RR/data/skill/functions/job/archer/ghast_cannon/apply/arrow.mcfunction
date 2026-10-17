@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/ghast_cannon/apply/arrow
+#> skill:job/archer/ghast_cannon/apply/arrow
 ### 矢をガストキャノンにする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

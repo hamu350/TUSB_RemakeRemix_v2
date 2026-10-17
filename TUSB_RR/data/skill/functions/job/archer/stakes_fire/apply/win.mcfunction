@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/stakes_fire/apply/win
+#> skill:job/archer/stakes_fire/apply/win
 ### ステークスファイアで勝ち申した
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

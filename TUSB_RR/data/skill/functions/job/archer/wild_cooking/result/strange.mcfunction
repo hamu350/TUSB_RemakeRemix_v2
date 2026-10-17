@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/wild_cooking/result/strange
+#> skill:job/archer/wild_cooking/result/strange
 # ワイルドクッキング発動(303X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

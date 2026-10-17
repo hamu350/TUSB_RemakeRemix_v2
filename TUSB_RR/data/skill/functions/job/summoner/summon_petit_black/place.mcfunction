@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_petit_black/place
+#> skill:job/summoner/summon_petit_black/place
 # ぷちブラックを召喚
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

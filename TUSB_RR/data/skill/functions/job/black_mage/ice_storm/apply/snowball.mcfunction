@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/ice_storm/apply/snowball
+#> skill:job/black_mage/ice_storm/apply/snowball
 ### 雪玉をアイスストームにする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

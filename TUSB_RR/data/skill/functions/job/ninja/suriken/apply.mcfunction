@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/suriken/apply
+#> skill:job/ninja/suriken/apply
 ### 雪玉を手裏剣にする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -21,10 +21,10 @@ scoreboard players operation @e[distance=0,type=snowball,limit=1] ProjectileSkil
 tag @s add SurikenCount
 data modify storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.SurikenCount[-1].f set value 1
 ### 手裏剣カウントの有効化
-execute in minecraft:overworld run schedule function skill:job_skill/ninja/suriken/count/ 1t
+execute in minecraft:overworld run schedule function skill:job/ninja/suriken/count/ 1t
 
 ### 手裏剣の演出有効化
-function skill:job_skill/ninja/suriken/schedule/
+function skill:job/ninja/suriken/schedule/
 
 ### 飛んでるやつの判定有効化
 function skill:trigger/projectile/

@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/madan/hit/
+#> skill:job/archer/madan/hit/
 
 ### ダメージ * 100 + 1000X 入っているので、まずは10000を引く
 scoreboard players operation _ PotentialSkill = @s PotentialSkill
@@ -17,4 +17,4 @@ scoreboard players operation _ PotentialSkill %= _ TUSB
 ### 演出を出すのは10体まで
 data modify storage tusb_remake: chain_arrow_count set value 10
 ### チェインアローのレベルに応じて呼び出し
-execute if score _ PotentialSkill matches 0..9 as @e[distance=..45,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:job_skill/archer/madan/hit/damage
+execute if score _ PotentialSkill matches 0..9 as @e[distance=..45,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:job/archer/madan/hit/damage

@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/ice_storm/schedule/hit
+#> skill:job/black_mage/ice_storm/schedule/hit
 # アイスストームが当たった時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

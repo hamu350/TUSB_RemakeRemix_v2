@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/sayonara/explode
+#> skill:job/ninja/sayonara/explode
 ### サヨナラの爆発
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -33,6 +33,6 @@ execute if score @s MP matches 60..79 as @e[distance=..28,type=#lib:mob,tag=Enem
 execute if score @s MP matches 80.. as @e[distance=..40,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
 
 ### レイズの効果
-execute as @s[scores={MP=100..}] at @s run function skill:job_skill/white_mage/raise/apply
+execute as @s[scores={MP=100..}] at @s run function skill:job/white_mage/raise/apply
 
 scoreboard players set @s MP 0

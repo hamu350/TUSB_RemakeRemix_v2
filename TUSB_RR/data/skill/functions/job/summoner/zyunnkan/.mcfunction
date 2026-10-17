@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/zyunnkan/
+#> skill:job/summoner/zyunnkan/
 
 execute at @s store result score @s petto if entity @e[type=#lib:friendly,distance=..15,limit=10]
 

@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/mazikaru/apply
+#> skill:job/black_mage/mazikaru/apply
 
 execute at @s run particle end_rod ~ ~1 ~ 0.3 5 0.3 0.1 100 force
 playsound entity.illusioner.prepare_blindness master @a[distance=..16] ~ ~ ~ 2 1 0

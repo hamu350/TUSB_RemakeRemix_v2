@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/shinku_giri/schedule/fly
+#> skill:job/knight/shinku_giri/schedule/fly
 ### 真空斬りの弾を飛ばす
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

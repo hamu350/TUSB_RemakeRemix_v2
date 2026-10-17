@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/abisu/schedule/zenntaikougeki
+#> skill:job/summoner/abisu/schedule/zenntaikougeki
 
 effect give @a[distance=..20] haste 15 1 true
 effect give @a[distance=..20] strength 15 5 true

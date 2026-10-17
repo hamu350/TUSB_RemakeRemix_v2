@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/grow/
+#> skill:job/black_mage/grow/
 # グロウを召喚
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

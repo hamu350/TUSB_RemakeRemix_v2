@@ -3,4 +3,4 @@ execute at @e[type=#lib:mob,distance=..10,limit=1,sort=nearest] as @s run partic
 execute at @e[type=#lib:mob,distance=..10,limit=1,sort=nearest] as @s run particle glow ~ ~4 ~ 0.25 7 0.25 0.0 100 force
 data modify storage score_damage: Argument set value {Damage:1500.00,DamageType:"None"}
 execute at @s as @e[tag=Enemy,type=#lib:mob,distance=..10,limit=1,sort=nearest] run function score_damage:api/attack
-schedule function skill:job_skill/archer/crazy/hit 20t replace
+schedule function skill:job/archer/crazy/hit 20t replace

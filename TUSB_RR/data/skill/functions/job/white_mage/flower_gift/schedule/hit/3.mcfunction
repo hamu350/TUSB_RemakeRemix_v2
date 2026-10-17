@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/flower_gift/schedule/hit/3
+#> skill:job/white_mage/flower_gift/schedule/hit/3
 # フラワーギフトが当たった時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

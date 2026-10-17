@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/e_su/schedule/hit
+#> skill:job/archer/e_su/schedule/hit
 
 ### マルチヒット防止のエフェクト
 effect give @s minecraft:saturation 10 127 true
