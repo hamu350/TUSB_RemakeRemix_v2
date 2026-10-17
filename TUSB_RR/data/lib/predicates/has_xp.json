@@ -1,0 +1,19 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Inventory:[{id:\"minecraft:nether_star\"}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Inventory:[{id:\"minecraft:heart_of_the_sea\"}]}"
+            }
+        }
+    ]
+}

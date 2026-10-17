@@ -18,7 +18,7 @@
     execute as @a[scores={HP=1..,Hunger=0..}] run function player_manager:death/apply_hunger
 
 # 経験値取得処理
-    execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function player_manager:job/pick_exp/
+    execute as @a[predicate=lib:has_xp] at @s run function player_manager:job/pick_exp/
 
 # レベルアップ処理
     execute as @a[scores={ExpToLevel=..0,Job=1..}] at @s run function player_manager:job/level_up/

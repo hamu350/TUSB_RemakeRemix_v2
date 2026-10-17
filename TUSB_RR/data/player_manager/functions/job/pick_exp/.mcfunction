@@ -3,14 +3,16 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-### 経験値を得られるプレイヤーがいた場合、経験値取得メッセージを出す
-tag @a[scores={HP=1..,Level=1..}] add ExpTarget
-execute if entity @a[distance=..50,tag=ExpTarget,limit=1] run function player_manager:job/pick_exp/get
-### 経験値を得られなかったプレイヤーがいた場合、経験値取得失敗メッセージを出す
-execute if entity @a[tag=ExpTarget,limit=1] run function player_manager:job/pick_exp/get
+### ネザースターの所持数を取得
+execute store result score @s ItemCount run clear @s minecraft:nether_star
+execute store result score _ _ run clear @s minecraft:heart_of_the_sea
+scoreboard players operation _ _ *= $64 Const
+scoreboard players operation @s ItemCount += _ _
 
-### 死んでいるので経験値を得られないプレイヤーがいた場合、経験値取得失敗メッセージを出す
-execute if entity @a[scores={HP=..0,Level=1..},limit=1] run tellraw @a {"translate":"%1$sは生存していないため、経験値を得られなかった。","color":"red","with":[{"selector":"@a[scores={HP=..0,Level=1..}]"}]}
+# 取得量×(全体の経験値量÷自分の総経験値量)
+scoreboard players operation $Global TotalXp += @s ItemCount
+scoreboard players operation _ ItemCount = @s ItemCount
+execute as @a[scores={Job=1..}] at @s run function player_manager:job/pick_exp/each_player
 
-### 無職なので経験値を得られないプレイヤーがいた場合、経験値取得失敗メッセージを出す
-execute if entity @a[scores={Level=..0},limit=1] run tellraw @a {"translate":"%1$sはジョブがないため、経験値を得られなかった。","color":"red","with":[{"selector":"@a[scores={Level=..0}]"}]}
+### 経験値を取得できた人から、経験値取得音を鳴らします
+execute as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.3 2
