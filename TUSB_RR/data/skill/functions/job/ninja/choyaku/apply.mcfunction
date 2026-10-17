@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/choyaku/apply
+#> skill:job/ninja/choyaku/apply
 ### 跳躍発動時の処理
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/shippu/
+#> skill:job/ninja/shippu/
 # 疾風を発動させる(201X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

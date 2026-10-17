@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/madan/hit/damage
+#> skill:job/archer/madan/hit/damage
 
 ### 演出する表示するカウントが残っているときだけ表示
 execute unless data storage tusb_remake: {chain_arrow_count:0} run playsound entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 1 0 0

@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/flower_gift/apply/snowball
+#> skill:job/white_mage/flower_gift/apply/snowball
 ### 雪玉をフラワーギフトにする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

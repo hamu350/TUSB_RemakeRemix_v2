@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/enaspir/apply
+#> skill:job/black_mage/enaspir/apply
 ### 次に近接攻撃をするとMPが回復する
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

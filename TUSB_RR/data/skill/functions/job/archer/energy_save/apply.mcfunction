@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/energy_save/apply
+#> skill:job/archer/energy_save/apply
 ### 次にスキルを使うと、消費MPが減る
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

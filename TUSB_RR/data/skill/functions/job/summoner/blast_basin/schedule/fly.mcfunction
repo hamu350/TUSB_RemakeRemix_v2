@@ -1,13 +1,13 @@
-#> skill:job_skill/summoner/blast_basin/schedule/fly
+#> skill:job/summoner/blast_basin/schedule/fly
 ### きらきらタライが飛んでいる演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: hit set value false
-execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]},limit=1] at @s run function skill:job_skill/summoner/blast_basin/schedule
+execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]},limit=1] at @s run function skill:job/summoner/blast_basin/schedule
 
 ### 当たっていなかった＆地面についたとき
-execute unless data storage tusb_remake: {hit:true} unless predicate lib:is_riding run function skill:job_skill/summoner/blast_basin/schedule/hit
+execute unless data storage tusb_remake: {hit:true} unless predicate lib:is_riding run function skill:job/summoner/blast_basin/schedule/hit
 
 ### 当たっていたらタライを消す
 execute if data storage tusb_remake: {hit:true} run kill @s

@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/shinku_giri/launch
+#> skill:job/knight/shinku_giri/launch
 ### 真空斬りの弾を発射
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -12,7 +12,7 @@ execute anchored eyes positioned ^ ^ ^ anchored feet positioned ^ ^ ^1 as @e[dis
 execute anchored eyes positioned ^ ^ ^ anchored feet positioned ^ ^ ^1 run scoreboard players operation @e[distance=0,type=snowball,tag=AerialBlast,limit=1] ProjectileSkill = @s ActivatedSkill
 
 ### 真空斬りの演出有効化
-function skill:job_skill/knight/shinku_giri/schedule/
+function skill:job/knight/shinku_giri/schedule/
 
 ### 飛んでるやつの判定有効化
 function skill:trigger/projectile/

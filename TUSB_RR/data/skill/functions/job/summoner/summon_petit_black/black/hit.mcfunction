@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_petit_black/black/hit
+#> skill:job/summoner/summon_petit_black/black/hit
 # ぷちブラックが当たった処理
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

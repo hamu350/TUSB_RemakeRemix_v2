@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/poof_trap/schedule/check
+#> skill:job/archer/poof_trap/schedule/check
 ### ニフラムトラップの効果判定
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -20,6 +20,6 @@ execute rotated as 0-0-1-0-1 rotated ~180 ~ positioned ^ ^ ^5 run particle minec
 execute rotated as 0-0-1-0-1 rotated ~270 ~ positioned ^ ^ ^5 run particle minecraft:witch ~ ~ ~ 0 0 0 0 1 force
 
 
-execute as @e[distance=..5,type=#lib:mob,tag=Poofable,sort=random,limit=3] run function skill:job_skill/archer/poof_trap/schedule/apply
+execute as @e[distance=..5,type=#lib:mob,tag=Poofable,sort=random,limit=3] run function skill:job/archer/poof_trap/schedule/apply
 
 data modify storage tusb_remake: _ set value true

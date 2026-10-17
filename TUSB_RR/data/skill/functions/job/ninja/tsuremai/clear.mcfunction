@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/tsuremai/clear
+#> skill:job/ninja/tsuremai/clear
 ### 連舞の効果切れ
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

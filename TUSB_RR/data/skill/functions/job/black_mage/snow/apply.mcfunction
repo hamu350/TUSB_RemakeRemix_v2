@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/snow/apply
+#> skill:job/black_mage/snow/apply
 # 雪の壁を出す
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -15,4 +15,4 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.0f,RadiusOnUse:0f,DurationOnU
 execute as @e[distance=..0.01,type=area_effect_cloud,tag=Snow] run tp @s ~ ~ ~ ~ 0
 
 ### スノウの判定を有効化
-function skill:job_skill/black_mage/snow/schedule/
+function skill:job/black_mage/snow/schedule/

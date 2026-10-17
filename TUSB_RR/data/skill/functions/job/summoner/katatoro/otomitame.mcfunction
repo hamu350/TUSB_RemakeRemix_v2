@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/katatoro/otomitame
+#> skill:job/summoner/katatoro/otomitame
 
 execute at @e[type=#lib:mob,distance=..15,tag=!FinalPoint] run playsound entity.lightning_bolt.impact master @a[distance=..30] ~ ~ ~ 1 0 0
 execute at @e[type=#lib:mob,distance=..15,tag=!FinalPoint] run playsound item.totem.use master @a[distance=..30] ~ ~ ~ 0.2 2 0

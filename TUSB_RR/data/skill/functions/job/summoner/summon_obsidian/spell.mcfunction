@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_obsidian/spell
+#> skill:job/summoner/summon_obsidian/spell
 # 黒曜石を召喚(626X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 6260..6269 run function skill:job_skill/summoner/summon_obsidian/cast
+execute if score _ ActivatedSkill matches 6260..6269 run function skill:job/summoner/summon_obsidian/cast

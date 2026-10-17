@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/geo_crush/cast
+#> skill:job/black_mage/geo_crush/cast
 # ジオクラッシュ発動
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

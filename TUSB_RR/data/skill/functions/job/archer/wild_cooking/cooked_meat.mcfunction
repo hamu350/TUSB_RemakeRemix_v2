@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/wild_cooking/cooked_meat
+#> skill:job/archer/wild_cooking/cooked_meat
 # 焼肉を焼く
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

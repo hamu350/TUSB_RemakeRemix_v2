@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/radar_vision/end2
+#> skill:job/archer/radar_vision/end2
 # レーダーヴィジョン発動(305X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/wind_wall/check
+#> skill:job/black_mage/wind_wall/check
 # ウィンドウォールをチェックします
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -17,4 +17,4 @@ tellraw @s[scores={WindWall=..0}] {"text":"ウィンドウォールの効果が�
 scoreboard players reset @s[scores={WindWall=..0}] WindWall
 
 execute as @e[distance=..6,tag=Driftable,tag=!DriftableA] at @s run kill @s
-execute as @e[distance=..6,tag=DriftableA] at @s run function skill:job_skill/black_mage/wind_wall/block
+execute as @e[distance=..6,tag=DriftableA] at @s run function skill:job/black_mage/wind_wall/block

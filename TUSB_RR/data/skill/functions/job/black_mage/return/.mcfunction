@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/return/
+#> skill:job/black_mage/return/
 # ルーラを発動させる(507X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -13,4 +13,4 @@ execute if data storage tusb_remake: {test:true} run setblock ~ 320 ~ light
 ### 障害物があったら
 execute unless data storage tusb_remake: {return_obstacle:0} run tellraw @a {"text":"* 頭上が遮られていたため、発動できなかった！"}
 ### 障害物がなかったら
-execute if data storage tusb_remake: {return_obstacle:0} run function skill:job_skill/black_mage/return/apply
+execute if data storage tusb_remake: {return_obstacle:0} run function skill:job/black_mage/return/apply

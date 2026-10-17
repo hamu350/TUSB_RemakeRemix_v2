@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/reactive_heal/heal
+#> skill:job/knight/reactive_heal/heal
 ### リアクティブヒールの効果
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

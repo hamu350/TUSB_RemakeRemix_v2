@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/zan_tetsu_ken/apply
+#> skill:job/knight/zan_tetsu_ken/apply
 # 斬鉄剣の対象に効果をかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ execute as @e[distance=..0.01,type=minecraft:marker,tag=ZantetsuPoint] store res
 execute as @e[distance=..10,type=#lib:mob,tag=Enemy] at @s run playsound entity.wither.ambient master @a[distance=..16] ~ ~ ~ 1 2 0
 execute as @e[distance=..10,type=#lib:mob,tag=Enemy] at @s run particle minecraft:sweep_attack ~ ~1 ~ 0.5 0.3 0.5 0 1 force
 
-schedule function skill:job_skill/knight/zan_tetsu_ken/slash/ 10t append
+schedule function skill:job/knight/zan_tetsu_ken/slash/ 10t append

@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/fatal_shot/hit/damage
+#> skill:job/archer/fatal_shot/hit/damage
 # フェイタルショット効果をかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

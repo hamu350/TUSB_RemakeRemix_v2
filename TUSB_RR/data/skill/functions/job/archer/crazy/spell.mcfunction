@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/fill/spell
+#> skill:job/summoner/fill/spell
 # フィールを詠唱(620X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 3290..3299 run function skill:job_skill/archer/crazy/cast
+execute if score _ ActivatedSkill matches 3290..3299 run function skill:job/archer/crazy/cast
