@@ -20,7 +20,7 @@
     # データがなければ豚に
         execute unless data storage _: _.SpawnMob.data run data modify storage _: _.SpawnMob.data.entity.id set value "pig"
     # SpawnPotentialsに移す
-        execute unless data storage _: _.SpawnPotentials run data modify storage _: _.SpawnPotentials set from storage _: _.SpawnMob
+        execute unless data storage _: _.SpawnPotentials run data modify storage _: _.SpawnPotentials append from storage _: _.SpawnMob
     # SpawnDataに突っ込む
         execute unless data storage _: _.SpawnData run data modify storage _: _.SpawnData.entity set from storage _: _.SpawnPotentials[0].data.entity
     # 一回湧きだったらSpawnPotentialsを消し飛ばす
