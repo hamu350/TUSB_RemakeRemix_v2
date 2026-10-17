@@ -14,14 +14,23 @@
                         "tag": "minecraft:buttons"
                     },
                     "position": {
-                        "x": -2769,
-                        "y": 225,
-                        "z": -280
+                        "x": {
+                            "min": -2769,
+                            "max": -2768
+                            },
+                        "y": {
+                            "min": 225,
+                            "max": 226
+                        },
+                        "z": {
+                            "min": -280,
+                            "max": -279
+                        }
                     }
                 }
             }
         },
-        "game_master": {
+        "inf_boss_2": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "player": [
@@ -35,9 +44,48 @@
                         "tag": "minecraft:buttons"
                     },
                     "position": {
-                        "x": -2961,
-                        "y": -59,
-                        "z": -41
+                        "x": {
+                            "min": -2709,
+                            "max": -2708
+                            },
+                        "y": {
+                            "min": 75,
+                            "max": 76
+                        },
+                        "z": {
+                            "min": -375,
+                            "max": -374
+                        }
+                    }
+                }
+            }
+        },
+        "game_master": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "player_manager:is_interactable"
+                    }
+                ],
+                "location": { 
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    },
+                    "position": {
+                        "x": {
+                            "min": -2961,
+                            "max": -2960
+                            },
+                        "y": {
+                            "min": -59,
+                            "max": -58
+                        },
+                        "z": {
+                            "min": -41,
+                            "max": -40
+                        }
                     }
                 }
             }
@@ -122,6 +170,7 @@
     "requirements": [
         [
             "inf_boss",
+            "inf_boss_2",
             "game_master",
             "super_craft",
             "super_craft2",

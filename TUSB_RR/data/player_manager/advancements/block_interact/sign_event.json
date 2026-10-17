@@ -602,7 +602,7 @@
 				"location": {
 					"block": {
 						"tag": "minecraft:signs",
-						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"bold\":true,\"color\":\"red\",\"text\":\"持ち帰れません\"}', x: -2764, Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"※アイテムは\"}', y: 224, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"帰還\"}', z: -280, Text1: '{\"text\":\"\"}', id: \"minecraft:sign\"}"
+						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"bold\":true,\"color\":\"red\",\"text\":\"持ち帰れません\"}', x: -2764, Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"※アイテムは\"}', y: 224, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"帰還\"}', z: -280, Text1: '{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tusb_remake:sign_event/infinity_boss/boss_area\"},\"text\":\"\"}', id: \"minecraft:sign\"}"
 					}
 				}
 			}
@@ -653,7 +653,7 @@
 				"location": {
 					"block": {
 						"tag": "minecraft:signs",
-						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"text\":\"\"}', x: -2706, Text3: '{\"text\":\"\"}', y: 74, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"チュートリアル\"}', z: -379, Text1: '{\"text\":\"\"}', id: \"minecraft:sign\"}"
+						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"text\":\"\"}', x: -2706, Text3: '{\"text\":\"\"}', y: 74, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"チュートリアル\"}', z: -379, Text1: '{\"bold\":true,\"color\":\"#FFFFFF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function tusb_remake:sign_event/infinity_boss/tutorial\"},\"text\":\"周回ボス\"}', id: \"minecraft:sign\"}"
 					}
 				}
 			}
@@ -675,7 +675,7 @@
 				}
 			}
 		},
-		"game_master_admission": {
+		"game_master_prep_room_2": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"player": [
@@ -687,7 +687,7 @@
 				"location": {
 					"block": {
 						"tag": "minecraft:signs",
-						"nbt": "{Text2: '{\"extra\":[{\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\",\"text\":\"1\"},{\"bold\":true,\"color\":\"dark_red\",\"text\":\"「？？？」へ\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\",\"text\":\"1\"}],\"text\":\"\"}'}"
+						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"bold\":true,\"color\":\"red\",\"text\":\"持ち帰れません\"}', x: -2983, Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"※アイテムは\"}', y: 70, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"帰還\"}', z: -41, Text1: '{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function tusb_remake:sign_event/infinity_boss/extla\"},\"text\":\"\"}', id: \"minecraft:sign\"}"
 					}
 				}
 			}
@@ -704,7 +704,7 @@
 				"location": {
 					"block": {
 						"tag": "minecraft:signs",
-						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"bold\":true,\"color\":\"red\",\"text\":\"持ち帰れません\"}', x: -2983, Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"※アイテムは\"}', y: 70, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"帰還\"}', z: -41, Text1: '{\"text\":\"\"}', id: \"minecraft:sign\"}"
+						"nbt": "{GlowingText: 0b, Color: \"black\", Text4: '{\"bold\":true,\"color\":\"red\",\"text\":\"持ち帰れません\"}', x: -2711, Text3: '{\"bold\":true,\"color\":\"red\",\"text\":\"※アイテムは\"}', y: 75, Text2: '{\"bold\":true,\"color\":\"#FFFFFF\",\"text\":\"帰還\"}', z: -380, Text1: '{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function tusb_remake:sign_event/infinity_boss/extla\"},\"text\":\"\"}', id: \"minecraft:sign\"}"
 					}
 				}
 			}
@@ -751,7 +751,7 @@
 			"infinity_boss_extla",
 			"infinity_boss_tutorial",
 			"game_master_prep_room",
-			"game_master_admission",
+			"game_master_prep_room_2",
 			"game_master_extla"
 		]
 	],

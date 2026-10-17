@@ -24,4 +24,4 @@
     execute if entity @s[tag=GameMasterArea] run effect clear @s
 
 # 通過
-    execute if entity @s[tag=GameMasterArea] unless data entity @s Inventory[0] run tp @s -2964 -60 -41
+    execute if entity @s[tag=GameMasterArea] unless data entity @s Inventory[0] run tp @s -2964 -60 -41 ~ ~180
