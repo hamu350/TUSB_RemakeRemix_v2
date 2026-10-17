@@ -28,13 +28,13 @@ data modify storage _: _ set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-
     execute unless data storage _: _.SpawnMob[1] run function debug:set_spawner/single
 
 # Aura:trueならオーラを乗っける
-execute if data storage _: {_:{Aura:true}} as @e[type=armor_stand,tag=this,limit=1] run function debug:set_spawner/aura
+    execute if data storage _: {_:{Aura:true}} as @e[type=armor_stand,tag=this,limit=1] run function debug:set_spawner/aura
 
 # 情報表示
     function debug:a
     function debug:name
 
-tag @e[tag=this] remove this
-
-data remove storage _: _
-data remove storage _: AssetId
+# reset
+    tag @e[tag=this] remove this
+    data remove storage _: _
+    data remove storage _: AssetId
