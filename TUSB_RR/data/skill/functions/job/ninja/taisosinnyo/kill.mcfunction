@@ -1,4 +1,4 @@
-#> skill:job/ninja/taiso/kill
+#> skill:job/ninja/taisosinnyo/kill
 
 kill @e[tag=taisosinnyo]
 tag @e remove taisosinnyo
