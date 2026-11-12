@@ -4,10 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"mainhand": {
-				"items": 
-					[
-						"#lib:sword"
-					]
+				"tag": "lib:sword"
 			}
 		}
 	}
