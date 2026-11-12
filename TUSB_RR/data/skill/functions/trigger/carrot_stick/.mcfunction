@@ -2,12 +2,12 @@
 # ニンジン棒を使った時
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
-execute as @s[scores={CurrentMode=2250..2259}] run function skill:job/ninja/taiso/spell
+execute as @s[scores={CurrentMode=2250..2259}] run function skill:job/ninja/taisosinnyo/spell
 execute as @s[scores={CurrentMode=2270..2279}] run function skill:job/ninja/syungokusatsu/carrot/spell
 execute as @s[scores={CurrentMode=3290..3299}] run function skill:job/archer/crazy/spell
 execute as @s[scores={CurrentMode=4200..4209}] run function skill:job/white_mage/cure/spell
 execute as @s[scores={CurrentMode=4240..4249}] run function skill:job/white_mage/tenki/spell
-execute as @s[scores={CurrentMode=4250..4259}] run function skill:job/white_mage/lightning_shower/spell
+execute as @s[scores={CurrentMode=4250..4259}] run function skill:job/white_mage/holy_shower/spell
 execute as @s[scores={CurrentMode=4260..4269}] run function skill:job/white_mage/ora/spell
 execute as @s[scores={CurrentMode=5220..5229}] run function skill:job/black_mage/thunder_bolt/spell
 execute as @s[scores={CurrentMode=5230..5239}] run function skill:job/black_mage/geo_crush/spell

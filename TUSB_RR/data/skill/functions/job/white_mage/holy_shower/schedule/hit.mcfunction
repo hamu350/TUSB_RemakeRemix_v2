@@ -1,4 +1,4 @@
-#> skill:job/white_mage/lightning_shower/schedule/hit
+#> skill:job/white_mage/holy_shower/schedule/hit
 
 ### マルチヒット防止のエフェクト
 effect give @s minecraft:saturation 10 127 true
