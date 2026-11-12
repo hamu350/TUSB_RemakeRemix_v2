@@ -7,14 +7,14 @@ execute as @s[scores={CurrentMode=2270..2279}] run function skill:job/ninja/syun
 execute as @s[scores={CurrentMode=3290..3299}] run function skill:job/archer/crazy/spell
 execute as @s[scores={CurrentMode=4200..4209}] run function skill:job/white_mage/cure/spell
 execute as @s[scores={CurrentMode=4240..4249}] run function skill:job/white_mage/tenki/spell
-execute as @s[scores={CurrentMode=4250..4259}] run function skill:job/white_mage/syawa_/spell
+execute as @s[scores={CurrentMode=4250..4259}] run function skill:job/white_mage/lightning_shower/spell
 execute as @s[scores={CurrentMode=4260..4269}] run function skill:job/white_mage/ora/spell
 execute as @s[scores={CurrentMode=5220..5229}] run function skill:job/black_mage/thunder_bolt/spell
 execute as @s[scores={CurrentMode=5230..5239}] run function skill:job/black_mage/geo_crush/spell
 execute as @s[scores={CurrentMode=5240..5249}] run function skill:job/black_mage/drain/spell
 execute as @s[scores={CurrentMode=5250..5259}] run function skill:job/black_mage/hocus_pocus/spell
 execute as @s[scores={CurrentMode=5260..5269}] run function skill:job/black_mage/mazikaru/spell
-execute as @s[scores={CurrentMode=5270..5279}] run function skill:job/black_mage/syawa_/spell
+execute as @s[scores={CurrentMode=5270..5279}] run function skill:job/black_mage/lightning_shower/spell
 execute as @s[scores={CurrentMode=5280..5289}] run function skill:job/black_mage/shadow/spell
 
 execute as @s[scores={CurrentMode=6200..6209}] run function skill:job/summoner/fill/spell

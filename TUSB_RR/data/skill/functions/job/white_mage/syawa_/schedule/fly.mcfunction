@@ -1,4 +1,4 @@
-#> skill:job/white_mage/syawa_/schedule/fly
+#> skill:job/white_mage/lightning_shower/schedule/fly
 
 playsound entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.3 2 0.05
 particle end_rod ~ ~ ~ 1 1 1 0.1 3 force

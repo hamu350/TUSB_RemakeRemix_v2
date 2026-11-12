@@ -1,4 +1,4 @@
-#> skill:job/white_mage/syawa_/spell
+#> skill:job/white_mage/lightning_shower/spell
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode
@@ -7,4 +7,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 4250..4259 run function skill:job/white_mage/syawa_/cast
+execute if score _ ActivatedSkill matches 4250..4259 run function skill:job/white_mage/lightning_shower/cast
