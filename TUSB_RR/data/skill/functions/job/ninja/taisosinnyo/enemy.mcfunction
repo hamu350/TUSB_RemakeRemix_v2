@@ -8,5 +8,3 @@ playsound entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 0.5 1.4 
 particle happy_villager ~ ~ ~ 0.1 10.0 0.1 0.0 50 force @a
 
 function skill:job/ninja/taisosinnyo/player
-
-execute if entity @e[tag=taisosinnyo] run schedule function skill:job/ninja/taisosinnyo/player 10t
