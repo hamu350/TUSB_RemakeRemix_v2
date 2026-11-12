@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/tsuntsun/carrot/apply/wolf
+#> skill:job/summoner/tsuntsun/carrot/apply/wolf
 # ウルフによる補助をかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

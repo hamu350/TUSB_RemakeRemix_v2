@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/cross_fire/schedule/fly
+#> skill:job/black_mage/cross_fire/schedule/fly
 ### クロスファイアーが飛んでいる演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -13,9 +13,9 @@ execute if entity @s[tag=CrossFire1] run data modify storage score_damage: Argum
 execute if entity @s[tag=CrossFire2] run data modify storage score_damage: Argument set value {Damage:20.00,DamageType:"Projectile"}
 execute if entity @s[tag=CrossFire3] run data modify storage score_damage: Argument set value {Damage:30.00,DamageType:"Projectile"}
 
-execute positioned ~-7 ~ ~ as @e[dx=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job_skill/black_mage/cross_fire/schedule/hit
-execute positioned ~ ~-7 ~ as @e[dy=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job_skill/black_mage/cross_fire/schedule/hit
-execute positioned ~ ~ ~-7 as @e[dz=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job_skill/black_mage/cross_fire/schedule/hit
+execute positioned ~-7 ~ ~ as @e[dx=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job/black_mage/cross_fire/schedule/hit
+execute positioned ~ ~-7 ~ as @e[dy=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job/black_mage/cross_fire/schedule/hit
+execute positioned ~ ~ ~-7 as @e[dz=14,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] run function skill:job/black_mage/cross_fire/schedule/hit
 
 ### クロスファイアーは氷を溶かす
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:water replace minecraft:frosted_ice

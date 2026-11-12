@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/candle/
+#> skill:job/black_mage/candle/
 # キャンドルを召喚
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -8,4 +8,4 @@ tag @s add Candle
 execute store result score _ TUSB run time query gametime
 execute store result score @s CandleTimer run scoreboard players add _ TUSB 20
 
-function skill:job_skill/black_mage/candle/schedule/
+function skill:job/black_mage/candle/schedule/

@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/aisatsu/
+#> skill:job/ninja/aisatsu/
 # アイサツを発動させる(200X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

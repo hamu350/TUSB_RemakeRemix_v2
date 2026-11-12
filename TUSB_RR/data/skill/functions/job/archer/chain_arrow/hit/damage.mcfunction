@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/chain_arrow/hit/damage
+#> skill:job/archer/chain_arrow/hit/damage
 # チェインアローが直接当たった時
 
 ### 演出する表示するカウントが残っているときだけ表示

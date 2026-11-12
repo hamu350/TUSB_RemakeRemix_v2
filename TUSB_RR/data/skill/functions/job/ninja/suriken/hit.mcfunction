@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/suriken/hit
+#> skill:job/ninja/suriken/hit
 # 手裏剣が当たった時
 
 playsound entity.endermite.step master @a[distance=..32] ~ ~ ~ 2 0.7 1

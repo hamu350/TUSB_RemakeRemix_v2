@@ -1,4 +1,4 @@
-#> \skill:job_skill/ninja/syungokusatsu/carrot/cast
+#> \skill:job/ninja/syungokusatsu/carrot/cast
 # ジオクラッシュ発動
 
 

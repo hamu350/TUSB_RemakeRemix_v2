@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/fatal_shot/shoot
+#> skill:job/archer/fatal_shot/shoot
 # フェイタルショットを発動(326X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -11,4 +11,4 @@ function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
 ### MPが足りていたら発動
-execute if score _ ActivatedSkill matches 3260..3269 anchored eyes positioned ^ ^ ^ anchored feet at @e[distance=..1,type=arrow,sort=nearest,limit=1] run function skill:job_skill/archer/fatal_shot/apply/
+execute if score _ ActivatedSkill matches 3260..3269 anchored eyes positioned ^ ^ ^ anchored feet at @e[distance=..1,type=arrow,sort=nearest,limit=1] run function skill:job/archer/fatal_shot/apply/

@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/quick/
+#> skill:job/white_mage/quick/
 # クイックを発動させる(403X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

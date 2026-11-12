@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_petit_black/black/start
+#> skill:job/summoner/summon_petit_black/black/start
 # ぷちブラックが吸い込みを始める
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

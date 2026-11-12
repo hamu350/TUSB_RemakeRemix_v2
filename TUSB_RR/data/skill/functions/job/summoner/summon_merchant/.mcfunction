@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_merchant/
+#> skill:job/summoner/summon_merchant/
 # 商人を召喚(6010)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

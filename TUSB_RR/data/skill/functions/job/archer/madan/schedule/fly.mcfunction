@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/madan/schedule/fly
+#> skill:job/archer/madan/schedule/fly
 
 execute if entity @s run particle dripping_water ~ ~-0.3 ~ 0 0 0 0 1 force
 

@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/bird_strike/apply/arrow
+#> skill:job/archer/bird_strike/apply/arrow
 ### 矢をチェインアローにする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

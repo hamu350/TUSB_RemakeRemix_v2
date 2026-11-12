@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/ice_storm/schedule/fly
+#> skill:job/black_mage/ice_storm/schedule/fly
 ### アイスストームが飛んでいる演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -17,6 +17,6 @@ execute if entity @s[tag=IceStorm1] run data modify storage score_damage: Argume
 execute if entity @s[tag=IceStorm2] run data modify storage score_damage: Argument set value {Damage:30.00,DamageType:"Projectile"}
 execute if entity @s[tag=IceStorm3] run data modify storage score_damage: Argument set value {Damage:45.00,DamageType:"Projectile"}
 
-execute as @e[distance=..8,type=#lib:mob,type=!#lib:resist_ice,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function skill:job_skill/black_mage/ice_storm/schedule/hit
+execute as @e[distance=..8,type=#lib:mob,type=!#lib:resist_ice,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function skill:job/black_mage/ice_storm/schedule/hit
 
 data modify storage tusb_remake: _ set value true

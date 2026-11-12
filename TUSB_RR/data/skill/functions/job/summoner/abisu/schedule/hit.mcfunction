@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/abisu/schedule/hit
+#> skill:job/summoner/abisu/schedule/hit
 
 ### マルチヒット防止のエフェクト
 data modify storage score_damage: Argument set value {Damage:80.00,DamageType:"None"}

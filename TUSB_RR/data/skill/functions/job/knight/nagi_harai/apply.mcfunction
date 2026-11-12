@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/nagi_harai/apply
+#> skill:job/knight/nagi_harai/apply
 ### 薙ぎ払いの対象に効果をかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

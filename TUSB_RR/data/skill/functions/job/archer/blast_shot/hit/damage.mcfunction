@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/blast_shot/hit/damage
+#> skill:job/archer/blast_shot/hit/damage
 # ブラストショットが直接当たった時
 
 data modify storage tusb_remake: blast_point set from entity @s Pos

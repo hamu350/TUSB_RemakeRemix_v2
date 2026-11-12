@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/ghast_cannon/hit/
+#> skill:job/archer/ghast_cannon/hit/
 # ブラストショットが直接当たった時
 
 ### 爆発演出
@@ -16,4 +16,4 @@ execute if score _ PotentialSkill matches 3250 as @e[distance=..3,type=#lib:mob,
 execute if score _ PotentialSkill matches 3251..3259 as @e[distance=..6,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
 
 ### サバイバルエリアなら爆発させる
-execute if predicate world_manager:area/survival run function skill:job_skill/archer/ghast_cannon/hit/blast
+execute if predicate world_manager:area/survival run function skill:job/archer/ghast_cannon/hit/blast

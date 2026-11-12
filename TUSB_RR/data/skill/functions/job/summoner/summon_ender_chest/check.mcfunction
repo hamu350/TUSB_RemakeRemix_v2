@@ -1,8 +1,8 @@
-#> skill:job_skill/summoner/summon_ender_chest/check
+#> skill:job/summoner/summon_ender_chest/check
 #
 # 使用可能かどうか確かめます
 #
-# @within function skill:job_skill/summoner/summon_ender_chest/spell
+# @within function skill:job/summoner/summon_ender_chest/spell
 
 execute if entity @e[tag=CantUseEnderChestAreaSmall,distance=..8] run scoreboard players set @s ActivatedSkill -1
 execute if entity @e[tag=CantUseEnderChestAreaMedium,distance=..16] run scoreboard players set @s ActivatedSkill -1

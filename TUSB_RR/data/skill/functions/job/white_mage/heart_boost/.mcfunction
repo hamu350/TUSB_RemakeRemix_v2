@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/heart_boost/
+#> skill:job/white_mage/heart_boost/
 # ハートブーストを発動させる(401X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

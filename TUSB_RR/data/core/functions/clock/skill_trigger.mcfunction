@@ -11,6 +11,7 @@ execute as @a[scores={Deaths=1..}] at @s run function skill:trigger/deaths/
 
 ### 弓
 execute as @a[scores={UseBow=1..}] at @s run function skill:trigger/bow/
+execute as @a[scores={UseCrossBow=1..}] at @s run function skill:trigger/bow/crossbow
 
 ### 食事
 execute as @a[scores={FoodChanging=0..}] at @s if score @s FoodChanging > @s Food run function skill:trigger/food/

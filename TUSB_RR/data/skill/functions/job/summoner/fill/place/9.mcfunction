@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/fill/place/9
+#> skill:job/summoner/fill/place/9
 # 9x9
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -26,4 +26,4 @@ execute rotated 180 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^1 if block ^ ^ ^1
 execute rotated 270 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^1 if block ^ ^ ^1 #lib:air positioned ^ ^ ^1 if block ^ ^ ^1 #lib:air positioned ^ ^ ^1 run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:white_wool keep
 
 ### 中央5x5
-function skill:job_skill/summoner/fill/place/5
+function skill:job/summoner/fill/place/5

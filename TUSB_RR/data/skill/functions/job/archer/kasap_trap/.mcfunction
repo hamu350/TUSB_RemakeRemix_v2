@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/kasap_trap/
+#> skill:job/archer/kasap_trap/
 # ルカナントラップを召喚
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -16,4 +16,4 @@ scoreboard players set @e[distance=..1,tag=Kasap2] KasapLevel 2
 scoreboard players set @e[distance=..1,tag=Kasap3] KasapLevel 3
 
 ### ルカナントラップの判定を有効化
-function skill:job_skill/archer/kasap_trap/schedule/
+function skill:job/archer/kasap_trap/schedule/

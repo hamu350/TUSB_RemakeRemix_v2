@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/nagi_harai/hit
+#> skill:job/knight/nagi_harai/hit
 # 薙ぎ払いを発動(121X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 1210..1219 as @e[distance=..5,type=#lib:mob,tag=Enemy,nbt={HurtTime:10s}] at @s run function skill:job_skill/knight/nagi_harai/apply
+execute if score _ ActivatedSkill matches 1210..1219 as @e[distance=..5,type=#lib:mob,tag=Enemy,nbt={HurtTime:10s}] at @s run function skill:job/knight/nagi_harai/apply

@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/deal/apply
+#> skill:job/summoner/deal/apply
 # ディール発動
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

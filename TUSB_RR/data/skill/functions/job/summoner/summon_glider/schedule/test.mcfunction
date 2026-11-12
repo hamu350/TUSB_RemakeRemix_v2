@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_glider/schedule/test
+#> skill:job/summoner/summon_glider/schedule/test
 ### バルーン発射までの演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_golem/
+#> skill:job/summoner/summon_golem/
 # ゴーレムを召喚(6060)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

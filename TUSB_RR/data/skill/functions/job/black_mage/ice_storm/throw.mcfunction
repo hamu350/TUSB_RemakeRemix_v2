@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/ice_storm/throw
+#> skill:job/black_mage/ice_storm/throw
 # アイスストームを発動(520X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -11,4 +11,4 @@ function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
 ### MPが足りていたら発動
-execute if score _ ActivatedSkill matches 5200..5209 anchored eyes positioned ^ ^ ^ anchored feet at @e[distance=..1,type=snowball,sort=nearest,limit=1] run function skill:job_skill/black_mage/ice_storm/apply/
+execute if score _ ActivatedSkill matches 5200..5209 anchored eyes positioned ^ ^ ^ anchored feet at @e[distance=..1,type=snowball,sort=nearest,limit=1] run function skill:job/black_mage/ice_storm/apply/

@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/waltz/otomitame
+#> skill:job/knight/waltz/otomitame
 
 execute at @e[type=#lib:mob,distance=..60,tag=!waltz] run playsound entity.player.attack.knockback master @a[distance=..15] ~ ~ ~ 0.7 1 0
 execute at @e[type=#lib:mob,distance=..60,tag=!waltz] run playsound entity.player.attack.sweep master @a[distance=..15] ~ ~ ~ 0.7 1 0

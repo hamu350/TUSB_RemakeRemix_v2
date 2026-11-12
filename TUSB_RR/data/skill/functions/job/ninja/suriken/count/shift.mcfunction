@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/suriken/count/shift
+#> skill:job/ninja/suriken/count/shift
 ### 最近投げた手裏剣の履歴を更新
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

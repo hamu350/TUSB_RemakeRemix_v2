@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/mokuso/check
+#> skill:job/ninja/mokuso/check
 # 黙想の継続チェック(204X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

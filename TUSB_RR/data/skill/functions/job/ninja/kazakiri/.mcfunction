@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/kazakiri/
+#> skill:job/ninja/kazakiri/
 # 風切を発動させる(207X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

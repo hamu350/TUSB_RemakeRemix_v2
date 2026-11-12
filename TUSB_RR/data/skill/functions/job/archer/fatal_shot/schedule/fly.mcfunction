@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/fatal_shot/schedule/fly
+#> skill:job/archer/fatal_shot/schedule/fly
 ### フェイタルショットが飛んでいる演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

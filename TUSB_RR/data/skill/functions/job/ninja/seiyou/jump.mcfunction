@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/choyaku/jump
+#> skill:job/ninja/choyaku/jump
 #
 
 playsound entity.experience_orb.pickup master @a[distance=..16] ~ ~ ~ 0.35 0.75 0

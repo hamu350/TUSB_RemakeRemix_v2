@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/enaspir/hit
+#> skill:job/black_mage/enaspir/hit
 # エンアスピルの効果を発動させる
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

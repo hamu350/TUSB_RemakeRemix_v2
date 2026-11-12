@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/summon_petit_black/black/fall
+#> skill:job/summoner/summon_petit_black/black/fall
 # ぷちブラックに落ちる処理
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -15,4 +15,4 @@ execute as @a[distance=..10,gamemode=!spectator] rotated as @s run tp @s ~ ~1 ~ 
 
 ### ダメージ処理
 data modify storage score_damage: Argument set value {Damage:20.00}
-execute positioned ~-0.5 ~1 ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function skill:job_skill/summoner/summon_petit_black/black/hit
+execute positioned ~-0.5 ~1 ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function skill:job/summoner/summon_petit_black/black/hit

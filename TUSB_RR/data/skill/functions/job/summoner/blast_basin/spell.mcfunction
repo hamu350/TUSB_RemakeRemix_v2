@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/blast_basin/spell
+#> skill:job/summoner/blast_basin/spell
 # きらきらタライを詠唱(629X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 6290..6299 run function skill:job_skill/summoner/blast_basin/cast
+execute if score _ ActivatedSkill matches 6290..6299 run function skill:job/summoner/blast_basin/cast

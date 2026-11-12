@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/magic_block/break
+#> skill:job/summoner/magic_block/break
 # 魔法のブロックを消す
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

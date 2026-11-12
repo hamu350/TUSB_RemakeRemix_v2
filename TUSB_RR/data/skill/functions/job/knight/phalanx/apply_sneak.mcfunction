@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/phalanx/apply
+#> skill:job/knight/phalanx/apply
 # ファランクスをかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

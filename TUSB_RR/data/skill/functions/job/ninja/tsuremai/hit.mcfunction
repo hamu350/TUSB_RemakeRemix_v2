@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/tsuremai/hit
+#> skill:job/ninja/tsuremai/hit
 # 連舞を発動(221X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 2210..2219 run function skill:job_skill/ninja/tsuremai/apply
+execute if score _ ActivatedSkill matches 2210..2219 run function skill:job/ninja/tsuremai/apply

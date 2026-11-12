@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/shadow/spell
+#> skill:job/black_mage/shadow/spell
 
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode
@@ -7,4 +7,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 5280..5289 run function skill:job_skill/black_mage/shadow/apply
+execute if score _ ActivatedSkill matches 5280..5289 run function skill:job/black_mage/shadow/apply

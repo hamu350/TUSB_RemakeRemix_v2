@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/stakes_fire/schedule/fly
+#> skill:job/archer/stakes_fire/schedule/fly
 ### ステークスファイアが飛んでいる演出
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

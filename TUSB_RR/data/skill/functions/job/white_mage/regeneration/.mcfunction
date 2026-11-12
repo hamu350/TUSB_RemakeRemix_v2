@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/regeneration/
+#> skill:job/white_mage/regeneration/
 # ハートブーストを発動させる(402X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/hocus_pocus/chance/3
+#> skill:job/black_mage/hocus_pocus/chance/3
 # パルプンテ
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

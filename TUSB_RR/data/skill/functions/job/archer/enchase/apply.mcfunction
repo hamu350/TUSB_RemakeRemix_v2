@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/enchase/apply
+#> skill:job/archer/enchase/apply
 ### 次に弓を使うと、がかかる
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/shadow/attack/target
+#> skill:job/black_mage/shadow/attack/target
 
 ### ダメージを与える
 data modify storage score_damage: Argument set value {Damage:2000.00,DamageType:"Projectile"}

@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/dia/apply
+#> skill:job/white_mage/dia/apply
 ### 雪玉をディアにする
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -7,7 +7,7 @@ data merge entity @s {Tags:[Dia,Projectile,FlyingObject,Driftable,TypeChecked],N
 scoreboard players operation @s ProjectileSkill = _ ActivatedSkill
 
 ### ディアの演出有効化
-function skill:job_skill/white_mage/dia/schedule/
+function skill:job/white_mage/dia/schedule/
 
 ### 飛んでるやつの判定有効化
 function skill:trigger/projectile/

@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/shinku_giri/hit
+#> skill:job/knight/shinku_giri/hit
 # 真空斬りが当たった時
 
 playsound minecraft:entity.wither.shoot master @a[distance=..16] ~ ~ ~ 0.5 2 0.1

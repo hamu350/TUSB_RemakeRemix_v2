@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/shinku_giri/triggered
+#> skill:job/knight/shinku_giri/triggered
 # 真空斬りを発動(122X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:check_mp/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 1220..1229 run function skill:job_skill/knight/shinku_giri/launch
+execute if score _ ActivatedSkill matches 1220..1229 run function skill:job/knight/shinku_giri/launch

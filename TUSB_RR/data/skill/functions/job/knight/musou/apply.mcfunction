@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/musou/apply
+#> skill:job/knight/musou/apply
 
 execute store result score _ TUSB run time query gametime
 summon minecraft:marker ~ ~ ~ {Tags:[MusouPoint,SystemEntity,TypeChecked]}
@@ -9,4 +9,4 @@ execute as @e[distance=..30,type=#lib:mob,tag=Enemy] at @s run playsound item.to
 execute as @e[distance=..30,type=#lib:mob,tag=Enemy] at @s run playsound entity.lightning_bolt.thunder master @a[distance=..16] ~ ~ ~ 1 2 0.1
 
 
-schedule function skill:job_skill/knight/musou/slash/ 10t append
+schedule function skill:job/knight/musou/slash/ 10t append

@@ -1,4 +1,4 @@
-#> skill:job_skill/ninja/kodama/
+#> skill:job/ninja/kodama/
 # 呼魂を発動させる(203X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

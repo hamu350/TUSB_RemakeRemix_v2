@@ -2,4 +2,4 @@ playsound minecraft:entity.enderman.teleport master @a[distance=..32] ~ ~ ~ 2 2 
 particle portal ~ ~1 ~ 0.1 0.5 0.1 0.001 30 force
 tp @s ~ ~ ~
 
-function skill:job_skill/summoner/furea/summon
+function skill:job/summoner/furea/summon

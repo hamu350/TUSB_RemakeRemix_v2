@@ -1,4 +1,4 @@
-#> skill:job_skill/archer/kasap_trap/schedule/check
+#> skill:job/archer/kasap_trap/schedule/check
 ### ルカナントラップの効果判定
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -25,6 +25,6 @@ execute rotated as 0-0-1-0-1 rotated ~270 ~ positioned ^ ^ ^3 run particle minec
 
 
 scoreboard players operation _ KasapLevel = @s KasapLevel
-execute as @e[distance=..3,type=#lib:mob,tag=Enemy,tag=!InKasap,sort=random,limit=3] run function skill:job_skill/archer/kasap_trap/schedule/apply
+execute as @e[distance=..3,type=#lib:mob,tag=Enemy,tag=!InKasap,sort=random,limit=3] run function skill:job/archer/kasap_trap/schedule/apply
 
 data modify storage tusb_remake: _ set value true

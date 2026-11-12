@@ -1,4 +1,4 @@
-#> skill:job_skill/summoner/tsuntsun/fungus/attack/snowball/hit
+#> skill:job/summoner/tsuntsun/fungus/attack/snowball/hit
 # つんつん雪玉が当たった時
 
 # playsound minecraft:block.stone.break master @a[distance=..32] ~ ~ ~ 2 1 1

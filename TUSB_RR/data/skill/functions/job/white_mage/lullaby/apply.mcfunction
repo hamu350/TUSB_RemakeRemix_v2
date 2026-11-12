@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/lullaby/apply
+#> skill:job/white_mage/lullaby/apply
 
 particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 30 force
 function player_manager:effect/clear_bad_effect

@@ -1,4 +1,4 @@
-#> skill:job_skill/white_mage/baall/
+#> skill:job/white_mage/baall/
 # バオルを発動させる(404X)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

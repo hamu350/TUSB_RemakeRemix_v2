@@ -1,4 +1,4 @@
-#> skill:job_skill/black_mage/return/apply
+#> skill:job/black_mage/return/apply
 # ルーラを範囲でかける
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -17,4 +17,4 @@ scoreboard players add _ ReturnTimer 100
 scoreboard players operation @a[distance=..10,gamemode=!spectator,scores={Job=1..}] ReturnTimer = _ ReturnTimer
 
 ### スケジュール
-execute in minecraft:overworld run schedule function skill:job_skill/black_mage/return/schedule/ 1t
+execute in minecraft:overworld run schedule function skill:job/black_mage/return/schedule/ 1t

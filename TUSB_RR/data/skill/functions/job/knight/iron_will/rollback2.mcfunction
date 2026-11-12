@@ -1,4 +1,4 @@
-#> skill:job_skill/knight/iron_will/rollback2
+#> skill:job/knight/iron_will/rollback2
 #
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
